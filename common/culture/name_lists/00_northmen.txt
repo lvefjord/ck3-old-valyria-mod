@@ -1,0 +1,77 @@
+﻿name_list_northmen = {
+
+	cadet_dynasty_names = {
+		"Icemark"
+	}
+
+	dynasty_names = {
+		"Wolfe" 
+		"Orland" 
+		"Algrey" 
+		"Greyfuir" 
+		"Holham" 
+		"Thelly" 
+		"Ryegate" 
+		"Hooton" 
+		"Colwyn" 
+		"Flinn" 
+		"Gorrey" 
+		
+	}
+	
+	male_names = {
+		Alaric Alton Alyn Arnolf Arthor Artos
+			Barthogan Belthasar Benfred Benjen Benjicot Bennard Benton Beren Beron Bowen Brandon Byam
+			Cley Cregan Cregard
+			Damon Daryn Denys Desmond Desmyn Devyn Domeric Donnel Donnor Dorren Duncan
+			Eddard Edderion Edric Edwyle Edwyn Ellard Elric Errold Ethan Eyron
+			Galbart Gawen
+			Hallis Halys Harlon Harmond Harrion Harwin Harwood Harys Helman Henly Hoarfrost Hother
+			Jeor Jon Jonnel Jonos Jorah Jormyn Joron Jory Joseth Jossart
+			Karlon Kyle
+			Larence Leobald Lonnel Lothor
+			Mallador Maric Mark Marlon Martyn Maynard Medger Medrick Morgan Mors
+			Norren
+			Ondrew Osric Owen
+			Ramsay Reynard Rickard Rickon Robard Robb Robett Robin Roderick Rodrik Rodwell Ronnel Rogar Roger Roose Royce
+			Stevyn
+			Theo Theodar Theomore Theon Theonald Timotty Torghen Torren Torrhen
+			Vayon
+			Walder Walton Warrick Wendel Willam Wydron Wylis Wyman Wynton
+	}
+	female_names = {
+		Alanna Alarra Aliona Alys Alysane Alysanne Aregelle Arra Arrana Arsa Arya
+			Barba Barbrey Berena Beth Bethany Branda Branna
+			Carella Cylla Cyrelle
+			Dacey Dalonne Donella
+			Eddara Erena
+			Gilliane
+			Jarana Jessamyn Jeyne Jocelyn Joncella Jonelle Joranna Jorelle
+			Kerena Kyra
+			Leona Lyanna Lyanne Lyarra Lyessa Lynara Lyra Lysa Lysara
+			Maege Malerra Mara Margaret Mariah Mariya Marna Melene Mylarra Mina Myriame
+			Olaria Orenna Owella
+			Raya Robyn Ryessa
+			Sabetha Sansa Sara Sarra Serena Sheryse Shyra Sybelle Sylene Syrona	
+			Tyalla Tyrene
+			Wylla Wynafryd
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_thenn_på_den" }
+	}
+}

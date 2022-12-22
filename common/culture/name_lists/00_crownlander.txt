@@ -1,0 +1,73 @@
+﻿name_list_crownlander = {
+
+	cadet_dynasty_names = {
+		"Redwyck"
+	}
+
+	dynasty_names = {
+		"Durgood" "Crower" "Merion" "Hallamore" "Brindlewood" 
+		
+	}
+	
+	male_names = {
+		Addam Addison Adrian Aegon Aemon Aenys Albin Allard Alliser Alton Alyn Arthor Arryk
+			Baelor Balman Balon Belard Bennard Bernarr Bolen Bonifer Boros Bryen Byron Buford
+			Clarence Clayton Clement
+			Daemon Daeron Dale Damond Danos Daryn Davos Denys Devan Donnel Dontos Duncan Duram Durance
+			Edric Edwyn Ellard Elwood Elyas Enfren Erryk Eustace
+			Gilbert Godry Gormon Gregor Gwayne Gulian Guncer Gunthor Gyles
+			Haric Harmon Harrold Harys Herman Holtyn Howard Hubard Humfrey Hyle
+			Irwen
+			Jacelyn Jaime Janos Jaremy Jarion Jarman Jarmon Jeomar Joffrey Jon Jothos Justin
+			Kendel
+			Laren Lothar Lothor Lucifer Lucos Luthor
+			Maegor Mandon Manfrey Manly Maric Marston Mathar Matthos Merrell Morros Mortimer
+			Olyvar Ormory Orryn Osmund Osney Ossifer Oswell Owain
+			Perkin Perwyn
+			Rayford Raymund Renfred Rennifer Rhaegar Richard Rickard Robert Robin Roger Rolland Rupert
+			Samwell Sefton Simon Steffon Symon Symond
+			Tarell Tommen Trebor Triston Trystane Tywin
+			Qarlton Quenton
+			Viserys
+			Wallace Whalon Willas
+	}
+	female_names = {
+		Alarra Alerie Alona Alyce Alynne Alys Alysanne Alyssa Amyana Annara Arianne Arwyn Ashaella Ashera
+			Beony Bethany
+			Cassana Cassella Catelyn Cersei Colianne Cynthea
+			Dorea Doryssa
+			Elenora Ella Elleria Elinda Elinor Elrone Ermesande
+			Falena Falyse
+			Hazel Hemona Hollyse
+			Idane Ismyra
+			Jalona Janei Janora Jarella Jendella Jenette Jenna Jennei Jeyne Joanna Jocelyn Jomylla Jonquil
+			Larra Lenylla Leria Lollys Lyra Lysa
+			Maegelle Maia Margaery Marya Melianne Mella Meredyth Myrcella Myrielle
+			Nella
+			Obany Olenna Olianne Onna Oreyne Oriya
+			Pella Pennei Priscella
+			Raella Roncianne Rosamund Roslin
+			Salanna Sallei Samantha Saranella Saryanna Selyse Semella Shaella Sherion Shireen Shirei Syrianne
+			Tanda Tarianne Tysane Tyta
+			Wella
+			Ysabel
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_crowned_men" }
+	}
+}

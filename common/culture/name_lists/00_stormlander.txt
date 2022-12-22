@@ -1,0 +1,73 @@
+﻿name_list_stormlander = {
+
+	cadet_dynasty_names = {
+		"Clary"
+	}
+
+	dynasty_names = {
+		"Ashenhearth" "Butler" "Foghurst" "Knightwick" "Lyngrave" 
+		
+	}
+	
+	male_names = {
+		Addam Aegon Aemon Alesander Allard Allos Alyn Anders Andren Andrew Andrion Argilac Arion Arlan Armond Arrec Arstan Arthur Axel
+			Baldric Balon Barristan Barron Benedict Beren Beric Bonifer Boremund Borros Borys Brus Bryce Bryen Bryndemere Byron
+			Cameron Casper Clement Cleoden Clifford Cortnay Corwin Criston
+			Dale Damon Davos Denys Devan Dickon Donnel Doran Durran Durwald
+			Ector Edric Edwyn Eldon Elys Endrew Erich
+			Galladon Gallard Garon Garse Gawen Gerald Gladden Glendon Gowen Grance Gulian Gunthor Guyard Gyles
+			Harbert Harlan Harmon Harrold Harwood Harys Hoster Hugh Humfrey
+			Jared Jasper Jerion Joffrey Jon Jonald
+			Kyle
+			Leslyn Lester Lomas Lorent Luceon Lyonel
+			Maldon Manfred Maric Marq Matthos Meryn Michael Monfryd Morden Morgan Morton Mychel Myles
+			Narbert
+			Olyver Ormund Orryn Orson Orys Osmund
+			Pearse
+			Qarlton Quentyn
+			Ralph Raymont Raymund Renly Richard Rickard Robert Robin Rogar Rolland Ronald Ronard Ronnal Ronnel Ronnet Roy Royce Ryman
+			Sarmion Sebastion Selwyn Serwyn Simon Stannis Steffon
+			Tancred Tarwen Terrence Theo Thurgood Tristan
+			Walter Willem Willis
+	}
+	female_names = {
+		Adena Aelinor Alanei Aliona Alora Alynne Alys Alysanne Amanda Ammina Argalia Argella Arianne Arlana Arrana Artaria Arya Audrey
+			Belissa Benara Benera Benyssa Beonelle Bonessa Brella Brienne
+			Carella Carmella Carolei Caronne Cassana Cassandra Corenna Coryanne Cyrenna
+			Dalia Damella Demerei
+			Eddane Elane Elaena Elanna Elayne Eldera Eleanor Elenda Elenei Ella Ellyn Elmeria Elyana Elyanna Elyssa Emmara
+			Floris
+			Genna
+			Hanna
+			Idena Idorea Ismane
+			Jaenyssa Jasonnei Jena Jeyne Jocelyn Johanna Joy Jynna
+			Kelyce Kerena
+			Laena Lanna Laressa Leyne Lollys Lucinda Lynera Lynett Lyria Lysanne Lysena
+			Maelane Maella Maenylla Malarra Malia Malyce Marena Marenda Maris Mary Marya Meona Merei Milerra Mylenda Mylla Myrena Myrren
+			Narra
+			Olyssa Onora Osmera
+			Patrice Pelyne
+			Raena Ravella Rella Rolanna
+			Sarella Sarena Sarissa Sarya Sebara Shalenna Sharon Shireen Shyra Simona Symalla Syrene
+			Talenna Tasene Tyana Tynalla Tysane
+			Walessa
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_the_storm" }
+	}
+}

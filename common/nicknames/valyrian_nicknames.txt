@@ -1,0 +1,8 @@
+﻿#############################################
+# CHARACTER NICKNAMES
+#############################################
+
+# Exclusively Historical Nicknames
+nick_worm = {}
+nick_rogue  = {}
+nick_seasnake = {}

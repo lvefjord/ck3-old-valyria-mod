@@ -1,0 +1,69 @@
+﻿name_list_valyrian = {
+
+	cadet_dynasty_names = {
+		"Blackfyre"
+		"Goldfyre"
+		"Darkfyre"
+		"Sunfyre"
+		"Brightflame"
+		"Brightfyre"
+		"Darkflame"
+		"Goldflame"
+		"Sunflame"
+	}
+
+	dynasty_names = {
+		"Belaerys"
+		"Velaryon"
+		"Enaerys"
+		"Aenor"
+		"Vaemaryen"
+		"Vaelerys"
+		"Maleryon"
+		"Rogare"
+		"Qoherys"
+		"Tagaros"
+		"Qhaedar"
+		"Maegyr"
+		"Vaelaros"
+		"Jaelyros"
+		"Jaela"
+		"Vaelys"
+		"Valynos"
+		"Elarion"
+		"Naerys"
+		
+	}
+	
+	male_names = {
+		Aegon Aemond Maegor Daeron Aerys Baelon Rhaegar Jaehaerys Valerion Baeryn Jaenar
+		Daemon Viserys Baelor Maekar Aemon Aerion Aenys Maekar Aelys Aenerys Corlys Daenar
+		Daegon Gaemon Jacaerys Laenor Maelor Vaemond Vaegon Maegon Valerion Aeryn Aelyx Aurion 
+	}
+	female_names = {
+		Aelora Aemma Aerea Alysanne Baela Daella Daena Daenaera Daenerys Daenora 
+		Daenys Elaena Helaena Jaehaera Jaenara Laena Maegelle Naerys Rhae Rhaena 
+		Rhaenyra Rhaenys Rhaella Rhaelle Rhalla Saera Shaena Shaera Valaena Vaella Visenya Viserra
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_golden_company" }
+	}
+	mercenary_names = {
+		{ name = "mercenary_company_second_sons" }
+	}
+}

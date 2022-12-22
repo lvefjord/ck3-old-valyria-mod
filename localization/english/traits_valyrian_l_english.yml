@@ -1,0 +1,17 @@
+﻿l_english:
+
+ trait_dragon_rider:0 "Dragon Rider"
+ trait_dragon_rider_desc:0 "This person rides a mighty dragon into battle."
+ trait_dragon_rider_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] will destroy entire armies that rise up against [ROOT.GetCharacter.GetHerHim]."
+ 
+ trait_valyrian_blood:0 "Valyrian Blood"
+ trait_valyrian_blood_desc:0 "The Blood of Old Valyria flows through [ROOT.GetCharacter.GetFirstNameNoTooltip], turning [ROOT.GetCharacter.GetHerHis] hair silver and [ROOT.GetCharacter.GetHerHis] eyes violet."
+ trait_valyrian_blood_character_desc:0 "The Blood of Old Valyria flows through [ROOT.GetCharacter.GetFirstNameNoTooltip], turning [ROOT.GetCharacter.GetHerHis] hair silver and [ROOT.GetCharacter.GetHerHis] eyes violet."
+ 
+ trait_shadowbinder:0 "Shadowbinder"
+ trait_shadowbinder_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] practices dark magic, and can bind shadows to do [ROOT.GetCharacter.GetHerHis] will."
+ trait_shadowbinder_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a practitioner of dark magic. Known shadowbinders come from as far Asshai, near the Shadow Lands."
+
+ trait_dragonseed:0 "Dragonseed"
+ trait_dragonseed_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a bastard of House Targaryen."
+ trait_dragonseed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a bastard of House Targaryen."

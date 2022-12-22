@@ -1,0 +1,121 @@
+﻿
+l_english:
+
+ # Common Weirdwood Worshipper loc
+ old_god_religion:0 "the Old Gods"
+ old_god_religion_adj:0 "the Old Gods"
+ old_god_religion_adherent:0 "the Old Gods"
+ old_god_religion_adherent_plural:0 "the Old Gods"
+ old_god_religion_desc:0 "The first men and their descendants worship the old gods beyond counting."
+ 
+ 
+ old_god_high_god_name:0 "the Weirdwood Tree"
+ old_god_high_god_name_2:0 "$old_god_high_god_name$" # Optional translation alt
+ old_god_high_god_name_3:0 "$old_god_high_god_name$" # Optional translation alt
+ old_god_high_god_name_possessive:0 "the Weirdwood Tree's"
+ old_god_high_god_name_alternate:0 "the Weirdwood Tree"
+ old_god_high_god_name_alternate_possessive:0 "the Weirdwood Tree's"
+ old_god_good_god_jesus:0 "$old_god_health_god_name$"
+ old_god_good_god_christ:0 "$old_god_health_god_name$"
+ old_god_devil_name:0 "The New God"
+ old_god_devil_name_possessive:0 "The New God's"
+ old_god_evil_god_lucifer:0 "The New God"
+ old_god_evil_god_beelzebub:0 "The New God"
+ old_god_evil_god_mephistopheles:0 "The New God"
+ old_god_death_deity_name:0 "The faceless god"
+ old_god_death_deity_name_possessive:0 "The faceless god's"
+ old_god_house_of_worship:0 "Godswood"
+ old_god_house_of_worship_2:0 "$old_god_house_of_worship$" # Optional translation alt
+ old_god_house_of_worship_3:0 "$old_god_house_of_worship$" # Optional translation alt
+ old_god_house_of_worship_plural:0 "Godswoods"
+ old_god_religious_symbol:0 "Weirdwood Face"
+ old_god_religious_symbol_2:0 "$old_god_religious_symbol$" # Optional translation alt
+ old_god_religious_symbol_3:0 "$old_god_religious_symbol$" # Optional translation alt
+ old_god_religious_text:0 "The ancient texts"
+ old_god_religious_text_2:0 "$old_god_religious_text$" # Optional translation alt
+ old_god_religious_text_3:0 "$old_god_religious_text$" # Optional translation alt
+ old_god_religious_head_title:0 "Weirdwood Warrior"
+ old_god_religious_head_title_name:0 "Weirdwood Warrior"
+ old_god_devotee_male:0 "Weirdwood Worshipper"
+ old_god_devotee_male_plural:0 "Weirdwood Worshippers"
+ old_god_devotee_female:0 "Weirdwood Worshipper"
+ old_god_devotee_female_plural:0 "Weirdwood Worshippers"
+ old_god_devotee_neuter:0 "Weirdwood Worshipper"
+ old_god_devotee_neuter_plural:0 "Weirdwood Worshippers"
+ old_god_priest_male:0 "Weirdwood Worshipper"
+ old_god_priest_male_plural:0 "Weirdwood Worshippers"
+ old_god_priest_alternate_plural:0 "Weirdwood Worshippers"
+ old_god_bishop:0 "Weirdwood Worshipper"
+ old_god_bishop_plural:0 "Weirdwood Worshippers"
+ old_god_positive_afterlife:0 "the After"
+ old_god_positive_afterlife_2:1 "the After" # Optional translation alt
+ old_god_positive_afterlife_3:1 "$old_god_high_god_name_possessive$ Flames" # Optional translation alt
+ old_god_negative_afterlife:0 "the dark"
+ old_god_negative_afterlife_2:1 "the dark" # Optional translation alt
+ old_god_negative_afterlife_3:1 "Nopāzma" # Optional translation alt
+ old_god_witchgodname_the_horned_god:0 "The New gods"
+ old_god_witchgodname_the_horned_god_possessive:0 "The New god's"
+
+ old_god_creator_god_name:0 "$old_god_high_god_name$"
+ old_god_creator_god_name_possessive:0 "$old_god_high_god_name_possessive$"
+ old_god_health_god_name:0 "the Weirdwood Tree"
+ old_god_health_god_name_possessive:0 "the Weirdwood Tree's'"
+ old_god_fertility_god_name:0 "$old_god_high_god_name$"
+ old_god_fertility_god_name_possessive:0 "$old_god_high_god_name_possessive$"
+ old_god_wealth_god_name:0 "$old_god_high_god_name$"
+ old_god_wealth_god_name_possessive:0 "$old_god_high_god_name_possessive$"
+ old_god_household_god_name:0 "$old_god_health_god_name$"
+ old_god_household_god_name_possessive:0 "$old_god_health_god_name_possessive$"
+ old_god_fate_god_name:0 "$old_god_high_god_name$"
+ old_god_fate_god_name_possessive:0 "$old_god_high_god_name_possessive$"
+ old_god_knowledge_god_name:0 "$old_god_high_god_name$"
+ old_god_knowledge_god_name_possessive:0 "$old_god_high_god_name_possessive$"
+ old_god_war_god_name:0 "$old_god_high_god_name$"
+ old_god_war_god_name_possessive:0 "$old_god_high_god_name_possessive$"
+ old_god_trickster_god_name:0 "The New God"
+ old_god_trickster_god_name_possessive:0 "The New God's"
+ old_god_night_god_name:0 "$old_god_high_god_name$"
+ old_god_night_god_name_possessive:0 "$old_god_high_god_name_possessive$"
+ old_god_water_god_name:0 "$old_god_health_god_name$"
+ old_god_water_god_name_possessive:0 "$old_god_health_god_name_possessive$"
+ 
+ # Weirdwood Worshipper-group faiths
+ 
+ old_god:0 "the Old Gods"
+ old_god_adj:0 "the Old Gods"
+ old_god_adherent:0 "the Old Gods"
+ old_god_adherent_plural:0 "the Old Gods"
+ old_god_desc:0 "The Weirdwood Worshippers pray in the godswoods."
+ 
+ old_god_old:0 "Ancient the Old Gods"
+ old_god_old_adj:0 "Ancient the Old Gods"
+ old_god_old_adherent:0 "Ancient the Old Gods"
+ old_god_old_adherent_plural:0 "Ancient the Old Gods"
+ old_god_old_desc:0 "The Weirdwood Worshippers pray in the godswoods."
+ 
+ #Holy Sites: Weirdwood Worshipper
+ 
+ holy_site_mount_etna_name:0 "Mount Etna"
+ holy_site_mount_etna_effect_name:0 "From [holy_site|E] #weak ($holy_site_mount_etna_name$)#!"
+ 
+ holy_site_puy_de_dome_name:0 "Puy de Dôme"
+ holy_site_puy_de_dome_effect_name:0 "From [holy_site|E] #weak ($holy_site_Puy de Dôme_name$)#!"
+ 
+ holy_site_monte_amiata_name:0 "Monte Amiata"
+ holy_site_monte_amiata_effect_name:0 "From [holy_site|E] #weak ($holy_site_monte_amiata_name$)#!"
+ 
+ holy_site_ciomadul_name:0 "Ciomadul"
+ holy_site_ciomadul_effect_name:0 "From [holy_site|E] #weak ($holy_site_ciomadul_name$)#!"
+ 
+ holy_site_volcanic_eifel_name:0 "Volcanic Eifel"
+ holy_site_volcanic_eifel_effect_name:0 "From [holy_site|E] #weak ($holy_site_volcanic_eifel_name$)#!"
+ 
+ holy_site_dragonstone_name:0 "Dragonstone"
+ holy_site_dragonstone_effect_name:0 "From [holy_site|E] #weak ($holy_site_dragonstone_name$)#!"
+ 
+ holy_site_kings_landing_name:0 "King's Landing"
+ holy_site_kings_landing_effect_name:0 "From [holy_site|E] #weak ($holy_site_kings_landing_name$)#!"
+ 
+ holy_site_volcano_of_man_name:0 "Volcano of Man"
+ holy_site_volcano_of_man_effect_name:0 "From [holy_site|E] #weak ($holy_site_volcano_of_man_name$)#!"
+

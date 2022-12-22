@@ -1,0 +1,37 @@
+heritage_valyrian = {
+	type = heritage
+}
+
+heritage_ironborn = {
+	type = heritage
+}
+
+heritage_dornish = {
+	type = heritage
+}
+
+heritage_northmen = {
+	type = heritage
+}
+
+heritage_stormlander = {
+	type = heritage
+}
+
+heritage_reachman = {
+	type = heritage
+}
+
+heritage_westerman = {
+	type = heritage
+}
+
+heritage_valeman = {
+	type = heritage
+}
+
+heritage_crownlander = {
+	type = heritage
+}
+
+

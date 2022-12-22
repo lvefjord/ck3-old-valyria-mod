@@ -1,0 +1,35 @@
+dragonseed = {
+	opposites = {
+		wild_oat
+		disputed_heritage
+	}
+	diplomacy = -1
+
+	same_opinion = 5
+
+	dynasty_opinion = 5
+
+	can_inherit = no
+	blocks_from_claim_inheritance = yes
+
+	fame = yes
+	
+	ruler_designer_cost = 0
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_dragonseed_desc
+			}
+			desc = trait_dragonseed_character_desc
+		}
+	}
+
+	icon = dragonseed.dds
+	
+	ai_honor = -10
+	ai_energy = 15
+}

@@ -1,0 +1,67 @@
+lord_valyrian_male = {
+type = character
+gender = male
+special = holder
+tier = kingdom
+priority = 5002
+governments = { feudal_government }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+}
+
+lord_valyrian_female = {
+type = character
+gender = female
+special = holder
+tier = kingdom
+priority = 5002
+governments = { feudal_government }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+}
+
+lord_valyrian_male_c = {
+type = character
+gender = male
+special = holder
+tier = county
+priority = 5000
+governments = { feudal_government }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+}
+
+lord_valyrian_female_c = {
+type = character
+gender = female
+special = holder
+tier = county
+priority = 5000
+governments = { feudal_government }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+}
+
+d_lord_valyrian_male = {
+type = character
+gender = male
+special = holder
+tier = duchy
+priority = 5001
+governments = { feudal_government }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+}
+
+d_lord_valyrian_female = {
+type = character
+gender = female
+special = holder
+tier = duchy
+priority = 5001
+governments = { feudal_government }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+}
+
+position_male = {
+    type = character
+    gender = male
+    special = councillor
+    priority = 1  # Change if you want it higher than baron/mayor etc.
+    council_position = councillor_chancellor #change to the position
+}

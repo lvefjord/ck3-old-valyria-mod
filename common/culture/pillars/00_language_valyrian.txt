@@ -1,0 +1,35 @@
+language_common_tongue = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_common_tongue
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_common_tongue}
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_high_valyrian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_high_valyrian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_high_valyrian}
+			multiply = 10
+		}
+	}
+	
+	color = norse
+}

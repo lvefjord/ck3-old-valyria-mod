@@ -1,0 +1,18 @@
+﻿l_english:
+ building_type_obsidian_mines_01:0 "Obsidian Mine"
+ building_type_obsidian_mines_01_desc:0 "Huge amounts of dragonglass can be found on Dragonstone."
+ building_obsidian_mines_01:0 "Obsidian Mining Settlement"
+ building_obsidian_mines_01_desc:0 "Huge amounts of dragonglass can be found on Dragonstone."
+ building_obsidian_mines_02:0 "Obsidian Mine"
+ building_obsidian_mines_02_desc:1 "Huge amounts of dragonglass can be found on Dragonstone."
+ building_obsidian_mines_03:0 "Large Obsidian Mine"
+ building_obsidian_mines_03_desc:0 "Huge amounts of dragonglass can be found on Dragonstone."
+ building_obsidian_mines_04:0 "Obsidian Mining Complex"
+ building_obsidian_mines_04_desc:0 "Huge amounts of dragonglass can be found on Dragonstone."
+ building_dragon_pit_01:0 "Dragon Pit"
+ building_dragon_pit_01_desc:0 "A pit for housing dragons."
+ 
+ building_type_cast_rock_gold_mine:0 "Casterly Rock Goldmine"
+ building_type_cast_rock_gold_mine_desc:0 "The main source of House Lannisters wealth."
+ building_cast_rock_gold_mine:0 "Casterly Rock Goldmine"
+ building_cast_rock_gold_mine_desc:0 "The main source of House Lannisters wealth."

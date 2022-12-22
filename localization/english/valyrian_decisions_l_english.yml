@@ -1,0 +1,35 @@
+﻿l_english:
+
+ #blackfyre
+ blackfyre_decision:0 "Reclaim Blackfyre"
+ blackfyre_decision_tooltip:0 "Reclaim the Conqueror's blade."
+ blackfyre_decision_desc:0 "Reclaim Blackfyre."
+ blackfyre_decision_effect_tooltip:0 "This will lend legitimacy to my line."
+ blackfyre_decision_confirm:0 "Dracarys!"
+ 
+ #valyrian supremacy
+ valyrian_supremacy_decision:0 "Use this once, converts counties"
+ valyrian_supremacy_decision_tooltip:0 "The Valyrians shall rule again."
+ valyrian_supremacy_decision_desc:0 "Otherwise all of England has the wrong culture and faith for 500 years."
+ valyrian_supremacy_decision_effect_tooltip:0 "Fear the Old Valyrians."
+ valyrian_supremacy_decision_confirm:0 "Haven't been able to figure out how to automate this yet."
+
+ #kings landing
+ kings_landing_decision:0 "King's Landing"
+ kings_landing_decision_tooltip:0 "The Valyrians shall rule again."
+ kings_landing_decision_desc:0 "Move your capital to King's Landing."
+ kings_landing_decision_effect_tooltip:0 "Fear the Old Valyrians."
+ kings_landing_decision_confirm:0 "It shall be as it once was!"
+ 
+ #shadowbinding decision
+ bind_shadow_decision:0 "Shadowbinding Ritual"
+ bind_shadow_decision_tooltip:0 "Your current murder scheme will gain full progress and power."
+ bind_shadow_decision_desc:0 "I am a shadowbinder, able to bind shadows to do my bidding. However, my powers come at a cost, requiring a blood sacrifice."
+ bind_shadow_decision_effect_tooltip:0 "Fear the Old Valyrians."
+ bind_shadow_decision_confirm:0 "Forgive Me"
+ 
+ study_bloodmagic_decision:0 "Study Bloodmagic"
+ study_bloodmagic_decision_tooltip:0 "Delve deep into the ancient texts to study Bloodmagic"
+ study_bloodmagic_decision_desc:0 "Only through studying can we come to understand the true nature of darkness.\n\nThough it means neglecting my other responsibilities, by retreating into seclusion for study I may learn more about the shadows and the terrors in it."
+ study_bloodmagic_decision_confirm:0 "Study Bloodmagic"
+ study_bloodmagic_tooltip:0 "You may gain the [GetTrait('shadowbinder').GetName( GetPlayer )] trait."

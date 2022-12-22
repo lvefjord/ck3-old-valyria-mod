@@ -1,0 +1,31 @@
+tradition_valyrian_legacy = {
+	category = realm
+
+	layers = {
+		0 = learning
+		4 = dragon.dds
+	}
+
+	is_shown = {
+		has_cultural_pillar = heritage_valyrian
+	}
+	can_pick = {
+	}
+	
+	parameters = {
+		unlock_maa_dragon = yes
+		unlock_maa_dragonkeepers = yes
+	}
+	province_modifier = {
+	}
+	character_modifier = {
+		levy_size = 0.25
+		men_at_arms_recruitment_cost = -0.15
+		men_at_arms_maintenance = -0.15
+		levy_reinforcement_rate = 0.25
+		opinion_of_same_culture = 10
+		opinion_of_same_faith = 10
+		negative_inactive_inheritance_chance = -0.25
+	}
+	
+}

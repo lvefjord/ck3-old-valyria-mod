@@ -1,0 +1,77 @@
+﻿name_list_reachman = {
+
+	cadet_dynasty_names = {
+		"Thornton"
+	}
+
+	dynasty_names = {
+		"Bloom" "Tackerton" "Tydwell" "Seyforth" "Willows" 
+		
+	}
+	
+	male_names = {
+		Abelar Addam Aegon Aemon Agramore Aladore Alan Alekyne Alester Alyn Amaury Androw Armen Armond Arthor Arthur Arys Aubrey Axell 
+			Baelor Barquen Bayard Bernard Bertram Bertrand Branston Braxton Bryan Bryndon Buford Byren
+			Clement Cleyton Clifford Colin
+			Damon Denys Derrick Desmond Dickon Donald Donnel
+			Eddison Eden Edgar Edgerran Edmund Edwyd Edwyn Ellard Elwood Elyas Emerick Emmon Erren Estyn Eustace
+			Franklyn
+			Gareth Garlan Garmon Garmund Garrett Garse Garth Gawen Gedmund George Gerold Glendon Gormon Greydon Gwayne Gunthor Guthor Gyles
+			Harlan Harrold Harys Hobber Hobert Horas Hosman Hugh Humfrey Hyle
+			Igon Imry
+			Jafer Jaime Jason Jeffory Jeremy Joffrey John Jon Jorgen Josua
+			Laswell Leo Leyton Loras Lorence Lorent Lorimar Lucantine Lucas Luthor Lyman Lymond Lyonel
+			Mace Manfred Manfryd Marq Martyn Mathis Mattheus Matthos Medwick Mern Merrell Mervyn Meryn Morgan Morgil Moribald Moryn Myles
+			Nicol Norman Normund Nyles
+			Olymer Olyvar Omer Orbert Ormond Ormund Orton Osbert Osmund Otho Otto Ottyn Owen
+			Parmen Paxter Perwyn Portifer Pykewood
+			Randyll Raymun Raymund Renly Reynard Richard Rickard Robert Robyn Rolland Runceford Runcel Russell Ryam Rycherd
+			Samwell Samwyle Simon Steffon
+			Quentin Quenton Quentyn
+			Talbert Tanton Thaddeus Theo Theodore Theomore Titus Tommen Torgen Torman Triston Tyler
+			Unwin Urrathon Urrigon Uther Uthor
+			Victor Vortimer
+			Walys Warryn Wendell Wilbert Willam Willas Wyman
+	}
+	female_names = {
+		Alena Alera Alerie Aleyne Alla Allene Alicent Alinor Alyce Alys Alysanne Ameria Amyria Annet Annys Arana Arrene Arwyn Asta
+			Beliona Beony Bera Bethany Bressa
+			Calla Carellen Celessa Cella Cerenna Ceryse Clarice
+			Dalla Delena Delina Denyse Desmera
+			Elara Eldara Eldene Eldrene Elia Elinor Elissa Ella Elorra Elsabeth Elvyra Elwene Elyn Elyse Enna Erayna
+			Falia Florence
+			Galissa Gelenna
+			Helicent
+			Jancia Janna Janyra Jayne Jeona Jeyne Jomylla Jorella Josella
+			Kalianne Keleria Kenella
+			Lanette Lerra Leyla Lia Liera Lena Leona Leonette Lerra Lorianne Lyessa Lynesse Lynett Lyrissa Lysa
+			Malyssa Marella Margaery Maris Megga Melara Melessa Melina Mellei Meredyth Merissa Mesella Mina Myleria Mylessa Myria Myrielle
+			Nella Nemony Nyrise
+			Olanne Olene Olenna Oraney Ottyria
+			Patrice Patricia
+			Rhea Rhonda Rohanne Rosalei Rosamund Roslin Rylene Rylla Rymella
+			Salene Samantha Sansara Selyse Sharis Sheralla Syldia Sylvina
+			Taena Talla Tanera Tenda Tylarra
+			Vanera Victaria
+			Wynella
+			Yrma
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_the_flowers" }
+	}
+}

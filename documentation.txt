@@ -1,0 +1,118 @@
+#Dynasty
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\dynasties\dynasty_names_valyrian_l_english.yml
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\dynasties\00_valyrian_dynasties.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\mottos_valyrian_l_english.yml
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\dynasty_houses\00_valyrian_dynasty_houses.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\coat_of_arms\coat_of_arms\90_valyrian_dynasties.txt
+
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\history\characters\valyrian.txt
+
+#Flavourization
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\flavorization\00_valyrian_flavour.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\customizable_localization\valyrian_custom_loc.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\culture\culture_custom_titles_l_english.yml
+
+#Councillor
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\culture\culture_custom_titles_l_english.yml
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\flavorization\00_valyrian_flavour.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\council_positions\00_valyrian_council_positions.txt
+
+#Shadowbinder decision/event
+
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\decisions\bloodmagic_decisions.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\events\shadowbinder_event.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\event_localization\shadowbinder_decision_events_l_english.yml
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\valyrian_decisions_l_english.yml
+
+
+Winterfell 1741
+Casterly Rock 1652
+Highgarden 1580
+Riverrun 1627
+Eyrie 1583
+Storms End 1518
+Sunspear 1502
+Dragonstone 9661
+King's Landing 1527
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I work on this here and there in my free time. Leave any ideas and suggestions in the comments. 99% I won't touch any custom 3D model ideas, it's too far outside my comfort zone (includes dragons as separate characters because I don't think you can use 2D portraits). None of the art is original work by me. Some icons are from the CK2 AGOT mod, some just art from google I've put over default icons or even default icons I've recolered. Most of the illustrations is art I found on google, some from the awoiaf. If anyone wants to be credited or is wondering where the art is from let me know and I will find it and add it.
+
+[h1] Old Valyria [/h1] adds [b] Aegon "the Conqueror" Targaryen [/b] on Dragonstone as the liege to Lord of the Tides [b] Daemon Velaryon [/b] of Driftmark and [b] Crispian Celtigar [/b] of Claw Isle in the 1066 bookmark. The three islands have been added to the map where the Thames meets the North Sea because it reminded me of their placement in Blackwater Bay.
+
+[h1] Features [/h1]
+[list]
+    [*]Three islands added south-east of England: Dragonstone, Driftmark, and Claw Isle.
+    [*]Valyrian culture including: Heritage, language, name list, custom icon, and a custom tradition called Valyrian 
+       Legacy.
+    [*]Valyrian religion including: custom holy sites, custom unreformed/reformed icons, custom doctrine to allow 2 
+       wives, custom tenet to make inter-faith marriage possible, custom god names and priest names.
+    [*]Decision and events called the Four Kingdoms which has 5 stages: The first decision gives claims on the Kingdom 
+       of England as it is in 1066, gives 3000 troops so you can instantly declare war, and gives 4500 prestige so you can 
+       press all your claims without penalties to your fame. The stages after gives claims to the kingdoms of Wales, 
+       Ireland and Scotland, in that order. The final stage after conquering all the kingdoms creates a new empire title 
+       called [b] New Valyria [/b]. The whole chain also gives enough dynasty prestige to unlock an entire row of perks.
+
+       Decision once London has been conquered to rename it to King's Landing, make it your capital, and 
+       convert its culture and faith to Valyrian.
+    [*]Four traits with custom icons:
+       [b] Dragonrider [/b]: 80% chance to inherit, modifiers to opinion, prestige, combat, dread. Also unlocks the casus 
+       belli type that let's you press multiple claims in the same war.
+       [b] Valyrian Blood [/b]: 100% chance to inherit. Change your appearance and turns your hair white and eyes violet. 
+       Reduces inbreeding chance by 100%.
+       [b] Dragonseed [/b]: Currently only used as a custom bastard trait for Orys Baratheon for flavour.
+       [b] Shadowbinder [/b]: Currently not really used for anything, I had some ideas but abandoned it to work on more 
+       important things. Planning to make this connected with the Bloodmagic tenet somehow but not sure yet.
+    [*]Two custom MAA-regiments with custom art:
+       [b] Dragon [/b]: Recruitable with the [b] Dragon rider [/b] trait. Incredibly overpowered for both sieges and 
+       battles. It's capped at 1 regiment and it's also capped at 1 unit, this is a bit problematic as MAA regiments spawn in 
+       with 5 units without modding defines.
+       [b] Dragonkeepers [/b]: Recruitable with Valyrian culture. Very strong Heavy Infantry unit.
+    [*]Four custom artifacts with custom icons:
+       [b] Blackfyre [/b] and [b] Dragon Egg [/b] which are added to Aegon on game start. Blackfyre has prowess and they 
+       both have modifiers to opinion, prestige, dynasty prestige. Dragon Egg has no use for now besides the modifiers.
+       [b] Dark Sister [/b] which is added to Visenya on game start. I don't think she equips it by herself unless she's 
+       landed, not sure if I can fix that.
+       [b] Conqueror's Crown [/b] this is added as part of the final decision in the Four Kingdoms chain for flavour 
+       (crowned emperor of New Valyria)
+    [*]Flavour titles: "Lord" instead of "Count" and "Duke" for the Valyrian faith. "Lord of the Tides" for the holder of the 
+       Driftmark county.
+    [*]Two custom buildings (very minor): Obsidian Mine for Dragonstone which gives Aegon a ridiculous amount of 
+       gold. Also made a building called Dragon Pit but I haven't really done anything with this.
+    [*]Six custom Houses and Dynasties with custom CoAs, and mottos (if) given in lore:
+       [b] House Velaryon [/b] for Driftmark with some family members. Made the Lord of the Tides Aegon's steward. 
+       Ships aren't a very large part of CK3 at the moment.
+       [b] House Celtigar [/b] for Claw Isle and Aegon's first master of coin.
+       [b] House Baratheon [/b] for Orys, Aegon's (rumored) bastard half-brother and first hand of the king.
+       [b] House Qoherys [/b] Quenton Qoherys was master-at-arms at Dragonstone.
+       [b] House Massey [/b] Triston Massey, Aegon's first master of laws. 
+       [b] House Bar Emmon [/b] the Bar Emmons supported Aegon instead of House Durrandon of Storm's End. No info 
+       on any specific Bar Emmons so I made a character called Togarion after their founder so I could add a spymaster.
+[/list]
+
+[h1] Planned Features [/h1]
+[list]
+    [*]Iron Islands with Ironborn culture and Drowned God faith, possibly west of Ireland(?)
+    [*]Possibly do something with the 867 date, not sure what this would be (I really shouldn't have started the conquest 
+       at 1066 (ideas welcomed).
+    [*]Do something with the Shadowbinder trait and the Bloodmagic tenet (ideas welcomed).
+[/list]
+
+Any problems can be reported in the comments and I'll try my best to help. You can report compatibility problems in the comments as well if it's something you feel you can't live without, please list the mod(s) in this case and I might take a look at it.
+
+Thanks and have fun!

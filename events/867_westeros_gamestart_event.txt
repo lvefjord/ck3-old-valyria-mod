@@ -1,0 +1,809 @@
+namespace = easteros
+
+easteros.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+	
+		name = "Transformers go"
+
+		#Jason Lannister Warden West
+		exists = character:999999999983
+		character:999999999983 = { is_alive = yes }
+		###########################
+		#Cregan Stark 
+		exists = character:999999999981
+		character:999999999981 = { is_alive = yes }
+		##############################
+		#Qoren Martell
+		exists = character:999999999984
+		character:999999999984 = { is_alive = yes }
+		##############################
+		#Lyonel Tyrell
+		exists = character:999999999979
+		character:999999999979 = { is_alive = yes }
+		#############################
+		#Grover Tully
+		exists = character:999999999978
+		character:999999999978 = { is_alive = yes }
+		#############################
+		#Borros Baratheon
+		exists = character:999999999982
+		character:999999999982 = { is_alive = yes }
+		#############################
+		#Jeyne Arryn
+		exists = character:999999999980
+		character:999999999980 = { is_alive = yes }
+		#############################
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		
+
+		title:k_the_westerlands = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		
+		title:c_carmarthenshire = {
+			change_title_holder = {
+				holder = character:999999999983 
+				change = scope:change
+			}
+		}
+
+		title:c_sir_faesyfed = {
+			change_title_holder = {
+				holder = character:999999999983 
+				change = scope:change
+			}
+		}
+		title:c_maldwyn = {
+			change_title_holder = {
+				holder = character:999999999983 
+				change = scope:change
+			}
+		}
+		title:c_denbighshire = {
+			change_title_holder = {
+				holder = character:999999999983 
+				change = scope:change
+			}
+		}
+		
+
+		title:c_glamorgan = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:c_monmouthshire = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:d_gwynedd = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:d_powys = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:c_hereford = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:c_shropshire = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:c_worcestershire = {
+			change_title_holder = {
+				holder = character:999999999979
+				change = scope:change
+			}
+		}
+		title:c_merioneth = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:c_caernarfonshire = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:c_anglesey = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:c_pembrokeshire = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:c_cardiganshire = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:c_brecknockshire = {
+			change_title_holder = {
+				holder = character:999999999983
+				change = scope:change
+			}
+		}
+		title:k_the_reach = {
+			change_title_holder = {
+				holder = character:999999999979
+				change = scope:change
+			}
+		}
+		title:c_cornwall = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:c_devon = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:c_somerset = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:c_dorset = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:k_dorne = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:c_sussex = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:c_gloucestershire = {
+			change_title_holder = {
+				holder = character:999999999979
+				change = scope:change
+			}
+		}
+		title:c_isle_of_wight = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:c_hampton = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:c_wiltshire = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:k_the_stormlands = {
+			change_title_holder = {
+				holder = character:999999999982
+				change = scope:change
+			}			
+		}
+		title:c_middlesex = {
+			change_title_holder = {
+				holder = character:999999999982
+				change = scope:change
+			}
+		}
+		title:c_kent = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:c_surrey = {
+			change_title_holder = {
+				holder = character:999999999984
+				change = scope:change
+			}
+		}
+		title:c_berkshire = {
+			change_title_holder = {
+				holder = character:999999999979
+				change = scope:change
+			}
+		}
+		title:c_oxfordshire = {
+			change_title_holder = {
+				holder = character:999999999979
+				change = scope:change
+			}
+		}
+		title:c_buckinghamshire = {
+			change_title_holder = {
+				holder = character:999999999979
+				change = scope:change
+			}
+		}
+		title:c_hertfordshire = {
+			change_title_holder = {
+				holder = character:999999999982
+				change = scope:change
+			}
+		}
+		title:c_essex = {
+			change_title_holder = {
+				holder = character:999999999982
+				change = scope:change
+			}
+		}
+		title:c_bedford = {
+			change_title_holder = {
+				holder = character:999999999982
+				change = scope:change
+			}
+		}
+		title:c_suffolk = {
+			change_title_holder = {
+				holder = character:999999999982
+				change = scope:change
+			}
+		}
+		title:c_norfolk = {
+			change_title_holder = {
+				holder = character:999999999982
+				change = scope:change
+			}
+		}
+		title:c_cambridgeshire = {
+			change_title_holder = {
+				holder = character:999999999982
+				change = scope:change
+			}
+		}
+		title:c_huntingdonshire = {
+			change_title_holder = {
+				holder = character:999999999982
+				change = scope:change
+			}
+		}
+		title:c_northamptonshire = {
+			change_title_holder = {
+				holder = character:999999999979
+				change = scope:change
+			}
+		}
+		title:k_the_north = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:d_western_isles = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:d_moray = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_isle_of_man = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_northumberland = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_ayrshire = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_carrick = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_argyll = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_outer_hebrides = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_galloway = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_inner_hebrides = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_lennox = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_linlithgowshire = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_strathearn = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_fire = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_gowrie = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_atholl = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_angus = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_mearns = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_buchan = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_sutherland = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_caithness = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_moray = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_inverness = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_ross = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_fife = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_lanarkshire = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_lothian = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_dunbar = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_teviotdale = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:c_annandale = {
+			change_title_holder = {
+				holder = character:999999999981
+				change = scope:change
+			}
+		}
+		title:k_the_riverlands = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		title:c_cumberland = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		title:c_warwickshire = {
+			change_title_holder = {
+				holder = character:999999999979
+				change = scope:change
+			}
+		}
+		title:c_staffordshire = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		title:c_cheshire = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		title:c_lancashire = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		title:c_derby = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		title:c_leicestershire = {
+			change_title_holder = {
+				holder = character:999999999979
+				change = scope:change
+			}
+		}
+		title:c_westmorland = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		title:c_west_riding = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		title:c_nottinghamshire = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		title:k_the_vale = {
+			change_title_holder = {
+				holder = character:999999999980
+				change = scope:change
+			}
+		}
+		title:c_durham = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		
+		title:c_north_riding = {
+			change_title_holder = {
+				holder = character:999999999978
+				change = scope:change
+			}
+		}
+		title:c_east_riding = {
+			change_title_holder = {
+				holder = character:999999999980
+				change = scope:change
+			}
+		}
+		title:c_lincolnshire = {
+			change_title_holder = {
+				holder = character:999999999980
+				change = scope:change
+			}
+		}
+		
+		
+		
+
+
+		resolve_title_and_vassal_change = scope:change
+
+		
+		
+
+		#####
+
+
+		#RENAMES
+		
+		#######
+		#FIX CAPITALS
+		#NORTH
+		title:c_gowrie = {
+			save_scope_as = gowrie_title
+			set_title_name = c_winterfell
+		}
+		
+		title:b_st_johnston = {
+			save_scope_as = st_johnston_title
+			set_title_name = b_winterfell	
+		}
+		
+		title:k_the_north = {
+			set_realm_capital = title:c_winterfell
+		}
+		#VALE
+		title:c_east_riding = {
+			save_scope_as = east_riding_title
+			set_title_name = c_the_eyrie
+		}
+		
+		title:b_lincoln = {
+			save_scope_as = lincoln_title
+			set_title_name = b_the_eyrie	
+		}
+		
+		title:k_the_vale = {
+			set_realm_capital = title:c_the_eyrie
+		}
+		#Westerlands
+		title:c_carmarthenshire = {
+			save_scope_as = carmarthenshire_title
+			set_title_name = c_casterly_rock
+		}
+		title:b_carmarthen = {
+			save_scope_as = carmarthen_title
+			set_title_name = b_casterly_rock
+		}
+		title:k_the_westerlands = {
+			set_realm_capital = title:c_casterly_rock
+		}
+		#Stormlands
+		title:c_suffolk = {
+			save_scope_as = suffolk_title
+			set_title_name = c_storms_end
+		}
+		title:b_ipswich = {
+			save_scope_as = ipswich_title
+			set_title_name = b_storms_end	
+		}
+		title:k_the_stormlands = {
+			set_realm_capital = title:c_storms_end
+		}
+		#Riverlands
+		title:c_staffordshire = {
+			save_scope_as = staffordshire_title
+			set_title_name = c_riverrun
+		}
+		title:b_stafford = {
+			save_scope_as = stafford_title
+			set_title_name = b_riverrun	
+		}
+		title:k_the_riverlands = {
+			set_realm_capital = title:c_riverrun
+		}
+		#The Reach
+		title:c_gloucestershire = {
+			save_scope_as = gloucestershire_title
+			set_title_name = c_highgarden
+		}
+		title:b_gloucester = {
+			save_scope_as = gloucester_title
+			set_title_name = b_highgarden
+		}
+		title:k_the_reach = {
+			set_realm_capital = title:c_highgarden
+		}
+		#Iron Throne
+		#Dorne
+		title:c_kent = {
+			save_scope_as = kent_title
+			set_title_name = c_sunspear
+		}
+		title:b_dover = {
+			save_scope_as = dover_title
+			set_title_name = b_sunspear
+		}
+		title:k_dorne = {
+			set_realm_capital = title:c_sunspear
+		}
+		#Buildings for all the weak capitals
+		province:1741 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		
+		province:1652 = {
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+			add_special_building = cast_rock_gold_mine
+		}
+		
+		province:1580 = {
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		
+		province:1627 = {
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		
+		province:1583 = {
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		
+		province:1518 = {
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		
+		province:1502 = {
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		#Making the kingdoms the correct faith/culture
+		title:k_dorne.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:dornish
+				set_county_faith = faith:the_seven
+			}
+		}
+		title:k_the_stormlands.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:stormlander
+				set_county_faith = faith:the_seven
+			}
+		}
+		title:k_the_riverlands.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:crownlander
+				set_county_faith = faith:the_seven
+			}
+		}
+		title:k_the_vale.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valeman
+				set_county_faith = faith:the_seven
+			}
+		}
+		title:k_the_reach.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:reachman
+				set_county_faith = faith:the_seven
+			}
+		}
+		title:k_the_north.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:northmen
+				set_county_faith = faith:old_god
+			}
+		}
+		title:k_the_westerlands.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:westerman
+				set_county_faith = faith:the_seven
+			}
+		}
+		title:c_middlesex.holder = {
+			title:c_middlesex = {
+				set_county_culture = culture:stormlander
+				set_county_faith = faith:the_seven
+			}
+		}
+		culture:valyrian = {
+			add_innovation = innovation_primogeniture
+			}
+		
+
+
+		
+	}
+
+
+	
+
+
+}

@@ -1,0 +1,98 @@
+﻿name_list_ironborn = {
+
+	cadet_dynasty_names = {
+		"Ironfoot"
+	}
+
+	dynasty_names = {
+		"Reaver" "Darken" "Blackiron" "Greatiron" "Yalman" 
+		
+	}
+	
+	male_names = {
+		Adrack Aeron Aggar Aladale Alester Alvyn Alyn Ambrode Andrik Alton Arthur
+			Baelor Balon Bennarion Beron Boremund Burton
+			Cadwyl Cotter Cragorn Cromm Craghorn
+			Daegon Dagmer Dagon Dale Denys Donel Donnor Drennan Dunstan Dykk Dalton
+			Eerl Eldiss Eldred Emmond Endehar Erik Euron Erich
+			Fralegg Fergon
+			Gelmarr Germund Gevin Gormond Gorold Godric Gran Greydon Gylbert Gyles Gynir Goren Gunthor Grimm
+			Hagen Harl Harlon Harmund Harrag Harras Harren Harwyn Hilmar Hotho Harrock Horgan Hagon Harlan Harron Harrald Hake
+			Jon Joseran Joron
+			Kemmett Kenned Kromm
+			Lenwood Lorren Lucas Lucimore Loron Lodos
+			Manfryd Maron Meldred
+			Norjen Norne Nute
+			Othgar
+			Pate
+			Qalen Qarl Qhored Quellon Quenton Qhorwyn Qhorin
+			Ragnor Ralf Robin Rodrik Roggon Rolfe Romny Rook Roryn Rus Rymolf Rognar Ravos Regnar
+			Sargon Sawane Sigfry Sigfryd Sigrin Skyte Steffar Steffarion Stygg Sylas Symond
+			Tarle Theomore Theon Thormor Todric Tom Toron Torgon Torwold Tristifer Triston Tymor Torwyn
+			Ulf Uller Urek Urragon Urras Urrigon Urron Urzen Urrathon
+			Vickon Victarion Veron
+			Waldon Werlag Wex Will Wulfe Wulfgar
+			Ygon Yohn
+	}
+	female_names = {
+		Alannys Asha Arwyn
+			Barbrey Beony Brella
+			Dorna
+			Esgred
+			Falia Falyse Ferny Frenya Frynne
+			Gretchel Grisel Grisella Gwin Gwynesse Gwyneth Gysella
+			Harma Harra Helya
+			Jeyne Jonella Jonnela Jorelle
+			Malora Margot Megga Meredyth Mhaegan Mhaegen Moelle Morna Munda Myrielle
+			Ravella Rhonda Roelle Ryella
+			Selyse Shierle
+			Talla
+			Unella
+			Victaria
+			Wynafrei Wynafryd
+			Yara Ynys Ysilla
+			Zia
+			Agmuna Asgrima Aslaka Arya Aly Arsa Arana Asharra Ana Asa Abni Aynika Ayssi Agnis
+			Beinerra Bhurta Barrya Barsa Barana
+			Ernmunda Errika Eddara Ersa Erana Errya Efla Ela
+			Cromma Cholvi Corah Ceyri
+			Farra
+			Dags
+			Gritha Gerika Ghaela Gremma Ghauda Gella Ghulmi
+			Hegga Herrika Helgarda Hagnaeh Harra
+			Irica 
+			Jonna Jomara Jolfa Johsi Jhena
+			Kella
+			Larya Larsa Larana Laransa Lyssa Lil
+			Margadra Millga Mabs
+			Narrya Narrsa Narrana Noshi Nanna
+			Orrsa Orrana Orya Oshara Ora Olma
+			Ransa Raly Raddera Ryka Ryloka Rokah Riga
+			Syga Sygara Syganna Sygarda Turri Skeyga Snela 
+			Skati Skoni Syri Suna Soyni Syansa
+			Toraka Tyosa Tekkeda Tarya Tansa Thalvi Tralmi Trabi Thoki Thesa
+			Ulfara Utmara
+			Valy Varana
+			Yasha
+			Zosha Zansa
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_drowned_men" }
+	}
+}
+

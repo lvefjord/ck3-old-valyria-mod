@@ -1,0 +1,26 @@
+valyrian_blood = {
+	
+	
+	
+	
+	monthly_prestige = 1
+	
+	
+	vassal_opinion = 10
+	
+	
+	##
+	
+	inherit_chance = 100
+	shown_in_ruler_designer = yes
+	inbreeding_chance = -1.0
+	health = 0.25
+	
+	good = yes
+	physical = yes
+	
+	icon = valblood.dds
+	#first_valid = {
+	#	desc = "gfx/interface/icons/traits/dragonrider.dds"
+	
+}

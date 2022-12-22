@@ -1,0 +1,6 @@
+﻿l_english:
+
+ holy_order_default:1 "[FAITH.GetAdjectiveNoTooltip] company of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_dragon_priests:0 "The Eternal Flame"
+ holy_order_balerion:0 "Balerion's Wrath"
+ 

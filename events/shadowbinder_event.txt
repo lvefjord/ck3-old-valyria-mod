@@ -1,0 +1,59 @@
+namespace = sb
+
+sb.0001 = {
+	type = character_event
+	title = "Pay the price"
+	desc = "There is power in king's blood" 
+	theme = murder_scheme
+	
+	right_portrait = {
+	character = ROOT
+	animation = scheme
+	}
+
+	option = {
+		name = "Only death can pay for life."
+		add_trait = murderer
+
+		custom_tooltip = {
+			text = "You will sacrifice a member of your family."
+		}
+			hidden_effect = {
+			every_scheme = {
+				limit = { scheme_type = murder }
+				while = {
+					limit = { scheme_progress < 9 }
+					add_scheme_progress = 1
+				}
+				while = {
+					count = 10
+					add_scheme_modifier = {
+						type = extra_success_chance_modifier 
+					}
+				}
+			}
+
+
+			random_close_family_member = {
+				random = {
+					chance = 100
+					save_scope_as = random_fam_member
+				}
+			}
+			scope:random_fam_member = {
+				death = {
+					death_reason = death_bloodmagic
+					killer = root
+				}
+			}
+		}
+		
+	}
+
+	option = {
+		name = "I am too weak."
+	}
+		
+}
+
+

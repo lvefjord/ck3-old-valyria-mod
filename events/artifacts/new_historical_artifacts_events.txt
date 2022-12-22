@@ -1,0 +1,62 @@
+﻿namespace = historical_artifacts
+# Generation of historical artifacts #
+
+#Historical artifacts generator at game start
+historical_artifacts.9999 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		# Historical Artifacts
+		## We do these per-artefact rather than per-title so that they can be easily reshuffled if desired.
+		## Blackfyre
+		if = {
+			limit = {
+				current_date < 1065.1.1
+				exists = character:999999999999
+				character:999999999999 = { is_alive = yes }
+			}
+			
+				create_artifact_blackfyre_effect = { OWNER = character:999999999999 }
+			
+		}
+		if = {
+			limit = {
+				current_date > 1065.1.1
+				exists = character:9988779
+				character:9988779 = { is_alive = yes }
+			}
+				create_artifact_blackfyre_effect = { OWNER = character:9988779 }
+			
+		}
+		## Dark Sister
+		if = {
+			limit = {
+				current_date < 1065.1.1
+				exists = character:999999999998
+				character:999999999998 = { is_alive = yes }
+			}
+				create_artifact_dark_sister = { OWNER = character:999999999998 }
+		}
+		if = {
+			limit = {
+				current_date > 1065.1.1
+				exists = character:9988774
+				character:9988774 = { is_alive = yes }
+			}
+				create_artifact_dark_sister = { OWNER = character:9988774 }
+		}
+		## Dragon Egg
+		if = {
+			limit = {
+				current_date > 846.1.1
+				exists = title:k_dragonstone.holder
+			}
+			title:k_dragonstone.holder = {
+				create_artifact_dragonegg_effect = { OWNER = this }
+			}
+		}
+
+		
+	}
+}

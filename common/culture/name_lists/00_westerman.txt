@@ -1,0 +1,72 @@
+﻿name_list_westerman = {
+
+	cadet_dynasty_names = {
+		"Hornsby"
+	}
+
+	dynasty_names = {
+		"Thorpe" "Folman" "Laxley" "Yellowbrook" "Egelston" 
+		
+	}
+	
+	male_names = {
+		Addam Addison Adrian Alan Alastor Alester Alfred Alton Alyn Amory Andros Androw Antario Arron Aubrey
+			Benedict Bertram Bertrand Burton
+			Caspor Cedric Cerion Clarent Cleos
+			Damion Damon Daven Dennis Desmond Denys Derrick Donnel
+			Edwell Eldon Eldrick Elmer Elys Emory Emrick Erren Erwin Ethan
+			Flement Forley Franklyn 
+			Gareth Garrison Garth Gawen Geremy Gerion Gerold Gregor
+			Harrold Harwyn Harys Herrock Horton Horys Hugh Humfrey
+			Ilyn
+			Jaime Jason Joffrey Jon Jonos Josmyn
+			Kennet Kevan
+			Lambert Lancel Leo Leslyn Lester Lewis Lewys Loren Lorent Loreon Lucion Lyle Lyman Lymond Lyndon Lyonel
+			Manfryd Marq Martyn Maynard Melwyn Merlon Mern Myles
+			Norwin
+			Orbert Ormond Osbert Ossifer Othell
+			Peter Petyr Philip Podrick Preston
+			Quenten
+			Raynald Raynard Regenard Reginald Reynard Richard Robb Robert Robin Roger Roland Rollam Rolph Rupert
+			Samwell Sandor Selmond Stafford Steffon Sumner Symond
+			Terrence Theomore Tion Tommard Tommen Tybolt Tygett Tyland Tyler Tymond Tyrek Tyrion Tytos Tywald Tywell Tywin
+			Uthor
+			Victor Viserys
+			Walder Walderan Wendel Willam Willem
+	}
+	female_names = {
+		Alanna Alarra Aliona Alys Alysane Alysanne Aregelle Arra Arrana Arsa Arya
+			Barba Barbrey Berena Beth Bethany Branda Branna
+			Carella Cylla Cyrelle
+			Dacey Dalonne Donella
+			Eddara Erena
+			Gilliane
+			Jarana Jessamyn Jeyne Jocelyn Joncella Jonelle Joranna Jorelle
+			Kerena Kyra
+			Leona Lyanna Lyanne Lyarra Lyessa Lynara Lyra Lysa Lysara
+			Maege Malerra Mara Margaret Mariah Mariya Marna Melene Mylarra Mina Myriame
+			Olaria Orenna Owella
+			Raya Robyn Ryessa
+			Sabetha Sansa Sara Sarra Serena Sheryse Shyra Sybelle Sylene Syrona	
+			Tyalla Tyrene
+			Wylla Wynafryd
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_golden_men" }
+	}
+}

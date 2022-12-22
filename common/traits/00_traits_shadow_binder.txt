@@ -1,0 +1,16 @@
+shadowbinder = {
+	fame = yes
+	group = lifestyle_mystic
+	
+	diplomacy = -4
+	intrigue = 3
+	learning = 3
+	
+	same_opinion = 20
+	vassal_opinion = -10
+	
+	shown_in_ruler_designer = yes
+	
+	icon = shadowbinder.dds
+	
+}

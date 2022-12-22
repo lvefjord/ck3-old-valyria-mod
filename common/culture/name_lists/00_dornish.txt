@@ -1,0 +1,75 @@
+﻿name_list_dornish = {
+
+	cadet_dynasty_names = {
+		"Marstyne"
+	}
+
+	dynasty_names = {
+		"Valatar" "Mantollen" "Golstand" "Allayen" "Galesand" 
+		
+	}
+	
+	male_names = {
+		Addam Aeron Aethan Aidan Alaric Albin Alekyne Allard Alyn Ambrose Anders Andrey Anton Archibald Arnolf Arran Arrant Arthur Aryard
+			Baylon Benedict Beric Branden
+			Cael Casimir Casper Cassiel Caswyn Cedric Clarien Cleon Cletus Connor Conran Coran Corbyn Corentyn Cugel Cullen
+			Dagos Darien Daven Davos Dickon Domeric Dunstan
+			Edgar Edmund Edmyn Edric
+			Farien Farrell Ferris Finnian Franklyn
+			Galwyn Garmond Garrison Gedry Gerold Gerris Guerin Gyles
+			Halbert Hugh
+			Jarmond Jarreth Jasper Jerome Joffrey Jordan Joris
+			Lambert Lancelyn Landon Lorrent Lucimore Lyonel
+			Michael Morgan Morris Mors Morys Myles
+			Olyvar Olyver Orivel Ormond
+			Perrin Perros
+			Raynald Robin Roryn
+			Quentyn Quincy
+			Samwell
+			Ulrick Urros
+			Vorian
+			Walter Warryn Willam Wyland
+			Yoren Yorick Yorwin
+	}
+	female_names = {
+		Adeline Ailys Alanna Alays Alia Alienor Allyria Alma Alyna Arabella Arenne Arianne Arlette Ashara Aslia Avelyn Azalais
+			Barbrey Bryanna
+			Caitrin Clarisse Cordelia Cyrissa
+			Delicia Denisa Denyse Dinah Doncella Dyanna
+			Elianne Elicia Elysa Erin
+			Falyce Fionalla
+			Galenna Giselle Gwyneth
+			Helen
+			Inis Ivalla Ivanna
+			Jaryse Jasmylla Jennalyn Jennelyn Jessa Jeyne Jyalla Jynessa
+			Katrin
+			Lanei Larra Leyne Liera Linnet Loreza Lorinda Lyarra Lyra
+			Marcia Marella Margaid Marietta Marise Mariya Martina Maryssa Melanna Moryssa
+			Nicolette
+			Rayne Rhona Robyna Rosarya Rossalyn
+			Serena Serene
+			Tamara Tavia Tereza
+			Ursula
+			Valeria
+			Wylla
+			Ynessa Ynys
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_sandsnakes" }
+	}
+}

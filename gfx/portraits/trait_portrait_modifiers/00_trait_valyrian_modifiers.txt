@@ -1,0 +1,29 @@
+valyrian_blood = {
+	valyrian_blood = {
+		traits = { valyrian_blood }
+		dna_modifiers = {
+			morph = {
+				mode = replace
+				gene = complexion
+				template = complexion_beauty_1
+				value = 1.0
+			
+			}
+			color = {
+				gene = eye_color
+				mode = modify
+				
+				x = -1.0
+				y = -1.0
+			}
+			color = {
+				gene = hair_color
+				mode = modify
+					
+				x = -1.0
+				y = -1.0
+				}
+				
+		}
+	}
+}

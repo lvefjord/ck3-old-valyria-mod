@@ -1,0 +1,78 @@
+#Targaryen
+91114881997 = {
+	name = "dynn_Targaryen"
+	culture = "valyrian"
+	motto = "dynn_Targaryen_motto"
+}
+
+#Velaryon
+91114881996 = {
+	name = "dynn_Velaryon"
+	culture = "valyrian"
+	motto = "dynn_Velaryon_motto"
+}
+
+#Celtigar
+91114881995 = {
+	name = "dynn_Celtigar"
+	culture = "valyrian"
+	motto = "dynn_Celtigar_motto"
+}
+
+#Baratheon
+91114881994 = {
+	name = "dynn_Baratheon"
+	culture = "valyrian"
+	motto = "dynn_Baratheon_motto"
+}
+
+91114881993 = {
+	name = "dynn_Massey"
+	culture = "crownlander"
+}
+
+91114881992 = {
+	name = "dynn_Qoherys"
+	culture = "valyrian"
+}
+
+91114881991 = {
+	name = "dynn_Bar_Emmon"
+	culture = "crownlander"
+}
+
+91114881990 = {
+	name = "dynn_Arryn"
+	culture = "valeman"
+	motto = "dynn_Arryn_motto"
+}
+
+91114881989 = {
+	name = "dynn_Lannister"
+	culture = "westerman"
+	motto = "dynn_Lannister_motto"
+}
+
+91114881988 = {
+	name = "dynn_Stark"
+	culture = "northmen"
+	motto = "dynn_Stark_motto"
+}
+
+91114881987 = {
+	name = "dynn_Martell"
+	culture = "dornish"
+	motto = "dynn_Martell_motto"
+}
+
+91114881986 = {
+	name = "dynn_Tyrell"
+	culture = "reachman"
+	motto = "dynn_Tyrell_motto"
+}
+
+91114881985 = {
+	name = "dynn_Tully"
+	culture = "crownlander"
+	motto = "dynn_Tully_motto"
+}

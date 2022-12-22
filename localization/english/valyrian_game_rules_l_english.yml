@@ -1,0 +1,6 @@
+﻿l_english: 
+ rule_val_alt_world:0 "#high England is Westeros mode"
+ setting_val_alt_world_disabled:0 "#high #R Disabled"
+ setting_val_alt_world_disabled_desc:0 "The British Isles will behave normally, drinking tea and such."
+ setting_val_alt_world_enabled:0 "#high #G Enabled"
+ setting_val_alt_world_enabled_desc:0 "Britain will cosplay as Westeros, with 7 kingdoms that are vassals to the Iron Throne."

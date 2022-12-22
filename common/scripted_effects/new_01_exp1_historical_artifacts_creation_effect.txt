@@ -1,0 +1,149 @@
+﻿create_artifact_blackfyre_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = "Blackfyre"
+		description = "Blackfyre was the sword wielded by Aegon the Conqueror which has given legitimacy to the Targaryen kings for centuries."
+		type = sword
+		visuals = blackfyre
+		wealth = scope:wealth
+		quality = scope:quality
+		template = blackfyre_template
+		history = {
+			type = created
+			date = 846.1.1
+			recipient = character:999999999996 #Aegons dad
+			location = province:9661 #Dragonstone
+		}
+		modifier = blackfyre_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	create_artifact = {	
+		name = "Blackfyre"
+		description = "Blackfyre was the sword wielded by Aegon the Conqueror which has given legitimacy to the Targaryen kings for centuries."
+		type = sword
+		visuals = blackfyre
+		wealth = scope:wealth
+		quality = scope:quality
+		template = blackfyre_template
+		history = {
+			type = created
+			date = 846.1.1
+			recipient = character:9988779 #Aegons II
+			location = province:1527 #KL
+		}
+		modifier = blackfyre_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = {
+			name = artifact_succession_title
+			value = title:k_dragonstone
+		}
+		add_artifact_title_history = {
+			target = title:k_dragonstone
+			date = 846.1.1
+		}
+		set_variable = {
+			name = blackfyre
+			value = yes
+		}
+		save_scope_as = epic
+	}
+}
+
+create_artifact_dark_sister = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+
+	set_artifact_rarity_illustrious = yes
+
+	scope:owner = {
+	create_artifact = {
+		name = "Dark Sister"
+		description = "Dark Sister is, together with Blackfyre, one of the two ancestral swords belonging to House Targaryen. During the conquest it was wielded by Aegon's sister-wife Visenya. It would eventually be carried by many renowned Targaryens, such as Daemon the Rogue Prince and Aemon the Dragonknight."
+		type = sword
+		visuals = dark_sister
+		wealth = scope:wealth
+		quality = scope:quality
+		template = dark_sister_template
+		history = {
+			type = created
+			date = 846.1.1
+			recipient = character:999999999996 #Aegons dad
+			location = province:9661 #Dragonstone
+		}
+		modifier = dark_sister_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = {
+			name = artifact_succession_title
+			value = title:k_dragonstone
+		}
+		add_artifact_title_history = {
+			target = title:k_dragonstone
+			date = 846.1.1
+		}
+		set_variable = {
+			name = dark_sister
+			value = yes
+		}
+		save_scope_as = epic
+	}
+}
+
+create_artifact_dragonegg_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = "Dragon egg"
+		description = "Some foul magic has turned it to stone."
+		type = miscellaneous
+		visuals = dragonegg
+		wealth = scope:wealth
+		quality = scope:quality
+		template = dragonegg_template
+		history = {
+			type = created
+			date = 846.1.1
+			recipient = character:999999999999 #Aegon
+			location = province:9661 #Dragonstone
+		}
+		modifier = dragonegg_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = {
+			name = artifact_succession_title
+			value = title:k_dragonstone
+		}
+		add_artifact_title_history = {
+			target = title:k_dragonstone
+			date = 846.1.1
+		}
+		set_variable = {
+			name = dragonegg
+			value = yes
+		}
+		save_scope_as = epic
+	}
+}

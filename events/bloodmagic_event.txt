@@ -1,0 +1,131 @@
+namespace = bloodmagic_decision
+
+bloodmagic_decision.0001 = {
+	type = character_event
+	title = "Research the dark magics"
+	desc = "The magic practiced by the Valyrians was rooted in fire- and bloodmagic. Some learned men have speculated that bloodmages of the Freehold used bloodmagic on wyverns to create the first dragons." 
+	theme = faith
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+
+	option = {
+		name = "Enter the darkness and see who returns."
+		random_list = {
+			13 = {
+				custom_tooltip = {
+					text = "The darkness overwhelms you."
+					trigger_event = bloodmagic_decision.0002
+				}
+				
+			}
+			13 = {
+				custom_tooltip = {
+					text = "A shadow possesses you."
+					trigger_event = bloodmagic_decision.0003
+				}
+			}
+
+			74 = {
+				custom_tooltip = {
+					text = "You withstand the darkness."
+					trigger_event = bloodmagic_decision.0004
+				}
+			}
+		}
+	
+	}
+
+
+
+
+	option = {
+		name = "I am not yet ready to face the darkness."
+
+		remove_decision_cooldown = study_bloodmagic_decision
+	}
+		
+}
+
+bloodmagic_decision.0002 = {
+	type = character_event
+	title = "The darkness overwhelms your mind and you become a lunatic"
+	desc = "As I surrender myself to the shadows, I find myself losing touch with reality and slipping deeper into madness. My thoughts are consumed by confusion and chaos. I am no longer in control of my actions. The shadows seem to have taken hold of me, and I am powerless to resist their pull." 
+	theme = faith
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	option = {
+	name = "For the night is dark and full of terrors."
+	hidden_effect = {
+		clear_traits = yes
+	}
+	add_trait = education_intrigue_4
+	add_trait = lunatic_1
+	add_trait = paranoid
+	add_trait = craven
+	add_trait = wrathful
+	if = {
+		limit = {
+			has_culture = culture:valyrian
+		}
+		add_trait = valyrian_blood
+		add_trait = dragon_rider
+	}
+}
+}
+
+bloodmagic_decision.0003 = {
+	type = character_event
+	title = "You become possessed by a shadow, leading to significant personality changes"
+	desc = "I feel the presence of a shadow, growing inside of me. I feel a sudden surge of power and a change in my personality. I become callous and uncaring, no longer concerned with the feelings or well-being of others. I begin to relish in the power I have over others. It is as if a darkness has taken over my soul, turning me into a shell of my former self." 
+	theme = faith
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+
+	option = {
+	name = "For the night is dark and full of terrors."
+	hidden_effect = {
+		clear_traits = yes
+	}
+	add_trait = education_intrigue_4
+	add_trait = intellect_good_3 
+	add_trait = callous
+	add_trait = possessed_1
+	add_trait = sadistic
+	add_trait = callous 
+	add_trait = cynical
+	add_trait = deceitful
+	add_trait = vengeful
+	if = {
+		limit = {
+			has_culture = culture:valyrian
+		}
+		add_trait = valyrian_blood
+		add_trait = dragon_rider
+	}
+}
+}
+
+bloodmagic_decision.0004 = {
+	type = character_event
+	title = "You learn the secrets of the shadows"
+	desc = "I have learned to bind shadows and have them do my bidding. It is a powerful tool to destroy my enemies. But it comes with at a heavy price, only death can pay for life." 
+	theme = faith
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	option = {
+	name = "For the night is dark and full of terrors."
+	add_trait = shadowbinder
+	}
+}

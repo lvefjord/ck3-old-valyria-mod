@@ -1,0 +1,123 @@
+﻿
+l_english:
+
+ # Common Valyrian loc
+ valyrian_religion:0 "Valyrian"
+ valyrian_religion_adj:0 "Valyrian"
+ valyrain_religion_adherent:0 "Valyrians"
+ valyrian_religion_adherent_plural:0 "Valyrians"
+ valyrian_religion_desc:0 "The Valyrians worship the dragons of Old Valyria."
+ 
+ 
+ valyrian_high_god_name:0 "Balerion"
+ valyrian_high_god_name_2:0 "$valyrian_high_god_name$" # Optional translation alt
+ valyrian_high_god_name_3:0 "$valyrian_high_god_name$" # Optional translation alt
+ valyrian_high_god_name_possessive:0 "Balerion's"
+ valyrian_high_god_name_alternate:0 "Balerion"
+ valyrian_high_god_name_alternate_possessive:0 "Balerion's"
+ valyrian_good_god_jesus:0 "$valyrian_health_god_name$"
+ valyrian_good_god_christ:0 "$valyrian_health_god_name$"
+ valyrian_devil_name:0 "Meraxes"
+ valyrian_devil_name_possessive:0 "Meraxes'"
+ valyrian_evil_god_lucifer:0 "Arrax"
+ valyrian_evil_god_beelzebub:0 "Caraxes"
+ valyrian_evil_god_mephistopheles:0 "Morghul"
+ valyrian_death_deity_name:0 "Vhagar"
+ valyrian_death_deity_name_possessive:0 "Vhagar's"
+ valyrian_house_of_worship:0 "temple"
+ valyrian_house_of_worship_2:0 "$valyrian_house_of_worship$" # Optional translation alt
+ valyrian_house_of_worship_3:0 "$valyrian_house_of_worship$" # Optional translation alt
+ valyrian_house_of_worship_plural:0 "temples"
+ valyrian_religious_symbol:0 "fourteen flames"
+ valyrian_religious_symbol_2:0 "$valyrian_religious_symbol$" # Optional translation alt
+ valyrian_religious_symbol_3:0 "$valyrian_religious_symbol$" # Optional translation alt
+ valyrian_religious_text:0 "fires"
+ valyrian_religious_text_2:0 "$valyrian_religious_text$" # Optional translation alt
+ valyrian_religious_text_3:0 "$valyrian_religious_text$" # Optional translation alt
+ valyrian_religious_head_title:0 "Dragon Priest"
+ valyrian_religious_head_title_name:0 "The Eternal Flame"
+ valyrian_devotee_male:0 "dragon keeper"
+ valyrian_devotee_male_plural:0 "dragon keepers"
+ valyrian_devotee_female:0 "dragon keeper"
+ valyrian_devotee_female_plural:0 "dragon keepers"
+ valyrian_devotee_neuter:0 "dragon keeper"
+ valyrian_devotee_neuter_plural:0 "dragon keepers"
+ valyrian_priest_male:0 "priest"
+ valyrian_priest_male_plural:0 "priests"
+ valyrian_priest_alternate_plural:0 "priests"
+ valyrian_bishop:0 "high priest"
+ valyrian_bishop_plural:0 "high priests"
+ valyrian_positive_afterlife:0 "eternal flame"
+ valyrian_positive_afterlife_2:1 "paradise" # Optional translation alt
+ valyrian_positive_afterlife_3:1 "$valyrian_high_god_name_possessive$ Flames" # Optional translation alt
+ valyrian_negative_afterlife:0 "the dark"
+ valyrian_negative_afterlife_2:1 "the dark" # Optional translation alt
+ valyrian_negative_afterlife_3:1 "Nopāzma" # Optional translation alt
+ valyrian_witchgodname_the_horned_god:0 "the Black Dread"
+ valyrian_witchgodname_the_horned_god_possessive:0 "the Black Dread's"
+
+ valyrian_creator_god_name:0 "$valyrian_high_god_name$"
+ valyrian_creator_god_name_possessive:0 "$valyrian_high_god_name_possessive$"
+ valyrian_health_god_name:0 "Balerion"
+ valyrian_health_god_name_possessive:0 "Balerion's'"
+ valyrian_fertility_god_name:0 "$valyrian_high_god_name$"
+ valyrian_fertility_god_name_possessive:0 "$valyrian_high_god_name_possessive$"
+ valyrian_wealth_god_name:0 "$valyrian_high_god_name$"
+ valyrian_wealth_god_name_possessive:0 "$valyrian_high_god_name_possessive$"
+ valyrian_household_god_name:0 "$valyrian_health_god_name$"
+ valyrian_household_god_name_possessive:0 "$valyrian_health_god_name_possessive$"
+ valyrian_fate_god_name:0 "$valyrian_high_god_name$"
+ valyrian_fate_god_name_possessive:0 "$valyrian_high_god_name_possessive$"
+ valyrian_knowledge_god_name:0 "$valyrian_high_god_name$"
+ valyrian_knowledge_god_name_possessive:0 "$valyrian_high_god_name_possessive$"
+ valyrian_war_god_name:0 "$valyrian_high_god_name$"
+ valyrian_war_god_name_possessive:0 "$valyrian_high_god_name_possessive$"
+ valyrian_trickster_god_name:0 "Vermithor"
+ valyrian_trickster_god_name_possessive:0 "Vermithor's"
+ valyrian_night_god_name:0 "$valyrian_high_god_name$"
+ valyrian_night_god_name_possessive:0 "$valyrian_high_god_name_possessive$"
+ valyrian_water_god_name:0 "$valyrian_health_god_name$"
+ valyrian_water_god_name_possessive:0 "$valyrian_health_god_name_possessive$"
+ 
+ # Valyrian-group faiths
+ 
+ valyrian:0 "Valyrian"
+ valyrian_adj:0 "Valyrian"
+ valyrian_adherent:0 "Valyrians"
+ valyrian_adherent_plural:0 "Valyrians"
+ valyrian_desc:0 "The Valyrians worship the dragons of Old Valyria."
+ 
+ valyrian_old:0 "Ancient Valyrian"
+ valyrian_old_adj:0 "Ancient Valyrian"
+ valyrian_old_adherent:0 "Ancient Valyrians"
+ valyrian_old_adherent_plural:0 "Ancient Valyrians"
+ valyrian_old_desc:0 "The dragon that does not adapt gets left behind."
+ 
+ #Holy Sites: Valyrian
+ 
+ holy_site_mount_etna_name:0 "Mount Etna"
+ holy_site_mount_etna_effect_name:0 "From [holy_site|E] #weak ($holy_site_mount_etna_name$)#!"
+ 
+ holy_site_puy_de_dome_name:0 "Puy de Dôme"
+ holy_site_puy_de_dome_effect_name:0 "From [holy_site|E] #weak ($holy_site_Puy de Dôme_name$)#!"
+ 
+ holy_site_monte_amiata_name:0 "Monte Amiata"
+ holy_site_monte_amiata_effect_name:0 "From [holy_site|E] #weak ($holy_site_monte_amiata_name$)#!"
+ 
+ holy_site_ciomadul_name:0 "Ciomadul"
+ holy_site_ciomadul_effect_name:0 "From [holy_site|E] #weak ($holy_site_ciomadul_name$)#!"
+ 
+ holy_site_volcanic_eifel_name:0 "Volcanic Eifel"
+ holy_site_volcanic_eifel_effect_name:0 "From [holy_site|E] #weak ($holy_site_volcanic_eifel_name$)#!"
+ 
+ holy_site_dragonstone_name:0 "Dragonstone"
+ holy_site_dragonstone_effect_name:0 "From [holy_site|E] #weak ($holy_site_dragonstone_name$)#!"
+ 
+ holy_site_kings_landing_name:0 "King's Landing"
+ holy_site_kings_landing_effect_name:0 "From [holy_site|E] #weak ($holy_site_kings_landing_name$)#!"
+ 
+ holy_site_volcano_of_man_name:0 "Volcano of Man"
+ holy_site_volcano_of_man_effect_name:0 "From [holy_site|E] #weak ($holy_site_volcano_of_man_name$)#!"
+
+ doctrine_valyrian_polygamy_name:0 "Valyrian Polygamy"
+ doctrine_valyrian_polygamy_desc:0 "Valyrians sometimes take two wives to ensure that the bloodline lives on."

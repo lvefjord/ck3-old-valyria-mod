@@ -1,0 +1,94 @@
+house_targaryen = {
+	prefix = "dynnp_of"
+	name = "dynn_Targaryen"
+	culture = "valyrian"
+	motto = "dynn_Targaryen_motto"
+	dynasty = 91114881997
+}
+
+house_velaryon = {
+	prefix = "dynnp_of"
+	name = "dynn_Velaryon"
+	culture = "valyrian"
+	motto = "dynn_Velaryon_motto"
+	dynasty = 91114881996
+}
+
+house_celtigar = {
+	prefix = "dynnp_of"
+	name = "dynn_Celtigar"
+	culture = "valyrian"
+	motto = "dynn_Celtigar_motto"
+	dynasty = 91114881995
+}
+
+house_baratheon = {
+	prefix = "dynnp_of"
+	name = "dynn_Baratheon"
+	culture = "valyrian"
+	motto = "dynn_Baratheon_motto"
+	dynasty = 91114881994
+}
+
+house_massey = {
+	prefix = "dynnp_of"
+	name = "dynn_Massey"
+	culture = "crownlander"
+	dynasty = 91114881993
+}
+
+house_qoherys = {
+	prefix = "dynnp_of"
+	name = "dynn_Qoherys"
+	culture = "valyrian"
+	dynasty = 91114881992
+}
+
+house_bar_emmon = {
+	prefix = "dynnp_of"
+	name = "dynn_Bar_Emmon"
+	culture = "crownlander"
+	dynasty = 91114881991
+}
+
+house_arryn = {
+	prefix = "dynnp_of"
+	name = "dynn_Arryn"
+	culture = "valeman"
+	dynasty = 91114881990
+}
+
+house_lannister = {
+	prefix = "dynnp_of"
+	name = "dynn_Lannister"
+	culture = "westerman"
+	dynasty = 91114881989
+}
+
+house_stark = {
+	prefix = "dynnp_of"
+	name = "dynn_Stark"
+	culture = "northmen"
+	dynasty = 91114881988
+}
+
+house_martell = {
+	prefix = "dynnp_of"
+	name = "dynn_Martell"
+	culture = "dornish"
+	dynasty = 91114881987
+}
+
+house_tyrell = {
+	prefix = "dynnp_of"
+	name = "dynn_Tyrell"
+	culture = "reachman"
+	dynasty = 91114881986
+}
+
+house_tully = {
+	prefix = "dynnp_of"
+	name = "dynn_Tully"
+	culture = "crownlander"
+	dynasty = 91114881985
+}

@@ -1,0 +1,195 @@
+lord_valyrian_male = {
+    type = character
+    text = {
+        trigger = {
+            has_title = title:c_driftmark 
+        }
+            localization_key = lord_of_the_tides 
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_stormlands 
+        }
+            localization_key = storm_lord 
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_westerlands 
+        }
+            localization_key = warden_west 
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_north 
+        }
+            localization_key = warden_north
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_vale 
+        }
+            localization_key = warden_east
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_riverlands 
+        }
+            localization_key = lord_trident 
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_reach 
+        }
+            localization_key = warden_south 
+    }
+    text = {
+        trigger = {
+            has_title = title:k_dorne 
+        }
+            localization_key = dorne_prince 
+    }
+
+
+
+
+
+
+	text = {
+		fallback = yes 
+        localization_key = val_lord_male
+    }
+}
+
+lord_valyrian_female = {
+    type = character
+    text = {
+        trigger = {
+            has_title = title:c_driftmark 
+        }
+            localization_key = lord_of_the_tides 
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_stormlands 
+        }
+            localization_key = storm_lord 
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_westerlands 
+        }
+            localization_key = warden_west 
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_north 
+        }
+            localization_key = warden_north
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_vale 
+        }
+            localization_key = warden_east
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_riverlands 
+        }
+            localization_key = lord_trident 
+    }
+    text = {
+        trigger = {
+            has_title = title:k_the_reach 
+        }
+            localization_key = warden_south 
+    }
+    text = {
+        trigger = {
+            has_title = title:k_dorne 
+        }
+            localization_key = dorne_prince 
+    }
+
+
+
+
+
+
+	text = {
+		fallback = yes 
+        localization_key = val_lord_female
+    }
+}
+
+lord_valyrian_male_c = {
+    type = character
+    text = {
+        trigger = {
+            has_title = title:c_driftmark 
+        }
+            localization_key = lord_of_the_tides 
+    }
+    text = {
+		fallback = yes 
+        localization_key = val_lord_female
+    }
+}
+
+lord_valyrian_female_c = {
+    type = character
+    text = {
+        trigger = {
+            has_title = title:c_driftmark 
+        }
+            localization_key = lord_of_the_tides 
+    }
+    text = {
+		fallback = yes 
+        localization_key = val_lord_female
+    }
+}
+
+
+
+CouncilPosition = {
+	type = character
+
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+		}
+		fallback = yes
+		localization_key = councillor_chancellor
+	}
+
+	text = {
+		trigger = {
+			has_council_position = councillor_marshal
+		}
+		localization_key = councillor_marshal
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_steward
+		}
+		localization_key = councillor_steward
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_spymaster
+		}
+		localization_key = councillor_spymaster
+	}
+
+	text = {
+		trigger = {
+			has_council_position = councillor_court_chaplain
+		}
+		localization_key = councillor_court_chaplain
+	}
+}

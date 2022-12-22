@@ -1,0 +1,71 @@
+valyrian_supremacy_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_supremacy.dds"
+	major = yes
+	is_shown = {
+		NOT = {is_target_in_global_variable_list = {
+			name = no_val_cult
+			target = flag:val_cult
+}
+}
+	always = no
+	}
+	
+	effect = { 
+	#######
+	set_global_variable = { name = char_culture value = root.culture }
+	title:k_dorne.holder = {
+		every_realm_county = { set_county_culture = global_var:char_culture }
+	}
+	title:k_the_north.holder = {
+		every_realm_county = { set_county_culture = global_var:char_culture }
+	}
+	title:k_the_reach.holder = {
+		every_realm_county = { set_county_culture = global_var:char_culture }
+	}
+	title:k_the_riverlands.holder = {
+		every_realm_county = { set_county_culture = global_var:char_culture }
+	}
+	title:k_the_stormlands.holder = {
+		every_realm_county = { set_county_culture = global_var:char_culture }
+	}
+	title:k_the_vale.holder = {
+		every_realm_county = { set_county_culture = global_var:char_culture }
+	}
+	title:e_the_iron_throne.holder = {
+		every_realm_county = { set_county_culture = global_var:char_culture }
+	}
+	
+	#######
+
+
+	set_global_variable = { name = char_faith value = root.faith }
+	title:k_dorne.holder = {
+		every_realm_county = { set_county_faith = global_var:char_faith }
+	}
+	title:k_the_north.holder = {
+		every_realm_county = { set_county_faith = global_var:char_faith }
+	}
+	title:k_the_reach.holder = {
+		every_realm_county = { set_county_faith = global_var:char_faith }
+	}
+	title:k_the_riverlands.holder = {
+		every_realm_county = { set_county_faith = global_var:char_faith }
+	}
+	title:k_the_stormlands.holder = {
+		every_realm_county = { set_county_faith = global_var:char_faith }
+	}
+	title:k_the_vale.holder = {
+		every_realm_county = { set_county_faith = global_var:char_faith }
+	}
+	title:e_the_iron_throne.holder = {
+		every_realm_county = { set_county_faith = global_var:char_faith }
+	}
+
+	add_to_global_variable_list = {
+		name = no_val_cult
+		target = flag:val_cult
+	}
+
+
+	}
+}

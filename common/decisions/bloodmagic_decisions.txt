@@ -1,0 +1,36 @@
+study_bloodmagic_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_bloodmagic.dds"
+
+	desc = study_bloodmagic_decision_desc
+	selection_tooltip = study_bloodmagic_decision_tooltip
+	sort_order = 200
+	is_shown = {
+		holds_landed_title = yes
+		NOT = {has_trait = shadowbinder}
+		faith = {
+			has_doctrine_parameter = bloodmagic_mechanics_active
+		}
+	}
+
+	is_valid = {
+		faith = {
+			has_doctrine_parameter = bloodmagic_mechanics_active
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = study_bloodmagic_tooltip
+		trigger_event = bloodmagic_decision.0001
+	}
+
+	cooldown = { months = 48 }
+
+
+	ai_will_do = {
+		base = 0
+	}
+}

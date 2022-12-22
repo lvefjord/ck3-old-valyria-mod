@@ -1,0 +1,267 @@
+#129 AC = 1066
+
+#Viserys I / Dad
+9988771 = {
+	name = "Viserys"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	trait = leper
+	trait = content
+	trait = compassionate
+	trait = disfigured
+	trait = education_learning_4
+	1014.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		add_spouse = 9988772
+	}
+	1065.12.12 = {
+		death = yes
+	}
+}
+
+
+
+#Aemma / Mom
+9988772 = {
+	name = "Aemma"
+	female = yes
+	dynasty = 91114881990 
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = valyrian_blood
+	trait = beauty_good_3
+	trait = education_diplomacy_4
+	trait = compassionate
+	1019.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		add_spouse = 9988771
+	}
+	1042.1.1 = {
+		death = yes
+	}
+
+}
+
+
+
+
+#Rhaenyra / Whore
+9988773 = {
+	name = "Rhaenyra"
+	religion = "valyrian"
+	culture = "valyrian"
+	female = yes
+	dna = 1997123456_visenya
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_headgear=female_headgear_religious_northern_high_01
+			custom_hair=female_hair_fp2_iberian_muslim_03_common
+			custom_clothes=female_clothes_secular_indian_war_nobility_01_low
+		}
+	}
+	dynasty = 91114881997
+	trait = dragon_rider
+	trait = valyrian_blood
+	trait = gregarious
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = vengeful
+	trait = education_diplomacy_4
+	trait = beauty_good_3
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	diplomacy = 14
+	intrigue = 10
+	martial = 11
+	stewardship = 13
+	mother = 9988772
+	father = 9988771
+	1034.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		add_spouse = 9988774
+	}
+}
+
+
+
+#Daemon rogue prince
+9988774 = {
+	name = "Daemon"
+	dna = 1997123456_aegonconq
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_clothes=male_clothes_secular_indian_war_nobility_01_low
+			custom_hair=male_hair_western_07
+			custom_beards=male_empty
+			custom_headgear=male_empty
+		}
+	}
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	martial = 16
+	diplomacy = 7
+	intrigue = 12
+	stewardship = 6
+	trait = education_martial_4
+	trait = dragon_rider
+	trait = arrogant
+	trait = wrathful
+	trait = ambitious
+	trait = impatient
+	trait = valyrian_blood
+	give_nickname = nick_rogue
+	trait = intellect_good_1
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	1018.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		add_spouse = 9988774
+	}
+}
+
+
+
+
+#Corlys / Driftmark
+9988775 = {
+	name = "Corlys"
+	dna = 1997123456_velaryon
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_northern_01
+			custom_beards=male_beard_western_01
+		}
+	}
+	dynasty = 91114881996
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = valyrian_blood
+	trait = ambitious
+	trait = intellect_good_1
+	trait = stubborn
+	trait = education_diplomacy_4
+	give_nickname = nick_seasnake
+	trait = adventurer
+	stewardship = 11
+	diplomacy = 13
+	martial = 12
+	intrigue = 8
+	1010.1.1 = {
+		birth = yes
+	}
+	1027.1.1 = {
+		add_spouse = 9988778
+	}
+	1066.1.1 = {
+		give_council_position = councillor_chancellor
+	}
+}
+
+
+#Bartimos Celtigar / Claw Isle 
+9988776 = {
+	name = "Bartimos"
+	dynasty = 91114881995
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = valyrian_blood
+	trait = patient
+	trait = intellect_good_3
+	trait = education_stewardship_4
+	trait = avaricious
+	trait = administrator
+	trait = honest
+	stewardship = 15
+	diplomacy = 9
+	martial = 6
+	intrigue = 4
+	989.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 9988773
+		give_council_position = councillor_steward
+	}
+}
+
+#Mysaria
+9988777 = {
+	name = "Mysaria"
+	religion = "valyrian"
+	culture = "valyrian"
+	female = yes
+	trait = education_intrigue_4
+	trait = deceitful
+	trait = cynical
+	trait = ambitious
+	trait = shrewd
+	give_nickname = nick_worm
+	trait = schemer
+	intrigue = 17
+	diplomacy = 12
+	stewardship = 11
+	martial = 5
+	1036.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 9988773
+		give_council_position = councillor_spymaster
+	}
+}
+
+#Rhaenys
+9988778 = {
+	name = "Rhaenys"
+	dynasty = 91114881997
+	female = yes
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = shrewd
+	trait = diligent
+	trait = brave
+	trait = arrogant
+	trait = education_martial_4
+	1011.1.1 = {
+		birth = yes
+	}
+	1027.1.1 = {
+		add_spouse = 9988775
+	}
+}
+
+9988779 = {
+	name = "Aegon"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	martial = 16
+	diplomacy = 7
+	intrigue = 12
+	stewardship = 6
+	trait = education_martial_4
+	trait = dragon_rider
+	trait = arrogant
+	trait = wrathful
+	trait = ambitious
+	trait = impatient
+	trait = valyrian_blood
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	1044.1.1 = {
+		birth = yes
+	}
+}

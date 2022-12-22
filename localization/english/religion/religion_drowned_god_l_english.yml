@@ -1,0 +1,121 @@
+﻿
+l_english:
+
+ # Common Drowned God loc
+ drowned_god_religion:0 "Drowned God"
+ drowned_god_religion_adj:0 "Drowned God"
+ drowned_god_religion_adherent:0 "Drowned Gods"
+ drowned_god_religion_adherent_plural:0 "Drowned Gods"
+ drowned_god_religion_desc:0 "What is dead may never die."
+ 
+ 
+ drowned_god_high_god_name:0 "Drowned God"
+ drowned_god_high_god_name_2:0 "$drowned_god_high_god_name$" # Optional translation alt
+ drowned_god_high_god_name_3:0 "$drowned_god_high_god_name$" # Optional translation alt
+ drowned_god_high_god_name_possessive:0 "Drowned God's"
+ drowned_god_high_god_name_alternate:0 "Drowned God"
+ drowned_god_high_god_name_alternate_possessive:0 "Drowned God's"
+ drowned_god_good_god_jesus:0 "$drowned_god_health_god_name$"
+ drowned_god_good_god_christ:0 "$drowned_god_health_god_name$"
+ drowned_god_devil_name:0 "Storm God"
+ drowned_god_devil_name_possessive:0 "Storm God'"
+ drowned_god_evil_god_lucifer:0 "Storm God"
+ drowned_god_evil_god_beelzebub:0 "Storm God"
+ drowned_god_evil_god_mephistopheles:0 "Storm God"
+ drowned_god_death_deity_name:0 "Storm God"
+ drowned_god_death_deity_name_possessive:0 "Storm God's"
+ drowned_god_house_of_worship:0 "Salt"
+ drowned_god_house_of_worship_2:0 "$drowned_god_house_of_worship$" # Optional translation alt
+ drowned_god_house_of_worship_3:0 "$drowned_god_house_of_worship$" # Optional translation alt
+ drowned_god_house_of_worship_plural:0 "Salts"
+ drowned_god_religious_symbol:0 "Drowning"
+ drowned_god_religious_symbol_2:0 "$drowned_god_religious_symbol$" # Optional translation alt
+ drowned_god_religious_symbol_3:0 "$drowned_god_religious_symbol$" # Optional translation alt
+ drowned_god_religious_text:0 "Waves"
+ drowned_god_religious_text_2:0 "$drowned_god_religious_text$" # Optional translation alt
+ drowned_god_religious_text_3:0 "$drowned_god_religious_text$" # Optional translation alt
+ drowned_god_religious_head_title:0 "Drowned Prophet"
+ drowned_god_religious_head_title_name:0 "Drowned Prophet"
+ drowned_god_devotee_male:0 "Priest of the Drowned God"
+ drowned_god_devotee_male_plural:0 "Priests of the Drowned God"
+ drowned_god_devotee_female:0 "Priest of the Drowned God"
+ drowned_god_devotee_female_plural:0 "Priests of the Drowned God"
+ drowned_god_devotee_neuter:0 "Priest of the Drowned God"
+ drowned_god_devotee_neuter_plural:0 "Priests of the Drowned God"
+ drowned_god_priest_male:0 "Priest of the Drowned God"
+ drowned_god_priest_male_plural:0 "Priests of the Drowned God"
+ drowned_god_priest_alternate_plural:0 "Priests of the Drowned God"
+ drowned_god_bishop:0 "Priest of the Drowned God"
+ drowned_god_bishop_plural:0 "Priests of the Drowned God"
+ drowned_god_positive_afterlife:0 "Salty Sea"
+ drowned_god_positive_afterlife_2:1 "Paradise" # Optional translation alt
+ drowned_god_positive_afterlife_3:1 "$drowned_god_high_god_name_possessive$ Flames" # Optional translation alt
+ drowned_god_negative_afterlife:0 "The Dirt"
+ drowned_god_negative_afterlife_2:1 "The Dirt" # Optional translation alt
+ drowned_god_negative_afterlife_3:1 "Nopāzma" # Optional translation alt
+ drowned_god_witchgodname_the_horned_god:0 "The Storm God"
+ drowned_god_witchgodname_the_horned_god_possessive:0 "The Storm God's"
+
+ drowned_god_creator_god_name:0 "$drowned_god_high_god_name$"
+ drowned_god_creator_god_name_possessive:0 "$drowned_god_high_god_name_possessive$"
+ drowned_god_health_god_name:0 "Drowned God"
+ drowned_god_health_god_name_possessive:0 "Drowned God's'"
+ drowned_god_fertility_god_name:0 "$drowned_god_high_god_name$"
+ drowned_god_fertility_god_name_possessive:0 "$drowned_god_high_god_name_possessive$"
+ drowned_god_wealth_god_name:0 "$drowned_god_high_god_name$"
+ drowned_god_wealth_god_name_possessive:0 "$drowned_god_high_god_name_possessive$"
+ drowned_god_household_god_name:0 "$drowned_god_health_god_name$"
+ drowned_god_household_god_name_possessive:0 "$drowned_god_health_god_name_possessive$"
+ drowned_god_fate_god_name:0 "$drowned_god_high_god_name$"
+ drowned_god_fate_god_name_possessive:0 "$drowned_god_high_god_name_possessive$"
+ drowned_god_knowledge_god_name:0 "$drowned_god_high_god_name$"
+ drowned_god_knowledge_god_name_possessive:0 "$drowned_god_high_god_name_possessive$"
+ drowned_god_war_god_name:0 "$drowned_god_high_god_name$"
+ drowned_god_war_god_name_possessive:0 "$drowned_god_high_god_name_possessive$"
+ drowned_god_trickster_god_name:0 "Vermithor"
+ drowned_god_trickster_god_name_possessive:0 "Vermithor's"
+ drowned_god_night_god_name:0 "$drowned_god_high_god_name$"
+ drowned_god_night_god_name_possessive:0 "$drowned_god_high_god_name_possessive$"
+ drowned_god_water_god_name:0 "$drowned_god_health_god_name$"
+ drowned_god_water_god_name_possessive:0 "$drowned_god_health_god_name_possessive$"
+ 
+ # Drowned God-group faiths
+ 
+ drowned_god:0 "Drowned God"
+ drowned_god_adj:0 "Drowned God"
+ drowned_god_adherent:0 "Drowned God"
+ drowned_god_adherent_plural:0 "Drowned God"
+ drowned_god_desc:0 "the Drowned Men worship He Who Dwells Beneath the Waves"
+ 
+ drowned_god_old:0 "Ancient Drowned God"
+ drowned_god_old_adj:0 "Ancient Drowned God"
+ drowned_god_old_adherent:0 "Ancient Drowned God"
+ drowned_god_old_adherent_plural:0 "Ancient Drowned God"
+ drowned_god_old_desc:0 "What is dead may never die."
+ 
+ #Holy Sites: Drowned God
+ 
+ holy_site_mount_etna_name:0 "Mount Etna"
+ holy_site_mount_etna_effect_name:0 "From [holy_site|E] #weak ($holy_site_mount_etna_name$)#!"
+ 
+ holy_site_puy_de_dome_name:0 "Puy de Dôme"
+ holy_site_puy_de_dome_effect_name:0 "From [holy_site|E] #weak ($holy_site_Puy de Dôme_name$)#!"
+ 
+ holy_site_monte_amiata_name:0 "Monte Amiata"
+ holy_site_monte_amiata_effect_name:0 "From [holy_site|E] #weak ($holy_site_monte_amiata_name$)#!"
+ 
+ holy_site_ciomadul_name:0 "Ciomadul"
+ holy_site_ciomadul_effect_name:0 "From [holy_site|E] #weak ($holy_site_ciomadul_name$)#!"
+ 
+ holy_site_volcanic_eifel_name:0 "Volcanic Eifel"
+ holy_site_volcanic_eifel_effect_name:0 "From [holy_site|E] #weak ($holy_site_volcanic_eifel_name$)#!"
+ 
+ holy_site_dragonstone_name:0 "Dragonstone"
+ holy_site_dragonstone_effect_name:0 "From [holy_site|E] #weak ($holy_site_dragonstone_name$)#!"
+ 
+ holy_site_kings_landing_name:0 "King's Landing"
+ holy_site_kings_landing_effect_name:0 "From [holy_site|E] #weak ($holy_site_kings_landing_name$)#!"
+ 
+ holy_site_volcano_of_man_name:0 "Volcano of Man"
+ holy_site_volcano_of_man_effect_name:0 "From [holy_site|E] #weak ($holy_site_volcano_of_man_name$)#!"
+

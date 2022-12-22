@@ -1,0 +1,30 @@
+﻿l_english:
+ heritage_generic_label_desc:0 "Each [heritage|E] defines a common origin for related [cultures|E]' customs and mannerisms, either as something they descend from or have wholesale adopted."
+ heritage_valyrian_name:0 "Valyrian"
+ heritage_valyrian_collective_noun:0 "Valyrians"
+ 
+ heritage_ironborn_name:0 "Ironborn"
+ heritage_ironborn_collective_noun:0 "Ironborn"
+ 
+ heritage_dornish_name:0 "Dornish"
+ heritage_dornish_collective_noun:0 "Dornish"
+ 
+ heritage_northmen_name:0 "Northmen"
+ heritage_northmen_collective_noun:0 "Northmen"
+ 
+ heritage_stormlander_name:0 "Stormlander"
+ heritage_stormlander_collective_noun:0 "Stormlanders"
+ 
+ heritage_reachman_name:0 "Reachman"
+ heritage_reachman_collective_noun:0 "Reachmen"
+
+ heritage_westerman_name:0 "Westerman"
+ heritage_westerman_collective_noun:0 "Westermen"
+ 
+ heritage_valeman_name:0 "Valeman"
+ heritage_valeman_collective_noun:0 "Valemen"
+ 
+ heritage_crownlander_name:0 "Riverlander"
+ heritage_crownlander_collective_noun:0 "Riverlanders"
+ 
+

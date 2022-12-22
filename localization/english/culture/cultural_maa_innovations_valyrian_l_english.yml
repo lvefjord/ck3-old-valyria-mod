@@ -1,0 +1,11 @@
+﻿l_english:
+
+ # Tribal Era
+ culture_parameter_unlock_maa_dragon:0 "Can recruit their [GetMaA('dragon').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_dragonkeepers:0 "Can recruit powerful [GetMaA('dragonkeepers').GetName] as [men_at_arms|E]"
+
+ #Military
+ innovation_dragons:0 "Dragons"
+ innovation_dragons_desc:0 "Fire made flesh, our dragons can break any siege with their demoralizing and penentrating fire."
+ innovation_dragonkeepers:0 "Dragonkeepers"
+ innovation_dragonkeepers_desc:0 "Keeper of the dragons."

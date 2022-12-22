@@ -1,0 +1,27 @@
+dragon_rider = {
+	martial = 2
+	prowess_no_portrait = 20
+	
+	dread_gain_mult = 0.30
+	dread_baseline_add = 40
+	
+	monthly_prestige = 1
+	
+	movement_speed = 0.25
+	
+	vassal_opinion = -10
+	
+	attacker_advantage = 10
+	
+	##
+	
+	inherit_chance = 80
+	shown_in_ruler_designer = yes
+	
+	
+	
+	icon = dragonrider.dds
+	#first_valid = {
+	#	desc = "gfx/interface/icons/traits/dragonrider.dds"
+	
+}

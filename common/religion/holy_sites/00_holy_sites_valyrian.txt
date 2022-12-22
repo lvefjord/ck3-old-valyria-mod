@@ -1,0 +1,67 @@
+# Valyrian
+#####
+
+mount_etna = {
+	county = c_messina
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+puy_de_dome = {
+	county = c_auvergne
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+monte_amiata = {
+	county = c_siena 
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+ciomadul = {
+	county = c_barcasag 
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+volcanic_eifel = {
+	county = c_cologne
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+dragonstone = {
+	county = c_dragonstone
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+volcano_of_man = {
+	county = c_isle_of_man
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+kings_landing = {
+	county = c_middlesex
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+

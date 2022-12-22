@@ -1,0 +1,250 @@
+
+k_dragonstone = {
+	867.1.1 = { 
+		change_development_level = 8 
+		holder = 999999999999
+		government = feudal_government
+		succession_laws = {
+			equal_law	#Clearly established his female heirs as valid.
+		}
+	}
+	1066.1.1 = {
+		holder = 9988773
+	}
+}
+
+d_dragonstone = {
+	867.1.1 = { 
+		government = feudal_government
+		change_development_level = 6 
+		holder = 999999999999
+	}
+	1066.1.1 = {
+		holder = 9988773
+	}
+ }
+ 
+ c_dragonstone = {
+	867.1.1 = {
+		holder = 999999999999
+		change_development_level = 25
+	}
+	1066.1.1 = {
+		holder = 9988773
+	}
+}
+
+c_driftmark = {
+	867.1.1 = { 
+		government = feudal_government	
+		change_development_level = 10
+		holder = 999999999994
+		liege = "d_dragonstone"
+	}
+	1066.1.1 = {
+		holder = 9988775
+	}
+ }
+ 
+ c_claw_isle = {
+	867.1.1 = { 
+		government = feudal_government	
+		change_development_level = 6 
+		holder = 999999999989
+		liege = "d_dragonstone"
+	}
+	1066.1.1 = {
+		holder = 9988776
+	}
+ }
+
+ 	
+	c_carmarthenshire = {
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	}
+
+	c_middlesex = {
+		1066.1.1 = {
+			effect = {
+				if = {
+					limit = {
+						has_game_rule = val_alt_world_enabled
+					}
+					change_development_level = 35
+					}
+				}
+			}
+		867.1.1 = {
+			effect = {
+				if = {
+					limit = {
+						has_game_rule = val_alt_world_enabled
+					}
+					change_development_level = 35
+					}
+				}
+			}
+		}
+	
+
+	c_kent = {
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	}
+
+	c_gloucestershire = {
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	}
+
+	c_lincolnshire = {
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	}
+
+	c_gowrie = {
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	}
+
+	c_staffordshire = {
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	}
+
+	c_suffolk = {
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = val_alt_world_enabled
+				}
+				change_development_level = 35
+				}
+			}
+		}
+	}
+
+
+
+
+

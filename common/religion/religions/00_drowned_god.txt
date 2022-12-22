@@ -1,0 +1,236 @@
+﻿drowned_god_religion = {
+	family = rf_first_men
+
+	doctrine = christian_hostility_doctrine
+
+
+	#Main Group
+	doctrine = doctrine_spiritual_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_lay_clergy
+
+	#Marriage
+	doctrine = doctrine_polygamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_unrestricted
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_shunned
+	doctrine = doctrine_deviancy_accepted
+	doctrine = doctrine_witchcraft_accepted	
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	traits = {
+		virtues = { brave ambitious arrogant }
+		sins = { craven arbitrary humble }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+	
+
+	localization = {
+		#HighGod
+		HighGodName = drowned_god_high_god_name
+		HighGodName2 = drowned_god_high_god_name_2
+		HighGodNamePossessive = drowned_god_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = drowned_god_high_god_name_alternate
+		HighGodNameAlternatePossessive = drowned_god_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = drowned_god_creator_god_name
+		CreatorNamePossessive = drowned_god_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = drowned_god_health_god_name
+		HealthGodNamePossessive = drowned_god_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#FertilityGod
+		FertilityGodName = drowned_god_fertility_god_name
+		FertilityGodNamePossessive = drowned_god_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_HE
+		FertilityGodHerHis = CHARACTER_HERHIS_HIS
+		FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WealthGod
+		WealthGodName = drowned_god_wealth_god_name
+		WealthGodNamePossessive = drowned_god_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = drowned_god_household_god_name
+		HouseholdGodNamePossessive = drowned_god_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FateGod
+		FateGodName = drowned_god_fate_god_name
+		FateGodNamePossessive = drowned_god_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerHim = CHARACTER_HERHIM_HIM
+
+		#KnowledgeGod
+		KnowledgeGodName = drowned_god_knowledge_god_name
+		KnowledgeGodNamePossessive = drowned_god_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = drowned_god_war_god_name
+		WarGodNamePossessive = drowned_god_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = drowned_god_trickster_god_name
+		TricksterGodNamePossessive = drowned_god_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = drowned_god_night_god_name
+		NightGodNamePossessive = drowned_god_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = drowned_god_water_god_name
+		WaterGodNamePossessive = drowned_god_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+		PantheonTerm = drowned_god_high_god_name
+		PantheonTerm2 = drowned_god_high_god_name_2
+		PantheonTerm3 = drowned_god_high_god_name_3
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			drowned_god_high_god_name
+			drowned_god_high_god_name_alternate
+			chistianity_good_god_jesus
+			chistianity_good_god_christ
+		}
+		DevilName = drowned_god_devil_name
+		DevilNamePossessive = drowned_god_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = {
+			drowned_god_devil_name
+			drowned_god_evil_god_lucifer
+			drowned_god_evil_god_beelzebub
+			drowned_god_evil_god_mephistopheles
+		}
+		HouseOfWorship = drowned_god_house_of_worship
+		HouseOfWorship2 = drowned_god_house_of_worship_2
+		HouseOfWorship3 = drowned_god_house_of_worship_3
+		HouseOfWorshipPlural = drowned_god_house_of_worship_plural
+		ReligiousSymbol = drowned_god_religious_symbol
+		ReligiousSymbol2 = drowned_god_religious_symbol_2
+		ReligiousSymbol3 = drowned_god_religious_symbol_3
+		ReligiousText = drowned_god_religious_text
+		ReligiousText2 = drowned_god_religious_text_2
+		ReligiousText3 = drowned_god_religious_text_3
+		ReligiousHeadName = drowned_god_religious_head_title
+		ReligiousHeadTitleName = drowned_god_religious_head_title_name
+		DevoteeMale = drowned_god_devotee_male
+		DevoteeMalePlural = drowned_god_devotee_male_plural
+		DevoteeFemale = drowned_god_devotee_female
+		DevoteeFemalePlural = drowned_god_devotee_female_plural
+		DevoteeNeuter = drowned_god_devotee_neuter
+		DevoteeNeuterPlural = drowned_god_devotee_neuter_plural
+		PriestMale = drowned_god_priest_male
+		PriestMalePlural = drowned_god_priest_male_plural
+		PriestFemale = drowned_god_priest_male
+		PriestFemalePlural = drowned_god_priest_male_plural
+		PriestNeuter = drowned_god_priest_male
+		PriestNeuterPlural = drowned_god_priest_male_plural
+		AltPriestTermPlural = drowned_god_priest_alternate_plural
+		BishopMale = drowned_god_bishop
+		BishopMalePlural = drowned_god_bishop_plural
+		BishopFemale = drowned_god_bishop
+		BishopFemalePlural = drowned_god_bishop_plural
+		BishopNeuter = drowned_god_bishop
+		BishopNeuterPlural = drowned_god_bishop_plural
+		DivineRealm = drowned_god_positive_afterlife
+		DivineRealm2 = drowned_god_positive_afterlife_2
+		DivineRealm3 = drowned_god_positive_afterlife_3
+		PositiveAfterLife = drowned_god_positive_afterlife
+		PositiveAfterLife2 = drowned_god_positive_afterlife_2
+		PositiveAfterLife3 = drowned_god_positive_afterlife_3
+		NegativeAfterLife = drowned_god_negative_afterlife
+		NegativeAfterLife2 = drowned_god_negative_afterlife_2
+		NegativeAfterLife3 = drowned_god_negative_afterlife_3
+		DeathDeityName = drowned_god_death_deity_name
+		DeathDeityNamePossessive = drowned_god_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = drowned_god_witchgodname_the_horned_god
+		WitchGodNamePossessive = drowned_god_witchgodname_the_horned_god_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+
+
+		GHWName = ghw_crusade
+		GHWNamePlural = ghw_crusades
+	}	
+
+	faiths = {
+		drowned_god = {
+			color = { 63 63 63 }
+			holy_site = mount_etna
+			holy_site = puy_de_dome
+			holy_site = monte_amiata
+			holy_site = ciomadul
+			holy_site = volcanic_eifel
+			holy_site = volcano_of_man
+			holy_site = dragonstone
+			holy_site = kings_landing
+			icon = drowned_god
+			reformed_icon = drowned_god_reformed
+
+
+			doctrine = west_african_unreformed_faith_doctrine
+
+			doctrine = tenet_bloodmagic
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_pursuit_of_power
+		}
+		
+
+	
+	}
+}

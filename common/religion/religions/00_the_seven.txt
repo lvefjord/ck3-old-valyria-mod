@@ -1,0 +1,236 @@
+﻿the_seven_religion = {
+	family = rf_andal
+
+	doctrine = christian_hostility_doctrine
+
+
+	#Main Group
+	doctrine = doctrine_spiritual_head
+	doctrine = doctrine_gender_equal
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_lay_clergy
+
+	#Marriage
+	doctrine = doctrine_polygamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_unrestricted
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_shunned
+	doctrine = doctrine_deviancy_accepted
+	doctrine = doctrine_witchcraft_accepted	
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	traits = {
+		virtues = { brave ambitious humble }
+		sins = { arrogant shadowbinder}
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+
+
+	localization = {
+		#HighGod
+		HighGodName = the_seven_high_god_name
+		HighGodName2 = the_seven_high_god_name_2
+		HighGodNamePossessive = the_seven_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = the_seven_high_god_name_alternate
+		HighGodNameAlternatePossessive = the_seven_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = the_seven_creator_god_name
+		CreatorNamePossessive = the_seven_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = the_seven_health_god_name
+		HealthGodNamePossessive = the_seven_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#FertilityGod
+		FertilityGodName = the_seven_fertility_god_name
+		FertilityGodNamePossessive = the_seven_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_HE
+		FertilityGodHerHis = CHARACTER_HERHIS_HIS
+		FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WealthGod
+		WealthGodName = the_seven_wealth_god_name
+		WealthGodNamePossessive = the_seven_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = the_seven_household_god_name
+		HouseholdGodNamePossessive = the_seven_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FateGod
+		FateGodName = the_seven_fate_god_name
+		FateGodNamePossessive = the_seven_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerHim = CHARACTER_HERHIM_HIM
+
+		#KnowledgeGod
+		KnowledgeGodName = the_seven_knowledge_god_name
+		KnowledgeGodNamePossessive = the_seven_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = the_seven_war_god_name
+		WarGodNamePossessive = the_seven_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = the_seven_trickster_god_name
+		TricksterGodNamePossessive = the_seven_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = the_seven_night_god_name
+		NightGodNamePossessive = the_seven_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = the_seven_water_god_name
+		WaterGodNamePossessive = the_seven_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+		PantheonTerm = the_seven_high_god_name
+		PantheonTerm2 = the_seven_high_god_name_2
+		PantheonTerm3 = the_seven_high_god_name_3
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			the_seven_high_god_name
+			the_seven_high_god_name_alternate
+			chistianity_good_god_jesus
+			chistianity_good_god_christ
+		}
+		DevilName = the_seven_devil_name
+		DevilNamePossessive = the_seven_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = {
+			the_seven_devil_name
+			the_seven_evil_god_lucifer
+			the_seven_evil_god_beelzebub
+			the_seven_evil_god_mephistopheles
+		}
+		HouseOfWorship = the_seven_house_of_worship
+		HouseOfWorship2 = the_seven_house_of_worship_2
+		HouseOfWorship3 = the_seven_house_of_worship_3
+		HouseOfWorshipPlural = the_seven_house_of_worship_plural
+		ReligiousSymbol = the_seven_religious_symbol
+		ReligiousSymbol2 = the_seven_religious_symbol_2
+		ReligiousSymbol3 = the_seven_religious_symbol_3
+		ReligiousText = the_seven_religious_text
+		ReligiousText2 = the_seven_religious_text_2
+		ReligiousText3 = the_seven_religious_text_3
+		ReligiousHeadName = the_seven_religious_head_title
+		ReligiousHeadTitleName = the_seven_religious_head_title_name
+		DevoteeMale = the_seven_devotee_male
+		DevoteeMalePlural = the_seven_devotee_male_plural
+		DevoteeFemale = the_seven_devotee_female
+		DevoteeFemalePlural = the_seven_devotee_female_plural
+		DevoteeNeuter = the_seven_devotee_neuter
+		DevoteeNeuterPlural = the_seven_devotee_neuter_plural
+		PriestMale = the_seven_priest_male
+		PriestMalePlural = the_seven_priest_male_plural
+		PriestFemale = the_seven_priest_male
+		PriestFemalePlural = the_seven_priest_male_plural
+		PriestNeuter = the_seven_priest_male
+		PriestNeuterPlural = the_seven_priest_male_plural
+		AltPriestTermPlural = the_seven_priest_alternate_plural
+		BishopMale = the_seven_bishop
+		BishopMalePlural = the_seven_bishop_plural
+		BishopFemale = the_seven_bishop
+		BishopFemalePlural = the_seven_bishop_plural
+		BishopNeuter = the_seven_bishop
+		BishopNeuterPlural = the_seven_bishop_plural
+		DivineRealm = the_seven_positive_afterlife
+		DivineRealm2 = the_seven_positive_afterlife_2
+		DivineRealm3 = the_seven_positive_afterlife_3
+		PositiveAfterLife = the_seven_positive_afterlife
+		PositiveAfterLife2 = the_seven_positive_afterlife_2
+		PositiveAfterLife3 = the_seven_positive_afterlife_3
+		NegativeAfterLife = the_seven_negative_afterlife
+		NegativeAfterLife2 = the_seven_negative_afterlife_2
+		NegativeAfterLife3 = the_seven_negative_afterlife_3
+		DeathDeityName = the_seven_death_deity_name
+		DeathDeityNamePossessive = the_seven_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = the_seven_witchgodname_the_horned_god
+		WitchGodNamePossessive = the_seven_witchgodname_the_horned_god_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+
+
+		GHWName = ghw_crusade
+		GHWNamePlural = ghw_crusades
+	}	
+
+	faiths = {
+		the_seven = {
+			color = { 63 63 63 }
+			holy_site = jerusalem
+			holy_site = rome
+			holy_site = santiago
+			holy_site = toledo_mozarabic
+			holy_site = cordoba
+			holy_site = volcano_of_man
+			holy_site = dragonstone
+			holy_site = kings_landing
+			icon = the_seven
+			reformed_icon = the_seven_reformed
+
+
+			doctrine = west_african_unreformed_faith_doctrine
+
+			doctrine = tenet_bloodmagic
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_pursuit_of_power
+		}
+	
+
+
+	}
+}

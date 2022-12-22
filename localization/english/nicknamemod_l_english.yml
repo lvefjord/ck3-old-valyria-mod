@@ -1,0 +1,7 @@
+﻿l_english:
+ DEFAULT_NICKNAME_DESC:0 "Friends and foes across the land know [CHARACTER.GetShortUINameNoTooltip] as '[CHARACTER.GetNicknameNoTooltip]'"
+
+ nick_worm:0 "the White Worm"
+ nick_rogue:0 "the Rogue Prince"
+ nick_seasnake:0 "the Sea Snake"
+ 

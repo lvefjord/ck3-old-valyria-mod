@@ -1,0 +1,79 @@
+kings_landing_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_kings_landing.dds"
+	major = yes
+	
+	ai_goal = yes
+	
+	ai_potential = {
+        always = yes
+	}
+	
+	ai_will_do = {
+        base = 100
+	}
+	
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_title = title:k_dragonstone
+		NOT = { capital_county = { this = title:c_middlesex } }
+		OR = {
+			title:c_middlesex.holder = { 	
+				any_liege_or_above = { this = root }
+			}
+			title:c_middlesex.holder = { this = root }
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+	}
+	
+	is_valid = {
+		held_title = title:c_middlesex
+		has_religion = religion:valyrian_religion
+		OR = {
+			has_title = title:e_new_valyria
+			has_title = title:k_dragonstone
+		}
+	}
+	
+	effect = {
+
+		
+				title:c_middlesex = {
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+				change_county_control = 100
+				change_development_level = 40
+				}
+				
+				title:c_middlesex = {
+				save_scope_as = middlesex_title
+				set_title_name = c_kings_landing
+				}
+				
+				title:b_london = {
+				save_scope_as = london_title
+				set_title_name = b_kings_landing	
+				}
+				
+				title:k_dragonstone.holder = {
+					set_realm_capital = title:c_middlesex
+				}
+				title:e_new_valyria.holder = {
+					set_realm_capital = title:c_middlesex
+				}
+				
+		}
+				
+	}
+	
+	
+
+	
+	
+	
+

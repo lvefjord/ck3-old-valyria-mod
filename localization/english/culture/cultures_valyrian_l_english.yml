@@ -1,0 +1,57 @@
+﻿l_english:
+ #TODO
+ #REMOVE CULTURES THAT ARE EXCLUSIVE TO 769
+ #Valyrian
+ valyrian_group:0 "Valyrian"
+ valyrian_group_collective_noun:0 "Valyrians"
+ valyrian:0 "Valyrian"
+ valyrian_prefix:0 "Valyrian"
+ valyrian_collective_noun:0 "Valyrians"
+ 
+ crownlander_group:0 "Riverlander"
+ crownlander_group_collective_noun:0 "Riverlanders"
+ crownlander:0 "Riverlander"
+ crownlander_prefix:0 "Riverlander"
+ crownlander_collective_noun:0 "Riverlanders"
+ 
+ valeman_group:0 "Valeman"
+ valeman_group_collective_noun:0 "Valemen"
+ valeman:0 "Valeman"
+ valeman_prefix:0 "Valeman"
+ valeman_collective_noun:0 "Valemen"
+ 
+ westerman_group:0 "Westerman"
+ westerman_group_collective_noun:0 "Westermen"
+ westerman:0 "Westerman"
+ westerman_prefix:0 "Westerman"
+ westerman_collective_noun:0 "Westermen"
+ 
+ reachman_group:0 "Reachman"
+ reachman_group_collective_noun:0 "Reachmen"
+ reachman:0 "Reachman"
+ reachman_prefix:0 "Reachman"
+ reachman_collective_noun:0 "Reachmen"
+ 
+ stormlander_group:0 "Stormlander"
+ stormlander_group_collective_noun:0 "Stormlanders"
+ stormlander:0 "Stormlander"
+ stormlander_prefix:0 "Stormlander"
+ stormlander_collective_noun:0 "Stormlanders"
+ 
+ northmen_group:0 "Northmen"
+ northmen_group_collective_noun:0 "Northmen"
+ northmen:0 "Northmen"
+ northmen_prefix:0 "Northmen"
+ northmen_collective_noun:0 "Northmen"
+ 
+ dornish_group:0 "Dornish"
+ dornish_group_collective_noun:0 "Dornish"
+ dornish:0 "Dornish"
+ dornish_prefix:0 "Dornish"
+ dornish_collective_noun:0 "Dornish"
+ 
+ ironborn_group:0 "Ironborn"
+ ironborn_group_collective_noun:0 "Ironborn"
+ ironborn:0 "Ironborn"
+ ironborn_prefix:0 "Ironborn"
+ ironborn_collective_noun:0 "Ironborn"

@@ -1,0 +1,36 @@
+﻿l_english:
+
+#Special titles
+ lord_valyrian_male:0 "[CHARACTER.Custom('lord_valyrian_male')]"
+
+ lord_valyrian_female:0 "[CHARACTER.Custom('lord_valyrian_female')]"
+
+ lord_valyrian_male_c:0 "[CHARACTER.Custom('lord_valyrian_male_c')]"
+
+ lord_valyrian_female_c:0 "[CHARACTER.Custom('lord_valyrian_female_c')]"
+
+
+ d_lord_valyrian_male:0 "Lord"
+ d_lord_valyrian_female:0 "Lady"
+
+ 
+ lord_valyrian_male_plural:0 "Lords"
+ lord_valyrian_female_plural:0 "Ladies"
+ d_lord_valyrian_male_plural:0 "Lords"
+ d_lord_valyrian_female_plural:0 "Ladies"
+ 
+ lord_of_the_tides:0 "#color_goldy_yellow Lord of the Tides"
+ val_lord_male:0 "Lord"
+ val_lord_female:0 "Lady"
+ 
+ storm_lord:0 "#color_goldy_yellow Lord Paramount of the Stormlands"
+ lord_trident:0 "#color_goldy_yellow Lord Paramount of the Trident"
+ warden_north:0 "#color_goldy_yellow Warden of the North"
+ warden_west:0 "#color_goldy_yellow Warden of the West"
+ warden_east:0 "#color_goldy_yellow Warden of the East"
+ warden_south:0 "#color_goldy_yellow Warden of the South"
+ dorne_prince:0 "#color_goldy_yellow Prince"
+
+ male_position_culture:0 "Master of whisperers"
+ 
+ position_male:0 "#![CHARACTER.GetCouncilTitle]"
