@@ -1,0 +1,280 @@
+namespace = ac #aegons conquest
+
+ac.0001 = {
+	type = character_event
+	title = "the Great Conquest"
+	desc = "Landing in England is the first step towards uniting the Four Kingdoms." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	
+	
+	
+	trigger = {
+		has_trait = dragon_rider
+	}
+	
+	immediate = {
+		add_to_global_variable_list = {
+				name = unique_use
+				target = flag:unique_used
+			}
+	}
+	
+	option = {
+	
+		name = "Fire and Blood!" 
+		
+		
+		add_unpressed_claim = title:c_cornwall
+		add_unpressed_claim = title:c_devon
+		add_unpressed_claim = title:c_somerset
+		add_unpressed_claim = title:c_dorset
+		add_unpressed_claim = title:c_hampton
+		add_unpressed_claim = title:c_isle_of_wight
+		add_unpressed_claim = title:c_sussex
+		add_unpressed_claim = title:c_kent
+		add_unpressed_claim = title:c_surrey
+		add_unpressed_claim = title:c_berkshire
+		add_unpressed_claim = title:c_wiltshire
+		add_unpressed_claim = title:c_gloucestershire
+		add_unpressed_claim = title:c_oxfordshire
+		add_unpressed_claim = title:c_buckinghamshire
+		add_unpressed_claim = title:c_middlesex
+		add_unpressed_claim = title:c_essex
+		add_unpressed_claim = title:c_suffolk
+		add_unpressed_claim = title:c_cambridgeshire
+		add_unpressed_claim = title:c_hertfordshire
+		add_unpressed_claim = title:c_norfolk
+		add_unpressed_claim = title:c_bedford
+		add_unpressed_claim = title:c_huntingdonshire
+		add_unpressed_claim = title:c_northamptonshire
+		add_unpressed_claim = title:c_warwickshire
+		add_unpressed_claim = title:c_worcestershire
+		add_unpressed_claim = title:c_hereford
+		add_unpressed_claim = title:c_shropshire
+		add_unpressed_claim = title:c_staffordshire
+		add_unpressed_claim = title:c_leicestershire
+		add_unpressed_claim = title:c_lincolnshire
+		add_unpressed_claim = title:c_nottinghamshire
+		add_unpressed_claim = title:c_derby
+		add_unpressed_claim = title:c_cheshire
+		add_unpressed_claim = title:c_east_riding
+		add_unpressed_claim = title:c_west_riding
+		add_unpressed_claim = title:c_lancashire
+		add_unpressed_claim = title:c_north_riding
+		add_unpressed_claim = title:c_westmorland
+		add_unpressed_claim = title:c_durham
+		add_unpressed_claim = title:c_northumberland
+		
+		
+		add_character_flag = {
+					flag = part_2 
+				}
+	}
+}
+
+
+fk.0002 = {
+	type = character_event
+	title = "the Great Conquest"
+	desc = "After the successful conquest of England you set your sights on Wales, seeing it as the perfect addition to your growing empire. 
+	You have rebuilt your armies, and are once again ready to strike. 
+	You will march on Wales with your dragons flying overhead, laying waste to any who dare stand in your way." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	
+	
+	
+	trigger = {
+		has_trait = dragon_rider
+	}
+	
+	option = {
+	
+		name = "Fire and Blood!" 
+		
+		add_unpressed_claim = title:c_denbighshire
+		add_unpressed_claim = title:c_caernarfonshire
+		add_unpressed_claim = title:c_anglesey	
+		add_unpressed_claim = title:c_merioneth
+		add_unpressed_claim = title:c_maldwyn
+		add_unpressed_claim = title:c_sir_faesyfed
+		add_unpressed_claim = title:c_cardiganshire
+		add_unpressed_claim = title:c_pembrokeshire
+		add_unpressed_claim = title:c_carmarthenshire
+		add_unpressed_claim = title:c_glamorgan
+		add_unpressed_claim = title:c_monmouthshire
+		add_unpressed_claim = title:c_brecknockshire
+		
+		add_character_flag = {
+					flag = part_3
+				}
+}
+}
+
+fk.0003 = {
+	type = character_event
+	title = "the Great Conquest"
+	desc = "You set your sights on the island to the west. Known for your skill in battle and command of dragons, 
+	you gather your army and set sail for Ireland. Despite their bravery, the clans of Ireland will prove no match for you and your dragons. 
+	One by one, they will be defeated and forced to bend the knee." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	
+	
+	
+	trigger = {
+		has_trait = dragon_rider
+	}
+	
+	option = {
+	
+		name = "Fire and Blood!" 
+		
+		add_unpressed_claim = title:c_ailech
+		add_unpressed_claim = title:c_ulster
+		add_unpressed_claim = title:c_oriel
+		add_unpressed_claim = title:c_breifne
+		add_unpressed_claim = title:c_dublin
+		add_unpressed_claim = title:c_athlone
+		add_unpressed_claim = title:c_mayo
+		add_unpressed_claim = title:c_connacht
+		add_unpressed_claim = title:c_leinster
+		add_unpressed_claim = title:c_ossory
+		add_unpressed_claim = title:c_ennis
+		add_unpressed_claim = title:c_thomond
+		add_unpressed_claim = title:c_ormond
+		add_unpressed_claim = title:c_desmond
+		
+		add_character_flag = {
+					flag = part_4
+				}
+		
+}
+}
+
+fk.0004 = {
+	type = character_event
+	title = "the Great Conquest"
+	desc = "Having successfully conquered the kingdom of Ireland, You set your sights on the lands of Scotland. 
+	The rugged and unforgiving terrain of Scotland presents a new challenge, but you are undaunted. 
+	The dragons of House Targaryen will burn a path through the wilds of Scotland, and any who oppose you." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	
+	
+	
+	trigger = {
+		has_trait = dragon_rider
+	}
+	
+	option = {
+	
+		name = "Fire and Blood!" 
+		
+		add_unpressed_claim = title:c_orkney
+		add_unpressed_claim = title:c_caithness
+		add_unpressed_claim = title:c_sutherland
+		add_unpressed_claim = title:c_outer_hebrides
+		add_unpressed_claim = title:c_ross
+		add_unpressed_claim = title:c_inverness
+		add_unpressed_claim = title:c_moray
+		add_unpressed_claim = title:c_buchan
+		add_unpressed_claim = title:c_mearns
+		add_unpressed_claim = title:c_angus
+		add_unpressed_claim = title:c_atholl
+		add_unpressed_claim = title:c_gowrie
+		add_unpressed_claim = title:c_argyll
+		add_unpressed_claim = title:c_inner_hebrides
+		add_unpressed_claim = title:c_lennox
+		add_unpressed_claim = title:c_strathearn
+		add_unpressed_claim = title:c_fife
+		add_unpressed_claim = title:c_linlithgowshire
+		add_unpressed_claim = title:c_ayrshire
+		add_unpressed_claim = title:c_lanarkshire
+		add_unpressed_claim = title:c_lothian
+		add_unpressed_claim = title:c_dunbar
+		add_unpressed_claim = title:c_teviotdale
+		add_unpressed_claim = title:c_annandale
+		add_unpressed_claim = title:c_galloway
+		add_unpressed_claim = title:c_carrik
+		add_unpressed_claim = title:c_cumberland
+		
+		add_character_flag = {
+					flag = part_5
+				}
+		
+}
+}
+
+fk.0005 = {
+	type = character_event
+	title = "the Great Conquest"
+	desc = "From atop the ashes of the four once-great kingdoms, you gaze out at the lands united under your rule and see the potential for greatness. 
+	With Fire and Blood, you will forge an empire of unmatched might, one that will be remembered for centuries to come, long after even 
+	the dragonlords of Old Valyria have been forgotten." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	
+	
+	
+	trigger = {
+		has_trait = dragon_rider
+	}
+	
+	option = {
+	
+		name = "Look on my Works ye Mighty, and despair!" 
+		
+		
+		get_title = title:e_new_valyria
+		give_nickname = nick_the_conqueror
+		dynasty = {add_dynasty_prestige = 400}
+		
+		create_artifact = {
+			name = "Conqueror's Crown"
+			description = "A crown of valyrian steel worn by Aegon the Conqueror." # Will be updated in the post-creation effects
+			type = helmet
+			visuals = blackfyrecrown
+			history = {
+				type = created_before_history
+			}
+			modifier = artifact_monthly_prestige_add_4_modifier
+			modifier = artifact_monthly_minor_prestige_4_modifier
+			decaying = no
+			rarity = illustrious
+			}
+		
+}
+}
+
+	
+	
+
+
+

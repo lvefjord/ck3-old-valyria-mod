@@ -132,7 +132,7 @@ lord_valyrian_male_c = {
     }
     text = {
 		fallback = yes 
-        localization_key = val_lord_female
+        localization_key = val_lord_male
     }
 }
 

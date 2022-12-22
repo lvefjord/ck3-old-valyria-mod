@@ -92,3 +92,24 @@ house_tully = {
 	culture = "crownlander"
 	dynasty = 91114881985
 }
+
+house_hoare = {
+	prefix = "dynnp_of"
+	name = "dynn_Hoare"
+	culture = "ironborn"
+	dynasty = 91114881984
+}
+
+house_gardener = {
+	prefix = "dynnp_of"
+	name = "dynn_Gardener"
+	culture = "reachman"
+	dynasty = 91114881983
+}
+
+house_durrandon = {
+	prefix = "dynnp_of"
+	name = "dynn_Durrandon"
+	culture = "stormlander"
+	dynasty = 91114881982
+}

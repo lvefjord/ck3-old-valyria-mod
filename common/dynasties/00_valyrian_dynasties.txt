@@ -76,3 +76,18 @@
 	culture = "crownlander"
 	motto = "dynn_Tully_motto"
 }
+
+91114881984 = {
+	name = "dynn_Hoare"
+	culture = "ironborn"
+}
+
+91114881983 = {
+	name = "dynn_Gardener"
+	culture = "reachman"
+}
+
+91114881982 = {
+	name = "dynn_Durrandon"
+	culture = "stormlander"
+}

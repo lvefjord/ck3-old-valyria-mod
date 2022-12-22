@@ -3,7 +3,7 @@ type = character
 gender = male
 special = holder
 tier = kingdom
-priority = 5002
+priority = 39
 governments = { feudal_government }
 heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
 }
@@ -13,7 +13,7 @@ type = character
 gender = female
 special = holder
 tier = kingdom
-priority = 5002
+priority = 39
 governments = { feudal_government }
 heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
 }
@@ -23,7 +23,7 @@ type = character
 gender = male
 special = holder
 tier = county
-priority = 5000
+priority = 39
 governments = { feudal_government }
 heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
 }
@@ -33,7 +33,7 @@ type = character
 gender = female
 special = holder
 tier = county
-priority = 5000
+priority = 39
 governments = { feudal_government }
 heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
 }
@@ -43,7 +43,7 @@ type = character
 gender = male
 special = holder
 tier = duchy
-priority = 5001
+priority = 39
 governments = { feudal_government }
 heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
 }
@@ -53,7 +53,7 @@ type = character
 gender = female
 special = holder
 tier = duchy
-priority = 5001
+priority = 39
 governments = { feudal_government }
 heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
 }
