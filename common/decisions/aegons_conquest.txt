@@ -18,6 +18,7 @@ aconquest_1 = {
 	}
 
 	is_shown = {
+		always = no
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unique_use
