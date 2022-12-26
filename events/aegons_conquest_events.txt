@@ -307,7 +307,7 @@ ac.0006 = {
 	}
 
 	option = {
-		name = "I name Edmyn Lord Paramount of the Trident for being the first of the riverlords to join me."
+		name = "I name Edmyn Tully, Lord Paramount of the Trident."
 		
 		create_title_and_vassal_change = {
 			type = granted
@@ -393,6 +393,7 @@ ac.0008 = {
 	
 	option = {
 		name = "se Dārio Mīsio" 
+		give_nickname = nick_the_conqueror
 		dynasty = {add_dynasty_prestige = 2250}
 
 		title:c_middlesex = {
@@ -411,7 +412,9 @@ ac.0008 = {
 
 	option = {
 		name = "It is not enough, I will surpass the Valyrian Freehold and all the dragonlords!"
+		give_nickname = nick_dragonlord
 		get_title = title:e_new_valyria
+		dynasty = {add_dynasty_prestige = 2250}
 		hidden_effect = {
 			destroy_title = title:e_the_iron_throne
 		}
@@ -463,7 +466,6 @@ ac.0009 = {
 	}
 
 	option = {
-		give_nickname = nick_the_conqueror
 		name = "Valar Dohaeris"
 		create_artifact = {
 			name = "Conqueror's Crown"

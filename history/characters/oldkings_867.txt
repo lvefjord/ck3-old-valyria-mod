@@ -45,6 +45,7 @@
 	dynasty = 91114881984
 	culture = "ironborn"
 	religion = "drowned_god"
+	give_nickname = nick_theblack
 	sexuality = heterosexual
 	845.1.1 = {
 		birth = yes
@@ -81,6 +82,7 @@
 	dynasty = 91114881982
 	culture = "stormlander"
 	religion = "the_seven"
+	give_nickname = nick_stormking
 	sexuality = heterosexual
 	845.1.1 = {
 		birth = yes

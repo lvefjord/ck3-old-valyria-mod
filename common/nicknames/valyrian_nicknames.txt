@@ -6,3 +6,6 @@
 nick_worm = {}
 nick_rogue  = {}
 nick_seasnake = {}
+nick_dragonlord = {}
+nick_stormking = {}
+nick_theblack = {}

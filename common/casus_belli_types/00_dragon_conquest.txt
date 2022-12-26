@@ -40,7 +40,9 @@ dragon_conquest_cb = {
 	}
 	
 	cost = {
-		gold = 300
+		gold = 100
+		prestige = 100
+		piety = 100
 	}
 	
 	should_invalidate = {
