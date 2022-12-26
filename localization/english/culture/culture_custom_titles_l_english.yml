@@ -9,6 +9,10 @@
 
  lord_valyrian_female_c:0 "[CHARACTER.Custom('lord_valyrian_female_c')]"
 
+ lord_valyrian_male_e:0 "[CHARACTER.Custom('lord_valyrian_male_e')]"
+
+ lord_valyrian_female_e:0 "[CHARACTER.Custom('lord_valyrian_female_e')]"
+
 
  d_lord_valyrian_male:0 "Lord"
  d_lord_valyrian_female:0 "Lady"
@@ -30,6 +34,10 @@
  warden_east:0 "#color_goldy_yellow Warden of the East"
  warden_south:0 "#color_goldy_yellow Warden of the South"
  dorne_prince:0 "#color_goldy_yellow Prince"
+ dorne_princess:0 "#color_goldy_yellow Princess"
+ val_king:0 "#color_goldy_yellow King"
+ val_queen:0 "#color_goldy_yellow Queen"
+ 
 
  male_position_culture:0 "Master of whisperers"
  

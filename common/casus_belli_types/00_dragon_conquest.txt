@@ -49,9 +49,6 @@ dragon_conquest_cb = {
 	
 	on_declaration = {
 		on_declared_war = yes
-		scope:attacker = {
-			add_character_flag = used_lifetime_subjugation
-		}
 	}
 	
 	on_invalidated_desc = msg_subjugation_war_invalidated_message
@@ -62,8 +59,6 @@ dragon_conquest_cb = {
 				limit = {
 					is_alive = yes
 				}
-				remove_character_flag = used_lifetime_subjugation # If the war is invalidated, you should be permitted to try again
-				# Refund their investment.
 				add_gold = 300
 			}
 		}

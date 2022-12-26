@@ -48,6 +48,13 @@ lord_valyrian_male = {
         }
             localization_key = dorne_prince 
     }
+    text = {
+        trigger = {
+                has_title = title:k_dragonstone
+        }
+        
+            localization_key = val_king
+    }
 
 
 
@@ -110,15 +117,57 @@ lord_valyrian_female = {
         }
             localization_key = dorne_prince 
     }
+    text = {
+        trigger = {
+            has_title = title:k_dorne 
+        }
+            localization_key = dorne_princess 
+    }
+    text = {
+        trigger = {
+                has_title = title:k_dragonstone
+        }
+        
+            localization_key = val_queen 
+    }
 
+    
 
-
+    
 
 
 
 	text = {
 		fallback = yes 
         localization_key = val_lord_female
+    }
+}
+
+lord_valyrian_male_e = {
+    type = character
+    text = {
+        trigger = {
+            has_title = title:e_the_iron_throne
+        }
+            localization_key = val_king
+    }
+    text = {
+		fallback = yes 
+        localization_key = val_king
+    }
+}
+
+lord_valyrian_female_e = {
+    type = character
+    text = {
+        trigger = {
+            has_title = title:e_the_iron_throne
+        }
+            localization_key = val_queen 
+    }
+    text = {
+		fallback = yes 
+        localization_key = val_queen
     }
 }
 
