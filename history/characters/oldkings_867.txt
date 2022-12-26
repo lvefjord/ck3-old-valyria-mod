@@ -106,7 +106,7 @@
 	dynasty = 91114881987
 	culture = "dornish"
 	religion = "the_seven"
-	mother = 998894
+	mother = 9988794
 	sexuality = heterosexual
 	820.1.1 = {
 		birth = yes
