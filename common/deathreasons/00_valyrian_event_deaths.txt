@@ -6,3 +6,11 @@ death_bloodmagic_killer = {
 	icon = "death_bloodmagic.dds"
 }
 
+death_fired = {
+	icon = "death_fired.dds"
+}
+
+death_fired_killer = {
+	icon = "death_fired.dds"
+}
+

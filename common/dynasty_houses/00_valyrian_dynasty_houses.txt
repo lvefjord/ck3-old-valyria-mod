@@ -1,4 +1,4 @@
-house_targaryen = {
+﻿house_targaryen = {
 	prefix = "dynnp_of"
 	name = "dynn_Targaryen"
 	culture = "valyrian"

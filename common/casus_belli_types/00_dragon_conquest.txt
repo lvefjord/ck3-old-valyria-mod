@@ -24,6 +24,7 @@ dragon_conquest_cb = {
 	ai_only_against_neighbors = yes
 	allowed_for_character = {
 		has_trait = dragon_rider
+		has_character_flag = dragon_cb_allowed
 	}
 	
 	# Root is the title
@@ -34,6 +35,7 @@ dragon_conquest_cb = {
 	allowed_against_character = {
 		scope:attacker = {
 			has_trait = dragon_rider
+			has_character_flag = dragon_cb_allowed
 		}
 	}
 	

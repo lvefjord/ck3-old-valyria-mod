@@ -35,6 +35,73 @@ Sunspear 1502
 Dragonstone 9661
 King's Landing 1527
 
+PSA: I worked A LOT on the 867 bookmark to try and make the conquest more flavoury. I've made A LOT of changes and added stuff without testing the 1066 bookmark once. The 1066 bookmark MIGHT BE BROKEN right now. I'll try and get on that when I feel fully satisfied with the Aegon's Conquest 867 start.
+
+I might disable 1066 for a while I'm not sure yet.
+
+[list]
+    [*]New dragon conquest CB
+
+    [*]House Hoare CoA
+
+    [*]New death reason (burned alive) with lil icon
+
+    [*]New Decision: Conquer the Seven Kingdoms
+
+    Basically it unlocks the dragon conquest CB, gives you the "the iron throne" title, gives you the london title and renames it to aegonfort.
+
+    [*]New events: Aegon's Conquest events
+
+    There's 1 event per kingdom and they trigger automatically when you vassalize one of them with the dragon cb, some dynasty prestige, some flavour stuff (haven't gone too deep into rewards for every conquest yet, out of ideas atm)
+
+    1 event that triggers when you conquer the last of the 7. There's 2 options
+    either move capital to aegonfort (london) and rename it to king's landing, 2k dynasty prestige and stay as the iron throne.
+    or you make the New Valyria empire title instead
+    
+    Both of those options trigger the last event which is just the coronation, gives the conqueror nickname and blackfyre crown etc same old.
+    
+    [*]Fixed blackfyre 
+
+    [*]Updated bunch of icons
+
+    [*]Replaced the weird placeholder giants with the Kings of westeros from lore. 
+
+[/list]
+
+
+#commit
+
+PSA: I worked A LOT on the 867 bookmark to try and make the conquest more flavoury. I've made A LOT of changes and added stuff without testing the 1066 bookmark once. The 1066 bookmark MIGHT BE BROKEN right now. I'll try and get on that when I feel fully satisfied with the Aegon's Conquest 867 start.
+
+I might disable 1066 for a while I'm not sure yet.
+
+New dragon conquest CB
+
+House Hoare CoA
+
+New death reason (burned alive) with lil icon
+
+New Decision: Conquer the Seven Kingdoms
+
+Basically it unlocks the dragon conquest CB, gives you the "the iron throne" title, gives you the london title and renames it to aegonfort.
+
+New events: Aegon's Conquest events
+
+There's 1 event per kingdom and they trigger automatically when you vassalize one of them with the dragon cb, some dynasty prestige, some flavour stuff (haven't gone too deep into rewards for every conquest yet, out of ideas atm)
+
+1 event that triggers when you conquer the last of the 7. There's 2 options
+either move capital to aegonfort (london) and rename it to king's landing, 2k dynasty prestige and stay as the iron throne.
+or you make the New Valyria empire title instead
+    
+Both of those options trigger the last event which is just the coronation, gives the conqueror nickname and blackfyre crown etc same old.
+    
+Fixed blackfyre 
+
+Updated bunch of icons
+
+Replaced the weird placeholder giants with the Kings of westeros from lore. 
+
+
 
 
 

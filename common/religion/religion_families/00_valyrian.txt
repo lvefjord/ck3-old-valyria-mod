@@ -1,4 +1,4 @@
-rf_valyrian = {
+﻿rf_valyrian = {
 	name = valyrian 		# If not set will use the object key as localization key
 	graphical_faith = catholic_gfx 	
 	piety_icon_group = christian 	

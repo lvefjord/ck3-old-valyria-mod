@@ -287,10 +287,12 @@
 999999999988 = {
 	name = "Orys" 
 	dynasty = 91114881994
+	dna = orys_b
 	portrait_override={
 		portrait_modifier_overrides={
 			custom_hair=male_hair_northern_01
 			custom_beards=male_beard_western_01
+			custom_headgear=male_empty
 		}
 	}
 	religion = "valyrian"
@@ -370,7 +372,7 @@
 	trait = education_intrigue_4
 	sexuality = heterosexual
 	intrigue = 13
-		835.1.1 = {
+	835.1.1 = {
 		birth = "835.1.1"
 	}
 	867.1.1 = {
@@ -380,144 +382,4 @@
 		880.1.1 = {
 			death = "880.1.1"
 		}
-}
-
-#Dorne
-999999999984 = {
-	name = "Oberyn"
-	dynasty = 91114881987
-	culture = "dornish"
-	religion = "the_seven"
-	trait = physique_good_3
-	trait = beauty_good_3 
-	trait = intellect_good_3
-	trait = education_martial_4
-	trait = fecund 
-	trait = giant
-	sexuality = homosexual
-	845.1.1 = {
-		birth = yes
-	}
-}
-#Westerlands
-999999999983 = {
-	name = "Tytos"
-	dynasty = 91114881989
-	culture = "westerman"
-	religion = "the_seven"
-	trait = physique_good_3
-	trait = beauty_good_3 
-	trait = intellect_good_3
-	trait = education_martial_4
-	trait = fecund 
-	trait = giant
-	sexuality = homosexual
-	845.1.1 = {
-		birth = yes
-	}
-}
-#Stormlands
-999999999982 = {
-	name = "Robert"
-	dynasty = 91114881994
-	culture = "stormlander"
-	religion = "the_seven"
-	trait = physique_good_3
-	trait = beauty_good_3 
-	trait = intellect_good_3
-	trait = education_martial_4
-	trait = fecund 
-	trait = giant
-	sexuality = homosexual
-	845.1.1 = {
-		birth = yes
-	}
-}
-#North
-999999999981 = {
-	name = "Brandon"
-	dynasty = 91114881988
-	culture = "northmen"
-	religion = "old_god"
-	trait = physique_good_3
-	trait = beauty_good_3 
-	trait = intellect_good_3
-	trait = education_martial_4
-	trait = fecund 
-	trait = giant
-	sexuality = homosexual
-	845.1.1 = {
-		birth = yes
-	}
-}
-#Vale
-999999999980 = {
-	name = "Timett son of Timett"
-	dynasty = 91114881990
-	culture = "valeman"
-	religion = "the_seven"
-	trait = physique_good_3
-	trait = beauty_good_3 
-	trait = intellect_good_3
-	trait = education_martial_4
-	trait = fecund 
-	trait = giant
-	sexuality = homosexual
-	845.1.1 = {
-		birth = yes
-	}
-}
-#Reach
-999999999979 = {
-	name = "Mace"
-	dynasty = 91114881986
-	culture = "reachman"
-	religion = "the_seven"
-	trait = physique_good_3
-	trait = beauty_good_3 
-	trait = intellect_good_3
-	trait = education_martial_4
-	trait = fecund 
-	trait = giant
-	sexuality = homosexual
-	845.1.1 = {
-		birth = yes
-	}
-}
-#Riverlands
-999999999978 = {
-	name = "Walder"
-	dynasty = 91114881985
-	culture = "crownlander"
-	religion = "drowned_god"
-	trait = physique_good_3
-	trait = beauty_good_3 
-	trait = intellect_good_3
-	trait = education_martial_4
-	trait = fecund 
-	trait = giant
-	sexuality = homosexual
-	845.1.1 = {
-		birth = yes
-	}
-}
-
-#Riverlands
-999999999977 = {
-	name = "Tyrion"
-	dynasty = 91114881989
-	culture = "crownlander"
-	religion = "drowned_god"
-	trait = physique_good_3
-	trait = beauty_good_3 
-	trait = intellect_good_3
-	trait = education_martial_4
-	trait = fecund 
-	trait = dwarf
-	martial = 22
-	prowess = 40
-	sexuality = homosexual
-	845.1.1 = {
-		birth = yes
-	}
 }

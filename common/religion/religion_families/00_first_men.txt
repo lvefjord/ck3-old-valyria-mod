@@ -1,4 +1,4 @@
-rf_first_men = {
+﻿rf_first_men = {
 	name = first_men 		# If not set will use the object key as localization key
 	graphical_faith = catholic_gfx 	
 	piety_icon_group = christian 	

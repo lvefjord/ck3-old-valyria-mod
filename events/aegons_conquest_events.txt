@@ -1,9 +1,10 @@
 namespace = ac #aegons conquest
 
+#dorne
 ac.0001 = {
 	type = character_event
-	title = "the Great Conquest"
-	desc = "Landing in England is the first step towards uniting the Four Kingdoms." 
+	title = "The Conquest of Dorne"
+	desc = "Dorne is famous for resisting invasion, but they could not remain unconquered forever." 
 	theme = hunting
 	
 	
@@ -12,250 +13,458 @@ ac.0001 = {
 	animation = personality_rational
 	}
 	
-	
-	
+	immediate = {
+		add_character_flag = {
+			flag = has_dorne
+		}
+	}
+
 	trigger = {
 		has_trait = dragon_rider
+		completely_controls = title:k_dorne
+		NOT = {
+			has_character_flag = has_dorne
+			has_character_flag = finished_conquest
+		}
+	}
+
+	option = {
+		name = "Valar Morghulis"
+		dynasty = {add_dynasty_prestige = 500}
+	}
+}
+
+#stormlands
+ac.0002 = {
+	type = character_event
+	title = "The Conquest of the Stormlands"
+	desc = "The Storm King is finally defeated and the Stormlands are ours." 
+	theme = hunting
+	
+	
+	lower_center_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+
+	right_portrait = {
+		character = character:9988793
+		animation = personality_rational
+	}
+
+	left_portrait = {
+		character = character:999999999988
+		animation = personality_rational
 	}
 	
 	immediate = {
-		add_to_global_variable_list = {
-				name = unique_use
-				target = flag:unique_used
+		add_character_flag = {
+			flag = has_stormlands
+		}
+		#storm king scope 
+		exists = character:9988793
+		character:9988793 = { is_alive = yes }
+		#orys scope
+		exists = character:999999999988
+		character:999999999988 = { is_alive = yes }
+		##########
+	}
+
+	trigger = {
+		has_trait = dragon_rider
+		completely_controls = title:k_the_stormlands
+		NOT = {
+			has_character_flag = has_stormlands
+			has_character_flag = finished_conquest
+		}
+	}
+	
+	option = {
+		name = "Storm's End belongs to Orys, my brother and best friend"
+		
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		
+		title:k_the_stormlands = {
+			change_title_holder_include_vassals = {
+				holder = character:999999999988
+				change = scope:change
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:change
+
+
+
+		character:9988793 = {
+			death = {
+				death_reason = death_fired
+				killer = root
+			}
+		}
+		dynasty = {add_dynasty_prestige = 500}
+
+
+
+	}
+
+	option = {
+		name = "I will allow the Storm King to bend the knee"
+		dynasty = {add_dynasty_prestige = 500}
+	}
+
+}
+
+#reach
+ac.0003 = {
+	type = character_event
+	title = "The Conquest of the Reach"
+	desc = "House Gardener perished at the Field of Fire, yet there must be a Warden of the South." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = character:9988796
+	animation = personality_rational
+	}
+
+	left_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+
+	lower_center_portrait = {
+	character = character:9988792
+	animation = personality_rational
+	}
+	
+	immediate = {
+		add_character_flag = {
+			flag = has_reach
+		}
+		#tyrell scope
+		exists = character:9988796
+		character:9988796 = { is_alive = yes }
+		##########
+		character:9988792 = {
+			death = {
+				death_reason = death_fired
+				killer = root
+			}
+		}
+	}
+
+	trigger = {
+		has_trait = dragon_rider
+		completely_controls = title:k_the_reach
+		NOT = {
+			has_character_flag = has_reach
+			has_character_flag = finished_conquest
+		}
+	}
+
+	option = {
+		name = "I name Harlen Tyrell Warden of the South."
+		
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		
+		title:k_the_reach = {
+			change_title_holder_include_vassals = {
+				holder = character:9988796
+				change = scope:change
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:change
+
+
+
+		
+		dynasty = {add_dynasty_prestige = 500}
+
+
+
+	}
+}
+
+#westlands
+ac.0004 = {
+	type = character_event
+	title = "The Conquest of the Westerlands"
+	desc = "The Lord of the Rock will make a powerful vassal with its defensive capital and gold mine." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	
+	immediate = {
+		add_character_flag = {
+			flag = has_westerlands
+		}
+	}
+
+	trigger = {
+		has_trait = dragon_rider
+		completely_controls = title:k_the_westerlands
+		NOT = {
+			has_character_flag = has_westerlands
+			has_character_flag = finished_conquest
+		}
+	}
+	
+	option = {
+		name = "Valar Morghulis"
+		dynasty = {add_dynasty_prestige = 500}
+	}
+}
+
+#vale
+ac.0005 = {
+	type = character_event
+	title = "The Conquest of the Vale"
+	desc = "They say the Eyrie is impregnable, but it only took ten men to impregnate the bitch." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	
+	immediate = {
+		add_character_flag = {
+			flag = has_vale
+		}
+	}
+
+	trigger = {
+		has_trait = dragon_rider
+		completely_controls = title:k_the_vale
+		NOT = {
+			has_character_flag = has_vale
+			has_character_flag = finished_conquest
+		}
+	}
+
+	option = {
+		name = "Valar Morghulis"
+		dynasty = {add_dynasty_prestige = 500}
+	}
+}
+
+#riverlands
+ac.0006 = {
+	type = character_event
+	title = "The Conquest of the Riverlands"
+	desc = "It would seem that the great castle Harrenhall was not so mighty after all." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = character:9988797
+	animation = personality_rational
+	}
+
+	left_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+
+	lower_center_portrait = {
+	character = character:9988790
+	animation = personality_rational
+	}
+	
+	immediate = {
+		add_character_flag = {
+			flag = has_riverlands
+		}
+		character:9988790 = {
+			death = {
+				death_reason = death_fired
+				killer = root
+			}
+		}
+	}
+
+	trigger = {
+		has_trait = dragon_rider
+		completely_controls = title:k_the_riverlands
+		NOT = {
+			has_character_flag = has_riverlands
+			has_character_flag = finished_conquest
+		}
+	}
+
+	option = {
+		name = "I name Edmyn Lord Paramount of the Trident for being the first of the riverlords to join me."
+		
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		
+		title:k_the_riverlands = {
+			change_title_holder_include_vassals = {
+				holder = character:9988797
+				change = scope:change
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:change
+
+
+
+		
+		dynasty = {add_dynasty_prestige = 500}
+	}
+}
+
+#north
+ac.0007 = {
+	type = character_event
+	title = "The Conquest of the North"
+	desc = "After what I have seen in my dreams, good relations with the northmen is paramount." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	
+	immediate = {
+		add_character_flag = {
+			flag = has_north
+		}
+	}
+
+	trigger = {
+		has_trait = dragon_rider
+		completely_controls = title:k_the_north
+		NOT = {
+			has_character_flag = has_north
+			has_character_flag = finished_conquest
+		}
+	}
+	
+	option = {
+		name = "Valar Morghulis"
+		dynasty = {add_dynasty_prestige = 500}
+	}
+}
+
+ac.0008 = {
+	type = character_event
+	title = "The Conquest is over"
+	desc = "With Fire and Blood I have united the Seven Kingdoms and forged my new realm. The House of the Dragon shall rule these lands eternally." 
+	theme = hunting
+	
+	
+	right_portrait = {
+	character = ROOT
+	animation = personality_rational
+	}
+	
+
+
+	trigger = {
+			AND = {
+				has_character_flag = has_north
+				has_character_flag = has_dorne
+				has_character_flag = has_stormlands
+				has_character_flag = has_riverlands
+				has_character_flag = has_vale
+				has_character_flag = has_reach
+				has_character_flag = has_westerlands
 			}
 	}
 	
 	option = {
-	
-		name = "Fire and Blood!" 
-		
-		
-		add_unpressed_claim = title:c_cornwall
-		add_unpressed_claim = title:c_devon
-		add_unpressed_claim = title:c_somerset
-		add_unpressed_claim = title:c_dorset
-		add_unpressed_claim = title:c_hampton
-		add_unpressed_claim = title:c_isle_of_wight
-		add_unpressed_claim = title:c_sussex
-		add_unpressed_claim = title:c_kent
-		add_unpressed_claim = title:c_surrey
-		add_unpressed_claim = title:c_berkshire
-		add_unpressed_claim = title:c_wiltshire
-		add_unpressed_claim = title:c_gloucestershire
-		add_unpressed_claim = title:c_oxfordshire
-		add_unpressed_claim = title:c_buckinghamshire
-		add_unpressed_claim = title:c_middlesex
-		add_unpressed_claim = title:c_essex
-		add_unpressed_claim = title:c_suffolk
-		add_unpressed_claim = title:c_cambridgeshire
-		add_unpressed_claim = title:c_hertfordshire
-		add_unpressed_claim = title:c_norfolk
-		add_unpressed_claim = title:c_bedford
-		add_unpressed_claim = title:c_huntingdonshire
-		add_unpressed_claim = title:c_northamptonshire
-		add_unpressed_claim = title:c_warwickshire
-		add_unpressed_claim = title:c_worcestershire
-		add_unpressed_claim = title:c_hereford
-		add_unpressed_claim = title:c_shropshire
-		add_unpressed_claim = title:c_staffordshire
-		add_unpressed_claim = title:c_leicestershire
-		add_unpressed_claim = title:c_lincolnshire
-		add_unpressed_claim = title:c_nottinghamshire
-		add_unpressed_claim = title:c_derby
-		add_unpressed_claim = title:c_cheshire
-		add_unpressed_claim = title:c_east_riding
-		add_unpressed_claim = title:c_west_riding
-		add_unpressed_claim = title:c_lancashire
-		add_unpressed_claim = title:c_north_riding
-		add_unpressed_claim = title:c_westmorland
-		add_unpressed_claim = title:c_durham
-		add_unpressed_claim = title:c_northumberland
-		
-		
-		add_character_flag = {
-					flag = part_2 
-				}
-	}
-}
+		name = "se Dārio Mīsio" 
+		dynasty = {add_dynasty_prestige = 2250}
 
+		title:c_middlesex = {
+			save_scope_as = middlesex_title
+			set_title_name = c_kings_landing
+		}
+		title:b_london = {
+			save_scope_as = london_title
+			set_title_name = b_kings_landing
+		}
 
-fk.0002 = {
-	type = character_event
-	title = "the Great Conquest"
-	desc = "After the successful conquest of England you set your sights on Wales, seeing it as the perfect addition to your growing empire. 
-	You have rebuilt your armies, and are once again ready to strike. 
-	You will march on Wales with your dragons flying overhead, laying waste to any who dare stand in your way." 
-	theme = hunting
-	
-	
-	right_portrait = {
-	character = ROOT
-	animation = personality_rational
+		title:e_the_iron_throne.holder = {
+			set_realm_capital = title:c_middlesex
+		}
 	}
-	
-	
-	
-	trigger = {
-		has_trait = dragon_rider
-	}
-	
+
 	option = {
-	
-		name = "Fire and Blood!" 
-		
-		add_unpressed_claim = title:c_denbighshire
-		add_unpressed_claim = title:c_caernarfonshire
-		add_unpressed_claim = title:c_anglesey	
-		add_unpressed_claim = title:c_merioneth
-		add_unpressed_claim = title:c_maldwyn
-		add_unpressed_claim = title:c_sir_faesyfed
-		add_unpressed_claim = title:c_cardiganshire
-		add_unpressed_claim = title:c_pembrokeshire
-		add_unpressed_claim = title:c_carmarthenshire
-		add_unpressed_claim = title:c_glamorgan
-		add_unpressed_claim = title:c_monmouthshire
-		add_unpressed_claim = title:c_brecknockshire
-		
-		add_character_flag = {
-					flag = part_3
-				}
-}
-}
-
-fk.0003 = {
-	type = character_event
-	title = "the Great Conquest"
-	desc = "You set your sights on the island to the west. Known for your skill in battle and command of dragons, 
-	you gather your army and set sail for Ireland. Despite their bravery, the clans of Ireland will prove no match for you and your dragons. 
-	One by one, they will be defeated and forced to bend the knee." 
-	theme = hunting
-	
-	
-	right_portrait = {
-	character = ROOT
-	animation = personality_rational
-	}
-	
-	
-	
-	trigger = {
-		has_trait = dragon_rider
-	}
-	
-	option = {
-	
-		name = "Fire and Blood!" 
-		
-		add_unpressed_claim = title:c_ailech
-		add_unpressed_claim = title:c_ulster
-		add_unpressed_claim = title:c_oriel
-		add_unpressed_claim = title:c_breifne
-		add_unpressed_claim = title:c_dublin
-		add_unpressed_claim = title:c_athlone
-		add_unpressed_claim = title:c_mayo
-		add_unpressed_claim = title:c_connacht
-		add_unpressed_claim = title:c_leinster
-		add_unpressed_claim = title:c_ossory
-		add_unpressed_claim = title:c_ennis
-		add_unpressed_claim = title:c_thomond
-		add_unpressed_claim = title:c_ormond
-		add_unpressed_claim = title:c_desmond
-		
-		add_character_flag = {
-					flag = part_4
-				}
-		
-}
-}
-
-fk.0004 = {
-	type = character_event
-	title = "the Great Conquest"
-	desc = "Having successfully conquered the kingdom of Ireland, You set your sights on the lands of Scotland. 
-	The rugged and unforgiving terrain of Scotland presents a new challenge, but you are undaunted. 
-	The dragons of House Targaryen will burn a path through the wilds of Scotland, and any who oppose you." 
-	theme = hunting
-	
-	
-	right_portrait = {
-	character = ROOT
-	animation = personality_rational
-	}
-	
-	
-	
-	trigger = {
-		has_trait = dragon_rider
-	}
-	
-	option = {
-	
-		name = "Fire and Blood!" 
-		
-		add_unpressed_claim = title:c_orkney
-		add_unpressed_claim = title:c_caithness
-		add_unpressed_claim = title:c_sutherland
-		add_unpressed_claim = title:c_outer_hebrides
-		add_unpressed_claim = title:c_ross
-		add_unpressed_claim = title:c_inverness
-		add_unpressed_claim = title:c_moray
-		add_unpressed_claim = title:c_buchan
-		add_unpressed_claim = title:c_mearns
-		add_unpressed_claim = title:c_angus
-		add_unpressed_claim = title:c_atholl
-		add_unpressed_claim = title:c_gowrie
-		add_unpressed_claim = title:c_argyll
-		add_unpressed_claim = title:c_inner_hebrides
-		add_unpressed_claim = title:c_lennox
-		add_unpressed_claim = title:c_strathearn
-		add_unpressed_claim = title:c_fife
-		add_unpressed_claim = title:c_linlithgowshire
-		add_unpressed_claim = title:c_ayrshire
-		add_unpressed_claim = title:c_lanarkshire
-		add_unpressed_claim = title:c_lothian
-		add_unpressed_claim = title:c_dunbar
-		add_unpressed_claim = title:c_teviotdale
-		add_unpressed_claim = title:c_annandale
-		add_unpressed_claim = title:c_galloway
-		add_unpressed_claim = title:c_carrik
-		add_unpressed_claim = title:c_cumberland
-		
-		add_character_flag = {
-					flag = part_5
-				}
-		
-}
-}
-
-fk.0005 = {
-	type = character_event
-	title = "the Great Conquest"
-	desc = "From atop the ashes of the four once-great kingdoms, you gaze out at the lands united under your rule and see the potential for greatness. 
-	With Fire and Blood, you will forge an empire of unmatched might, one that will be remembered for centuries to come, long after even 
-	the dragonlords of Old Valyria have been forgotten." 
-	theme = hunting
-	
-	
-	right_portrait = {
-	character = ROOT
-	animation = personality_rational
-	}
-	
-	
-	
-	trigger = {
-		has_trait = dragon_rider
-	}
-	
-	option = {
-	
-		name = "Look on my Works ye Mighty, and despair!" 
-		
-		
+		name = "It is not enough, I will surpass the Valyrian Freehold and all the dragonlords!"
 		get_title = title:e_new_valyria
+		hidden_effect = {
+			destroy_title = title:e_the_iron_throne
+		}
+	}
+	
+	after = {
+		remove_character_flag = has_north
+		remove_character_flag = has_dorne
+		remove_character_flag = has_stormlands
+		remove_character_flag = has_riverlands
+		remove_character_flag = has_vale
+		remove_character_flag = has_reach
+		remove_character_flag = has_westerlands
+		remove_character_flag = started_conquest
+		add_character_flag = {
+			flag = finished_conquest
+		}
+		trigger_event = ac.0009
+	}
+
+}
+
+ac.0009 = {
+	type = duel_event
+	title = "I now proclaim"
+	desc = "                                Aegon of House Targaryen 
+	
+	                                   the First of His Name 
+	
+	          King of the Andals, the Rhoynar, and the First Men
+	
+	                             Lord of the Seven Kingdoms 
+	                                                   and 
+	                                 Protector of the Realm" 
+	theme = hunting
+	#western_high_nobility
+	#male_headgear_secular_western_high_nobility_01
+	
+	left_portrait = {
+	character = ROOT
+	animation = throne_room_kneel_1
+	hide_info = yes
+	}
+	override_background = { event_background = throne_room_west }
+	right_portrait = {
+		character = character:999999999998
+		animation = frontend_left_idle
+		hide_info = yes
+	}
+
+	option = {
 		give_nickname = nick_the_conqueror
-		dynasty = {add_dynasty_prestige = 400}
-		
+		name = "Valar Dohaeris"
 		create_artifact = {
 			name = "Conqueror's Crown"
 			description = "A crown of valyrian steel worn by Aegon the Conqueror." # Will be updated in the post-creation effects
@@ -269,12 +478,6 @@ fk.0005 = {
 			decaying = no
 			rarity = illustrious
 			}
-		
+	}
+
 }
-}
-
-	
-	
-
-
-

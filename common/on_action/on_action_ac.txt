@@ -1,0 +1,16 @@
+on_vassal_gained = {
+    events = {
+        ac.0001
+		ac.0002
+		ac.0003
+		ac.0004
+		ac.0005
+		ac.0006
+		ac.0007
+		ac.0008
+    }
+}
+
+#on_vassal_gained
+
+#on_title_destroyed

@@ -1,4 +1,4 @@
-#9988787-998895
+#9988787-9988797
 
 #Torrhen Stark
 9988787 = {
@@ -64,7 +64,7 @@
 }
 
 #Mern IX Gardener
-998892 = {
+9988792 = {
 	name = "Mern IX"
 	dynasty = 91114881983
 	culture = "reachman"
@@ -76,7 +76,7 @@
 }
 
 #Argilac Durrandon
-998893 = {
+9988793 = {
 	name = "Argilac"
 	dynasty = 91114881982
 	culture = "stormlander"
@@ -88,7 +88,7 @@
 }
 
 #Meria Martell
-998894 = {
+9988794 = {
 	name = "Meria"
 	dynasty = 91114881987
 	female = yes
@@ -101,7 +101,7 @@
 }
 
 #Nymor Martell
-998895 = {
+9988795 = {
 	name = "Nymor"
 	dynasty = 91114881987
 	culture = "dornish"
@@ -110,5 +110,39 @@
 	sexuality = heterosexual
 	820.1.1 = {
 		birth = yes
+	}
+}
+
+#Harlen Tyrell
+9988796 = {
+	name = "Harlen"
+	dynasty = 91114881986
+	culture = "reachman"
+	religion = "the_seven"
+	trait = education_stewardship_4
+	trait = loyal
+	sexuality = heterosexual
+	843.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		employer  = 999999999999
+	}
+}
+
+#Edmyn Tully
+9988797 = {
+	name = "Edmyn"
+	dynasty = 91114881985
+	culture = "crownlander"
+	religion = "the_seven"
+	trait = education_diplomacy_4
+	trait = loyal
+	sexuality = heterosexual
+	842.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		employer  = 999999999999
 	}
 }

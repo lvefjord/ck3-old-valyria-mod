@@ -305,38 +305,7 @@ e_the_iron_throne = {
 				}
 			}
 
-			c_hereford = {
-				color = { 110 45 35 }
-
-				cultural_names = {
-					#This name is actually Anglo-Saxon, but the original Welsh name, Ergyng, is long dead by 867. Arcenefelde is the archaic term for the area after the conquest, and the name used by/to refer to the Welsh-speaking portions of the county, with Herefordshire referring to the Anglo-Saxons/English.
-					name_list_welsh = cn_arcenefelde
-					name_list_cumbrian = cn_arcenefelde
-				}
-
-				b_hereford = {
-					province = 1632
-
-					cultural_names = {
-						name_list_welsh = cn_hennffordd
-						name_list_cumbrian = cn_hennffordd
-					}
-
-					color = { 110 45 35 }
-				}
-
-				b_wigmore = {
-					province = 1633
-
-					color = { 110 45 35 }
-				}
-
-				b_clifford = {
-					province = 1634
-
-					color = { 110 45 35 }
-				}
-			}
+			
 		}
 
 		d_deheubarth = {
@@ -566,6 +535,38 @@ e_the_iron_throne = {
 		
 		d_hereford = {
 			color = { 200 30 0 }
+			c_hereford = {
+				color = { 110 45 35 }
+
+				cultural_names = {
+					
+					name_list_welsh = cn_arcenefelde
+					name_list_cumbrian = cn_arcenefelde
+				}
+
+				b_hereford = {
+					province = 1632
+
+					cultural_names = {
+						name_list_welsh = cn_hennffordd
+						name_list_cumbrian = cn_hennffordd
+					}
+
+					color = { 110 45 35 }
+				}
+
+				b_wigmore = {
+					province = 1633
+
+					color = { 110 45 35 }
+				}
+
+				b_clifford = {
+					province = 1634
+
+					color = { 110 45 35 }
+				}
+			}
 			c_warwickshire = {
 				color = {63 63 63}
 			}

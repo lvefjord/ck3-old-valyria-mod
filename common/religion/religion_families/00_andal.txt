@@ -1,4 +1,4 @@
-rf_andal = {
+﻿rf_andal = {
 	name = andal 		# If not set will use the object key as localization key
 	graphical_faith = catholic_gfx 	
 	piety_icon_group = christian 	

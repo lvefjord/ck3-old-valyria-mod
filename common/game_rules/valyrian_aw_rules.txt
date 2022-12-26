@@ -1,4 +1,4 @@
-val_alt_world = { 
+﻿val_alt_world = { 
 	default = val_alt_world_enabled
 	val_alt_world_disabled = { 
 	}

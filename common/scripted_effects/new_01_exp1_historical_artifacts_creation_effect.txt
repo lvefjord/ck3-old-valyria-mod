@@ -1,47 +1,29 @@
 ﻿create_artifact_blackfyre_effect = {
-	# Get the character the artifact is being made for.
+
 	$OWNER$ = { save_scope_as = owner }
 
 	set_artifact_rarity_illustrious = yes
 
-	# Create the artifact
-	create_artifact = {	
-		name = "Blackfyre"
-		description = "Blackfyre was the sword wielded by Aegon the Conqueror which has given legitimacy to the Targaryen kings for centuries."
-		type = sword
-		visuals = blackfyre
-		wealth = scope:wealth
-		quality = scope:quality
-		template = blackfyre_template
-		history = {
-			type = created
-			date = 846.1.1
-			recipient = character:999999999996 #Aegons dad
-			location = province:9661 #Dragonstone
+	scope:owner = {
+		create_artifact = {	
+			name = "Blackfyre"
+			description = "Blackfyre was the sword wielded by Aegon the Conqueror which has given legitimacy to the Targaryen kings for centuries."
+			type = sword
+			visuals = blackfyre
+			wealth = scope:wealth
+			quality = scope:quality
+			template = blackfyre_template
+			history = {
+				type = created
+				date = 800.1.1
+				recipient = character:999999999996 #Aegons dad
+				location = province:9661 #Dragonstone
+			}
+			modifier = blackfyre_modifier
+			save_scope_as = newly_created_artifact
+			decaying = no
 		}
-		modifier = blackfyre_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
 	}
-	create_artifact = {	
-		name = "Blackfyre"
-		description = "Blackfyre was the sword wielded by Aegon the Conqueror which has given legitimacy to the Targaryen kings for centuries."
-		type = sword
-		visuals = blackfyre
-		wealth = scope:wealth
-		quality = scope:quality
-		template = blackfyre_template
-		history = {
-			type = created
-			date = 846.1.1
-			recipient = character:9988779 #Aegons II
-			location = province:1527 #KL
-		}
-		modifier = blackfyre_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = {

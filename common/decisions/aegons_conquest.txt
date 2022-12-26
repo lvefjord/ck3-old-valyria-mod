@@ -1,8 +1,8 @@
 aconquest_1 = {
-	title = "Conquer the seven kingdoms."
-	desc = "Placeholder you will get claims"
-	confirm_text = "Valar Morghulis"
-	selection_tooltip = "Placeholder conquer the shits"
+	title = "Conquer the Seven Kingdoms"
+	desc = "You will gain access to the Dragon Conquest casus belli."
+	confirm_text = "Begin the conquest"
+	selection_tooltip = "Conquer Westeros"
 	picture = "gfx/interface/illustrations/decisions/decision_4kings.dds"
 	
 	major = yes
@@ -18,17 +18,12 @@ aconquest_1 = {
 	}
 
 	is_shown = {
-		always = no
 		NOT = {
-			is_target_in_global_variable_list = {
-				name = unique_use
-				target = flag:unique_used
-			}
+			has_character_flag = started_conquest
+			has_character_flag = finished_conquest
 		}
-		has_title = title:k_dragonstone
-		has_game_rule = val_alt_world_enabled
 	}
-	
+
 	is_valid = {
 		has_trait = dragon_rider
 		has_trait = valyrian_blood
@@ -36,244 +31,57 @@ aconquest_1 = {
 
 	
 	effect = {
-		trigger_event = fk.0001
-		dynasty = {add_dynasty_prestige = 250}
+		add_character_flag = {
+			flag = started_conquest
+		}
+		add_character_flag = {
+			flag = dragon_cb_allowed
+		}
+
+
+
+		get_title = title:e_the_iron_throne
+
+
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		
+		title:c_middlesex = {
+			change_title_holder = {
+				holder = character:999999999999
+				change = scope:change
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:change
+
+		title:c_middlesex = {
+			set_county_culture = culture:valyrian
+			set_county_faith = faith:valyrian
+			change_county_control = 100
+		}
+
+		title:c_middlesex = {
+			save_scope_as = middlesex_title
+			set_title_name = c_aegonfort
+		}
+		title:b_london = {
+			save_scope_as = london_title
+			set_title_name = b_aegonfort
+		}
+
+
+
+
+
+		
 		hidden_effect = {
 			refund_all_perks = yes
+			destroy_title = title:k_dragonstone
 		}
-		}
-		
-	}
 
-
-
-four_kingdoms_decision_2 = {
-	title = "Conquer Wales"
-	desc = "You will recieve claims to every county in each of the kingdoms on the british isles."
-	confirm_text = "Start the conquest"
-	selection_tooltip = "Conquer England, Wales, Ireland, and Scotland"
-	picture = "gfx/interface/illustrations/decisions/decision_4kings.dds"
-	
-	major = yes
-	
-	ai_goal = yes
-	
-	ai_potential = {
-        always = yes
-	}
-	
-	ai_will_do = {
-        base = 100
-	}
-
-	is_shown = {
-		has_character_flag = part_2
-	}
-	
-	is_valid = {
-		completely_controls = title:c_cornwall
-		completely_controls = title:c_devon
-		completely_controls = title:c_somerset
-		completely_controls = title:c_dorset
-		completely_controls = title:c_hampton
-		completely_controls = title:c_isle_of_wight
-		completely_controls = title:c_sussex
-		completely_controls = title:c_kent
-		completely_controls = title:c_surrey
-		completely_controls = title:c_berkshire
-		completely_controls = title:c_wiltshire
-		completely_controls = title:c_gloucestershire
-		completely_controls = title:c_oxfordshire
-		completely_controls = title:c_buckinghamshire
-		completely_controls = title:c_middlesex
-		completely_controls = title:c_essex
-		completely_controls = title:c_suffolk
-		completely_controls = title:c_cambridgeshire
-		completely_controls = title:c_hertfordshire
-		completely_controls = title:c_norfolk
-		completely_controls = title:c_bedford
-		completely_controls = title:c_huntingdonshire
-		completely_controls = title:c_northamptonshire
-		completely_controls = title:c_warwickshire
-		completely_controls = title:c_worcestershire
-		completely_controls = title:c_hereford
-		completely_controls = title:c_shropshire
-		completely_controls = title:c_staffordshire
-		completely_controls = title:c_leicestershire
-		completely_controls = title:c_lincolnshire
-		completely_controls = title:c_nottinghamshire
-		completely_controls = title:c_derby
-		completely_controls = title:c_cheshire
-		completely_controls = title:c_east_riding
-		completely_controls = title:c_west_riding
-		completely_controls = title:c_lancashire
-		completely_controls = title:c_north_riding
-		completely_controls = title:c_westmorland
-		completely_controls = title:c_durham
-		completely_controls = title:c_northumberland
-	}
-
-	
-	effect = {
-		trigger_event = fk.0002
-		dynasty = {add_dynasty_prestige = 750}
-		remove_character_flag = part_2
 	}
 }
-
-four_kingdoms_decision_3 = {
-	title = "Conquer Ireland"
-	desc = "You will recieve claims to every county in each of the kingdoms on the british isles."
-	confirm_text = "Start the conquest"
-	selection_tooltip = "Conquer England, Wales, Ireland, and Scotland"
-	picture = "gfx/interface/illustrations/decisions/decision_4kings.dds"
-	
-	major = yes
-	
-	ai_goal = yes
-	
-	ai_potential = {
-        always = yes
-	}
-	
-	ai_will_do = {
-        base = 100
-	}
-
-	is_shown = {
-		has_character_flag = part_3
-	}
-	
-	is_valid = {
-		completely_controls = title:c_denbighshire
-		completely_controls = title:c_caernarfonshire
-		completely_controls = title:c_anglesey	
-		completely_controls = title:c_merioneth
-		completely_controls = title:c_maldwyn
-		completely_controls = title:c_sir_faesyfed
-		completely_controls = title:c_cardiganshire
-		completely_controls = title:c_pembrokeshire
-		completely_controls = title:c_carmarthenshire
-		completely_controls = title:c_glamorgan
-		completely_controls = title:c_monmouthshire
-		completely_controls = title:c_brecknockshire
-		}
-		
-	effect = {
-		trigger_event = fk.0003
-		dynasty = {add_dynasty_prestige = 1250}
-		remove_character_flag = part_3
-		
-	}
-}
-
-four_kingdoms_decision_4 = {
-	title = "Conquer Scotland"
-	desc = "You will recieve claims to every county in each of the kingdoms on the british isles."
-	confirm_text = "Start the conquest"
-	selection_tooltip = "Conquer England, Wales, Ireland, and Scotland"
-	picture = "gfx/interface/illustrations/decisions/decision_4kings.dds"
-	
-	major = yes
-	
-	ai_goal = yes
-	
-	ai_potential = {
-        always = yes
-	}
-	
-	ai_will_do = {
-        base = 100
-	}
-
-	is_shown = {
-		has_character_flag = part_4
-	}
-	
-	is_valid = {
-		completely_controls = title:c_ailech
-		completely_controls = title:c_ulster
-		completely_controls = title:c_oriel
-		completely_controls = title:c_breifne
-		completely_controls = title:c_dublin
-		completely_controls = title:c_athlone
-		completely_controls = title:c_mayo
-		completely_controls = title:c_connacht
-		completely_controls = title:c_leinster
-		completely_controls = title:c_ossory
-		completely_controls = title:c_ennis
-		completely_controls = title:c_thomond
-		completely_controls = title:c_ormond
-		completely_controls = title:c_desmond
-		}
-		
-	effect = {
-		trigger_event = fk.0004
-		dynasty = {add_dynasty_prestige = 1750}
-		remove_character_flag = part_4
-	}
-}
-
-four_kingdoms_decision_5 = {
-	title = "Complete the Great Conquest"
-	desc = "It is done."
-	confirm_text = "Dracarys!"
-	selection_tooltip = "At last!"
-	picture = "gfx/interface/illustrations/decisions/decision_4kings.dds"
-	
-	major = yes
-	
-	ai_goal = yes
-	
-	ai_potential = {
-        always = yes
-	}
-	
-	ai_will_do = {
-        base = 100
-	}
-
-	is_shown = {
-		has_character_flag = part_5
-	}
-	
-	is_valid = {
-		completely_controls = title:c_orkney
-		completely_controls = title:c_caithness
-		completely_controls = title:c_sutherland
-		completely_controls = title:c_outer_hebrides
-		completely_controls = title:c_ross
-		completely_controls = title:c_inverness
-		completely_controls = title:c_moray
-		completely_controls = title:c_buchan
-		completely_controls = title:c_mearns
-		completely_controls = title:c_angus
-		completely_controls = title:c_atholl
-		completely_controls = title:c_gowrie
-		completely_controls = title:c_argyll
-		completely_controls = title:c_inner_hebrides
-		completely_controls = title:c_lennox
-		completely_controls = title:c_strathearn
-		completely_controls = title:c_fife
-		completely_controls = title:c_linlithgowshire
-		completely_controls = title:c_ayrshire
-		completely_controls = title:c_lanarkshire
-		completely_controls = title:c_lothian
-		completely_controls = title:c_dunbar
-		completely_controls = title:c_teviotdale
-		completely_controls = title:c_annandale
-		completely_controls = title:c_galloway
-		completely_controls = title:c_carrik
-		completely_controls = title:c_cumberland
-
-		}
-		
-	effect = {
-		trigger_event = fk.0005
-		dynasty = {add_dynasty_prestige = 2250}
-		remove_character_flag = part_5
-	}
-}
-
-
-
