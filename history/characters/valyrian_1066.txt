@@ -265,3 +265,151 @@
 		birth = yes
 	}
 }
+
+#Cregan Stark
+9988781 = {
+	name = "Cregan"
+	dynasty = 91114881988
+	religion = "old_god"
+	culture = "northmen"
+	martial = 14
+	diplomacy = 11
+	intrigue = 6
+	stewardship = 10
+	trait = education_martial_4
+	trait = blademaster_2
+	trait = loyal
+	trait = winter_soldier
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	1034.1.1 = {
+		birth = yes
+	}
+}
+#Qoren Martell
+9988782 = {
+	name = "Qoren"
+	dynasty = 91114881987
+	religion = "the_seven"
+	culture = "dornish"
+	martial = 14
+	diplomacy = 11
+	intrigue = 6
+	stewardship = 10
+	trait = education_diplomacy_2
+	trait = craven
+	trait = lazy
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	1034.1.1 = {
+		birth = yes
+	}
+}
+#Lyonel Tyrell
+9988783 = {
+	name = "Lyonel"
+	dynasty = 91114881986
+	religion = "the_seven"
+	culture = "reachman"
+	martial = 14
+	diplomacy = 11
+	intrigue = 6
+	stewardship = 10
+	trait = education_martial_4
+	trait = brave
+	trait = diligent
+	trait = aggressive_attacker
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	1046.1.1 = {
+		birth = yes
+	}
+}
+#Grover Tully
+9988784 = {
+	name = "Grover"
+	dynasty = 91114881985
+	religion = "the_seven"
+	culture = "crownlander"
+	martial = 7
+	diplomacy = 11
+	intrigue = 6
+	stewardship = 10
+	trait = education_stewardship_4
+	trait = patient
+	trait = diligent
+	trait = infirm
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	1000.1.1 = {
+		birth = yes
+	}
+}
+#Borros Baratheon
+9988785 = {
+	name = "Borros"
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_northern_01
+			custom_beards=male_beard_western_01
+		}
+	}
+	dynasty = 91114881994
+	religion = "the_seven"
+	culture = "stormlander"
+	martial = 14
+	diplomacy = 11
+	intrigue = 6
+	stewardship = 10
+	trait = education_martial_4
+	trait = wrathful
+	trait = impatient
+	trait = vengeful
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	1035.1.1 = {
+		birth = yes
+	}
+}
+#Jeyne Arryn
+9988786 = {
+	name = "Jeyne"
+	dynasty = 91114881990
+	female = yes
+	religion = "the_seven"
+	culture = "valeman"
+	martial = 14
+	diplomacy = 11
+	intrigue = 6
+	stewardship = 10
+	trait = education_diplomacy_4
+	trait = patient
+	trait = shy
+	trait = diligent
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	1035.1.1 = {
+		birth = yes
+	}
+}
+
+#Jason Lannister
+9988780 = {
+	name = "Jason"
+	dynasty = 91114881989
+	religion = "the_seven"
+	culture = "westerman"
+	martial = 6
+	diplomacy = 11
+	intrigue = 13
+	stewardship = 16
+	trait = education_stewardship_4
+	trait = arrogant
+	trait = ambitious
+	trait = shrewd
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	1034.1.1 = {
+		birth = yes
+	}
+}

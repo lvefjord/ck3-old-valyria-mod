@@ -1,0 +1,114 @@
+#9988787-998895
+
+#Torrhen Stark
+9988787 = {
+	name = "Torrhen"
+	dynasty = 91114881988
+	culture = "northmen"
+	religion = "old_god"
+	sexuality = heterosexual
+	845.1.1 = {
+		birth = yes
+	}
+}
+
+#Sharra Arryn Ronnel's mum
+9988788 = {
+	name = "Sharra"
+	female = yes
+	dynasty = 91114881990
+	culture = "valeman"
+	religion = "the_seven"
+	sexuality = heterosexual
+	845.1.1 = {
+		birth = yes
+	}
+}
+
+#Ronnel Arryn
+9988789 = {
+	name = "Ronnel"
+	dynasty = 91114881990
+	culture = "valeman"
+	religion = "the_seven"
+	trait = rowdy
+	mother = 9988788
+	sexuality = heterosexual
+	860.1.1 = {
+		birth = yes
+	}
+}
+
+#Harren Hoare
+9988790 = {
+	name = "Harren"
+	dynasty = 91114881984
+	culture = "ironborn"
+	religion = "drowned_god"
+	sexuality = heterosexual
+	845.1.1 = {
+		birth = yes
+	}
+}
+
+#Loren Lannister
+9988791 = {
+	name = "Loren"
+	dynasty = 91114881989
+	culture = "westerman"
+	religion = "the_seven"
+	sexuality = heterosexual
+	845.1.1 = {
+		birth = yes
+	}
+}
+
+#Mern IX Gardener
+998892 = {
+	name = "Mern IX"
+	dynasty = 91114881983
+	culture = "reachman"
+	religion = "the_seven"
+	sexuality = heterosexual
+	845.1.1 = {
+		birth = yes
+	}
+}
+
+#Argilac Durrandon
+998893 = {
+	name = "Argilac"
+	dynasty = 91114881982
+	culture = "stormlander"
+	religion = "the_seven"
+	sexuality = heterosexual
+	845.1.1 = {
+		birth = yes
+	}
+}
+
+#Meria Martell
+998894 = {
+	name = "Meria"
+	dynasty = 91114881987
+	female = yes
+	culture = "dornish"
+	religion = "the_seven"
+	sexuality = heterosexual
+	787.1.1 = {
+		birth = yes
+	}
+}
+
+#Nymor Martell
+998895 = {
+	name = "Nymor"
+	dynasty = 91114881987
+	culture = "dornish"
+	religion = "the_seven"
+	mother = 998894
+	sexuality = heterosexual
+	820.1.1 = {
+		birth = yes
+	}
+}

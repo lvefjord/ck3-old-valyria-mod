@@ -8,33 +8,33 @@ easteros.0001 = {
 	
 		name = "Transformers go"
 
-		#Jason Lannister Warden West
-		exists = character:999999999983
-		character:999999999983 = { is_alive = yes }
+		#Loren Lannister
+		exists = character:9988791
+		character:9988791 = { is_alive = yes }
 		###########################
-		#Cregan Stark 
-		exists = character:999999999981
-		character:999999999981 = { is_alive = yes }
+		#Torrhen Stark
+		exists = character:9988787
+		character:9988787 = { is_alive = yes }
 		##############################
-		#Qoren Martell
-		exists = character:999999999984
-		character:999999999984 = { is_alive = yes }
+		#Meria Martell
+		exists = character:998894
+		character:998894 = { is_alive = yes }
 		##############################
-		#Lyonel Tyrell
-		exists = character:999999999979
-		character:999999999979 = { is_alive = yes }
+		#Mern IX Gardener
+		exists = character:998892
+		character:998892 = { is_alive = yes }
 		#############################
-		#Grover Tully
-		exists = character:999999999978
-		character:999999999978 = { is_alive = yes }
+		#Harren Hoare
+		exists = character:9988790
+		character:9988790 = { is_alive = yes }
 		#############################
-		#Borros Baratheon
-		exists = character:999999999982
-		character:999999999982 = { is_alive = yes }
+		#Argilac Durrandon
+		exists = character:998893
+		character:998893 = { is_alive = yes }
 		#############################
-		#Jeyne Arryn
-		exists = character:999999999980
-		character:999999999980 = { is_alive = yes }
+		#Ronnel Arryn
+		exists = character:9988789
+		character:9988789 = { is_alive = yes }
 		#############################
 		create_title_and_vassal_change = {
 			type = granted
@@ -45,33 +45,33 @@ easteros.0001 = {
 
 		title:k_the_westerlands = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		
 		title:c_carmarthenshire = {
 			change_title_holder = {
-				holder = character:999999999983 
+				holder = character:9988791 
 				change = scope:change
 			}
 		}
 
 		title:c_sir_faesyfed = {
 			change_title_holder = {
-				holder = character:999999999983 
+				holder = character:9988791 
 				change = scope:change
 			}
 		}
 		title:c_maldwyn = {
 			change_title_holder = {
-				holder = character:999999999983 
+				holder = character:9988791 
 				change = scope:change
 			}
 		}
 		title:c_denbighshire = {
 			change_title_holder = {
-				holder = character:999999999983 
+				holder = character:9988791 
 				change = scope:change
 			}
 		}
@@ -79,518 +79,518 @@ easteros.0001 = {
 
 		title:c_glamorgan = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:c_monmouthshire = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:d_gwynedd = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:d_powys = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:c_hereford = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:c_shropshire = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:c_worcestershire = {
 			change_title_holder = {
-				holder = character:999999999979
+				holder = character:998892
 				change = scope:change
 			}
 		}
 		title:c_merioneth = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:c_caernarfonshire = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:c_anglesey = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:c_pembrokeshire = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:c_cardiganshire = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:c_brecknockshire = {
 			change_title_holder = {
-				holder = character:999999999983
+				holder = character:9988791
 				change = scope:change
 			}
 		}
 		title:k_the_reach = {
 			change_title_holder = {
-				holder = character:999999999979
+				holder = character:998892
 				change = scope:change
 			}
 		}
 		title:c_cornwall = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:c_devon = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:c_somerset = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:c_dorset = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:k_dorne = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:c_sussex = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:c_gloucestershire = {
 			change_title_holder = {
-				holder = character:999999999979
+				holder = character:998892
 				change = scope:change
 			}
 		}
 		title:c_isle_of_wight = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:c_hampton = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:c_wiltshire = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:k_the_stormlands = {
 			change_title_holder = {
-				holder = character:999999999982
+				holder = character:998893
 				change = scope:change
 			}			
 		}
 		title:c_middlesex = {
 			change_title_holder = {
-				holder = character:999999999982
+				holder = character:998893
 				change = scope:change
 			}
 		}
 		title:c_kent = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:c_surrey = {
 			change_title_holder = {
-				holder = character:999999999984
+				holder = character:998894
 				change = scope:change
 			}
 		}
 		title:c_berkshire = {
 			change_title_holder = {
-				holder = character:999999999979
+				holder = character:998892
 				change = scope:change
 			}
 		}
 		title:c_oxfordshire = {
 			change_title_holder = {
-				holder = character:999999999979
+				holder = character:998892
 				change = scope:change
 			}
 		}
 		title:c_buckinghamshire = {
 			change_title_holder = {
-				holder = character:999999999979
+				holder = character:998892
 				change = scope:change
 			}
 		}
 		title:c_hertfordshire = {
 			change_title_holder = {
-				holder = character:999999999982
+				holder = character:998893
 				change = scope:change
 			}
 		}
 		title:c_essex = {
 			change_title_holder = {
-				holder = character:999999999982
+				holder = character:998893
 				change = scope:change
 			}
 		}
 		title:c_bedford = {
 			change_title_holder = {
-				holder = character:999999999982
+				holder = character:998893
 				change = scope:change
 			}
 		}
 		title:c_suffolk = {
 			change_title_holder = {
-				holder = character:999999999982
+				holder = character:998893
 				change = scope:change
 			}
 		}
 		title:c_norfolk = {
 			change_title_holder = {
-				holder = character:999999999982
+				holder = character:998893
 				change = scope:change
 			}
 		}
 		title:c_cambridgeshire = {
 			change_title_holder = {
-				holder = character:999999999982
+				holder = character:998893
 				change = scope:change
 			}
 		}
 		title:c_huntingdonshire = {
 			change_title_holder = {
-				holder = character:999999999982
+				holder = character:998893
 				change = scope:change
 			}
 		}
 		title:c_northamptonshire = {
 			change_title_holder = {
-				holder = character:999999999979
+				holder = character:998892
 				change = scope:change
 			}
 		}
 		title:k_the_north = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:d_western_isles = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:d_moray = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_isle_of_man = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_northumberland = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_ayrshire = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_carrick = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_argyll = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_outer_hebrides = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_galloway = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_inner_hebrides = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_lennox = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_linlithgowshire = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_strathearn = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_fire = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_gowrie = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_atholl = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_angus = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_mearns = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_buchan = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_sutherland = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_caithness = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_moray = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_inverness = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_ross = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_fife = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_lanarkshire = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_lothian = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_dunbar = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_teviotdale = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:c_annandale = {
 			change_title_holder = {
-				holder = character:999999999981
+				holder = character:9988787
 				change = scope:change
 			}
 		}
 		title:k_the_riverlands = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		title:c_cumberland = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		title:c_warwickshire = {
 			change_title_holder = {
-				holder = character:999999999979
+				holder = character:998892
 				change = scope:change
 			}
 		}
 		title:c_staffordshire = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		title:c_cheshire = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		title:c_lancashire = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		title:c_derby = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		title:c_leicestershire = {
 			change_title_holder = {
-				holder = character:999999999979
+				holder = character:998892
 				change = scope:change
 			}
 		}
 		title:c_westmorland = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		title:c_west_riding = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		title:c_nottinghamshire = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		title:k_the_vale = {
 			change_title_holder = {
-				holder = character:999999999980
+				holder = character:9988789
 				change = scope:change
 			}
 		}
 		title:c_durham = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		
 		title:c_north_riding = {
 			change_title_holder = {
-				holder = character:999999999978
+				holder = character:9988790
 				change = scope:change
 			}
 		}
 		title:c_east_riding = {
 			change_title_holder = {
-				holder = character:999999999980
+				holder = character:9988789
 				change = scope:change
 			}
 		}
 		title:c_lincolnshire = {
 			change_title_holder = {
-				holder = character:999999999980
+				holder = character:9988789
 				change = scope:change
 			}
 		}
