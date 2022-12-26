@@ -28,82 +28,6 @@ dragon_conquest_cb = {
 	# Root is the title
 	# scope:attacker is the attacker
 	# scope:defender is the defender
-	allowed_against_character_display_regardless = {
-		scope:attacker = {
-			trigger_if = {
-				limit = {
-					has_government = tribal_government
-					scope:defender = {
-						has_government = tribal_government
-					}
-				}
-				trigger_if = {
-					limit = {
-						culture = {
-							has_cultural_parameter = cb_lower_prestige_level_requirement
-						}
-					}
-					prestige_level >= 1
-				}
-				trigger_else = {
-					prestige_level >= 2
-				}
-			}
-			trigger_else_if = {
-				limit = {
-					faith.religious_head = scope:attacker
-					exists = scope:defender.faith.religious_head
-					scope:defender.faith.religious_head = scope:attacker.faith.religious_head
-					scope:attacker.faith = { has_doctrine = doctrine_temporal_head }
-				}
-				trigger_if = {
-					limit = {
-						OR = {
-							culture = {
-								has_cultural_parameter = cb_lower_piety_level_requirement
-							}
-							# Iberian Struggle Hostility Reward
-							AND = {
-								exists = house
-								house = {
-									OR = {
-										has_house_modifier = fp2_struggle_hostility_house_faith_modifier
-										has_house_modifier = fp2_struggle_hostility_house_combined_modifier
-									}
-								}
-							}
-						}
-					}
-					piety_level >= 2
-				}
-				trigger_else = {
-					piety_level >= 3
-				}
-			}
-			trigger_else = {
-				trigger_if = {
-					limit = {
-						culture = {
-							has_cultural_parameter = cb_lower_prestige_level_requirement
-						}
-					}
-					prestige_level >= 3
-				}
-				trigger_else = {
-					prestige_level >= 4
-				}
-			}
-			custom_description = {
-				text = has_used_lifetime_subjugation
-				subject = scope:attacker
-				NOT = {
-					scope:attacker = {
-						has_character_flag = used_lifetime_subjugation
-					}
-				}
-			}
-		}
-	}
 	
 	allowed_against_character = {
 		scope:attacker = {
@@ -112,23 +36,6 @@ dragon_conquest_cb = {
 		
 		scope:defender = {
 			is_independent_ruler = yes
-			trigger_if = {
-				limit = { scope:attacker = { is_ai = no } } # Already pre-filtered by the AI due to ai_only_against_neighbors = yes. any_neighboring_top_liege_realm_owner is expensive
-				scope:attacker = {
-					any_neighboring_top_liege_realm_owner = {
-						this = scope:defender
-					}
-				}
-			}
-			NOR = { # Can't subjugate holy orders or Heads of Faith
-				any_held_title = {
-					is_holy_order = yes
-				}
-				AND = {
-					exists = faith.religious_head
-					faith.religious_head = root
-				}
-			}
 		}
 	}
 	
