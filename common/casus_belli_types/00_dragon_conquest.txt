@@ -1,5 +1,5 @@
 dragon_conquest_cb = {
-	group = claim
+	group = valyrian
 	mutually_exclusive_titles = {
 		NOT = {
 			# If pushing personal claims, you can press multiple claims with the Divine Right innovation (High Medieval Era).
@@ -28,14 +28,11 @@ dragon_conquest_cb = {
 	# Root is the title
 	# scope:attacker is the attacker
 	# scope:defender is the defender
+
 	
 	allowed_against_character = {
 		scope:attacker = {
 			has_trait = dragon_rider
-		}
-		
-		scope:defender = {
-			is_independent_ruler = yes
 		}
 	}
 	
