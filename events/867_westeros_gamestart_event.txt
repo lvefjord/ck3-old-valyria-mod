@@ -59,13 +59,13 @@ easteros.0001 = {
 
 		title:c_sir_faesyfed = {
 			change_title_holder = {
-				holder = character:9988791 
+				holder = character:9988802 
 				change = scope:change
 			}
 		}
 		title:c_maldwyn = {
 			change_title_holder = {
-				holder = character:9988791 
+				holder = character:9988802 
 				change = scope:change
 			}
 		}
@@ -97,7 +97,7 @@ easteros.0001 = {
 		}
 		title:d_powys = {
 			change_title_holder = {
-				holder = character:9988791
+				holder = character:9988802
 				change = scope:change
 			}
 		}
@@ -109,7 +109,7 @@ easteros.0001 = {
 		}
 		title:c_shropshire = {
 			change_title_holder = {
-				holder = character:9988791
+				holder = character:9988802
 				change = scope:change
 			}
 		}
@@ -307,7 +307,7 @@ easteros.0001 = {
 		}
 		title:c_northamptonshire = {
 			change_title_holder = {
-				holder = character:9988796
+				holder = character:9988804
 				change = scope:change
 			}
 		}
@@ -481,25 +481,25 @@ easteros.0001 = {
 		}
 		title:c_northhamptonshire = {
 			change_title_holder = {
-				holder = character:9988796
+				holder = character:9988804
 				change = scope:change
 			}
 		}
 		title:d_hereford = {
 			change_title_holder = {
-				holder = character:9988796
+				holder = character:9988804
 				change = scope:change
 			}
 		}
 		title:c_warwickshire = {
 			change_title_holder = {
-				holder = character:9988796
+				holder = character:9988804
 				change = scope:change
 			}
 		}
 		title:c_leicestershire = {
 			change_title_holder = {
-				holder = character:9988796
+				holder = character:9988804
 				change = scope:change
 			}
 		}
@@ -523,26 +523,26 @@ easteros.0001 = {
 		}
 		title:d_northumberland = {
 			change_title_holder = {
-				holder = character:9988797
+				holder = character:9988805
 				change = scope:change
 			}
 		}
 		title:c_west_riding = {
 			change_title_holder = {
-				holder = character:9988797
+				holder = character:9988805
 				change = scope:change
 			}
 		}
 		title:c_durham = {
 			change_title_holder = {
-				holder = character:9988797
+				holder = character:9988805
 				change = scope:change
 			}
 		}
 		
 		title:c_north_riding = {
 			change_title_holder = {
-				holder = character:9988797
+				holder = character:9988805
 				change = scope:change
 			}
 		}
@@ -633,35 +633,42 @@ easteros.0001 = {
 
 		resolve_title_and_vassal_change = scope:change
 
-		
+		#######Give liege########
 		create_title_and_vassal_change = {
 			type = swear_fealty
 			save_scope_as = change
 		}
-		
-		character:9988797 = {
+		character:9988805 = {
 			change_liege = {
 				liege = character:9988790
 				change = scope:change
 			}
 			resolve_title_and_vassal_change = scope:change
 		}
-
+		#######Give liege########
 		create_title_and_vassal_change = {
 			type = swear_fealty
 			save_scope_as = change
 		}
-		
-		character:9988796 = {
+		character:9988804 = {
 			change_liege = {
 				liege = character:9988792
 				change = scope:change
 			}
 			resolve_title_and_vassal_change = scope:change
 		}
-
-		#####
-
+		#######Give liege########
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+		}
+		character:9988802 = {
+			change_liege = {
+				liege = character:9988791
+				change = scope:change
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
 
 		#RENAMES
 		

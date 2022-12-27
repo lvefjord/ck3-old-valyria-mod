@@ -73,7 +73,7 @@
 	stewardship = 12
 	martial = 14
 	sexuality = heterosexual
-	836.1.1 = {
+	833.1.1 = {
 		birth = yes
 	}
 	864.1.1 = {
@@ -91,7 +91,7 @@
 	stewardship = 10
 	martial = 14
 	sexuality = heterosexual
-	836.1.1 = {
+	833.1.1 = {
 		birth = yes
 	}
 	864.1.1 = {
@@ -211,7 +211,7 @@
 	sexuality = heterosexual
 	trait = education_stewardship_4
 	stewardship = 10
-	836.1.1 = {
+	833.1.1 = {
 		birth = yes
 	}
 	864.1.1 = {
@@ -229,7 +229,7 @@
 	trait = education_intrigue_4
 	intrigue = 15
 	stewardship = 12
-	836.1.1 = {
+	833.1.1 = {
 		birth = yes
 	}
 	864.1.1 = {
@@ -250,10 +250,10 @@
 	stewardship = 12
 	mother = 9988800
 	father = 9988792
-	850.1.1 = {
+	848.1.1 = {
 		birth = yes
 	}
-	867.1.1 = {
+	866.12.1 = {
 		add_spouse = 9988802
 	}
 }
@@ -272,24 +272,58 @@
 	diplomacy = 12
 	father = 9988791
 	mother = 9988799
-	850.1.1 = {
+	848.1.1 = {
 		birth = yes
 	}
-	867.1.1 = {
+	866.12.1 = {
 		add_spouse = 9988801
 	}
 }
 #3rd gen premade char
 9988803 = {
-	name = Jaime
+	name = Tywin
 	dynasty = 91114881989
 	culture = westerman
 	religion = the_seven
 	trait = rowdy
-	trait = intellet_good_1
+	trait = intellet_good_2
 	father = 9988802
 	mother = 9988801
-	867.1.1 = {
+	865.12.1 = {
 		birth = yes
 	}
 }
+
+
+#Replacement for Harlen Tyrell cuz it fucked title swaps up
+9988804 = {
+	name = Loras
+	dynasty = 91114881986
+	culture = reachman
+	religion = the_seven
+	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
+	trait = loyal
+	sexuality = heterosexual
+	843.1.1 = {
+		birth = yes
+	}
+}
+
+#Replacement for Edmyn cuz it fucked title swaps up
+9988805 = {
+	name = Brynden
+	dynasty = 91114881985
+	culture = riverlander
+	religion = the_seven
+	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
+	trait = loyal
+	sexuality = heterosexual
+	843.1.1 = {
+		birth = yes
+	}
+}
+
