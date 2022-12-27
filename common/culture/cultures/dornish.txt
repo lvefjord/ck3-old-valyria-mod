@@ -1,19 +1,19 @@
 dornish = {
-	color = { 63 63 63 }
+	color = { 174 127 16 }
 	created = 0.1.1
 	
 	
-	ethos = ethos_bellicose
+	ethos = ethos_stoic
 	heritage = heritage_dornish
 	language = language_common_tongue
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_valyrian_legacy
+		tradition_stalwart_defenders
+		tradition_stand_and_fight
+		tradition_dryland_dwellers
+		tradition_equal_inheritance
 		tradition_loyal_soldiers
-		tradition_ruling_caste
-		tradition_hereditary_hierarchy
-		tradition_warrior_monks
-		tradition_warriors_by_merit
+		tradition_warriors_of_the_dry
 		
 	}
 	
@@ -26,9 +26,9 @@ dornish = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		25 = caucasian_blond
-		15 = caucasian_ginger
-		35 = caucasian_brown_hair
-		25 = caucasian_dark_hair
+		5 = caucasian_blond
+		5 = caucasian_ginger
+		30 = caucasian_brown_hair
+		60 = caucasian_dark_hair
 	}
 }

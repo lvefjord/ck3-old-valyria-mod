@@ -101,8 +101,8 @@ ac.0002 = {
 
 		character:9988793 = {
 			death = {
-				death_reason = death_fired
-				killer = root
+				death_reason = death_duel
+				killer = character:999999999988
 			}
 		}
 		dynasty = {add_dynasty_prestige = 500}
@@ -395,16 +395,108 @@ ac.0008 = {
 		name = "se Dārio Mīsio" 
 		give_nickname = nick_the_conqueror
 		dynasty = {add_dynasty_prestige = 2250}
+	
+		province:1529 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
 
+		province:1526 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+	
+		province:1528 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+	
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+	
+		title:b_woxbrigge = {
+			change_title_holder = {
+				holder = character:999999999999
+				change = scope:change
+			}
+		}
+	
+		title:b_gore = {
+			change_title_holder = {
+				holder = character:999999999999
+				change = scope:change
+			}
+		}
+	
+		title:b_southwark = {
+			change_title_holder = {
+				holder = character:999999999999
+				change = scope:change
+			}
+		}
+	
+		title:b_london = {
+			change_title_holder = {
+				holder = character:999999999999
+				change = scope:change
+			}
+		}
+	
+		title:c_middlesex = {
+			change_title_holder = {
+				holder = character:999999999999
+				change = scope:change
+			}
+		}
+	
+		title:b_brentford = {
+			change_title_holder = {
+				holder = character:999999999999
+				change = scope:change
+			}
+		}
+	
+		resolve_title_and_vassal_change = scope:change
+	
 		title:c_middlesex = {
 			save_scope_as = middlesex_title
 			set_title_name = c_kings_landing
 		}
+	
 		title:b_london = {
 			save_scope_as = london_title
-			set_title_name = b_kings_landing
+			set_title_name = b_red_keep
 		}
-
+	
+		title:b_southwark = {
+			save_scope_as = southwark_title
+			set_title_name = b_fleabottom
+		}
+	
+		title:b_gore = {
+			save_scope_as = gore_title
+			set_title_name = b_tower_hand
+		}
+	
+		title:b_woxbrigge = {
+			save_scope_as = woxbrigge_title
+			set_title_name = b_maegor_holdfast
+		}
+	
+		title:b_brentford = {
+			save_scope_as = brentford_title
+			set_title_name = b_great_sept
+		}
+	
 		title:e_the_iron_throne.holder = {
 			set_realm_capital = title:c_middlesex
 		}
