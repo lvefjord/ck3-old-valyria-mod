@@ -373,8 +373,8 @@ on_game_start_after_lobby = {
 				current_date = 867.1.1
 				has_game_rule = val_alt_world_enabled
 			}
-			trigger_event = easteros.0001
 			trigger_event = historical_artifacts.9999
+			trigger_event = easteros.0001
 		}
 		
 		

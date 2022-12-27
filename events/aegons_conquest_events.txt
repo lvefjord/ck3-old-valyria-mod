@@ -542,7 +542,16 @@ ac.0008 = {
 		add_character_flag = {
 			flag = finished_conquest
 		}
-		trigger_event = ac.0009
+		if = {
+			limit = {
+				NOT = { is_target_in_global_variable_list = {
+					name = crowned_happened
+					target = flag:crowned_happened
+				}}
+			}
+			trigger_event = ac.0009
+		}
+		
 	}
 
 }
@@ -577,9 +586,12 @@ ac.0009 = {
 
 	option = {
 		name = "Valar Dohaeris"
+		
+
+		
 		create_artifact = {
 			name = "Conqueror's Crown"
-			description = "A crown of valyrian steel worn by Aegon the Conqueror." # Will be updated in the post-creation effects
+			description = "A crown of valyrian steel worn by Aegon the Conqueror."
 			type = helmet
 			visuals = blackfyrecrown
 			history = {
@@ -589,6 +601,20 @@ ac.0009 = {
 			modifier = artifact_monthly_minor_prestige_4_modifier
 			decaying = no
 			rarity = illustrious
+			save_scope_as = a_crown
+		}
+	
+		scope:a_crown = {
+			equip_artifact_to_owner = yes
+			
+			save_scope_as = epic
+		}
+
+			hidden_effect = {
+				add_to_global_variable_list = {
+					name = crowned_happened
+					target = flag:crowned_happened
+				}
 			}
 	}
 
