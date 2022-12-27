@@ -86,7 +86,7 @@ ac.0002 = {
 	}
 	
 	option = {
-		name = "Storm's End belongs to Orys, as does everything else that once belonged to the foolish Storm King"
+		name = "Storm's End belongs to Orys, as does the Storm Kings daughter."
 		
 		create_title_and_vassal_change = {
 			type = granted
@@ -286,14 +286,14 @@ ac.0006 = {
 	theme = hunting
 	override_background = { event_background = burning_building }
 	
-	right_portrait = {
+	left_portrait = {
 	character = ROOT
-	animation = frontend_left_idle
+	animation = laugh
 	}
 
-	left_portrait = {
+	right_portrait = {
 	character = character:9988790
-	animation = severelywounded
+	animation = idle:emotion_loss_1_basic
 	}
 	
 	immediate = {
@@ -397,9 +397,9 @@ ac.0008 = {
 	theme = hunting
 	
 	
-	right_portrait = {
+	left_portrait = {
 	character = ROOT
-	animation = personality_rational
+	animation = celebrate_sword
 	}
 	
 
@@ -574,7 +574,7 @@ ac.0009 = {
 	          King of the Andals, the Rhoynar, and the First Men
 	
 	                             Lord of the Seven Kingdoms 
-	                                                   and 
+	                                                  and 
 	                                 Protector of the Realm" 
 	theme = hunting
 	#western_high_nobility
