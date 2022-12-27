@@ -1,24 +1,24 @@
-northmen = {
-	color = {209 212 211}
+riverlander = {
+	color = {23 30 128}
 	created = 0.1.1
 	
 	
-	ethos = ethos_stoic
-	heritage = heritage_northmen
+	ethos = ethos_communal
+	heritage = heritage_riverlander
 	language = language_common_tongue
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_warrior_culture
-		tradition_isolationist
-		tradition_winter_warriors
-		tradition_staunch_traditionalists
-		tradition_only_the_strong
-		tradition_martial_admiration
+		tradition_hereditary_hierarchy
+		tradition_pastoralists
+		tradition_pacifism
+		tradition_stalwart_defenders
+		tradition_frugal_armorsmiths
+		tradition_wedding_ceremonies
 		
 	}
 	
 	
-	name_list = name_list_northmen
+	name_list = name_list_riverlander
 	
 	coa_gfx = { western_coa_gfx }
 	building_gfx = { western_building_gfx }

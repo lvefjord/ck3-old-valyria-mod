@@ -1,10 +1,11 @@
 ﻿l_english:
  name_list_valyrian:0 "Valyrian"
- name_list_northmen:0 "Northmen"
+ name_list_northman:0 "Northman"
  name_list_stormlander:0 "Stormlander"
  name_list_dornish:0 "Dornish"
  name_list_reachman:0 "Reachman"
  name_list_westerman:0 "Westerman"
  name_list_valeman:0 "Valeman"
  name_list_crownlander:0 "Crownlander"
+ name_list_riverlander:0 "Riverlander"
  name_list_ironborn:0 "Ironborn"

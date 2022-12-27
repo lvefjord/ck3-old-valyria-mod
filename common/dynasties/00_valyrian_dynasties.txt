@@ -55,7 +55,7 @@
 
 91114881988 = {
 	name = "dynn_Stark"
-	culture = "northmen"
+	culture = "northman"
 	motto = "dynn_Stark_motto"
 }
 

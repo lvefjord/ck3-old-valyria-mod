@@ -1,10 +1,4 @@
 e_the_iron_throne = {
-	864.1.1 = {
-		succession_laws = { equal_law }
-	}
-	867.1.1 = {
-		succession_laws = { single_heir_succession_law }
-	}
 	869.1.1 = { 
 		holder = 999999999999
 	}

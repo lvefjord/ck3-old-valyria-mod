@@ -1,4 +1,4 @@
-﻿name_list_northmen = {
+﻿name_list_northman = {
 
 	cadet_dynasty_names = {
 		"Icemark"

@@ -1,11 +1,14 @@
-#9988787-9988797
+#9988787-9988803
 
 #Torrhen Stark
 9988787 = {
-	name = "Torrhen"
+	name = Torrhen
 	dynasty = 91114881988
-	culture = "northmen"
-	religion = "old_god"
+	culture = northman
+	religion = old_god
+	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
 	sexuality = heterosexual
 	845.1.1 = {
 		birth = yes
@@ -14,11 +17,14 @@
 
 #Sharra Arryn Ronnel's mum
 9988788 = {
-	name = "Sharra"
+	name = Sharra
 	female = yes
 	dynasty = 91114881990
-	culture = "valeman"
-	religion = "the_seven"
+	culture = valeman
+	religion = the_seven
+	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
 	sexuality = heterosexual
 	845.1.1 = {
 		birth = yes
@@ -27,12 +33,14 @@
 
 #Ronnel Arryn
 9988789 = {
-	name = "Ronnel"
+	name = Ronnel
 	dynasty = 91114881990
-	culture = "valeman"
-	religion = "the_seven"
+	culture = valeman
+	religion = the_seven
 	trait = rowdy
 	mother = 9988788
+	stewardship = 10
+	martial = 14
 	sexuality = heterosexual
 	860.1.1 = {
 		birth = yes
@@ -41,11 +49,14 @@
 
 #Harren Hoare
 9988790 = {
-	name = "Harren"
+	name = Harren
 	dynasty = 91114881984
-	culture = "ironborn"
-	religion = "drowned_god"
+	culture = ironborn
+	religion = drowned_god
 	give_nickname = nick_theblack
+	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
 	sexuality = heterosexual
 	845.1.1 = {
 		birth = yes
@@ -54,48 +65,66 @@
 
 #Loren Lannister
 9988791 = {
-	name = "Loren"
+	name = Loren
 	dynasty = 91114881989
-	culture = "westerman"
-	religion = "the_seven"
+	culture = westerman
+	religion = the_seven
+	trait = education_stewardship_4
+	stewardship = 12
+	martial = 14
 	sexuality = heterosexual
-	845.1.1 = {
+	836.1.1 = {
 		birth = yes
+	}
+	864.1.1 = {
+		add_spouse = 9988799
 	}
 }
 
 #Mern IX Gardener
 9988792 = {
-	name = "Mern IX"
+	name = Mern
 	dynasty = 91114881983
-	culture = "reachman"
-	religion = "the_seven"
+	culture = reachman
+	religion = the_seven
+	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
 	sexuality = heterosexual
-	845.1.1 = {
+	836.1.1 = {
 		birth = yes
+	}
+	864.1.1 = {
+		add_spouse = 9988800
 	}
 }
 
 #Argilac Durrandon
 9988793 = {
-	name = "Argilac"
+	name = Argilac
 	dynasty = 91114881982
-	culture = "stormlander"
-	religion = "the_seven"
+	culture = stormlander
+	religion = the_seven
+	trait = education_stewardship_4
 	give_nickname = nick_stormking
+	stewardship = 10
+	martial = 14
 	sexuality = heterosexual
-	845.1.1 = {
+	826.1.1 = {
 		birth = yes
 	}
 }
 
 #Meria Martell
 9988794 = {
-	name = "Meria"
+	name = Meria
 	dynasty = 91114881987
 	female = yes
-	culture = "dornish"
-	religion = "the_seven"
+	culture = dornish
+	religion = the_seven
+	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
 	sexuality = heterosexual
 	787.1.1 = {
 		birth = yes
@@ -104,11 +133,14 @@
 
 #Nymor Martell
 9988795 = {
-	name = "Nymor"
+	name = Nymor
 	dynasty = 91114881987
-	culture = "dornish"
-	religion = "the_seven"
+	culture = dornish
+	religion = the_seven
 	mother = 9988794
+	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
 	sexuality = heterosexual
 	820.1.1 = {
 		birth = yes
@@ -117,11 +149,13 @@
 
 #Harlen Tyrell
 9988796 = {
-	name = "Harlen"
+	name = Harlen
 	dynasty = 91114881986
-	culture = "reachman"
-	religion = "the_seven"
+	culture = reachman
+	religion = the_seven
 	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
 	trait = loyal
 	sexuality = heterosexual
 	843.1.1 = {
@@ -134,17 +168,128 @@
 
 #Edmyn Tully
 9988797 = {
-	name = "Edmyn"
+	name = Edmyn
 	dynasty = 91114881985
-	culture = "crownlander"
-	religion = "the_seven"
-	trait = education_diplomacy_4
+	culture = riverlander
+	religion = the_seven
+	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
 	trait = loyal
 	sexuality = heterosexual
 	842.1.1 = {
 		birth = yes
 	}
+}
+
+#Argella Durrandon orys wife stormking dåter
+9988798 = {
+	name = Argella
+	female = yes
+	dynasty = 91114881982
+	culture = stormlander
+	religion = the_seven
+	sexuality = heterosexual
+	trait = education_stewardship_4
+	stewardship = 10
+	martial = 14
+	father = 9988793
+	842.1.1 = {
+		birth = yes
+	}
 	867.1.1 = {
-		employer  = 999999999999
+		employer  = 9988793
+	}
+}
+
+#Lorens wife
+9988799 = {
+	name = Joanna
+	female = yes
+	culture = westerman
+	religion = the_seven
+	sexuality = heterosexual
+	trait = education_stewardship_4
+	stewardship = 10
+	836.1.1 = {
+		birth = yes
+	}
+	864.1.1 = {
+		add_spouse = 9988791
+	}
+}
+
+#Gardners wife
+9988800 = {
+	name = Margaery
+	female = yes
+	culture = reachman
+	religion = the_seven
+	sexuality = heterosexual
+	trait = education_intrigue_4
+	intrigue = 15
+	stewardship = 12
+	836.1.1 = {
+		birth = yes
+	}
+	864.1.1 = {
+		add_spouse = 9988792
+	}
+}
+
+#Gardner half 
+9988801 = {
+	name = Jeyne
+	female = yes
+	dynasty = 91114881983
+	culture = reachman
+	religion = the_seven
+	sexuality = heterosexual
+	trait = education_diplomacy_4
+	intrigue = 10
+	stewardship = 12
+	mother = 9988800
+	father = 9988792
+	850.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		add_spouse = 9988802
+	}
+}
+#Lannister half
+9988802= {
+	name = Tyrion
+	dynasty = 91114881989
+	culture = westerman
+	religion = the_seven
+	sexuality = heterosexual
+	trait = education_intrigue_4
+	trait = intellet_good_3
+	trait = dwarf
+	intrigue = 14
+	stewardship = 10
+	diplomacy = 12
+	father = 9988791
+	mother = 9988799
+	850.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		add_spouse = 9988801
+	}
+}
+#3rd gen premade char
+9988803 = {
+	name = Jaime
+	dynasty = 91114881989
+	culture = westerman
+	religion = the_seven
+	trait = rowdy
+	trait = intellet_good_1
+	father = 9988802
+	mother = 9988801
+	867.1.1 = {
+		birth = yes
 	}
 }

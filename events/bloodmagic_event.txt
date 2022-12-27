@@ -46,7 +46,6 @@ bloodmagic_decision.0001 = {
 
 		remove_decision_cooldown = study_bloodmagic_decision
 	}
-		
 }
 
 bloodmagic_decision.0002 = {
@@ -61,22 +60,9 @@ bloodmagic_decision.0002 = {
 	}
 	option = {
 	name = "For the night is dark and full of terrors."
-	hidden_effect = {
-		clear_traits = yes
-	}
-	add_trait = education_intrigue_4
 	add_trait = lunatic_1
 	add_trait = paranoid
-	add_trait = craven
-	add_trait = wrathful
-	if = {
-		limit = {
-			has_culture = culture:valyrian
-		}
-		add_trait = valyrian_blood
-		add_trait = dragon_rider
 	}
-}
 }
 
 bloodmagic_decision.0003 = {
@@ -92,26 +78,9 @@ bloodmagic_decision.0003 = {
 
 	option = {
 	name = "For the night is dark and full of terrors."
-	hidden_effect = {
-		clear_traits = yes
-	}
-	add_trait = education_intrigue_4
-	add_trait = intellect_good_3 
-	add_trait = callous
 	add_trait = possessed_1
 	add_trait = sadistic
-	add_trait = callous 
-	add_trait = cynical
-	add_trait = deceitful
-	add_trait = vengeful
-	if = {
-		limit = {
-			has_culture = culture:valyrian
-		}
-		add_trait = valyrian_blood
-		add_trait = dragon_rider
 	}
-}
 }
 
 bloodmagic_decision.0004 = {

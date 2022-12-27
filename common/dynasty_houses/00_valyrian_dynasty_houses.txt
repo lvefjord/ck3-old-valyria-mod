@@ -68,7 +68,7 @@ house_lannister = {
 house_stark = {
 	prefix = "dynnp_of"
 	name = "dynn_Stark"
-	culture = "northmen"
+	culture = "northman"
 	dynasty = 91114881988
 }
 

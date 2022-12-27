@@ -10,7 +10,7 @@ heritage_dornish = {
 	type = heritage
 }
 
-heritage_northmen = {
+heritage_northman = {
 	type = heritage
 }
 
@@ -31,6 +31,10 @@ heritage_valeman = {
 }
 
 heritage_crownlander = {
+	type = heritage
+}
+
+heritage_riverlander = {
 	type = heritage
 }
 

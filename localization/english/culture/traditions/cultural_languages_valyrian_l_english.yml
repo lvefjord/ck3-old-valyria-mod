@@ -4,7 +4,7 @@
  language_common_tongue_name:0 "Common"
 
  aesthetics_valyrian_name:0 "Valyrian"
- aesthetics_northmen_name:0 "Northmen"
+ aesthetics_northman_name:0 "Northman"
  aesthetics_stormlander_name:0 "Stormlander"
  aesthetics_dornish_name:0 "Dornish"
  aesthetics_reachman_name:0 "Reachman"
@@ -12,3 +12,4 @@
  aesthetics_valeman_name:0 "Valeman"
  aesthetics_crownlander_name:0 "Crownlander"
  aesthetics_ironborn_name:0 "Ironborn"
+ aesthetics_riverlander_name:0 "Riverlander"

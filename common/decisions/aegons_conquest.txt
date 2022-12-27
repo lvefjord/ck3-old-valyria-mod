@@ -41,7 +41,10 @@ aconquest_1 = {
 
 
 		get_title = title:e_the_iron_throne
-
+		title:e_the_iron_throne.holder = {
+			add_realm_law = equal_law 
+			add_realm_law = single_heir_succession_law
+		}
 
 		create_title_and_vassal_change = {
 			type = granted

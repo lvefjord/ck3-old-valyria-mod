@@ -9,8 +9,8 @@
  heritage_dornish_name:0 "Dornish"
  heritage_dornish_collective_noun:0 "Dornish"
  
- heritage_northmen_name:0 "Northmen"
- heritage_northmen_collective_noun:0 "Northmen"
+ heritage_northman_name:0 "Northman"
+ heritage_northman_collective_noun:0 "Northman"
  
  heritage_stormlander_name:0 "Stormlander"
  heritage_stormlander_collective_noun:0 "Stormlanders"
@@ -24,6 +24,9 @@
  heritage_valeman_name:0 "Valeman"
  heritage_valeman_collective_noun:0 "Valemen"
  
+ heritage_crownlander_name:0 "Crownlander"
+ heritage_crownlander_collective_noun:0 "Crownlanders"
+
  heritage_crownlander_name:0 "Riverlander"
  heritage_crownlander_collective_noun:0 "Riverlanders"
  

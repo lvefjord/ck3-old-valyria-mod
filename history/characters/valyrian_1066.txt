@@ -271,7 +271,7 @@
 	name = "Cregan"
 	dynasty = 91114881988
 	religion = "old_god"
-	culture = "northmen"
+	culture = "northman"
 	martial = 14
 	diplomacy = 11
 	intrigue = 6
@@ -330,7 +330,7 @@
 	name = "Grover"
 	dynasty = 91114881985
 	religion = "the_seven"
-	culture = "crownlander"
+	culture = "riverlander"
 	martial = 7
 	diplomacy = 11
 	intrigue = 6

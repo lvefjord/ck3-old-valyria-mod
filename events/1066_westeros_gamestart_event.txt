@@ -803,7 +803,7 @@ westeros.0001 = {
 		}
 		title:k_the_riverlands.holder = {
 			every_sub_realm_county = { 
-				set_county_culture = culture:crownlander
+				set_county_culture = culture:riverlander
 				set_county_faith = faith:the_seven
 			}
 		}
@@ -821,7 +821,7 @@ westeros.0001 = {
 		}
 		title:k_the_north.holder = {
 			every_sub_realm_county = { 
-				set_county_culture = culture:northmen
+				set_county_culture = culture:northman
 				set_county_faith = faith:old_god
 			}
 		}

@@ -8,11 +8,19 @@
  valyrian_prefix:0 "Valyrian"
  valyrian_collective_noun:0 "Valyrians"
  
- crownlander_group:0 "Riverlander"
- crownlander_group_collective_noun:0 "Riverlanders"
- crownlander:0 "Riverlander"
- crownlander_prefix:0 "Riverlander"
- crownlander_collective_noun:0 "Riverlanders"
+ 
+ crownlander_group:0 "Crownlander"
+ crownlander_group_collective_noun:0 "Crownlanders"
+ crownlander:0 "Crownlander"
+ crownlander_prefix:0 "Crownlander"
+ crownlander_collective_noun:0 "Crownlanders"
+
+ riverlander_group:0 "Riverlander"
+ riverlander_group_collective_noun:0 "Riverlanders"
+ riverlander:0 "Riverlander"
+ riverlander_prefix:0 "Riverlander"
+ riverlander_collective_noun:0 "Riverlanders"
+
  
  valeman_group:0 "Valeman"
  valeman_group_collective_noun:0 "Valemen"
@@ -38,11 +46,11 @@
  stormlander_prefix:0 "Stormlander"
  stormlander_collective_noun:0 "Stormlanders"
  
- northmen_group:0 "Northmen"
- northmen_group_collective_noun:0 "Northmen"
- northmen:0 "Northmen"
- northmen_prefix:0 "Northmen"
- northmen_collective_noun:0 "Northmen"
+ northman_group:0 "Northman"
+ northman_group_collective_noun:0 "Northmen"
+ northman:0 "Northman"
+ northman_prefix:0 "Northman"
+ northman_collective_noun:0 "Northmen"
  
  dornish_group:0 "Dornish"
  dornish_group_collective_noun:0 "Dornish"
