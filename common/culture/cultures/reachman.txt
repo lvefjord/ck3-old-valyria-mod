@@ -3,17 +3,17 @@ reachman = {
 	created = 0.1.1
 	
 	
-	ethos = ethos_bellicose
+	ethos = ethos_courtly
 	heritage = heritage_reachman
 	language = language_common_tongue
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_valyrian_legacy
-		tradition_loyal_soldiers
-		tradition_ruling_caste
-		tradition_hereditary_hierarchy
-		tradition_warrior_monks
-		tradition_warriors_by_merit
+		tradition_agrarian
+		tradition_pastoralists
+		tradition_reverence_for_veterans
+		tradition_festivities
+		tradition_welcoming
+		tradition_gardening
 		
 	}
 	
@@ -26,9 +26,9 @@ reachman = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		25 = caucasian_blond
-		15 = caucasian_ginger
-		35 = caucasian_brown_hair
-		25 = caucasian_dark_hair
+		45 = caucasian_blond
+		25 = caucasian_ginger
+		15 = caucasian_brown_hair
+		15 = caucasian_dark_hair
 	}
 }

@@ -8,12 +8,12 @@ ironborn = {
 	language = language_common_tongue
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_valyrian_legacy
-		tradition_loyal_soldiers
-		tradition_ruling_caste
-		tradition_hereditary_hierarchy
-		tradition_warrior_monks
-		tradition_warriors_by_merit
+		tradition_by_the_sword
+		tradition_quarrelsome
+		tradition_fishermen
+		tradition_seafaring
+		tradition_maritime_mercantilism
+		tradition_practiced_pirates
 		
 	}
 	
@@ -26,9 +26,10 @@ ironborn = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		25 = caucasian_blond
+		5 = caucasian_blond
 		15 = caucasian_ginger
-		35 = caucasian_brown_hair
-		25 = caucasian_dark_hair
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
 	}
 }
+

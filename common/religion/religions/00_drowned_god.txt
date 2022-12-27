@@ -5,30 +5,30 @@
 
 
 	#Main Group
-	doctrine = doctrine_spiritual_head
-	doctrine = doctrine_gender_equal
-	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_fundamentalist
 	doctrine = doctrine_theocracy_lay_clergy
 
 	#Marriage
-	doctrine = doctrine_polygamy
+	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_legitimization
-	doctrine = doctrine_consanguinity_unrestricted
+	doctrine = doctrine_consanguinity_cousins
 
 	#Crimes
-	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_homosexuality_shunned
 	doctrine = doctrine_adultery_men_accepted
 	doctrine = doctrine_adultery_women_accepted
-	doctrine = doctrine_kinslaying_shunned
+	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_accepted
 	doctrine = doctrine_witchcraft_accepted	
 
 	#Clerical Functions
 	doctrine = doctrine_clerical_function_recruitment
-	doctrine = doctrine_clerical_gender_either
-	doctrine = doctrine_clerical_marriage_allowed
-	doctrine = doctrine_clerical_succession_temporal_appointment
+	doctrine = doctrine_clerical_gender_male_only
+	doctrine = doctrine_clerical_marriage_disallowed
+	doctrine = doctrine_clerical_succession_spiritual_appointment
 
 	traits = {
 		virtues = { brave ambitious arrogant }
@@ -225,7 +225,7 @@
 
 			doctrine = west_african_unreformed_faith_doctrine
 
-			doctrine = tenet_bloodmagic
+			doctrine = tenet_warmonger
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_pursuit_of_power
 		}

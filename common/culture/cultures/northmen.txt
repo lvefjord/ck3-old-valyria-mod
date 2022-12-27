@@ -3,17 +3,17 @@ northmen = {
 	created = 0.1.1
 	
 	
-	ethos = ethos_bellicose
+	ethos = ethos_stoic
 	heritage = heritage_northmen
 	language = language_common_tongue
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_valyrian_legacy
-		tradition_loyal_soldiers
-		tradition_ruling_caste
-		tradition_hereditary_hierarchy
-		tradition_warrior_monks
-		tradition_warriors_by_merit
+		tradition_warrior_culture
+		tradition_isolationist
+		tradition_winter_warriors
+		tradition_staunch_traditionalists
+		tradition_only_the_strong
+		tradition_martial_admiration
 		
 	}
 	

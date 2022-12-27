@@ -5,24 +5,24 @@
 
 
 	#Main Group
-	doctrine = doctrine_spiritual_head
-	doctrine = doctrine_gender_equal
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_pluralism_pluralistic
 	doctrine = doctrine_theocracy_lay_clergy
 
 	#Marriage
-	doctrine = doctrine_polygamy
-	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_disallowed
 	doctrine = doctrine_bastardry_legitimization
-	doctrine = doctrine_consanguinity_unrestricted
+	doctrine = doctrine_consanguinity_cousins
 
 	#Crimes
-	doctrine = doctrine_homosexuality_accepted
-	doctrine = doctrine_adultery_men_accepted
-	doctrine = doctrine_adultery_women_accepted
-	doctrine = doctrine_kinslaying_shunned
-	doctrine = doctrine_deviancy_accepted
-	doctrine = doctrine_witchcraft_accepted	
+	doctrine = doctrine_homosexuality_crime
+	doctrine = doctrine_adultery_men_crime
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_any_dynasty_member_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_shunned	
 
 	#Clerical Functions
 	doctrine = doctrine_clerical_function_recruitment
@@ -224,9 +224,9 @@
 
 			doctrine = west_african_unreformed_faith_doctrine
 
-			doctrine = tenet_bloodmagic
+			doctrine = tenet_adaptive
 			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_asceticism
 		}
 	
 

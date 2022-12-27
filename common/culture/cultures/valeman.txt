@@ -3,17 +3,17 @@ valeman = {
 	created = 0.1.1
 	
 	
-	ethos = ethos_bellicose
+	ethos = ethos_stoic
 	heritage = heritage_valeman
 	language = language_common_tongue
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_valyrian_legacy
-		tradition_loyal_soldiers
-		tradition_ruling_caste
+		tradition_stalwart_defenders
+		tradition_stand_and_fight
+		tradition_martial_admiration
+		tradition_zealous_people
+		tradition_formation_fighting
 		tradition_hereditary_hierarchy
-		tradition_warrior_monks
-		tradition_warriors_by_merit
 		
 	}
 	

@@ -3,16 +3,16 @@ stormlander = {
 	created = 0.1.1
 	
 	
-	ethos = ethos_bellicose
+	ethos = ethos_stoic
 	heritage = heritage_stormlander
 	language = language_common_tongue
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_valyrian_legacy
-		tradition_loyal_soldiers
-		tradition_ruling_caste
+		tradition_stalwart_defenders
+		tradition_martial_admiration
+		tradition_stand_and_fight
 		tradition_hereditary_hierarchy
-		tradition_warrior_monks
+		tradition_loyal_soldiers
 		tradition_warriors_by_merit
 		
 	}

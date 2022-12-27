@@ -1,16 +1,19 @@
 testeros_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_kings_landing.dds"
 	major = yes
-
+#exists = character:9988779
 	is_shown = {
-		always = yes
+		always = no
 	}
 	effect = {
-		title:k_the_stormlands.holder = {
-			every_sub_realm_county = { 
-				set_county_culture = culture:stormlander
-				set_county_faith = faith:the_seven	
+		if = {
+			limit = {
+				current_date > 1065.1.1
+				exists = character:9988779
+				character:9988779 = { is_alive = yes }
 			}
+				create_artifact_blackfyre_effect = { OWNER = character:9988779 }
+			
 		}
 	}
 }
