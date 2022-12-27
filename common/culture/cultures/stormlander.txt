@@ -1,5 +1,5 @@
 stormlander = {
-	color = { 63 63 63 }
+	color = {52 78 92}
 	created = 0.1.1
 	
 	

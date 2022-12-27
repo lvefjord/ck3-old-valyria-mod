@@ -793,9 +793,23 @@ easteros.0001 = {
 				set_county_faith = faith:the_seven
 			}
 		}
+		
+
+
+
+		character:9988792 = {
+			create_alliance = {
+				target = character:9988791
+				allied_through_owner = character:9988791
+				allied_through_target = character:9988792
+			}
+		}
+		
+		
+
 		culture:valyrian = {
 			add_innovation = innovation_primogeniture
-			}
+		}
 		
 
 

@@ -5,12 +5,17 @@ ac.0001 = {
 	type = character_event
 	title = "The Conquest of Dorne"
 	desc = "Dorne is famous for resisting invasion, but they could not remain unconquered forever." 
-	theme = hunting
-	
+	theme = war
+
 	
 	right_portrait = {
 	character = ROOT
-	animation = personality_rational
+	animation = frontend_left_idle
+	}
+
+	left_portrait = {
+		character = character:9988794
+		animation = throne_room_kneel_1
 	}
 	
 	immediate = {
@@ -40,21 +45,17 @@ ac.0002 = {
 	title = "The Conquest of the Stormlands"
 	desc = "The Storm King is finally defeated and the Stormlands are ours." 
 	theme = hunting
+	override_background = { event_background = burning_building }
 	
-	
-	lower_center_portrait = {
-	character = ROOT
-	animation = personality_rational
-	}
 
 	right_portrait = {
 		character = character:9988793
-		animation = personality_rational
+		animation = throne_room_kneel_2
 	}
 
 	left_portrait = {
 		character = character:999999999988
-		animation = personality_rational
+		animation = aggressive_sword
 	}
 	
 	immediate = {
@@ -127,19 +128,15 @@ ac.0003 = {
 	
 	
 	right_portrait = {
-	character = character:9988796
-	animation = personality_rational
+	character = ROOT
+	animation = frontend_left_idle
 	}
 
 	left_portrait = {
-	character = ROOT
-	animation = personality_rational
+	character = character:9988796
+	animation = throne_room_kneel_1
 	}
 
-	lower_center_portrait = {
-	character = character:9988792
-	animation = personality_rational
-	}
 	
 	immediate = {
 		add_character_flag = {
@@ -167,7 +164,7 @@ ac.0003 = {
 	}
 
 	option = {
-		name = "I name Harlen Tyrell Warden of the South."
+		name = "I name Harlen Tyrell."
 		
 		create_title_and_vassal_change = {
 			type = granted
@@ -199,12 +196,17 @@ ac.0004 = {
 	type = character_event
 	title = "The Conquest of the Westerlands"
 	desc = "The Lord of the Rock will make a powerful vassal with its defensive capital and gold mine." 
-	theme = hunting
+	theme = battle
 	
 	
 	right_portrait = {
 	character = ROOT
-	animation = personality_rational
+	animation = frontend_left_idle
+	}
+
+	left_portrait = {
+	character = character:9988791
+	animation = throne_room_kneel_1
 	}
 	
 	immediate = {
@@ -234,11 +236,17 @@ ac.0005 = {
 	title = "The Conquest of the Vale"
 	desc = "They say the Eyrie is impregnable, but it only took ten men to impregnate the bitch." 
 	theme = hunting
+	override_background = { event_background = wilderness_mountains }
 	
 	
 	right_portrait = {
 	character = ROOT
-	animation = personality_rational
+	animation = frontend_left_idle
+	}
+
+	left_portrait = {
+	character = character:9988789
+	animation = throne_room_kneel_1
 	}
 	
 	immediate = {
@@ -266,23 +274,18 @@ ac.0005 = {
 ac.0006 = {
 	type = character_event
 	title = "The Conquest of the Riverlands"
-	desc = "It would seem that the great castle Harrenhall was not so mighty after all." 
+	desc = "It would seem that the great castle Harrenhall was not so mighty after all. Now I must put someone in place to rule the trident while I finish what I started." 
 	theme = hunting
-	
+	override_background = { event_background = wilderness_wetlands }
 	
 	right_portrait = {
-	character = character:9988797
-	animation = personality_rational
+	character = ROOT
+	animation = frontend_left_idle
 	}
 
 	left_portrait = {
-	character = ROOT
-	animation = personality_rational
-	}
-
-	lower_center_portrait = {
-	character = character:9988790
-	animation = personality_rational
+	character = character:9988797
+	animation = throne_room_kneel_1
 	}
 	
 	immediate = {
@@ -307,7 +310,7 @@ ac.0006 = {
 	}
 
 	option = {
-		name = "I name Edmyn Tully, Lord Paramount of the Trident."
+		name = "I name Edmyn Tully."
 		
 		create_title_and_vassal_change = {
 			type = granted
@@ -337,12 +340,21 @@ ac.0007 = {
 	title = "The Conquest of the North"
 	desc = "After what I have seen in my dreams, good relations with the northmen is paramount." 
 	theme = hunting
+	override_environment = {
+		reference = environment_event_mountains
+	}
 	
 	
 	right_portrait = {
 	character = ROOT
-	animation = personality_rational
+	animation = frontend_left_idle
 	}
+
+	left_portrait = {
+	character = character:9988787
+	animation = throne_room_kneel_1
+	}
+	
 	
 	immediate = {
 		add_character_flag = {

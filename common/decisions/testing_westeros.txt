@@ -3,17 +3,18 @@ testeros_decision = {
 	major = yes
 #exists = character:9988779
 	is_shown = {
-		always = no
+		always = yes
 	}
 	effect = {
-		if = {
-			limit = {
-				current_date > 1065.1.1
-				exists = character:9988779
-				character:9988779 = { is_alive = yes }
+		exists = character:9988792
+		character:9988792 = { is_alive = yes }
+
+		character:9988792 = {
+			create_alliance = {
+				target = character:9988791
+				allied_through_owner = character:9988791
+				allied_through_target = character:9988792
 			}
-				create_artifact_blackfyre_effect = { OWNER = character:9988779 }
-			
 		}
 	}
 }

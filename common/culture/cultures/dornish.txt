@@ -1,5 +1,5 @@
 dornish = {
-	color = { 174 127 16 }
+	color = {174 127 16}
 	created = 0.1.1
 	
 	

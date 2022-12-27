@@ -1,5 +1,5 @@
 crownlander = {
-	color = { 63 63 63 }
+	color = {23 30 128}
 	created = 0.1.1
 	
 	
