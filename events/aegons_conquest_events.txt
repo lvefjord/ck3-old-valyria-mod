@@ -34,9 +34,14 @@ ac.0001 = {
 	}
 
 	option = {
-		name = "Valar Morghulis"
+		name = "They'll bend the knee or I'll destroy them."
 		dynasty = {add_dynasty_prestige = 500}
 	}
+
+
+
+		
+	
 }
 
 #stormlands
@@ -81,7 +86,7 @@ ac.0002 = {
 	}
 	
 	option = {
-		name = "Storm's End belongs to Orys, my brother and best friend"
+		name = "Storm's End belongs to Orys, as does everything else that once belonged to the foolish Storm King"
 		
 		create_title_and_vassal_change = {
 			type = granted
@@ -118,6 +123,7 @@ ac.0002 = {
 		name = "I will allow the Storm King to bend the knee"
 		dynasty = {add_dynasty_prestige = 500}
 	}
+
 
 }
 
@@ -187,17 +193,15 @@ ac.0003 = {
 
 		
 		dynasty = {add_dynasty_prestige = 500}
-
-
-
 	}
+
 }
 
 #westlands
 ac.0004 = {
 	type = character_event
 	title = "The Conquest of the Westerlands"
-	desc = "The Lord of the Rock will make a powerful vassal with its defensive capital and gold mine." 
+	desc = "The Lord of the Rock will make a powerful vassal with its defensive capital and gold mine. Who will be the Warden of the West?" 
 	theme = battle
 	
 	
@@ -227,16 +231,17 @@ ac.0004 = {
 	}
 	
 	option = {
-		name = "Valar Morghulis"
+		name = "I name Loren Lannister."
 		dynasty = {add_dynasty_prestige = 500}
 	}
+
 }
 
 #vale
 ac.0005 = {
 	type = character_event
 	title = "The Conquest of the Vale"
-	desc = "They say the Eyrie is impregnable, but it only took ten men to impregnate the bitch." 
+	desc = "They say the Eyrie is impregnable, but it only took ten men to impregnate the bitch. Who will be Warden of the East?" 
 	theme = hunting
 	override_background = { event_background = wilderness_mountains }
 	
@@ -267,18 +272,19 @@ ac.0005 = {
 	}
 
 	option = {
-		name = "Valar Morghulis"
+		name = "I name Ronnel Arryn."
 		dynasty = {add_dynasty_prestige = 500}
 	}
+
 }
 
 #riverlands
 ac.0006 = {
 	type = character_event
 	title = "The Conquest of the Riverlands"
-	desc = "It would seem that the great castle Harrenhall was not so mighty after all. Now I must put someone in place to rule the trident while I finish what I started." 
+	desc = "Who could have guessed that Harrenhall wouldn't stand a chance against Balerion the Black Dread?" 
 	theme = hunting
-	override_background = { event_background = wilderness_wetlands }
+	override_background = { event_background = burning_building }
 	
 	right_portrait = {
 	character = ROOT
@@ -286,20 +292,15 @@ ac.0006 = {
 	}
 
 	left_portrait = {
-	character = character:9988797
-	animation = throne_room_kneel_1
+	character = character:9988790
+	animation = severelywounded
 	}
 	
 	immediate = {
 		add_character_flag = {
 			flag = has_riverlands
 		}
-		character:9988790 = {
-			death = {
-				death_reason = death_fired
-				killer = root
-			}
-		}
+		
 	}
 
 	trigger = {
@@ -312,8 +313,13 @@ ac.0006 = {
 	}
 
 	option = {
-		name = "I name Edmyn Tully."
-		
+		name = "Dracarys!"
+		character:9988790 = {
+			death = {
+				death_reason = death_fired
+				killer = root
+			}
+		}
 		create_title_and_vassal_change = {
 			type = granted
 			save_scope_as = change
@@ -334,13 +340,14 @@ ac.0006 = {
 		
 		dynasty = {add_dynasty_prestige = 500}
 	}
+
 }
 
 #north
 ac.0007 = {
 	type = character_event
 	title = "The Conquest of the North"
-	desc = "After what I have seen in my dreams, good relations with the northmen is paramount." 
+	desc = "After what I have seen in my dreams, good relations with the northmen is paramount. Who will be Warden of the North?" 
 	theme = hunting
 	override_environment = {
 		reference = environment_event_mountains
@@ -374,18 +381,19 @@ ac.0007 = {
 	}
 	
 	option = {
-		name = "Winter is coming but I sure ain't"
+		name = "I name Torrhen Stark, the King who Knelt."
 		dynasty = {add_dynasty_prestige = 500}
 		character:9988787 = {
 		give_nickname = nick_who_knelt
 		}
 	}
+
 }
 
 ac.0008 = {
 	type = character_event
 	title = "The Conquest is over"
-	desc = "With Fire and Blood I have united the Seven Kingdoms and forged my new realm. The House of the Dragon shall rule these lands eternally." 
+	desc = "With Fire and Blood I have united the Seven Kingdoms and forged my new realm. The House of the Dragon shall rule these lands for centuries to come." 
 	theme = hunting
 	
 	
@@ -416,19 +424,16 @@ ac.0008 = {
 		province:1529 = {
 			set_holding_type = castle_holding
 			add_building = castle_01
-			add_building = barracks_01
 		}
 
 		province:1526 = {
 			set_holding_type = castle_holding
 			add_building = castle_01
-			add_building = military_camps_01
 		}
 	
 		province:1528 = {
 			set_holding_type = castle_holding
 			add_building = castle_01
-			add_building = barracks_01
 		}
 	
 		create_title_and_vassal_change = {
@@ -514,10 +519,12 @@ ac.0008 = {
 		title:e_the_iron_throne.holder = {
 			set_realm_capital = title:c_middlesex
 		}
+
+		
 	}
 
 	option = {
-		name = "It is not enough, I will surpass the Valyrian Freehold and all the dragonlords!"
+		name = "It's not enough, I must finish what the dragonlords of Old Valyria started."
 		give_nickname = nick_dragonlord
 		get_title = title:e_new_valyria
 		title:e_new_valyria.holder = {
@@ -539,6 +546,7 @@ ac.0008 = {
 		remove_character_flag = has_reach
 		remove_character_flag = has_westerlands
 		remove_character_flag = started_conquest
+		
 		add_character_flag = {
 			flag = finished_conquest
 		}
@@ -615,7 +623,10 @@ ac.0009 = {
 					name = crowned_happened
 					target = flag:crowned_happened
 				}
-			}
-	}
 
+			
+				
+		}
+	}
+	
 }

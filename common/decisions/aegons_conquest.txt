@@ -79,6 +79,9 @@ aconquest_1 = {
 
 		
 		hidden_effect = {
+			culture:valyrian = {
+				add_innovation = innovation_primogeniture
+				}
 			refund_all_perks = yes
 			destroy_title = title:k_dragonstone
 			title:e_the_iron_throne.holder = {
