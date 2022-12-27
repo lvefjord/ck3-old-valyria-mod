@@ -222,8 +222,6 @@
 			reformed_icon = valyrian_reformed
 
 
-			doctrine = west_african_unreformed_faith_doctrine
-
 			doctrine = tenet_bloodmagic
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_pursuit_of_power

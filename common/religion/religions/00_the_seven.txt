@@ -223,8 +223,6 @@
 			reformed_icon = the_seven_reformed
 
 
-			doctrine = west_african_unreformed_faith_doctrine
-
 			doctrine = tenet_religious_legal_pronouncements
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_sacred_childbirth

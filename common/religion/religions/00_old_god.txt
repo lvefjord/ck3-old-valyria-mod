@@ -222,7 +222,6 @@
 			reformed_icon = old_god_reformed
 
 
-			doctrine = west_african_unreformed_faith_doctrine
 
 			doctrine = tenet_adaptive
 			doctrine = tenet_unrelenting_faith

@@ -1,5 +1,6 @@
 ﻿rf_first_men = {
 	name = first_men 		# If not set will use the object key as localization key
+	is_pagan = no
 	graphical_faith = catholic_gfx 	
 	piety_icon_group = christian 	
 	doctrine_background_icon = core_tenet_banner_christian.dds
