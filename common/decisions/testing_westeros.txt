@@ -3,15 +3,30 @@ testeros_decision = {
 	major = yes
 
 	is_shown = {
-		always = no
+		always = yes
 	}
 
-
+	historical_succession_access_single_heir_succession_law_trigger = {
+		OR = {
+			has_title = title:k_dragonstone
+			has_title = title:e_the_iron_throne
+		}
+	}
 
 	effect = {
-		title:e_the_iron_throne = {
-			add_title_law = single_heir_succession_law
+			
+
+		title:k_dragonstone = {
+			historical_succession_access_single_heir_succession_law_trigger = {
+				OR = {
+					has_title = title:k_dragonstone
+					has_title = title:e_the_iron_throne
+				}
+			}
 		}
+
+
+		add_prestige = 100
 	}
 }
 

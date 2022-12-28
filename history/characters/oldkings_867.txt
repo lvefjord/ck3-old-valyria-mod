@@ -2,7 +2,7 @@
 
 #Torrhen Stark
 9988787 = {
-	name = Torrhen
+	name = "Torrhen"
 	dynasty = 91114881988
 	culture = northman
 	religion = old_god
@@ -17,7 +17,7 @@
 
 #Sharra Arryn Ronnel's mum
 9988788 = {
-	name = Sharra
+	name = "Sharra"
 	female = yes
 	dynasty = 91114881990
 	culture = valeman
@@ -33,7 +33,7 @@
 
 #Ronnel Arryn
 9988789 = {
-	name = Ronnel
+	name = "Ronnel"
 	dynasty = 91114881990
 	culture = valeman
 	religion = the_seven
@@ -49,7 +49,7 @@
 
 #Harren Hoare
 9988790 = {
-	name = Harren
+	name = "Harren"
 	dynasty = 91114881984
 	culture = ironborn
 	religion = drowned_god
@@ -65,7 +65,7 @@
 
 #Loren Lannister
 9988791 = {
-	name = Loren
+	name = "Loren"
 	dynasty = 91114881989
 	culture = westerman
 	religion = the_seven
@@ -83,7 +83,7 @@
 
 #Mern IX Gardener
 9988792 = {
-	name = Mern
+	name = "Mern"
 	dynasty = 91114881983
 	culture = reachman
 	religion = the_seven
@@ -101,7 +101,7 @@
 
 #Argilac Durrandon
 9988793 = {
-	name = Argilac
+	name = "Argilac"
 	dynasty = 91114881982
 	culture = stormlander
 	religion = the_seven
@@ -117,7 +117,7 @@
 
 #Meria Martell
 9988794 = {
-	name = Meria
+	name = "Meria"
 	dynasty = 91114881987
 	female = yes
 	culture = dornish
@@ -133,7 +133,7 @@
 
 #Nymor Martell
 9988795 = {
-	name = Nymor
+	name = "Nymor"
 	dynasty = 91114881987
 	culture = dornish
 	religion = the_seven
@@ -149,7 +149,7 @@
 
 #Harlen Tyrell
 9988796 = {
-	name = Harlen
+	name = "Harlen"
 	dynasty = 91114881986
 	culture = reachman
 	religion = the_seven
@@ -168,7 +168,7 @@
 
 #Edmyn Tully
 9988797 = {
-	name = Edmyn
+	name = "Edmyn"
 	dynasty = 91114881985
 	culture = riverlander
 	religion = the_seven
@@ -184,7 +184,7 @@
 
 #Argella Durrandon orys wife stormking dåter
 9988798 = {
-	name = Argella
+	name = "Argella"
 	female = yes
 	dynasty = 91114881982
 	culture = stormlander
@@ -204,7 +204,7 @@
 
 #Lorens wife
 9988799 = {
-	name = Joanna
+	name = "Joanna"
 	female = yes
 	culture = westerman
 	religion = the_seven
@@ -221,7 +221,7 @@
 
 #Gardners wife
 9988800 = {
-	name = Margaery
+	name = "Margaery"
 	female = yes
 	culture = reachman
 	religion = the_seven
@@ -239,7 +239,7 @@
 
 #Gardner half 
 9988801 = {
-	name = Jeyne
+	name = "Jeyne"
 	female = yes
 	dynasty = 91114881983
 	culture = reachman
@@ -259,7 +259,7 @@
 }
 #Lannister half
 9988802= {
-	name = Tyrion
+	name = "Tyrion"
 	dynasty = 91114881989
 	culture = westerman
 	religion = the_seven
@@ -281,7 +281,7 @@
 }
 #3rd gen premade char
 9988803 = {
-	name = Tywin
+	name = "Tywin"
 	dynasty = 91114881989
 	culture = westerman
 	religion = the_seven
@@ -297,7 +297,7 @@
 
 #Replacement for Harlen Tyrell cuz it fucked title swaps up
 9988804 = {
-	name = Loras
+	name = "Loras"
 	dynasty = 91114881986
 	culture = reachman
 	religion = the_seven
@@ -313,7 +313,7 @@
 
 #Replacement for Edmyn cuz it fucked title swaps up
 9988805 = {
-	name = Brynden
+	name = "Brynden"
 	dynasty = 91114881985
 	culture = riverlander
 	religion = the_seven

@@ -1,6 +1,6 @@
  #Papa Targ
 999999999996 = {
-	name = Aerion
+	name = "Aerion"
 	dynasty = 91114881997
 	religion = valyrian
 	culture = valyrian
@@ -19,7 +19,7 @@
 
 #Mama Targ
 999999999995 = {
-	name = Valaena 
+	name = "Valaena" 
 	female = yes
 	dynasty = 91114881996
 	religion = valyrian
@@ -38,7 +38,7 @@
 
 #visenya
 999999999998 = {
-	name = Visenya #Fictitious
+	name = "Visenya" #Fictitious
 	dna = 1997123456_visenya
 	portrait_override={
 		portrait_modifier_overrides={
@@ -79,7 +79,7 @@
 
 #Rhaenys
 999999999997 = {
-	name = Rhaenys 
+	name = "Rhaenys" 
 	dna = 1997123456_visenya
 	portrait_override={
 		portrait_modifier_overrides={
@@ -121,7 +121,7 @@
 
 #Aegon
 999999999999 = {
-	name = Aegon 
+	name = "Aegon" 
 	dna = 1997123456_aegonconq
 	portrait_override={
 		portrait_modifier_overrides={
@@ -168,7 +168,7 @@
 
 #First Velaryon Daemon
 999999999994 = {
-	name = Daemon 
+	name = "Daemon" 
 	dynasty = 91114881996
 	religion = valyrian
 	culture = valyrian
@@ -192,7 +192,7 @@
 
 #Daemons son 1
 999999999993 = {
-	name = Corlys 
+	name = "Corlys" 
 	dynasty = 91114881996
 	religion = valyrian
 	culture = valyrian
@@ -210,7 +210,7 @@
 
 #Daemons son 2
 999999999992 = {
-	name = Aethan 
+	name = "Aethan" 
 	dynasty = 91114881996
 	religion = valyrian
 	culture = valyrian
@@ -232,7 +232,7 @@
 
 #Aethans Wife
 999999999990 = {
-	name = Alarra
+	name = "Alarra"
 	female = yes
 	dynasty = 91114881993
 	religion = the_seven
@@ -250,7 +250,7 @@
 
 #Aethans Son
 999999999991 = {
-	name = Daemon 
+	name = "Daemon" 
 	dynasty = 91114881996
 	religion = valyrian
 	culture = valyrian
@@ -267,7 +267,7 @@
 
 #First Celtigar
 999999999989 = {
-	name = Crispian 
+	name = "Crispian" 
 	dynasty = 91114881995
 	religion = valyrian
 	culture = valyrian
@@ -285,7 +285,7 @@
 
 #Orys B
 999999999988 = {
-	name = Orys 
+	name = "Orys" 
 	dynasty = 91114881994
 	dna = baratheon_hair
 	portrait_override={
@@ -323,7 +323,7 @@
 
 #Quenton Qoherys
 999999999987 = {
-	name = Quenton 
+	name = "Quenton" 
 	dynasty = 91114881992
 	religion = valyrian
 	culture = valyrian
@@ -345,7 +345,7 @@
 
 #Triston Massey
 999999999986 = {
-	name = Triston 
+	name = "Triston" 
 	dynasty = 91114881993
 	religion = the_seven
 	culture = crownlander
@@ -365,7 +365,7 @@
 
 #Togarion Bar Emmon
 999999999985 = {
-	name = Togarion 
+	name = "Togarion" 
 	dynasty = 91114881991
 	religion = the_seven
 	culture = crownlander
