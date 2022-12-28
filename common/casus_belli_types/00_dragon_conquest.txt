@@ -84,7 +84,7 @@ dragon_conquest_cb = {
 		}
 		triggered_desc = {
 			trigger = { scope:attacker = { is_local_player = yes } }
-			desc = subjugation_war_warning_desc
+			
 		}
 	}
 	
@@ -301,10 +301,10 @@ dragon_conquest_cb = {
 	attacker_allies_inherit = yes
 	defender_allies_inherit = yes
 	
-	war_name = "SUBJUGATION_WAR_NAME"
-	war_name_base = "SUBJUGATION_WAR_NAME_BASE"
-	cb_name = "SUBJUGATION_CB_NAME"
-	interface_priority = 59
+	war_name = "the Dragon's conquest of [DEFENDER.GetPrimaryTitle.GetName]"
+	war_name_base = "the Dragon's conquest of [DEFENDER.GetPrimaryTitle.GetName]"
+	cb_name = " Dragon Conquest for [DEFENDER.GetPrimaryTitle.GetName]"
+	interface_priority = 2000
 	
 	ticking_war_score_targets_entire_realm = yes
 	max_defender_score_from_occupation = 150

@@ -270,10 +270,7 @@ dornish = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		5 = caucasian_blond
-		5 = caucasian_ginger
-		30 = caucasian_brown_hair
-		60 = caucasian_dark_hair
+		10 = arab
 	}
 }
 

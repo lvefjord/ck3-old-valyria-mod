@@ -8,6 +8,19 @@ easteros.0001 = {
 	
 		name = "Transformers go"
 
+		province:1741 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		province:1698 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+
 		#Loren Lannister
 		exists = character:9988791
 		character:9988791 = { is_alive = yes }
@@ -331,19 +344,19 @@ easteros.0001 = {
 		}
 		title:c_isle_of_man = {
 			change_title_holder = {
-				holder = character:9988790
+				holder = character:ac1
 				change = scope:change
 			}
 		}
 		title:c_great_wyk = {
 			change_title_holder = {
-				holder = character:9988790
+				holder = character:ac1
 				change = scope:change
 			}
 		}
 		title:c_saltcliffe = {
 			change_title_holder = {
-				holder = character:9988790
+				holder = character:ac1
 				change = scope:change
 			}
 		}
@@ -355,25 +368,31 @@ easteros.0001 = {
 		}
 		title:c_harlaw = {
 			change_title_holder = {
-				holder = character:9988790
+				holder = character:ac1
 				change = scope:change
 			}
 		}
 		title:c_orkmont = {
 			change_title_holder = {
-				holder = character:9988790
+				holder = character:ac1
 				change = scope:change
 			}
 		}
 		title:c_blacktyde = {
 			change_title_holder = {
-				holder = character:9988790
+				holder = character:ac1
+				change = scope:change
+			}
+		}
+		title:d_iron_islands = {
+			change_title_holder = {
+				holder = character:ac1
 				change = scope:change
 			}
 		}
 		title:k_iron_islands = {
 			change_title_holder = {
-				holder = character:9988790
+				holder = character:ac1
 				change = scope:change
 			}
 		}
@@ -805,13 +824,11 @@ easteros.0001 = {
 		title:k_dorne = {
 			set_realm_capital = title:c_sunspear
 		}
-		#Buildings for all the weak capitals
-		province:1741 = {
-			set_holding_type = castle_holding
-			add_building = castle_02
-			add_building = barracks_02
-			add_building = military_camps_02
+		title:k_iron_islands = {
+			set_realm_capital = title:c_pyke
 		}
+		#Buildings for all the weak capitals
+		
 		
 		province:1652 = {
 			add_building = castle_02
@@ -849,11 +866,27 @@ easteros.0001 = {
 			add_building = barracks_02
 			add_building = military_camps_02
 		}
+		province:9671 = {
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		province:9670 = {
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
 		#Making the kingdoms the correct faith/culture
 		title:k_dorne.holder = {
 			every_sub_realm_county = { 
 				set_county_culture = culture:dornish
 				set_county_faith = faith:the_seven
+			}
+		}
+		title:k_iron_islands.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:ironborn
+				set_county_faith = faith:drowned_god
 			}
 		}
 		title:k_the_stormlands.holder = {
