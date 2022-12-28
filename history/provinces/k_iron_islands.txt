@@ -1,0 +1,167 @@
+
+#Sealskin Point
+9665 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+#Hammerhorn
+9666 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+
+#Pebbleton
+9667 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+
+#Saltcastle
+9668 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+
+#Salt Hall
+9669 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+
+#Pyke
+9670 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+
+#Iron Holt
+9671 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+
+#Ten Towers
+9672 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+
+#Harlaw Hall
+9673 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+
+#Grey Garden
+9674 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+
+#Orkfort
+9675 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
+
+#Blacktyde Castle
+9676 = {	
+	culture = ironborn
+	religion = drowned_god
+	holding = castle_holding
+
+	867.1.1 = {
+		buildings = {
+			military_camps_1
+			curtain_walls_1
+		}
+	}
+}
