@@ -1,0 +1,55 @@
+﻿bm_867_dragons = {
+	start_date = 867.1.1
+	is_playable = yes
+	group = bm_dragon_group_867
+
+	weight = {
+		value = 200
+	}
+
+	# Aegon Targaryen
+	character = {
+		name = "bookmark_dragons_aegon_targaryen"
+		dynasty = 91114881997
+		dynasty_splendor_level = 1
+		type = male
+		birth = 839.1.1
+		title = k_dragonstone
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 999999999999
+		position = { 800 750 }
+
+		animation = personality_bold
+
+		# Visenya, Sister-Wife
+		character = {
+			name = "bookmark_dragons_aegon_targaryen_alt_visenya"
+			relation = "BOOKMARK_RELATION_SISTER"
+			dynasty = 91114881997
+			type = female
+			birth = 837.1.1
+			culture = valyrian
+			religion = valyrian
+			history_id = 999999999998
+			animation = personality_greedy
+		}
+
+		# Rhaenys, 2nd Sister-Wife 
+		character = {
+			name = "bookmark_dragons_aegon_targaryen_alt_rhaenys"
+			relation = "BOOKMARK_RELATION_SISTER"
+			dynasty = 91114881997
+			type = female
+			birth = 841.1.1
+			culture = valyrian
+			religion = valyrian
+			history_id = 999999999997
+			animation = worry
+		}
+		
+	}
+
+}
