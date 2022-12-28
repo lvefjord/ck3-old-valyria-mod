@@ -38,4 +38,15 @@ heritage_riverlander = {
 	type = heritage
 }
 
+heritage_andal = {
+	type = heritage
+}
+
+heritage_firstmen = {
+	type = heritage
+}
+
+heritage_rhoynar = {
+	type = heritage
+}
 

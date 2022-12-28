@@ -1,25 +1,7 @@
 dragon_conquest_cb = {
 	group = valyrian
 	icon = dragon_cb
-	mutually_exclusive_titles = {
-		NOT = {
-			# If pushing personal claims, you can press multiple claims with the Divine Right innovation (High Medieval Era).
-			trigger_if = {
-				limit = {
-					scope:attacker = scope:claimant
-				}
-				scope:attacker = {
-					has_trait = dragon_rider
-				}
-			}
-			# to press multiple claims (Late Medieval Era).
-			trigger_else = {
-				scope:attacker = {
-					has_trait = dragon_rider
-				}
-			}
-		}
-	}
+
 	
 	ai_only_against_neighbors = yes
 	allowed_for_character = {

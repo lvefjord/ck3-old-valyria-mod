@@ -3,7 +3,7 @@ testeros_decision = {
 	major = yes
 
 	is_shown = {
-		always = yes
+		always = no
 	}
 
 	historical_succession_access_single_heir_succession_law_trigger = {
