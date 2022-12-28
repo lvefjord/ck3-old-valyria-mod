@@ -1,9 +1,3 @@
-# Swedish
-# Danish
-# Norwegian
-
-# Norse are separate
-
 867.1.1 = {
 	discover_innovation = innovation_barracks
 	discover_innovation = innovation_mustering_grounds
@@ -13,9 +7,9 @@
 	discover_innovation = innovation_plenary_assemblies
 	discover_innovation = innovation_currency_01
 	#
-	discover_innovation = innovation_wootz_steel
-	discover_innovation = innovation_varangian_adventurers
-	discover_innovation = innovation_all_things
+	discover_innovation = innovation_city_planning
+	discover_innovation = innovation_crop_rotation
+	discover_innovation = innovation_mottes
 }
 
 950.1.1 = {
