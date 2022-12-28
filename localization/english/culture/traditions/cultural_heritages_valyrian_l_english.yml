@@ -29,5 +29,14 @@
 
  heritage_crownlander_name:0 "Riverlander"
  heritage_crownlander_collective_noun:0 "Riverlanders"
+
+ heritage_andal_name:0 "Andal"
+ heritage_andal_collective_noun:0 "Andal"
+ 
+ heritage_firstmen_name:0 "First Men"
+ heritage_firstmen_collective_noun:0 "First Men"
+
+ heritage_rhoynar_name:0 "Rhoynar"
+ heritage_rhoynar_collective_noun:0 "Rhoynar"
  
 

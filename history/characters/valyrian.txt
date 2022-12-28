@@ -2,8 +2,8 @@
 999999999996 = {
 	name = "Aerion"
 	dynasty = 91114881997
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
 		808.1.1 = {
@@ -22,8 +22,8 @@
 	name = "Valaena" 
 	female = yes
 	dynasty = 91114881996
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = valyrian_blood
 		810.1.1 = {
 		birth = yes
@@ -49,8 +49,8 @@
 	}
 	female = yes
 	dynasty = 91114881997
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	martial = 12
 	diplomacy = 7
 	intrigue = 7
@@ -91,8 +91,8 @@
 	}
 	female = yes
 	dynasty = 91114881997
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	martial = 6
 	diplomacy = 9
 	intrigue = 10
@@ -132,8 +132,8 @@
 		}
 	}
 	dynasty = 91114881997
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	martial = 16
 	diplomacy = 10
 	intrigue = 9
@@ -170,8 +170,8 @@
 999999999994 = {
 	name = "Daemon" 
 	dynasty = 91114881996
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = valyrian_blood
 	trait = education_stewardship_4
 	trait = diligent
@@ -194,8 +194,8 @@
 999999999993 = {
 	name = "Corlys" 
 	dynasty = 91114881996
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = valyrian_blood
 	trait = education_martial_4
 	martial = 16
@@ -212,8 +212,8 @@
 999999999992 = {
 	name = "Aethan" 
 	dynasty = 91114881996
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = valyrian_blood
 	trait = education_stewardship_4
 	stewardship = 13
@@ -235,8 +235,8 @@
 	name = "Alarra"
 	female = yes
 	dynasty = 91114881993
-	religion = the_seven
-	culture = crownlander
+	religion = "the_seven"
+	culture = "crownlander"
 		848.1.1 = {
 		birth = yes
 	}
@@ -252,8 +252,8 @@
 999999999991 = {
 	name = "Daemon" 
 	dynasty = 91114881996
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = valyrian_blood
 	father = 999999999992
 	mother = 999999999990
@@ -269,8 +269,8 @@
 999999999989 = {
 	name = "Crispian" 
 	dynasty = 91114881995
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = valyrian_blood
 	trait = education_stewardship_4
 	trait = avaricious
@@ -295,8 +295,8 @@
 			custom_headgear=male_empty
 		}
 	}
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = education_martial_4
 	trait = physique_good_3
 	trait = brave
@@ -325,8 +325,8 @@
 999999999987 = {
 	name = "Quenton" 
 	dynasty = 91114881992
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = education_martial_4
 	trait = brave
 	sexuality = heterosexual
@@ -347,8 +347,8 @@
 999999999986 = {
 	name = "Triston" 
 	dynasty = 91114881993
-	religion = the_seven
-	culture = crownlander
+	religion = "the_seven"
+	culture = "crownlander"
 	trait = education_diplomacy_4
 	sexuality = heterosexual
 	diplomacy = 11
@@ -367,8 +367,8 @@
 999999999985 = {
 	name = "Togarion" 
 	dynasty = 91114881991
-	religion = the_seven
-	culture = crownlander
+	religion = "the_seven"
+	culture = "crownlander"
 	trait = education_intrigue_4
 	sexuality = heterosexual
 	intrigue = 13

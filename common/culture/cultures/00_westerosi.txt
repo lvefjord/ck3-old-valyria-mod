@@ -1,0 +1,313 @@
+﻿westerman = {
+	color = {136 22 22}
+	created = 300.1.2
+	
+	
+	ethos = ethos_communal
+	heritage = heritage_andal
+	language = language_common_tongue
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_hill_dwellers
+		tradition_highland_warriors
+		tradition_swords_for_hire
+		tradition_city_keepers
+		tradition_parochialism
+		tradition_metal_craftsmanship
+		
+	}
+	
+	
+	name_list = name_list_westerman
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		60 = caucasian_blond
+		20 = caucasian_ginger
+		10 = caucasian_brown_hair
+		10 = caucasian_dark_hair
+	}
+}
+
+valeman = {
+	color = {24 120 103}
+	created = 300.1.2
+	
+	
+	ethos = ethos_stoic
+	heritage = heritage_andal
+	language = language_common_tongue
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_stand_and_fight
+		tradition_martial_admiration
+		tradition_zealous_people
+		tradition_formation_fighting
+		tradition_hereditary_hierarchy
+		
+	}
+	
+	
+	name_list = name_list_valeman
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+stormlander = {
+	color = {52 78 92}
+	created = 300.1.2
+	
+	
+	ethos = ethos_stoic
+	heritage = heritage_andal
+	language = language_common_tongue
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_martial_admiration
+		tradition_stand_and_fight
+		tradition_hereditary_hierarchy
+		tradition_loyal_soldiers
+		tradition_warriors_by_merit
+		
+	}
+	
+	
+	name_list = name_list_stormlander
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		20 = caucasian_brown_hair
+		75 = caucasian_dark_hair
+	}
+}
+
+riverlander = {
+	color = {23 30 128}
+	created = 300.1.2
+	
+	
+	ethos = ethos_communal
+	heritage = heritage_andal
+	language = language_common_tongue
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_pastoralists
+		tradition_pacifism
+		tradition_stalwart_defenders
+		tradition_frugal_armorsmiths
+		tradition_wedding_ceremonies
+		
+	}
+	
+	
+	name_list = name_list_riverlander
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+reachman = {
+	color = {40 134 18}
+	created = 300.1.2
+	
+	
+	ethos = ethos_courtly
+	heritage = heritage_andal
+	language = language_common_tongue
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_agrarian
+		tradition_pastoralists
+		tradition_reverence_for_veterans
+		tradition_festivities
+		tradition_welcoming
+		tradition_gardening
+		
+	}
+	
+	
+	name_list = name_list_reachman
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		45 = caucasian_blond
+		25 = caucasian_ginger
+		15 = caucasian_brown_hair
+		15 = caucasian_dark_hair
+	}
+}
+
+northman = {
+	color = {209 212 211}
+	created = 300.1.2
+	
+	
+	ethos = ethos_stoic
+	heritage = heritage_firstmen
+	language = language_common_tongue
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_warrior_culture
+		tradition_isolationist
+		tradition_winter_warriors
+		tradition_staunch_traditionalists
+		tradition_only_the_strong
+		tradition_martial_admiration
+		
+	}
+	
+	
+	name_list = name_list_northman
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+ironborn = {
+	color = { 63 63 63 }
+	created = 300.1.2
+	
+	
+	ethos = ethos_bellicose
+	heritage = heritage_firstmen
+	language = language_common_tongue
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_by_the_sword
+		tradition_quarrelsome
+		tradition_fishermen
+		tradition_seafaring
+		tradition_maritime_mercantilism
+		tradition_practiced_pirates
+		
+	}
+	
+	
+	name_list = name_list_ironborn
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		15 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+dornish = {
+	color = {174 127 16}
+	created = 300.1.2
+	
+	
+	ethos = ethos_stoic
+	heritage = heritage_rhoynar
+	language = language_common_tongue
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_stand_and_fight
+		tradition_dryland_dwellers
+		tradition_equal_inheritance
+		tradition_loyal_soldiers
+		tradition_warriors_of_the_dry
+		
+	}
+	
+	
+	name_list = name_list_dornish
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		5 = caucasian_ginger
+		30 = caucasian_brown_hair
+		60 = caucasian_dark_hair
+	}
+}
+
+crownlander = {
+	color = {23 30 128}
+	created = 300.1.2
+	
+	
+	ethos = ethos_communal
+	heritage = heritage_andal
+	language = language_common_tongue
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_pastoralists
+		tradition_pacifism
+		tradition_stalwart_defenders
+		tradition_frugal_armorsmiths
+		tradition_wedding_ceremonies
+		
+	}
+	
+	
+	name_list = name_list_crownlander
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}

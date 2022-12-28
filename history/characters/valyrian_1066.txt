@@ -4,8 +4,8 @@
 9988771 = {
 	name = "Viserys"
 	dynasty = 91114881997
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
 	trait = leper
@@ -31,8 +31,8 @@
 	name = "Aemma"
 	female = yes
 	dynasty = 91114881990 
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = valyrian_blood
 	trait = beauty_good_3
 	trait = education_diplomacy_4
@@ -55,8 +55,8 @@
 #Rhaenyra / Whore
 9988773 = {
 	name = "Rhaenyra"
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	female = yes
 	dna = 1997123456_visenya
 	portrait_override={
@@ -107,8 +107,8 @@
 		}
 	}
 	dynasty = 91114881997
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	martial = 16
 	diplomacy = 7
 	intrigue = 12
@@ -146,8 +146,8 @@
 		}
 	}
 	dynasty = 91114881996
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = valyrian_blood
 	trait = ambitious
 	trait = intellect_good_1
@@ -175,8 +175,8 @@
 9988776 = {
 	name = "Bartimos"
 	dynasty = 91114881995
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = valyrian_blood
 	trait = patient
 	trait = intellect_good_3
@@ -200,8 +200,8 @@
 #Mysaria
 9988777 = {
 	name = "Mysaria"
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	female = yes
 	trait = education_intrigue_4
 	trait = deceitful
@@ -228,8 +228,8 @@
 	name = "Rhaenys"
 	dynasty = 91114881997
 	female = yes
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	trait = shrewd
 	trait = diligent
 	trait = brave
@@ -246,8 +246,8 @@
 9988779 = {
 	name = "Aegon"
 	dynasty = 91114881997
-	religion = valyrian
-	culture = valyrian
+	religion = "valyrian"
+	culture = "valyrian"
 	martial = 16
 	diplomacy = 7
 	intrigue = 12
@@ -270,8 +270,8 @@
 9988781 = {
 	name = "Cregan"
 	dynasty = 91114881988
-	religion = old_god
-	culture = northman
+	religion = "old_god"
+	culture = "northman"
 	martial = 14
 	diplomacy = 11
 	intrigue = 6
@@ -290,8 +290,8 @@
 9988782 = {
 	name = "Qoren"
 	dynasty = 91114881987
-	religion = the_seven
-	culture = dornish
+	religion = "the_seven"
+	culture = "dornish"
 	martial = 14
 	diplomacy = 11
 	intrigue = 6
@@ -309,8 +309,8 @@
 9988783 = {
 	name = "Lyonel"
 	dynasty = 91114881986
-	religion = the_seven
-	culture = reachman
+	religion = "the_seven"
+	culture = "reachman"
 	martial = 14
 	diplomacy = 11
 	intrigue = 6
@@ -329,8 +329,8 @@
 9988784 = {
 	name = "Grover"
 	dynasty = 91114881985
-	religion = the_seven
-	culture = riverlander
+	religion = "the_seven"
+	culture = "riverlander"
 	martial = 7
 	diplomacy = 11
 	intrigue = 6
@@ -355,8 +355,8 @@
 		}
 	}
 	dynasty = 91114881994
-	religion = the_seven
-	culture = stormlander
+	religion = "the_seven"
+	culture = "stormlander"
 	martial = 14
 	diplomacy = 11
 	intrigue = 6
@@ -376,8 +376,8 @@
 	name = "Jeyne"
 	dynasty = 91114881990
 	female = yes
-	religion = the_seven
-	culture = valeman
+	religion = "the_seven"
+	culture = "valeman"
 	martial = 14
 	diplomacy = 11
 	intrigue = 6
@@ -397,8 +397,8 @@
 9988780 = {
 	name = "Jason"
 	dynasty = 91114881989
-	religion = the_seven
-	culture = westerman
+	religion = "the_seven"
+	culture = "westerman"
 	martial = 6
 	diplomacy = 11
 	intrigue = 13
