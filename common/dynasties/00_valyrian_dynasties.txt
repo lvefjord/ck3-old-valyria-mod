@@ -91,3 +91,9 @@
 	name = "dynn_Durrandon"
 	culture = "stormlander"
 }
+
+91114881981 = {
+	name = "dynn_Greyjoy"
+	culture = "ironborn"
+	motto = "dynn_Greyjoy_motto"
+}

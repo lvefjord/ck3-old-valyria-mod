@@ -14,6 +14,99 @@ e_the_iron_throne = {
 	definite_form = yes
 	capital = c_middlesex
 	
+	
+
+	k_iron_islands = {
+		color = {0 0 0}
+		capital = c_pyke
+		d_iron_islands = {
+			c_great_wyk = {
+				b_sealskin_point = {
+					province = 9665
+				}
+				
+				b_hammerhorn = {
+					province = 9666	
+				}
+
+				b_pebbleton = {
+					province = 9667	
+				}
+			}
+
+			c_saltcliffe = {
+				b_saltcastle = {
+					province = 9668	
+				}		
+				b_salt_hall = {
+					province = 9669	
+				}
+			}
+
+			c_pyke = {
+				b_pyke = {
+					province = 9670	
+				}		
+				b_iron_holt = {
+					province = 9671
+				}
+			}
+
+			c_harlaw = {
+				b_ten_towers = {
+					province = 9672	
+				}
+				b_harlaw_hall = {
+					province = 9673	
+				}		
+				b_grey_garden = {
+					province = 9674	
+				}
+			}
+
+			c_orkmont = {
+				b_orkfort = {
+					province = 9675	
+				}		
+			}
+
+			c_blacktyde = {
+				b_blacktyde_castle = {
+					province = 9676	
+				}		
+			}
+			c_isle_of_man = {
+				color = { 180 90 0 }
+
+				cultural_names = {
+					name_list_norse = cn_mon
+					name_list_norwegian = cn_mon
+				}
+
+				b_castletown = {
+					province = 1698
+
+					color = { 180 90 0 }
+
+					cultural_names = {
+						name_list_norse = cn_holmatun
+						name_list_norwegian = cn_holmatun
+					}
+				}
+				b_ramsey = {
+					province = 1699
+
+					color = { 180 90 0 }
+
+					cultural_names = {
+						name_list_norse = cn_hramsa
+						name_list_norwegian = cn_hramsa
+					}
+				}
+			}
+		}
+	}
+
 
 	k_the_westerlands = {
 		color = {136 22 22}
@@ -662,42 +755,13 @@ e_the_iron_throne = {
 		d_the_isles = {
 			color = { 180 90 0 }
 
-			capital = c_isle_of_man # Isle of Man
 
 			cultural_names = {
 				name_list_norse = cn_mon
 				name_list_norwegian = cn_mon
 			}
 
-			c_isle_of_man = {
-				color = { 180 90 0 }
-
-				cultural_names = {
-					name_list_norse = cn_mon
-					name_list_norwegian = cn_mon
-				}
-
-				b_castletown = {
-					province = 1698
-
-					color = { 180 90 0 }
-
-					cultural_names = {
-						name_list_norse = cn_holmatun
-						name_list_norwegian = cn_holmatun
-					}
-				}
-				b_ramsey = {
-					province = 1699
-
-					color = { 180 90 0 }
-
-					cultural_names = {
-						name_list_norse = cn_hramsa
-						name_list_norwegian = cn_hramsa
-					}
-				}
-			}
+			
 		}
 
 		d_galloway = {

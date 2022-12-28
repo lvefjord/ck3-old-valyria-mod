@@ -331,7 +331,49 @@ easteros.0001 = {
 		}
 		title:c_isle_of_man = {
 			change_title_holder = {
-				holder = character:9988787
+				holder = character:9988790
+				change = scope:change
+			}
+		}
+		title:c_great_wyk = {
+			change_title_holder = {
+				holder = character:9988790
+				change = scope:change
+			}
+		}
+		title:c_saltcliffe = {
+			change_title_holder = {
+				holder = character:9988790
+				change = scope:change
+			}
+		}
+		title:c_pyke = {
+			change_title_holder = {
+				holder = character:ac1
+				change = scope:change
+			}
+		}
+		title:c_harlaw = {
+			change_title_holder = {
+				holder = character:9988790
+				change = scope:change
+			}
+		}
+		title:c_orkmont = {
+			change_title_holder = {
+				holder = character:9988790
+				change = scope:change
+			}
+		}
+		title:c_blacktyde = {
+			change_title_holder = {
+				holder = character:9988790
+				change = scope:change
+			}
+		}
+		title:k_iron_islands = {
+			change_title_holder = {
+				holder = character:9988790
 				change = scope:change
 			}
 		}

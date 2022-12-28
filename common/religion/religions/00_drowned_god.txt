@@ -210,7 +210,7 @@
 
 	faiths = {
 		drowned_god = {
-			color = { 63 63 63 }
+			color = {0 0 0}
 			holy_site = mount_etna
 			holy_site = puy_de_dome
 			holy_site = monte_amiata

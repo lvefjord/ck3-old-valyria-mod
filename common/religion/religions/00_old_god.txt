@@ -209,7 +209,7 @@
 
 	faiths = {
 		old_god = {
-			color = { 63 63 63 }
+			color = {209 212 211}
 			holy_site = mount_etna
 			holy_site = puy_de_dome
 			holy_site = monte_amiata

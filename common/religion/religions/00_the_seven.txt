@@ -210,7 +210,7 @@
 
 	faiths = {
 		the_seven = {
-			color = { 63 63 63 }
+			color = {24 120 103}
 			holy_site = jerusalem
 			holy_site = rome
 			holy_site = santiago

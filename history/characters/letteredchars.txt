@@ -1,0 +1,16 @@
+﻿
+#Vickon Greyjoy
+ac1 = {
+	name = "Vickon"
+	dynasty = 91114881981
+	culture = "ironborn"
+	religion = "drowned_god"
+	trait = education_stewardship_4
+	stewardship = 14
+	martial = 10
+	diplomacy = 12
+	sexuality = heterosexual
+	842.1.1 = {
+		birth = yes
+	}
+}

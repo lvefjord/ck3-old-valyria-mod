@@ -227,6 +227,24 @@
 
 }
 
+#greyjoy
+91114881981 = {
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="greyjoy.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
 #Targ
 91114881997 = {
 	custom=yes
