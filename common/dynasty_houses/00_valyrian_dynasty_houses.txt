@@ -6,6 +6,13 @@
 	dynasty = 91114881997
 }
 
+house_targaryen1 = {
+	name = "dynn_Aegon_Targaryen"
+	culture = "valyrian"
+	motto = "dynn_Targaryen_motto"
+	dynasty = 91114881980
+}
+
 house_velaryon = {
 	prefix = "dynnp_of"
 	name = "dynn_Velaryon"

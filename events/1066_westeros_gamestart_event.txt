@@ -320,7 +320,55 @@ westeros.0001 = {
 		}
 		title:c_isle_of_man = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dod1
+				change = scope:change
+			}
+		}
+		title:c_great_wyk = {
+			change_title_holder = {
+				holder = character:dod1
+				change = scope:change
+			}
+		}
+		title:c_saltcliffe = {
+			change_title_holder = {
+				holder = character:dod1
+				change = scope:change
+			}
+		}
+		title:c_pyke = {
+			change_title_holder = {
+				holder = character:dod1
+				change = scope:change
+			}
+		}
+		title:c_harlaw = {
+			change_title_holder = {
+				holder = character:dod1
+				change = scope:change
+			}
+		}
+		title:c_orkmont = {
+			change_title_holder = {
+				holder = character:dod1
+				change = scope:change
+			}
+		}
+		title:c_blacktyde = {
+			change_title_holder = {
+				holder = character:dod1
+				change = scope:change
+			}
+		}
+		title:d_iron_islands = {
+			change_title_holder = {
+				holder = character:dod1
+				change = scope:change
+			}
+		}
+		title:k_iron_islands = {
+			change_title_holder = {
+				holder = character:dod1
 				change = scope:change
 			}
 		}
@@ -638,6 +686,14 @@ westeros.0001 = {
 			set_de_jure_liege_title = title:e_the_iron_throne
 			
 		}
+		character:dod1 = {
+			change_liege = {
+				LIEGE = character:9988779
+				CHANGE = scope:change
+			}
+			set_de_jure_liege_title = title:e_the_iron_throne
+			
+		}
 		resolve_title_and_vassal_change = scope:change
 		#FIX CAPITALS
 		#NORTH
@@ -799,6 +855,12 @@ westeros.0001 = {
 			every_sub_realm_county = { 
 				set_county_culture = culture:stormlander
 				set_county_faith = faith:the_seven
+			}
+		}
+		title:k_iron_islands.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:ironborn
+				set_county_faith = faith:drowned_god
 			}
 		}
 		title:k_the_riverlands.holder = {

@@ -257,7 +257,7 @@
 	trait = valyrian_blood
 	father = 999999999992
 	mother = 999999999990
-		864.1.1 = {
+	864.1.1 = {
 		birth = yes
 	}
 	880.1.1 = {
@@ -275,7 +275,7 @@
 	trait = education_stewardship_4
 	trait = avaricious
 	stewardship = 16
-		836.1.1 = {
+	836.1.1 = {
 		birth = yes
 	}
 	880.1.1 = {
@@ -358,9 +358,9 @@
 	867.1.1 = {
 		employer  = 999999999999
 		}
-		880.1.1 = {
-			death = yes
-		}
+	880.1.1 = {
+		death = yes
+	}
 }
 
 #Togarion Bar Emmon
@@ -379,7 +379,7 @@
 		employer  = 999999999999
 		give_council_position = councillor_spymaster
 		}
-		880.1.1 = {
-			death = yes
-		}
+	880.1.1 = {
+		death = yes
+	}
 }

@@ -97,3 +97,10 @@
 	culture = "ironborn"
 	motto = "dynn_Greyjoy_motto"
 }
+
+#Taegon
+91114881980 = {
+	name = "dynn_Aegon_Targaryen"
+	culture = "valyrian"
+	motto = "dynn_Targaryen_motto"
+}

@@ -13,4 +13,24 @@ ac1 = {
 	842.1.1 = {
 		birth = yes
 	}
+	880.1.1 = {
+		death = yes
+	}
+}
+
+dod1 = {
+	name = "Dalton"
+	dynasty = 91114881981
+	culture = "ironborn"
+	religion = "drowned_god"
+	trait = education_martial_4
+	trait = brave
+	trait = wrathful
+	stewardship = 10
+	martial = 14
+	diplomacy = 12
+	sexuality = heterosexual
+	1049.1.1 = {
+		birth = yes
+	}
 }

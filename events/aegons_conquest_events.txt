@@ -25,6 +25,7 @@ ac.0001 = {
 	}
 
 	trigger = {
+		current_date < 1065.1.1
 		has_trait = dragon_rider
 		completely_controls = title:k_dorne
 		NOT = {
@@ -77,6 +78,7 @@ ac.0002 = {
 	}
 
 	trigger = {
+		current_date < 1065.1.1
 		has_trait = dragon_rider
 		completely_controls = title:k_the_stormlands
 		NOT = {
@@ -163,6 +165,7 @@ ac.0003 = {
 	}
 
 	trigger = {
+		current_date < 1065.1.1
 		has_trait = dragon_rider
 		completely_controls = title:k_the_reach
 		NOT = {
@@ -222,6 +225,7 @@ ac.0004 = {
 	}
 
 	trigger = {
+		current_date < 1065.1.1
 		has_trait = dragon_rider
 		completely_controls = title:k_the_westerlands
 		NOT = {
@@ -263,6 +267,7 @@ ac.0005 = {
 	}
 
 	trigger = {
+		current_date < 1065.1.1
 		has_trait = dragon_rider
 		completely_controls = title:k_the_vale
 		NOT = {
@@ -304,6 +309,7 @@ ac.0006 = {
 	}
 
 	trigger = {
+		current_date < 1065.1.1
 		has_trait = dragon_rider
 		completely_controls = title:k_the_riverlands
 		NOT = {
@@ -372,6 +378,7 @@ ac.0007 = {
 	}
 
 	trigger = {
+		current_date < 1065.1.1
 		has_trait = dragon_rider
 		completely_controls = title:k_the_north
 		NOT = {
@@ -405,6 +412,7 @@ ac.0008 = {
 
 
 	trigger = {
+		current_date < 1065.1.1
 			AND = {
 				has_character_flag = has_north
 				has_character_flag = has_dorne

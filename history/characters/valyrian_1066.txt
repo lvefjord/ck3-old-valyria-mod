@@ -245,7 +245,7 @@
 
 9988779 = {
 	name = "Aegon"
-	dynasty = 91114881997
+	dynasty = 91114881980
 	religion = "valyrian"
 	culture = "valyrian"
 	martial = 16

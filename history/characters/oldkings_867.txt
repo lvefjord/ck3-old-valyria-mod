@@ -13,6 +13,9 @@
 	845.1.1 = {
 		birth = yes
 	}
+	880.1.1 = {
+		death = yes
+	}
 }
 
 #Sharra Arryn Ronnel's mum
@@ -28,6 +31,9 @@
 	sexuality = heterosexual
 	845.1.1 = {
 		birth = yes
+	}
+	880.1.1 = {
+		death = yes
 	}
 }
 
@@ -45,6 +51,9 @@
 	860.1.1 = {
 		birth = yes
 	}
+	880.1.1 = {
+		death = yes
+	}
 }
 
 #Harren Hoare
@@ -60,6 +69,9 @@
 	sexuality = heterosexual
 	845.1.1 = {
 		birth = yes
+	}
+	880.1.1 = {
+		death = yes
 	}
 }
 
@@ -79,6 +91,9 @@
 	864.1.1 = {
 		add_spouse = 9988799
 	}
+	880.1.1 = {
+		death = yes
+	}
 }
 
 #Mern IX Gardener
@@ -97,6 +112,9 @@
 	864.1.1 = {
 		add_spouse = 9988800
 	}
+	880.1.1 = {
+		death = yes
+	}
 }
 
 #Argilac Durrandon
@@ -112,6 +130,9 @@
 	sexuality = heterosexual
 	826.1.1 = {
 		birth = yes
+	}
+	880.1.1 = {
+		death = yes
 	}
 }
 
@@ -129,6 +150,9 @@
 	787.1.1 = {
 		birth = yes
 	}
+	880.1.1 = {
+		death = yes
+	}
 }
 
 #Nymor Martell
@@ -144,6 +168,9 @@
 	sexuality = heterosexual
 	820.1.1 = {
 		birth = yes
+	}
+	880.1.1 = {
+		death = yes
 	}
 }
 
@@ -164,6 +191,9 @@
 	867.1.1 = {
 		employer  = 999999999999
 	}
+	880.1.1 = {
+		death = yes
+	}
 }
 
 #Edmyn Tully
@@ -179,6 +209,9 @@
 	sexuality = heterosexual
 	842.1.1 = {
 		birth = yes
+	}
+	880.1.1 = {
+		death = yes
 	}
 }
 
@@ -200,6 +233,9 @@
 	867.1.1 = {
 		employer  = 9988793
 	}
+	880.1.1 = {
+		death = yes
+	}
 }
 
 #Lorens wife
@@ -216,6 +252,9 @@
 	}
 	864.1.1 = {
 		add_spouse = 9988791
+	}
+	880.1.1 = {
+		death = yes
 	}
 }
 
@@ -234,6 +273,9 @@
 	}
 	864.1.1 = {
 		add_spouse = 9988792
+	}
+	880.1.1 = {
+		death = yes
 	}
 }
 
@@ -255,6 +297,9 @@
 	}
 	866.12.1 = {
 		add_spouse = 9988802
+	}
+	880.1.1 = {
+		death = yes
 	}
 }
 #Lannister half
@@ -278,6 +323,9 @@
 	866.12.1 = {
 		add_spouse = 9988801
 	}
+	880.1.1 = {
+		death = yes
+	}
 }
 #3rd gen premade char
 9988803 = {
@@ -291,6 +339,9 @@
 	mother = 9988801
 	865.12.1 = {
 		birth = yes
+	}
+	880.1.1 = {
+		death = yes
 	}
 }
 
@@ -309,6 +360,9 @@
 	843.1.1 = {
 		birth = yes
 	}
+	880.1.1 = {
+		death = yes
+	}
 }
 
 #Replacement for Edmyn cuz it fucked title swaps up
@@ -324,6 +378,8 @@
 	sexuality = heterosexual
 	843.1.1 = {
 		birth = yes
+	}880.1.1 = {
+		death = yes
 	}
 }
 
