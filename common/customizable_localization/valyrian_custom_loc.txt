@@ -62,6 +62,13 @@ lord_valyrian_male = {
         
             localization_key = val_king
     }
+    text = {
+        trigger = {
+                has_title = title:k_iron_islands
+        }
+        
+            localization_key = lord_reaper
+    }
 
 
 
@@ -130,6 +137,13 @@ lord_valyrian_female = {
         }
         
             localization_key = val_queen 
+    }
+    text = {
+        trigger = {
+                has_title = title:k_iron_islands
+        }
+        
+            localization_key = lady_reaper
     }
 
     

@@ -9,6 +9,14 @@
  bookmark_dragons_aegon_targaryen_alt_visenya:0 "$Visenya$ $nick_the_dragon$"
  bookmark_dragons_aegon_targaryen_alt_rhaenys:0 "Rhaenys Targaryen"
 
+ bm_1066_dragons:0 "Here there be Dragons"
+ bm_1066_dragons_desc:1 "Dragons breathe fire.\n\n#bold Can you breathe fire?#!"
+
+ #Rhaenyra Targaryen
+ bookmark_dragons_rhaenyra_targaryen:0 "Rhaenyra Targaryen"
+ bookmark_dragons_rhaenyra_targaryen_desc:0 "Long May She Reign"
+
+
  ##EVENTS##
  dbookmark.0002.t:0 "The Great"
  dbookmark.0002.desc:0 "The first time a vassal hailed me with a "long live [ROOT.Char.GetFirstNameNoTooltip] the Great!", I was deeply honored. I thought nothing more of it, but since that day, the epithet has grown in popularity.\n\nWherever I go, from [capital.GetNameNoTooltip] to [province.GetNameNoTooltip], my subjects now call me [ROOT.Char.GetFirstNameNoTooltip] the Great."

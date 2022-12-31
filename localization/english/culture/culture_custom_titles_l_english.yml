@@ -37,7 +37,8 @@
  dorne_princess:0 "Princess"
  val_king:0 "King"
  val_queen:0 "Queen"
- 
+ lord_reaper:0 "Lord Reaper"
+ lady_reaper:0 "Lord Reaper"
 
  male_position_culture:0 "Master of whisperers"
  

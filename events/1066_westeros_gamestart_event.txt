@@ -901,7 +901,13 @@ westeros.0001 = {
 		}
 		culture:valyrian = {
 			add_innovation = innovation_primogeniture
+			add_innovation = innovation_royal_prerogative 
 			}
+		
+
+		title:e_the_iron_throne = {
+			update_dynamic_coa = yes
+		}
 
 
 		

@@ -582,7 +582,7 @@ ac.0009 = {
 	          King of the Andals, the Rhoynar, and the First Men
 	
 	                             Lord of the Seven Kingdoms 
-	                                                  and 
+	                                            	  and 
 	                                 Protector of the Realm" 
 	theme = hunting
 	#western_high_nobility

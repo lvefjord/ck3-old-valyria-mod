@@ -62,7 +62,6 @@
 	portrait_override={
 		portrait_modifier_overrides={
 			custom_headgear=female_headgear_religious_northern_high_01
-			custom_hair=female_hair_fp2_iberian_muslim_03_common
 			custom_clothes=female_clothes_secular_indian_war_nobility_01_low
 		}
 	}
@@ -246,6 +245,12 @@
 9988779 = {
 	name = "Aegon"
 	dynasty = 91114881980
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_headgear=male_headgear_secular_western_high_nobility_01
+			custom_beards=male_empty
+		}
+	}
 	religion = "valyrian"
 	culture = "valyrian"
 	martial = 16

@@ -14,7 +14,7 @@
 		dynasty_splendor_level = 1
 		type = male
 		birth = 839.1.1
-		title = k_dragonstone
+		title = d_dragonstone
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
@@ -50,6 +50,35 @@
 			animation = worry
 		}
 		
+	}
+
+}
+
+bm_1066_dragons = {
+	start_date = 1066.9.15
+	is_playable = yes
+	group = bm_dragon_group_1066
+
+	weight = {
+		value = 200
+	}
+
+	# Rhaenyra
+	character = {
+		name = "bookmark_dragons_rhaenyra_targaryen"
+		dynasty = 91114881997
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1034.1.1
+		title = d_dragonstone
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 9988773
+		position = { 800 750 }
+
+		animation = personality_bold
 	}
 
 }

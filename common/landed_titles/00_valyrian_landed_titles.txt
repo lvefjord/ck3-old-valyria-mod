@@ -1840,69 +1840,62 @@ e_the_iron_throne = {
 		}
 	}
 
-	k_dragonstone = {
-			color = { 63 63 63 }
+	d_dragonstone = {
 
-			capital = c_dragonstone # DRAGONSTONE
-			
-			d_dragonstone = {
+		color = {63 63 63}
+		capital = c_dragonstone
+
+
+	c_dragonstone = {
+
+		color = {63 63 63}
 	
+			b_dragonstone = {
+		
+				province = 9661
+			
 				color = {63 63 63}
-				capital = c_dragonstone
-
-		
-			c_dragonstone = {
-		
-				color = {63 63 63}
-			
-					b_dragonstone = {
-				
-						province = 9661
-					
-						color = {63 63 63}
-				
-				}
-		
-			}
-			
-			c_driftmark = {
-		
-				color = {126 119 9}
-			
-					b_driftmark = {
-				
-						province = 9662
-					
-						color = {126 119 9}
-				
-					}
-					
-					b_high_tide = {
-				
-						province = 9663
-					
-						color = {126 119 9}
-				
-					}
-		
-			}
-			
-			c_claw_isle = {
-		
-				color = {150 18 8}
-			
-					b_claw_isle = {
-				
-						province = 9664
-					
-						color = {150 18 8}
-				
-				}
-		
-			}
-		
 		
 		}
-	}
-}
 
+	}
+	
+	c_driftmark = {
+
+		color = {126 119 9}
+	
+			b_driftmark = {
+		
+				province = 9662
+			
+				color = {126 119 9}
+		
+			}
+			
+			b_high_tide = {
+		
+				province = 9663
+			
+				color = {126 119 9}
+		
+			}
+
+	}
+	
+	c_claw_isle = {
+
+		color = {150 18 8}
+	
+			b_claw_isle = {
+		
+				province = 9664
+			
+				color = {150 18 8}
+		
+		}
+
+	}
+
+
+}
+}

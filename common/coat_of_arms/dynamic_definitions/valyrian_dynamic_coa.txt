@@ -1,0 +1,27 @@
+﻿e_the_iron_throne = {
+	item = {
+		trigger = {
+			title:e_the_iron_throne.holder = { is_close_or_extended_family_of = character:9988773 }
+			}
+			coat_of_arms = targon
+		}
+	item = {
+		trigger = {
+			title:e_the_iron_throne.holder = { is_close_or_extended_family_of = character:9988779 }
+		}
+		coat_of_arms = taegon
+	}
+	item = {
+		trigger = {
+			always = yes
+		}
+		coat_of_arms = targon
+	}
+}
+
+#norm_targ = {
+#	trigger = {
+#		title:e_the_iron_throne.holder = { is_close_or_extended_family_of = character:999999999999 }
+#	}
+#	coat_of_arms = targon
+#}

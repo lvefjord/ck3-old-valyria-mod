@@ -26,6 +26,7 @@ dod1 = {
 	trait = education_martial_4
 	trait = brave
 	trait = wrathful
+	trait = reaver
 	stewardship = 10
 	martial = 14
 	diplomacy = 12
