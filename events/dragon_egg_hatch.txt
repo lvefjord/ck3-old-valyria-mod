@@ -1,0 +1,140 @@
+﻿namespace = hatch
+
+hatch.0001 = {
+	type = character_event
+	title = "Hatching"
+	desc = "Your dragon has hatched."
+	theme = hunting
+
+	right_portrait = {
+		character = ROOT
+		animation = frontend_left_idle
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = egg_hatched
+		}
+		add_character_flag = {
+			flag = has_dragon
+		}
+		add_character_modifier = fast_dragon
+	}
+
+	trigger = {
+		any_character_artifact = {
+			artifact_type = dragon_egg
+		}
+		NOT = {
+			has_character_flag = egg_hatched
+			has_character_flag = has_dragon
+		}
+		has_trait = valyrian_blood
+	}
+
+	option = {
+		name = "I knew it would happen one day"
+	}
+	after = {
+		trigger_event = hatch.0099
+	}
+}
+
+hatch.0002 = {
+	type = character_event
+	title = "Hatching"
+	desc = "Your dragon has hatched."
+	theme = hunting
+
+	right_portrait = {
+		character = ROOT
+		animation = frontend_left_idle
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = egg_hatched
+		}
+		add_character_flag = {
+			flag = has_dragon
+		}
+		add_character_modifier = battle_dragon
+	}
+
+	trigger = {
+		any_character_artifact = {
+			artifact_type = dragon_egg
+		}
+		NOT = {
+			has_character_flag = egg_hatched
+			has_character_flag = has_dragon
+		}
+		has_trait = valyrian_blood
+	}
+
+	option = {
+		name = "I knew it would happen one day"
+	}
+	after = {
+		trigger_event = hatch.0099
+	}
+}
+
+hatch.0003 = {
+	type = character_event
+	title = "Hatching"
+	desc = "Your dragon has hatched."
+	theme = hunting
+
+	right_portrait = {
+		character = ROOT
+		animation = frontend_left_idle
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = egg_hatched
+		}
+		add_character_flag = {
+			flag = has_dragon
+		}
+		add_character_modifier = aggressive_dragon
+	}
+
+	trigger = {
+		any_character_artifact = {
+			artifact_type = dragon_egg
+		}
+		NOT = {
+			has_character_flag = egg_hatched
+			has_character_flag = has_dragon
+		}
+		has_trait = valyrian_blood
+	}
+
+	option = {
+		name = "I knew it would happen one day"
+	}
+	after = {
+		trigger_event = hatch.0099
+	}
+}
+
+hatch.0099 = {
+	type = character_event
+	title = "Time for my first flight"
+	desc = "I have long waited for this day. When I become a dragon rider like my ancestors from Old Valyria"
+	theme = hunting
+
+	right_portrait = {
+		character = ROOT
+		animation = frontend_left_idle
+	}
+
+	option = {
+		name = "Dohaeris zaldrizes!"
+
+		add_trait = dragon_rider
+
+	}
+}

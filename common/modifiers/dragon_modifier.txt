@@ -1,0 +1,17 @@
+﻿agile_dragon = {
+	icon = dragon_agile
+	martial = 3
+	prowess = 3
+}
+
+battle_dragon = {
+	icon = dragon_battle
+	martial = 3
+	prowess = 3
+}
+
+aggressive_dragon = {
+	icon = dragon_aggressive
+	martial = 3
+	prowess = 3
+}

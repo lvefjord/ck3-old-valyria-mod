@@ -1,0 +1,26 @@
+﻿test = {
+	title = "EGG TEST"
+	desc = "EGG TEST"
+	confirm_text = "Claim"
+	selection_tooltip = "Claim an Egg"
+	picture = "gfx/interface/illustrations/decisions/decision_activity.dds"
+
+	major = yes
+	
+	is_shown = {
+		always = no
+	}
+
+	is_valid = {
+		any_character_artifact = {
+			artifact_type = dragon_egg
+		}
+	}
+
+	ai_check_interval = 1
+
+	effect = {
+		add_character_modifier = fast_dragon
+	}
+
+}
