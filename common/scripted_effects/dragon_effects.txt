@@ -1,1 +1,75 @@
-﻿
+﻿start_dragon_story_cycle_effect = {
+	show_as_tooltip = {
+		add_character_modifier = {
+			modifier = dragon_story_modifier
+		}
+	}
+	hidden_effect = {
+		create_story = story_cycle_dragon
+	}
+}
+
+
+assign_name_options_dragon_story_cycle_effect = {
+	random_list = {
+		1 = {
+			trigger = { NOT = { has_character_flag = name_balerion } }
+			add_character_flag = name_balerion
+		}
+		1 = {
+			trigger = { NOT = { has_character_flag = name_meraxes } }
+			add_character_flag = name_meraxes
+		}
+		1 = {
+			trigger = { NOT = { has_character_flag = name_vhagar } }
+			add_character_flag = name_vhagar
+		}
+	}
+}
+
+remove_dragon_name_effect = {
+	remove_variable = story_cycle_dragon_name
+	remove_localized_text = story_cycle_dragon_name
+}
+
+
+remove_dragon_story_modifiers_effect = {
+	if = {
+		limit = {
+			has_character_modifier = dragon_story_modifier
+		}
+		remove_character_modifier = dragon_story_modifier
+	}
+}
+
+transfer_dragon_story_cycle_to_effect = {
+	remove_dragon_story_modifiers_effect = yes
+
+	save_temporary_scope_as = original_owner
+
+	$CHARACTER$ = {
+		set_variable = {
+			name = story_cycle_dragon_name
+			value = $STORY$.var:story_cycle_dragon_name
+		}
+		if = {
+			limit = {
+				scope:original_owner = { is_alive = yes }
+			}
+			copy_localized_text = {
+				key = story_cycle_dragon_name
+				target = scope:original_owner
+			}
+		}
+		add_character_modifier = {
+			modifier = dragon_story_modifier
+		}
+		add_character_flag = had_dragon_story
+	}
+
+	remove_dragon_name_effect = yes
+
+	$STORY$ = {
+		make_story_owner = $CHARACTER$
+	}
+}

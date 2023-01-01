@@ -1,1 +1,232 @@
 ﻿namespace = pet_dragon
+
+#Name Dragon
+pet_dragon.1001 = {
+	type = character_event
+	title = pet_dragon.1001.t
+	desc = pet_dragon.1001.desc
+	theme = pet
+	override_background = { event_background = egg_hatch }
+
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+
+	immediate = {
+		assign_name_options_dragon_story_cycle_effect = yes
+		assign_name_options_dragon_story_cycle_effect = yes
+		assign_name_options_dragon_story_cycle_effect = yes
+		play_music_cue = "mx_cue_low_key_positive"
+
+		if = {
+			limit = { is_ai = yes }
+			random_list = {
+				1 = {
+					trigger = { has_character_flag = name_balerion }
+					set_variable = {
+						name = story_cycle_dragon_name
+						value = flag:dragon_name_balerion
+					}
+				}
+				1 = {
+					trigger = { has_character_flag = name_meraxes }
+					set_variable = {
+						name = story_cycle_dragon_name
+						value = flag:dragon_name_meraxes
+					}
+				}
+				1 = {
+					trigger = { has_character_flag = name_vhagar }
+					set_variable = {
+						name = story_cycle_dragon_name
+						value = flag:dragon_name_vhagar
+					}
+				}
+			}
+		}
+	}
+
+	widget = {
+		gui = "event_window_widget_enter_text"
+		container = "dynamic_birth_name"
+		controller = {
+			type = text
+			data = {
+				key = story_cycle_dragon_name
+				default = {
+					localization_key = dragon_name_balerion
+					trigger = {
+						has_character_flag = name_balerion
+					}
+				}
+				default = {
+					localization_key = dragon_name_meraxes
+					trigger = {
+						has_character_flag = name_meraxes
+					}
+				}
+				default = {
+					localization_key = dragon_name_vhagar
+					trigger = {
+						has_character_flag = name_vhagar
+					}
+				}
+			}
+		}
+		setup_scope = {
+			root = { save_scope_as = text_target }
+		}
+	}
+
+	option = {
+		name = pet_dragon.0001.a
+	}
+
+	after = {
+		remove_character_flag = is_naming_dragon
+		remove_character_flag = name_balerion
+		remove_character_flag = name_meraxes
+		remove_character_flag = name_vhagar
+
+		if = {
+			# We entered custom text into the pop up
+			limit = { NOT = { has_variable = story_cycle_dragon_name } }
+			set_variable = {
+				name = story_cycle_dragon_name
+				value = flag:custom
+			}
+		}
+	}
+}
+
+#Fly your dragon
+pet_dragon.1101 = {
+	type = character_event
+	title = pet_dragon.1101.t
+	desc = pet_dragon.1101.desc
+	theme = pet
+	override_background = { event_background = egg_hatch }
+
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	
+	trigger = {
+		NOT = { has_character_flag = had_pet_dragon_1101_event }
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_pet_dragon_1101_event
+			years = 10
+		}
+	}
+
+	option = { #walk on!
+		name = pet_dragon.1101.a
+		add_character_modifier = {
+			modifier = dragon_story_flying_modifier
+			days = 3650
+		}
+	}
+}
+
+#Dragon Dies
+pet_dragon.1199 = {
+	type = character_event
+	title = pet_dragon.1199.t
+	desc = pet_dragon.1199.desc
+	theme = pet
+	override_background = { event_background = egg_hatch }
+
+	left_portrait = {
+		character = root
+		animation = sadness
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_prison"
+	}
+
+	option = {
+		name = pet_dragon.1199.a
+		show_as_tooltip = {
+			remove_dragon_story_modifiers_effect = yes
+		}
+		scope:story = {
+			hidden_effect = { end_story = yes }
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = pet_dragon.0199.b
+		show_as_tooltip = {
+			remove_dragon_story_modifiers_effect = yes
+		}
+		remove_short_term_gold = medium_gold_value
+		set_variable = {
+			name = dragon_hide_type
+			value = flag:dragon
+			days = 1
+		}
+		create_artifact_dragon_hide_small_effect = {
+			OWNER = root
+			HUNTER = root
+		}
+		custom_tooltip = pet_dragon.0199.b.tt
+		scope:story = {
+			hidden_effect = { end_story = yes }
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	after = {
+		remove_character_flag = dragon_is_dying
+	}
+}
+
+#You pet your dog
+#by Linnéa Thimrén
+pet_dragon.6001 = {
+	type = character_event
+	title = pet_dragon.6001.t
+	desc = pet_dragon.6001.desc
+	theme = pet
+	override_background = {
+		event_background = sitting_room
+	}
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {
+		name = pet_dragon.6001.a
+		add_stress = minor_stress_loss
+	}
+}
+
+#You pet your dog v.2
+#by Linnéa Thimrén
+pet_dragon.6002 = {
+	type = character_event
+	title = pet_dragon.6001.t
+	desc = pet_dragon.6002.desc
+	theme = pet
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {
+		name = pet_dragon.6001.a
+		add_stress = minor_stress_loss
+	}
+}

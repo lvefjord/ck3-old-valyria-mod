@@ -1,0 +1,280 @@
+﻿l_english:
+##############
+## dragon
+##############
+ pet_dragon.0001.t:0 "The Dragon"
+ pet_dragon.0001.desc:1 "As the dragon rests in my lap, contently purring, I ponder what I should name [ROOT.Char.Custom('DragonStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('DragonStoryHerHis')] [ROOT.Char.Custom('DragonFurColor')] fur? Something to describe the soothing feeling I experience when I scratch [ROOT.Char.Custom('DragonStoryHerHim')] behind the ear?\n\nOh, I know! I will name [ROOT.Char.Custom('DragonStoryHerHim')]..."
+ pet_dragon.0001.a:1 "What a great name!"
+ 
+ dragon_name_balerion:0 "Balerion"
+ dragon_name_meraxes:0 "Meraxes"
+ dragon_name_vhagar:0 "Vhagar"
+
+ pet_dragon.0101.t:0 "[ROOT.Char.Custom('DragonStoryName')]: The Gift Giver"
+ pet_dragon.0101.desc:0 "Two [ROOT.Char.Custom('DragonEyeColor')] eyes follow me as I cross the hallway, and a small meow breaks the silence as [ROOT.Char.Custom('DragonStoryName')] pounces for my ankle."
+ pet_dragon.0101.desc_old:0 "[ROOT.Char.Custom('DragonStorySheHe')|U] has seen better days, but age has never stopped [ROOT.Char.Custom('DragonHerHim')]!"
+ pet_dragon.0101.desc_young:0 "[ROOT.Char.Custom('DragonStorySheHe')|U] may be young, but [ROOT.Char.Custom('DragonStorySheHe')] is nonetheless ferocious!"
+ pet_dragon.0101.desc_middle:0 "A dragon in [ROOT.Char.Custom('DragonStoryHerHis')] prime, [ROOT.Char.Custom('DragonStorySheHe')] nonetheless leaves no marks on me."
+ pet_dragon.0101.desc_ending:0 "\n\nAs [ROOT.Char.Custom('DragonStorySheHe')] prances away I see that [ROOT.Char.Custom('DragonStorySheHe')] left me a gleaming gift where [ROOT.Char.Custom('DragonStorySheHe')] had been hiding."
+ pet_dragon.0101.a_female:0 "Thank you, fair lady!"
+ pet_dragon.0101.a_male:0 "Thank you, kind sir!"
+
+ pet_dragon.0103.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Charmed Vassal"
+ pet_dragon.0103.desc:0 "As I walk outside I am greeted by the sight of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] crouching beside my dragon [ROOT.Char.Custom('DragonStoryName')], tenderly petting [ROOT.Char.Custom('DragonStoryHerHis')] head.\n\n"This is quite the lovely dragon you have, my [ROOT.Char.GetLadyLord].""
+ pet_dragon.0103.a:0 "You are very perceptive!"
+
+ pet_dragon.0104.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Purring Comfort"
+ pet_dragon.0104.desc:0 "After yet another stressful day I slump down on a chair in my chamber – for how long will I be able to keep this up?\n\nSuddenly I hear a quiet meow, and my dragon [ROOT.Char.Custom('DragonStoryName')] jumps up on my lap and starts purring. I sit with [ROOT.Char.Custom('DragonStoryHerHim')] for a while, just listening to the calming sound and petting [ROOT.Char.Custom('DragonStoryHerHis')] [ROOT.Char.Custom('DragonFurColor')] fur."
+ pet_dragon.0104.a:0 "I think I can do this for a bit longer."
+
+ pet_dragon.0105.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Secret Revealed"
+ pet_dragon.0105.desc_opening:0 "#EMP Meow!#!\n\nI look down to see that my dragon [ROOT.Char.Custom('DragonStoryName')] has dropped a scroll at my feet – sealed in my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('person'))] [person.GetTitledFirstNamePossessive] distinct style. Giving in to curiosity I skim the text...\n\n"
+ pet_dragon.0105.desc_murder:0 ""... the murder I committed weights on me, and...""
+ pet_dragon.0105.desc_lover:0 ""... the love I hold for another...""
+ pet_dragon.0105.desc_homosexual:0 ""... the urges I feel for people of the same gender...""
+ pet_dragon.0105.desc_deviant:0 ""... the deviancy I have committed...""
+ pet_dragon.0105.desc_cannibal:0 ""... for I have tasted the flesh of humans...""
+ pet_dragon.0105.desc_murder_attempt:0 ""... when I tried to end the life of another...""
+ pet_dragon.0105.desc_non_believer:0 ""... for I do not believe in [person.GetFaith.HighGodName]...""
+ pet_dragon.0105.desc_incest:0 ""... that I feel these urges towards someone in my own family...""
+ pet_dragon.0105.desc_witch:0 ""... my coven of witches will...""
+ pet_dragon.0105.desc_fallback:0 ""... keeping this secret weights on me...""
+ pet_dragon.0105.a:0 "To think that [person.GetSheHe] was hiding such a thing...!"
+ pet_dragon.0105.b:0 "The world must know of this."
+
+ pet_dragon.0106.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Sensitivity"
+ pet_dragon.0106.desc:0 ""[ROOT.Char.GetFirstNameNoTooltip], this dragon has to go!"\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetTitledFirstName] is holding [ROOT.Char.Custom('DragonStoryName')] up by the skin of [ROOT.Char.Custom('DragonStoryHerHis')] neck, eyes red and nose running. "I cannot stand this anymore, I can barely breathe when [ROOT.Char.Custom('DragonStorySheHe')] is around!""
+ pet_dragon.0106.a:0 "I'll give [ROOT.Char.Custom('DragonStoryHerHim')] to [receiver_1.GetFirstNameNoTooltip]..."
+ pet_dragon.0106.b:0 "[receiver_2.GetFirstNameNoTooltip] could use a companion..."
+ pet_dragon.0106.c:0 "[receiver_3.GetFirstNameNoTooltip] would take care of [ROOT.Char.Custom('DragonStoryHerHim')]..."
+ pet_dragon.0106.d:0 "I will not give [ROOT.Char.Custom('DragonStoryName')] away!"
+ pet_dragon.0106.e:0 "I... I guess I have to get rid of [ROOT.Char.Custom('DragonStoryHerHim')]..."
+
+ pet_dragon.0107.t:0 "[ROOT.Char.Custom('DragonStoryName')]: The Dragon"
+ pet_dragon.0107.desc:0 ""My [giver.Custom2('RelationToMe', SCOPE.sC('spouse'))] will no longer stand poor [ROOT.Char.Custom('DragonStoryNamePossessive')] company... So I will trust you to take care of [ROOT.Char.Custom('DragonStoryHerHim')] in my stead."\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('giver'))] [giver.GetTitledFirstName] holds a [receiver.Custom('DragonFurColor')] dragon out towards me. "[ROOT.Char.Custom('DragonStoryName')] is an excellent... an excellent companion.""
+ pet_dragon.0107.a:0 "Thank you, I will treasure [ROOT.Char.Custom('DragonStoryHerHim')]!"
+ pet_dragon.0107.b:0 "Thank you. I am sure [ROOT.Char.Custom('DragonStorySheHe')] will be of value."
+
+ pet_dragon.0108.t:0 "[receiver.Custom('DragonStoryName')]: Life Without You"
+ pet_dragon.0108.t_dead:0 "Life Without You"
+ pet_dragon.0108.desc_opening:0 "I visit my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] to see how little [receiver.Custom('DragonStoryName')] is doing in [receiver.GetHerHis] care.\n\n"
+ pet_dragon.0108.desc_alive_landed:0 "[receiver.GetSheHe|U] meets me outside [receiver.GetHerHis] [receiver.Custom('ResidenceBuilding')], the [receiver.Custom('DragonFurColor')] dragon in [receiver.GetHerHis] arms. "[receiver.Custom('DragonStorySheHe')|U] is doing well –"
+ pet_dragon.0108.desc_alive:0 "[receiver.GetSheHe|U] meets me outside, the [receiver.Custom('DragonFurColor')] dragon in [receiver.GetHerHis] arms. "[receiver.Custom('DragonStorySheHe')|U] is doing well –"
+ pet_dragon.0108.desc_alive_1:0 "[receiver.Custom('DragonStorySheHe')] likes to hunt the local birds!""
+ pet_dragon.0108.desc_alive_2:0 "[receiver.Custom('DragonStorySheHe')] likes to try grooming the hens!""
+ pet_dragon.0108.desc_dead_opening:1 "I visit my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] to see how the dragon is doing in [receiver.GetHerHis] care.\n\n"
+ pet_dragon.0108.desc_dead_landed:0 "[receiver.GetSheHe|U] meets me outside [receiver.GetHerHis] [receiver.Custom('ResidenceBuilding')], no dragon to be seen."
+ pet_dragon.0108.desc_dead:0 "[receiver.GetSheHe|U] meets me outside, no dragon to be seen."
+ pet_dragon.0108.desc_dead_ending:0 ""Oh, it must be out playing somewhere..."\n\n[receiver.GetSheHe|U] looks everywhere but at me."
+ pet_dragon.0108.a:0 "I am relieved!"
+ pet_dragon.0108.b:1 "Where is my dragon?!"
+
+ pet_dragon.0109.t:1 "[ROOT.Char.Custom('DragonStoryName')]: Rodent Killer"
+ pet_dragon.0109.desc:1 "As [ROOT.Char.Custom('DragonStoryName')] approaches me with yet another dead rat I can do nothing but praise [ROOT.Char.Custom('DragonStoryHerHim')]. The [ROOT.Char.Custom('ResidenceBuilding')] has never been this free of rodents before!"
+ pet_dragon.0109.a:0 "Keep up the good work!"
+
+ pet_dragon.0110.t:1 "[ROOT.Char.Custom('DragonStoryName')]: The Troublemaker"
+ pet_dragon.0110.desc:2 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me, rage in [vassal.GetHerHis] eyes and dragon in [vassal.GetHerHis] hand, held by the scruff of its neck. As [vassal.GetSheHe] thrusts the dragon in my face I see that it's my dear [ROOT.Char.Custom('DragonStoryName')]!\n\n"I found this little monster among my things – what wasn't scratched to bits was covered in piss!""
+ pet_dragon.0110.a:0 "I'll compensate you!"
+ pet_dragon.0110.b:0 "[ROOT.Char.Custom('DragonStorySheHe')|U] is just a dragon..."
+
+ pet_dragon.0197.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Gone"
+ pet_dragon.0197.desc_court_5020:0 "Ever since I started limiting the comings and goings of [ROOT.Char.Custom('DragonStoryName')] I have seen [ROOT.Char.Custom('DragonStoryHerHim')] less and less.\n\nIt has now been weeks since I last saw [ROOT.Char.Custom('DragonStoryHerHim')] and I fear that [ROOT.Char.Custom('DragonStorySheHe')] has left me for good.\n\nMy courtiers seem happy about their fur-free quarters, but my lap has never felt so empty..."
+ pet_dragon.0197.desc:0 "[ROOT.Char.Custom('DragonStoryName')] has taken to straying further and further from home lately and staying away for longer periods of time.\n\nIt has now been weeks since I last saw [ROOT.Char.Custom('DragonStoryHerHim')] and I fear that [ROOT.Char.Custom('DragonStorySheHe')] has left me for good."
+ pet_dragon.0197.a:0 "Please come back, [ROOT.Char.Custom('DragonStoryName')]!"
+
+#Dragon dies :(
+ pet_dragon.0199.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Day of Sorrow"
+ pet_dragon.0199.desc:0 "[ROOT.Char.Custom('DragonStoryName')] is not as young as [ROOT.Char.Custom('DragonStorySheHe')] once was, and as [ROOT.Char.Custom('DragonStorySheHe')] crawls into my lap I can feel [ROOT.Char.Custom('DragonStoryHerHim')] trembling.\n\nI gently stroke [ROOT.Char.Custom('DragonStoryHerHis')] [ROOT.Char.Custom('DragonFurColor')] fur and listen to [ROOT.Char.Custom('DragonStoryHerHim')] purr long into the night, but as silence falls I know that [ROOT.Char.Custom('DragonStorySheHe')] won't wake again."
+ pet_dragon.0199.a:0 "I will miss you, [ROOT.Char.Custom('DragonStoryName')]!"
+ pet_dragon.0199.b:0 "I will make sure that you'll forever be by my side!"
+ pet_dragon.0199.b.tt:0 "You gain a small tanned hide [court_artifact|E]"
+
+##############
+## dragon
+##############
+ dragon_got_pregnant_tooltip:0 "She is expecting puppies!"
+ pet_dragon.1001.t:0 "The Dragon"
+ pet_dragon.1001.desc:0 "As I pet the dragon on the head [ROOT.Char.Custom('DragonStorySheHe')] happily wags [ROOT.Char.Custom('DragonStoryHerHis')] tail. What name would suit [ROOT.Char.Custom('DragonStoryHerHim')]? Something historical? Something alluding to [ROOT.Char.Custom('DragonStoryHerHis')] [ROOT.Char.Custom('DragonFurColor')] fur? It is an important decision, and as the dragon rolls over to let me pet [ROOT.Char.Custom('DragonStoryHerHis')] stomach I find myself distracted for a while.\n\nBut wait, I know! I will name [ROOT.Char.Custom('DragonStoryHerHim')]..."
+
+ pet_dragon.1101.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Feet and Paw"
+ pet_dragon.1101.desc:0 "It has become a habit to walk [ROOT.Char.Custom('DragonStoryName')] daily, and I am not sure which of us enjoy the fresh air and sun the most!\n\n[ROOT.Char.Custom('DragonStoryName')] bounds ahead and looks back at me and barks, as if to say #EMP dragonch up!#!"
+ pet_dragon.1101.a:0 "And on we walk!"
+
+ pet_dragon.1102.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Runaway"
+ pet_dragon.1102.desc:0 "I am out riding, my dragon [ROOT.Char.Custom('DragonStoryName')] beside me, when [ROOT.Char.Custom('DragonStorySheHe')] suddenly runs off into the [ROOT.Char.Custom('TerrainType')].\n\nMy retinue assures me [ROOT.Char.Custom('DragonStorySheHe')] will come back, but what if [ROOT.Char.Custom('DragonStorySheHe')] doesn't?!"
+ pet_dragon.1102.a:0 "Heel! [ROOT.Char.Custom('DragonStoryName')], I said heel! Wait for me!"
+ pet_dragon.1102.a.tt:0 "You try to dragonch [ROOT.Char.Custom('DragonStoryHerHim')]"
+ pet_dragon.1102.b:0 "I will be patient."
+ pet_dragon.1102.b.tt:0 "[ROOT.Char.Custom('DragonStorySheHe')|U] will be back...!"
+
+ pet_dragon.1103.desc_followed:0 "I find [ROOT.Char.Custom('DragonStoryName')] after a few minutes of searching, happily wagging [ROOT.Char.Custom('DragonStoryHerHis')] tail and pretending like nothing is wrong."
+ pet_dragon.1103.desc:0 "Eventually [ROOT.Char.Custom('DragonStoryName')] comes trotting back, pretending that nothing is wrong."
+ pet_dragon.1103.desc_ending:0 "\n\n[ROOT.Char.Custom('DragonStorySheHe')|U] is clutching something in [ROOT.Char.Custom('DragonStoryHerHis')] mouth, and as [ROOT.Char.Custom('DragonStorySheHe')] gently places it before me I see it's a couple of golden coins."
+ pet_dragon.1103.a:0 "Thank you!"
+
+ pet_dragon.1104.desc_followed:0 "I search for a long time, but not a sign of [ROOT.Char.Custom('DragonStoryName')] can be found."
+ pet_dragon.1104.desc:0 "No matter how long I wait [ROOT.Char.Custom('DragonStoryName')] does not return."
+ pet_dragon.1104.desc_ending:0 "\n\nAs we ride back the empty space beside my dragon makes something inside me ache."
+ pet_dragon.1104.a:0 "[ROOT.Char.Custom('DragonStoryName')], why did you leave me?"
+
+ pet_dragon.1105.desc_ending:0 "\n\nJust as I am about to give up a rider from my retinue returns with disturbing news – [dummy_gender.GetSheHe] swears [dummy_gender.GetSheHe] saw [rival.Custom2('MyCharacterIntroduction', ROOT.Char)] skulking around!"
+ pet_dragon.1105.a:1 "If [rival.GetSheHe] had something to do with this..."
+
+ pet_dragon.1106.desc_ending:0 "\n\nJust as I am about to leave [friend.Custom2('MyCharacterIntroduction', ROOT.Char)] appears out of nowhere, [ROOT.Char.Custom('DragonStoryName')] in tow.\n\n"My friend, I do believe you lost someone!""
+ pet_dragon.1106.a:0 "Such luck! Thank you so much!"
+
+ pet_dragon.1107.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Charmed Vassal"
+ pet_dragon.1107.desc:0 "I stumble upon my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] crouching beside my dragon [ROOT.Char.Custom('DragonStoryName')], vigorously scratching [ROOT.Char.Custom('DragonStoryHerHis')] stomach.\n\n"This dragon of yours is quite the charmer, my [ROOT.Char.GetLadyLord]!""
+ pet_dragon.1107.a_female:0 "She is a good girl!"
+ pet_dragon.1107.a_male:0 "He is a good boy!"
+
+ pet_dragon.1108.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Furry Protector"
+ pet_dragon.1108.desc:0 "I am in my chambers when my dragon [ROOT.Char.Custom('DragonStoryName')] suddenly starts barking at the door. I hear a surprised squeak and as I fling the door open my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] [agent.GetFirstName] freezes mid step."
+ pet_dragon.1108.a:0 "What are you doing here? Tell me!"
+
+ pet_dragon.1109.t:0 "[ROOT.Char.Custom('DragonStoryName')]: The Meeting"
+ pet_dragon.1109.desc:0 "I am out walking [ROOT.Char.Custom('DragonStoryName')] when suddenly I see [other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)] approach with a beautiful [other_owner.Custom('DragonFurColor')] dragon.\n\nBefore either of us can react [ROOT.Char.Custom('DragonStoryName')] and the other dragon take off."
+ pet_dragon.1109.a:0 "I'm sure they'll be fine."
+ pet_dragon.1109.a.tt:0 "I #EMP hope#! they'll be fine"
+
+ pet_dragon.1110.desc:0 "[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and I find the two dragons after a while, in the middle of some rigorous copulating.\n\n"
+ pet_dragon.1110.desc_your_dragon:0 ""Well, [ROOT.Char.GetTitledFirstNameNoTooltip]... I guess we'll be related soon!""
+ pet_dragon.1110.desc_their_dragon:0 ""[ROOT.Char.Custom('DragonStoryName')], how could you let that mutt...!"\n\n[other_owner.GetSheHe|U] trails off, but I can see the anger in [other_owner.GetHerHis] eyes."
+ pet_dragon.1110.a:0 "Well... It's only natural."
+
+ pet_dragon.1111.desc:0 "[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and I find the two dragons after a while, in the middle of a playful fight.\n\n"It is good to see [other_owner.Custom('DragonStoryName')] having such fun!""
+ pet_dragon.1111.a:0 "I couldn't agree more!"
+
+ pet_dragon.1112.desc:0 "[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and I find the two dragons after a while, in the middle of a vicious fight.\n\n"Call your mutt off!"\n\n"
+ pet_dragon.1112.desc_dead:0 "When I finally get [ROOT.Char.Custom('DragonStoryName')] to back off [other_owner.GetFirstNamePossessiveNoTooltip] dragon is already growing cold."
+ pet_dragon.1112.desc_alive:0 "When I finally get [ROOT.Char.Custom('DragonStoryName')] to back off [other_owner.GetTitledFirstNameNoTooltip] leaves without as much as a backwards glance."
+ pet_dragon.1112.a:0 "Are you alright, [ROOT.Char.Custom('DragonStoryName')]?"
+
+ pet_dragon.1113.t:0 "[ROOT.Char.Custom('DragonStoryName')]: The Council Meeting"
+ pet_dragon.1113.desc:1 "As me and my councillors are gathering for a meeting my dragon [ROOT.Char.Custom('DragonStoryName')] approach me with begging eyes and a drooping tail.\n\n[ROOT.Char.Custom('DragonStorySheHe')|U] does not like to be left alone, but this is an important meeting..."
+ pet_dragon.1113.a:1 "[ROOT.Char.Custom('DragonStorySheHe')|U] will join me."
+ pet_dragon.1113.a_success:1 "[ROOT.Char.Custom('DragonStoryName')] behaves"
+ pet_dragon.1113.a_success.tt:0 "Nothing bad happens"
+ every_councillor:0 "Every councillor"
+ pet_dragon.1113.a_failure:1 "[ROOT.Char.Custom('DragonStoryName')] does anything but"
+ pet_dragon.1113.a_failure.tt:0 "Something... bad happens"
+ pet_dragon.1113.b:1 "A dragon has no place in a council meeting."
+ pet_dragon.1113.b.tt:0 "You slam the door shut in front of the dragon's begging eyes"
+ pet_dragon.1113.b_success:1 "[ROOT.Char.Custom('DragonStoryName')] waits patiently"
+ pet_dragon.1113.b_failure:1 "[ROOT.Char.Custom('DragonStoryName')] goes on adventures"
+ 
+ pet_dragon.1114.desc:2 ""I am sorry, [ROOT.Char.GetTitledFirstNameNoTooltip]," says my [councillor.GetCouncilTitle] [councillor.GetTitledFirstName]. "I have to disagree with what you just–"\n\n#EMP *Grrr*#!\n\n[ROOT.Char.Custom('DragonStoryName')] gives a guttural growl and [councillor.GetTitledFirstNameNoTooltip] jerks back, looking from the dragon to me and back.\n\n"On second thought I think it is a great idea!""
+ pet_dragon.1014.a_girl:0 "Such a good girl, [ROOT.Char.Custom('DragonStoryName')]!"
+ pet_dragon.1014.a_boy:0 "Such a good boy, [ROOT.Char.Custom('DragonStoryName')]!"
+
+ pet_dragon.1115.desc:2 ""Now on to the next point," my [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] drones. "It is of the utmost importance that–"\n\n#EMP *Phhffrrt*#!\n\nThe silence that falls is only broken by the sound of [ROOT.Char.Custom('DragonStoryName')] barking happily, having done [ROOT.Char.Custom('DragonStoryHerHis')] business."
+ pet_dragon.1115.a:0 "Bad dragon!"
+
+ pet_dragon.1116.desc_opening:0 "I exit the meeting room only to discover that [ROOT.Char.Custom('DragonStoryName')] is gone. I look everywhere for [ROOT.Char.Custom('DragonStoryHerHim')], high and low; what if [ROOT.Char.Custom('DragonStorySheHe')] is lost and scared?\n\n"
+ pet_dragon.1116.desc:1 "Suddenly I stumble upon [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] with a dragon practically in [courtier.GetHerHis] lap, vigorously scratching its [ROOT.Char.Custom('DragonFurColor')] stomach. A dragon that looks suspiciously similar to [ROOT.Char.Custom('DragonStoryName')].\n\n"This is one precious companion you have, [ROOT.Char.GetTitledFirstNameNoTooltip]!""
+ pet_dragon.1116.a:0 "Hah, yeah. [ROOT.Char.Custom('DragonStorySheHe')|U] is great..."
+
+ pet_dragon.1117.desc:1 "Suddenly I stumble upon [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] chastising a dragon; a dragon that looks suspiciously like [ROOT.Char.Custom('DragonStoryName')] with torn paper and fabric all around [ROOT.Char.Custom('DragonStoryHerHim')].\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip]! This... This #EMP beast#! completely destroyed my chambers! Everything is in shreds!""
+ pet_dragon.1117.a:0 "Eh... Ups. Bad dragon!"
+
+ pet_dragon.1118.t:1 "[ROOT.Char.Custom('DragonStoryName')]: The Troublemaker"
+ pet_dragon.1118.desc:2 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me, rage in [vassal.GetHerHis] eyes and dragon in [vassal.GetHerHis] hand, dragged along by the scruff of its neck. As [vassal.GetSheHe] reaches me I see that it is my dear [ROOT.Char.Custom('DragonStoryName')] [vassal.GetSheHe] is holding!\n\n"I found this beast among my things – what wasn't chewed to bits was covered in excrement!""
+ pet_dragon.1118.a:0 "I'll compensate you!"
+ pet_dragon.1118.b:0 "[ROOT.Char.Custom('DragonStorySheHe')|U] is just a dragon..."
+
+ pet_dragon.1190.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Dragön"
+ pet_dragon.1190.desc:1 "[ROOT.Char.Custom('DragonStoryName')] has given birth to an adorable dragon! As much as I adore it – and its tiny wagging tail – I cannot take care of it as well..."
+ pet_dragon.1190.a:0 "I'll give it to [receiver_1.GetFirstNameNoTooltip]..."
+ pet_dragon.1190.b:0 "[receiver_2.GetFirstNameNoTooltip] could use a companion..."
+ pet_dragon.1190.c:0 "[receiver_3.GetFirstNameNoTooltip] would take care of it..."
+ pet_dragon.1190.d:0 "I'll sell it at the market."
+
+ pet_dragon.1191.t:0 "The Dragön"
+ pet_dragon.1191.desc:1 "[giver.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with a dragon in [giver.GetHerHis] arms.\n\n"I cannot care for it, but perhaps you can give it a home?""
+ pet_dragon.1191.a:0 "Definitely! Hand it over!"
+ pet_dragon.1191.b:0 "I can... #EMP take care#! of it."
+
+ pet_dragon.1192.t:0 "[receiver.Custom('DragonStoryName')]: Life Without You"
+ pet_dragon.1192.desc_opening:0 "I visit my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] to see how little [receiver.Custom('DragonStoryName')] is doing in [receiver.GetHerHis] care.\n\n"
+ pet_dragon.1192.desc_alive_landed:0 "[receiver.GetSheHe|U] meets me outside [receiver.GetHerHis] [receiver.Custom('ResidenceBuilding')], the [receiver.Custom('DragonFurColor')] dragon beside [receiver.GetHerHim]. "[receiver.Custom('DragonStorySheHe')|U] is doing well –"
+ pet_dragon.1192.desc_alive:0 "[receiver.GetSheHe|U] meets me outside, the [receiver.Custom('DragonFurColor')] dragon beside [receiver.GetHerHim]. "[receiver.Custom('DragonStorySheHe')|U] is doing well –"
+ pet_dragon.1192.desc_alive_1:0 "[receiver.Custom('DragonStorySheHe')] likes to chase the chickens!""
+ pet_dragon.1192.desc_alive_2:0 "[receiver.Custom('DragonStorySheHe')] likes to follow the dragons around!""
+ pet_dragon.1192.desc:0 "[receiver.GetSheHe|U] meets me outside [receiver.GetHerHis] [receiver.Custom('ResidenceBuilding')], no dragon to be seen. "Oh, [receiver.Custom('DragonStorySheHe')] must be out playing somewhere..."\n\n[receiver.GetSheHe|U] looks everywhere but at me."
+ pet_dragon.1192.a:0 "I am relieved!"
+ pet_dragon.1192.b:0 "Where is [receiver.Custom('DragonStoryName')]?!"
+
+#Dragon dies :(
+ pet_dragon.1199.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Day of Sorrow"
+ pet_dragon.1199.desc:1 "[ROOT.Char.Custom('DragonStoryName')] has walked by my side for many years, and the passage of time does not spare dragons. As I kneel besides [ROOT.Char.Custom('DragonStoryHerHim')] [ROOT.Char.Custom('DragonStorySheHe')] starts wagging [ROOT.Char.Custom('DragonStoryHerHis')] tail slowly, but [ROOT.Char.Custom('DragonStorySheHe')] cannot raise [ROOT.Char.Custom('DragonStoryHerHis')] head.\n\nI sit with [ROOT.Char.Custom('DragonStoryHerHim')] long into the night, petting [ROOT.Char.Custom('DragonStoryHerHis')] [ROOT.Char.Custom('DragonFurColor')] back until the tail stills."
+ pet_dragon.1199.a:0 "I will miss you, [ROOT.Char.Custom('DragonStoryName')]!"
+
+##############
+## dragon AND dragon
+##############
+ pet_dragon.2001.t:0 "Nightly Cuddles"
+ pet_dragon.2001.desc:0 "I retire to my chambers as night falls and find [ROOT.Char.Custom('DragonStoryName')] and [ROOT.Char.Custom('DragonStoryName')] cuddled up together on the floor! [ROOT.Char.Custom('DragonStoryNamePossessive')] [ROOT.Char.Custom('DragonFurColor')] coat is shining – [ROOT.Char.Custom('DragonStoryName')] has obviously been at work cleaning [ROOT.Char.Custom('DragonStoryHerHim')]."
+ pet_dragon.2001.a:0 "They're so cute together!"
+
+ pet_dragon.2002.t:0 "Like Dragons and Dragons"
+ pet_dragon.2002.desc:0 "I am crossing the courtyard when [ROOT.Char.Custom('DragonStoryName')] and [ROOT.Char.Custom('DragonStoryName')] enter from opposing sides.\n\nI have no time to react – they are at each other's throats in seconds. Tufts of [ROOT.Char.Custom('DragonFurColor')] fur fly, and I can hear both of them growling. Again. This constant fighting has to end!"
+ pet_dragon.2002.a:0 "Stop this at once, [ROOT.Char.Custom('DragonStoryName')]!"
+ pet_dragon.2002.a.tt:0 "I try to control the dragon"
+ pet_dragon.2002.b:0 "[ROOT.Char.Custom('DragonStoryName')], that's enough!"
+ pet_dragon.2002.b.tt:0 "I try to control the dragon"
+ pet_dragon.2002.c:0 "I don't want to get caught in the middle..."
+ pet_dragon.2002.c.tt:0 "I'm sure they'll work it out"
+
+ pet_dragon.2003.desc:0 "I've looked all over the [ROOT.Char.Custom('ResidenceBuilding')], [ROOT.Char.Custom('DragonStoryName')] trailing behind me, but I cannot find my dragon [ROOT.Char.Custom('DragonStoryName')] anywhere!\n\nI stop to think, bending down to pet [ROOT.Char.Custom('DragonStoryName')], when I see a tuft of bloody [ROOT.Char.Custom('DragonFurColor')] fur stuck in [ROOT.Char.Custom('DragonStoryHerHis')] teeth. As I yank it out [ROOT.Char.Custom('DragonStorySheHe')] hisses and bounds of to a corner of the yard – a corner with something [ROOT.Char.Custom('DragonFurColor')] lying on the ground."
+ pet_dragon.2003.a:0 "Oh, oh no! [ROOT.Char.Custom('DragonStoryName')], you didn't...!"
+
+ pet_dragon.2004.desc_opening:0 "Just as I am leaving the [ROOT.Char.Custom('ResidenceBuilding')] [ROOT.Char.Custom('DragonStoryName')] trots up to me, happily wagging [ROOT.Char.Custom('DragonStoryHerHis')] tail.\n\n"
+ pet_dragon.2004.desc_female:0 ""Hello! Who's a good girl? Yes, who–""
+ pet_dragon.2004.desc_male:0 ""Hello! Who's a good boy? Yes, who–""
+ pet_dragon.2004.desc:0 "\n\nAs [ROOT.Char.Custom('DragonStorySheHe')] gets closer I can see that [ROOT.Char.Custom('DragonStoryHerHis')] mouth is dripping with blood and gore. With a sinking heart I walk towards where [ROOT.Char.Custom('DragonStorySheHe')] came from, and soon enough I happen upon the still body of my dragon [ROOT.Char.Custom('DragonStoryName')]."
+ pet_dragon.2004.a:0 "Oh, no... [ROOT.Char.Custom('DragonStoryName')], how could you?"
+
+ pet_dragon.2005.desc_opening:0 "I can find neither [ROOT.Char.Custom('DragonStoryName')] nor [ROOT.Char.Custom('DragonStoryName')]. I scour the [ROOT.Char.Custom('ResidenceBuilding')] and the surrounding area, but no one has seen them.\n\n"
+ pet_dragon.2005.desc:0 "Just as I am turning back I spot a small pool of blood on the ground, and then another, and another... They lead me to a heap of bloody fur – two teared up bodies entangled on the ground, and there's no mistaking who they are."
+ pet_dragon.2005.a:0 "Why couldn't you just get along?!"
+
+ pet_dragon.2006.desc:0 "Just as I am turning back I spot them – lying in a heap on the ground. Oh no! They finally... But as I approach them [ROOT.Char.Custom('DragonStoryNamePossessive')] head perks up and [ROOT.Char.Custom('DragonStorySheHe')] watches me with tired eyes before going right back to sleep."
+ pet_dragon.2006.a:0 "Oh, they... They actually worked it out!"
+
+##############
+## OTHER PEOPLE
+##############
+ pet_dragon.5001.t:0 "The Enemy's Dragon"
+ pet_dragon.5001.desc:0 "As I pass by [rival_home.GetName] on a business errand I am approached by a [rival.Custom('DragonFurColor')] dragon. Where have I seen this dragon before...? Ah! It's my [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('rival'))] [rival.GetTitledFirstNamePossessive] dragon [rival.Custom('DragonStoryName')]!\n\nAs it meows up at me and purr I feel a vicious smile spread across my face."
+ pet_dragon.5001.a:0 "#EMP Pss pss#! – I won't hurt you..."
+ pet_dragon.5001.a.tt:0 "It's just a quick slice of a knife"
+ pet_dragon.5001.b:0 "I will pet that oaf's dragon so good!"
+
+ pet_dragon.5002.t:0 "The Enemy's Dragon"
+ pet_dragon.5002.desc:0 "As I pass by [rival_home.GetName] on a business errand I am approached by a [rival.Custom('DragonFurColor')] dragon. Where have I seen this dragon before...? Ah! It's my [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('rival'))] [rival.GetTitledFirstNamePossessive] dragon [rival.Custom('DragonStoryName')]!\n\nI feel a vicious smile spread across my face as it barks happily at me with a wagging tail."
+ pet_dragon.5002.a:0 "Come here, I won't hurt you..."
+ pet_dragon.5002.b:0 "I will pet that oaf's dragon so good!"
+
+
+##############
+## DECISION EVENTS
+##############
+ pet_dragon.6001.t:0 "Petting [ROOT.Char.Custom('DragonStoryName')|U]"
+ pet_dragon.6001.desc:0 "As I stroke [ROOT.Char.Custom('DragonStoryNamePossessive')] [ROOT.Char.Custom('DragonFurColor')] fur I can feel my worries dissipating. To have someone's unwavering loyalty, and to know they will always stay by my side... If only the people around me were more like you, [ROOT.Char.Custom('DragonStoryName')]!\n\nWe sit together for many minutes, [ROOT.Char.Custom('DragonStoryHerHis')] tail wagging and my shoulders relaxing, until I am ready to face the world again."
+ pet_dragon.6001.a:0 "Thank you, my friend!"
+
+ pet_dragon.6002.desc:0 "I find [ROOT.Char.Custom('DragonStoryName')] outside, playing with some children. As [ROOT.Char.Custom('DragonStorySheHe')] spots me [ROOT.Char.Custom('DragonStorySheHe')] quickly bounds over with [ROOT.Char.Custom('DragonStoryHerHis')] tail wagging, and as I crouch down [ROOT.Char.Custom('DragonStorySheHe')] promptly flops over onto [ROOT.Char.Custom('DragonStoryHerHis')] back.\n\nI spend many minutes petting [ROOT.Char.Custom('DragonStoryHerHis')] [ROOT.Char.Custom('DragonFurColor')] stomach, and it's been a long time since I felt this relaxed."
+
+ pet_dragon.6003.desc:0 "As I walk outside I see [ROOT.Char.Custom('DragonStoryName')] rushing towards me, carrying a stick in [ROOT.Char.Custom('DragonStoryHerHis')] jaws. I suppose that I can spare a few minutes to play fetch with [ROOT.Char.Custom('DragonStoryHerHim')]. Yes, that would be relaxing.\n\n#EMP Hold up a minute, what is this?#!\n\nAs I bend down to grab the stick, I see that it is no stick at all, but a #EMP claim to the [target_county.GetName]!#! How in the world did you get a hold of this, [ROOT.Char.Custom('DragonStoryName')]!?"
+ pet_dragon.6003.a:0 "Good [ROOT.Char.Custom('DragonStoryGirlBoy')], [ROOT.Char.Custom('DragonStoryName')]. #EMP Good [ROOT.Char.Custom('DragonStoryGirlBoy')]!#!"
+ pet_dragon.6003.b:0 "[neighboring_ruler.GetTitledFirstName] will be overjoyed to get this back!"
+
+ pet_dragon.6004.desc:0 "I find [ROOT.Char.Custom('DragonStoryName')] outside, napping in the sun. I crouch down beside [ROOT.Char.Custom('DragonStoryHerHim')] and let my hand run through [ROOT.Char.Custom('DragonStoryHerHis')] [ROOT.Char.Custom('DragonFurColor')] fur, and–\n\nMy only warning is a low growl and a flash of teeth before I feel something #EMP tear#! in my arm. I scramble backwards before [ROOT.Char.Custom('DragonStorySheHe')] can lunge at me again, but the pain...!"
+ pet_dragon.6004.a:0 "It... It must have been a mistake!"
+ pet_dragon.6004.b:0 "You #EMP beast#!!"
+
+ pet_dragon.6051.t:0 "Petting [ROOT.Char.Custom('DragonStoryName')|U]"
+ pet_dragon.6051.desc:0 "I find [ROOT.Char.Custom('DragonStoryName')] sleeping in my chambers, and as I sit down beside [ROOT.Char.Custom('DragonStoryHerHim')] I am greeted by a quiet, confused, chirp.\n\nHowever, as I start running my fingers through [ROOT.Char.Custom('DragonStoryHerHis')] [ROOT.Char.Custom('DragonFurColor')] fur [ROOT.Char.Custom('DragonStorySheHe')] quickly starts purring in contentment, and the sound seems to relax my whole being."
+
+ pet_dragon.6052.desc:0 "I find [ROOT.Char.Custom('DragonStoryName')] outside, strutting around the yard. As soon as [ROOT.Char.Custom('DragonStorySheHe')] spots me [ROOT.Char.Custom('DragonStorySheHe')] meows and saunters over, rubbing up against my leg.\n\nI spend many minutes crouched by [ROOT.Char.Custom('DragonStoryHerHis')] side, petting [ROOT.Char.Custom('DragonStoryHerHim')] and scratching [ROOT.Char.Custom('DragonStoryHerHim')] under the chin, and when I stand back up again I feel lighter than I have in a long time."

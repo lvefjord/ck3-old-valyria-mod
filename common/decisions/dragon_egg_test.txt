@@ -28,7 +28,8 @@
 		#	limit = { artifact_type = dragon_egg }
 		#	destroy_artifact = this
 		#}
-
+		start_dragon_story_cycle_effect = yes
+		start_dog_story_cycle_effect = yes
 		
 	}
 

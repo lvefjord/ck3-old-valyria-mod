@@ -1,0 +1,70 @@
+﻿#For dragon story
+DragonStoryName = {
+	type = character
+
+	text = {
+		trigger = {
+			exists = var:story_cycle_dragon_name
+			var:story_cycle_dragon_name = flag:custom
+		}
+		localization_key = dragon_name
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = var:story_cycle_dragon_name
+					var:story_cycle_dragon_name = flag:dragon_name_balerion
+					NOT = { exists = var:book_topic_dragon_name }
+				}
+				AND = {
+					exists = var:book_topic_dragon_name
+					var:book_topic_dragon_name = flag:dragon_name_balerion
+				}
+			}
+		}
+		localization_key = dragon_name_balerion
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = var:story_cycle_dragon_name
+					var:story_cycle_dragon_name = flag:dragon_name_meraxes
+					NOT = { exists = var:book_topic_dragon_name  }
+				}
+				AND = {
+					exists = var:book_topic_dragon_name
+					var:book_topic_dragon_name = flag:dragon_name_meraxes
+				}
+			}
+		}
+		localization_key = dragon_name_meraxes
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = var:story_cycle_dragon_name
+					var:story_cycle_dragon_name = flag:dragon_name_vhagar
+					NOT = { exists = var:book_topic_dragon_name  }
+				}
+				AND = {
+					exists = var:book_topic_dragon_name
+					var:book_topic_dragon_name = flag:dragon_name_vhagar
+				}
+			}
+		}
+		localization_key = dragon_name_vhagar
+	}
+}
+
+DragonStoryNamePossessive = {
+	type = character
+	
+	text = {
+		localization_key = dragon_name_possessive
+	}
+}
+
+

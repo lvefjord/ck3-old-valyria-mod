@@ -15,3 +15,23 @@ aggressive_dragon = {
 	enemy_hard_casualty_modifier = 0.5
 	hard_casualty_modifier = 0.25
 }
+
+
+
+dragon_story_modifier = {
+	icon = dragon_story_modifier
+	health = 1
+}
+
+dragon_story_flying_modifier = {
+	icon = dragon_story_modifier
+	health = 0.5
+}
+dragon_story_fur_carpet_modifier = {
+	icon = dragon_story_modifier
+	monthly_prestige = 0.5
+}
+rat_hunting_dragon_modifier = {
+	icon = dragon_story_modifier
+	health = 0.5
+}
