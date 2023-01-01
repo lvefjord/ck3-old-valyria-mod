@@ -8,13 +8,17 @@
 	major = yes
 	
 	is_shown = {
-		always = no
+		always = yes
 	}
 
 	is_valid = {
-		#any_character_artifact = {
-		#	artifact_type = dragon_egg
-		#}
+		character:9988776= {
+			dynasty = {
+				any_dynasty_member = {
+				has_trait = honest
+				}
+			}
+		}
 	}
 
 	ai_check_interval = 1
@@ -24,8 +28,7 @@
 		#	limit = { artifact_type = dragon_egg }
 		#	destroy_artifact = this
 		#}
-		
-		historical_succession_access_single_heir_succession_law_trigger = yes
+
 		
 	}
 
