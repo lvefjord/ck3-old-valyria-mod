@@ -1,0 +1,24 @@
+﻿namespace = dod
+
+dod.0001 = {
+	type = duel_event
+	title = "Dancing 'til the Storm Ends"
+	desc = ""
+	theme = hunting
+	override_background = { event_background = storms_end }
+
+	right_portrait = {
+		character = character:dance_aemond
+		animation = frontend_left_idle
+	}
+
+	left_portrait = {
+		character = character:dance_luce
+		animation = frontend_left_idle
+	}
+
+	option = {
+		name = "Dohaeris"
+	}
+
+}

@@ -5,7 +5,7 @@
 	selection_tooltip = "Claim an Egg"
 	picture = "gfx/interface/illustrations/decisions/decision_activity.dds"
 
-	major = yes
+	major = no
 	
 	is_shown = {
 		always = yes
