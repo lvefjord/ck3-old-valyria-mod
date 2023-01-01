@@ -18,7 +18,13 @@ hatch.0001 = {
 		add_character_flag = {
 			flag = has_dragon
 		}
-		add_character_modifier = fast_dragon
+		add_character_modifier = agile_dragon
+		random_artifact = {
+			limit = { artifact_type = dragon_egg 
+			OWNER = ROOT
+		}
+			destroy_artifact = this
+		}
 	}
 
 	trigger = {
@@ -30,6 +36,9 @@ hatch.0001 = {
 			has_character_flag = has_dragon
 		}
 		has_trait = valyrian_blood
+		NOT = {
+			has_trait = dragon_rider
+		}
 	}
 
 	option = {
@@ -59,6 +68,12 @@ hatch.0002 = {
 			flag = has_dragon
 		}
 		add_character_modifier = battle_dragon
+		random_artifact = {
+			limit = { artifact_type = dragon_egg 
+			OWNER = ROOT
+		}
+			destroy_artifact = this
+		}
 	}
 
 	trigger = {
@@ -70,6 +85,9 @@ hatch.0002 = {
 			has_character_flag = has_dragon
 		}
 		has_trait = valyrian_blood
+		NOT = {
+			has_trait = dragon_rider
+		}
 	}
 
 	option = {
@@ -99,6 +117,12 @@ hatch.0003 = {
 			flag = has_dragon
 		}
 		add_character_modifier = aggressive_dragon
+		random_artifact = {
+			limit = { artifact_type = dragon_egg 
+			OWNER = ROOT
+		}
+			destroy_artifact = this
+		}
 	}
 
 	trigger = {
@@ -110,6 +134,9 @@ hatch.0003 = {
 			has_character_flag = has_dragon
 		}
 		has_trait = valyrian_blood
+		NOT = {
+			has_trait = dragon_rider
+		}
 	}
 
 	option = {

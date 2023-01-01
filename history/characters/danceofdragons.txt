@@ -1,0 +1,331 @@
+﻿dance_jace = {
+	name = "Jacaerys"
+	dynasty = 91114881996
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	mother = 9988773
+	father = dance_laenor
+	real_father = dance_harwin
+	1051.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+}
+
+dance_luce = {
+	name = "Lucerys"
+	dynasty = 91114881996
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	mother = 9988773
+	father = dance_laenor
+	real_father = dance_harwin
+	1052.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+}
+
+dance_joff = {
+	name = "Joffrey"
+	dynasty = 91114881996
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	mother = 9988773
+	father = dance_laenor
+	real_father = dance_harwin
+	1054.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+}
+
+dance_helaena = {
+	name = "Helaena"
+	female = yes
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = 9988771
+	mother = dance_alicent
+	1046.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+	1065.1.1 = {
+		add_spouse = 9988779
+	}
+}
+
+dance_aemond = {
+	name = "Aemond"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = 9988771
+	mother = dance_alicent
+	1047.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+}
+
+dance_daeron = {
+	name = "Daeron"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = 9988771
+	mother = dance_alicent
+	1051.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+}
+
+dance_aegon3 = {
+	name = "Aegon"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	mother = 9988773
+	father = 9988774
+	1057.3.3 = {
+		birth = yes
+		effect = {
+			add_character_modifier = aggressive_dragon
+		}
+	}
+}
+
+dance_viserys2 = {
+	name = "Viserys"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	mother = 9988773
+	father = 9988774
+	1059.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = aggressive_dragon
+		}
+	}
+}
+
+dance_alicent = {
+	name = "Alicent"
+	female = yes
+	dynasty = 91114881979
+	religion = "the_seven"
+	culture = "reachman"
+	father = dance_otto
+	stewardship = 14
+	trait = education_stewardship_4
+	1025.1.1 = {
+		birth = yes
+	}
+	1052.1.1 = {
+		add_spouse = 9988771
+	}
+	1066.1.1 = {
+		employer = 9988779
+		give_council_position = steward
+	}
+}
+
+dance_laenor = {
+	name = "Laenor"
+	dynasty = 91114881996
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = 9988775
+	mother = 9988778
+	1031.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+	1050.1.1 = {
+		add_matrilineal_spouse = 9988773 
+	}
+	1057.1.1 = {
+		remove_spouse = 9988773
+	}
+}
+
+dance_otto = {
+	name = "Otto"
+	dynasty = 91114881979
+	religion = "the_seven"
+	culture = "reachman"
+	diplomacy = 14
+	intrigue = 15
+	stewardship = 12
+	trait = shrewd
+	trait = education_diplomacy_4
+	trait = ambitious
+	1013.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 9988779
+		give_council_position = councillor_chancellor
+	}
+}
+
+dance_jaehaerys  = {
+	name = "Jaehaerys"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = 9988779
+	mother = dance_helaena
+	1060.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+}
+
+dance_maelor  = {
+	name = "Maelor"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = 9988779
+	mother = dance_helaena
+	1064.1.1 = {
+		birth = yes
+	}
+}
+
+dance_jaehaera = {
+	name = "Jaehaera"
+	dynasty = 91114881997
+	female = yes
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = 9988779
+	mother = dance_helaena
+	1060.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+}
+
+dance_celtigar_heir = {
+	name = "Clement"
+	dynasty = 91114881995
+	religion = "the_seven"
+	culture = "crownlander"
+	martial = 14
+	diplomacy = 11
+	intrigue = 6
+	stewardship = 10
+	father = 9988776
+	trait = education_diplomacy_4
+	trait = valyrian_blood
+	sexuality = heterosexual
+	disallow_random_traits = yes
+	1035.1.1 = {
+		birth = yes
+	}
+}
+
+dance_larys = {
+	name = "Larys"
+	dynasty = 91114881978
+	culture = "riverlander"
+	religion = "the_seven"
+	diplomacy = 10
+	intrigue = 16
+	stewardship = 7
+	trait = shrewd
+	trait = education_intrigue_4
+	trait = ambitious
+	trait = clubfooted
+	1032.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 9988779
+		give_council_position = councillor_spymaster
+	}
+}
+
+dance_harwin = {
+	name = "Harwin"
+	dynasty = 91114881978
+	culture = "riverlander"
+	religion = "the_seven"
+	martial = 14
+	trait = education_martial_4
+	trait = just
+	trait = loyal
+	1025.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+dance_lorent_maa = {
+	name = "Lorent"
+	dynasty = "Marbrand"
+	culture = "westerman"
+	religion = "the_seven"
+	martial = 14
+	trait = education_martial_4
+	trait = loyal
+	trait = brave
+	1031.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 9988773
+		give_council_position = councillor_marshal
+	}
+}
+

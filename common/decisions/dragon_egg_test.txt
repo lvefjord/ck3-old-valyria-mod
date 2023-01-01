@@ -8,7 +8,7 @@
 	major = yes
 	
 	is_shown = {
-		always = no
+		always = yes
 	}
 
 	is_valid = {
@@ -20,7 +20,10 @@
 	ai_check_interval = 1
 
 	effect = {
-		add_character_modifier = fast_dragon
+		random_artifact = {
+			limit = { artifact_type = dragon_egg }
+			destroy_artifact = this
+		}
 	}
 
 }

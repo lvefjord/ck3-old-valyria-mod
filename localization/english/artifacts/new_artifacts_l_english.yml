@@ -11,6 +11,7 @@
  artifact_type_book:0 "book"
  artifact_type_pedestal:0 "$artifact_type_sculpture$"
  artifact_type_elixir:0 "elixir"
+ artifact_type_dragon_egg:0 "dragon egg"
 
 # These are used for when we generate the title at the same time as we create the artifact
  artifact_name_prefix:1 "[SCOPE.Custom('ArtifactPrefixGeneric')|U]"

@@ -1,17 +1,17 @@
 ﻿agile_dragon = {
 	icon = dragon_agile
-	martial = 3
-	prowess = 3
+	movement_speed = 0.30
+	pursue_efficiency = 0.2
 }
 
 battle_dragon = {
 	icon = dragon_battle
-	martial = 3
-	prowess = 3
+	siege_phase_time = -0.3
+	siege_morale_loss = 0.3
 }
 
 aggressive_dragon = {
 	icon = dragon_aggressive
-	martial = 3
-	prowess = 3
+	enemy_hard_casualty_modifier = 0.5
+	hard_casualty_modifier = 0.25
 }

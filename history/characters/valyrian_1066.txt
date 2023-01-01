@@ -13,11 +13,21 @@
 	trait = compassionate
 	trait = disfigured
 	trait = education_learning_4
+	father = targ_gen4
 	1014.1.1 = {
 		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
 	}
 	1030.1.1 = {
 		add_spouse = 9988772
+	}
+	1042.1.1 = {
+		remove_spouse = 9988772
+	}
+	1052.1.1 = {
+		add_spouse = dance_alicent
 	}
 	1065.12.12 = {
 		death = yes
@@ -85,9 +95,18 @@
 	father = 9988771
 	1034.1.1 = {
 		birth = yes
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+	1050.1.1 = {
+		add_matrilineal_spouse = dance_laenor 
 	}
 	1057.1.1 = {
-		add_spouse = 9988774
+		remove_spouse = dance_laenor
+	}
+	1057.1.2 = {
+		add_matrilineal_spouse = 9988774
 	}
 }
 
@@ -125,9 +144,12 @@
 	disallow_random_traits = yes
 	1018.1.1 = {
 		birth = yes
+		effect = {
+			add_character_modifier = aggressive_dragon
+		}
 	}
-	1057.1.1 = {
-		add_spouse = 9988774
+	1057.1.2 = {
+		add_matrilineal_spouse = 9988773
 	}
 }
 
@@ -264,10 +286,18 @@
 	trait = ambitious
 	trait = impatient
 	trait = valyrian_blood
+	mother = dance_alicent
+	father = 9988771
 	sexuality = heterosexual
 	disallow_random_traits = yes
 	1044.1.1 = {
 		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+	1065.1.1 = {
+		add_spouse = dance_helaena
 	}
 }
 

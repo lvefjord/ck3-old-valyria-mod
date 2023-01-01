@@ -1,0 +1,16 @@
+﻿91114881979 = {
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color3=black
+	color3=black
+	color3=black
+	textured_emblem={
+		texture="hightower.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}

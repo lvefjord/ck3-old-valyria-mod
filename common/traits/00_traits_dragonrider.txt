@@ -7,7 +7,6 @@ dragon_rider = {
 	
 	monthly_prestige = 1
 	
-	movement_speed = 0.25
 	
 	vassal_opinion = -10
 	
@@ -15,7 +14,6 @@ dragon_rider = {
 	
 	##
 	
-	inherit_chance = 80
 	shown_in_ruler_designer = yes
 	
 	

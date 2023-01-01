@@ -1,5 +1,4 @@
 ﻿dragon_egg = {
 	slot = miscellaneous
 	can_reforge = no
-	default_visuals = dragonegg
 }

@@ -36,7 +36,7 @@ dragon = {
 	low_maintenance_cost = { gold = 3}
 	high_maintenance_cost = { gold = 12 }
 	
-	stack = 5
+	stack = 1
 	max_sub_regiments = 1
 	icon = dragon_weapon
 }

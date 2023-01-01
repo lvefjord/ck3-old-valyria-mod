@@ -16,6 +16,13 @@
 		NOT = {
 			has_character_flag = egg_hatched
 		}
+		NOT = {
+			has_trait = dragon_rider
+		}
+	}
+
+	is_valid = {
+		has_trait = valyrian_blood
 	}
 
 	ai_check_interval = 1
@@ -53,8 +60,15 @@ egg_child = {
 						artifact_type = dragon_egg
 					}
 				}
+				NOT = {
+					has_trait = dragon_rider
+				}
 			}
 		}
+	}
+
+	is_valid = {
+		has_trait = valyrian_blood
 	}
 
 	effect = {
@@ -68,7 +82,6 @@ egg_child = {
 			}
 			modifier = artifact_monthly_prestige_add_4_modifier
 			decaying = no
-			save_scope_as = my_egg
 		}
 	}
 }

@@ -104,3 +104,14 @@
 	culture = "valyrian"
 	motto = "dynn_Targaryen_motto"
 }
+
+91114881979 = {
+	name = "dynn_Hightower"
+	culture = "reachman"
+	motto = "dynn_Hightower_motto"
+}
+
+91114881978 = {
+	name = "dynn_Strong"
+	culture = "riverlander"
+}

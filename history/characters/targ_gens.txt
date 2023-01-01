@@ -1,0 +1,57 @@
+﻿
+targ_gen2 = {
+	name = "Aenys"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = 999999999999
+	874.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+	909.1.1 = {
+		death = yes
+	}
+}
+
+targ_gen3 = {
+	name = "Jaehaerys"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = targ_gen2
+	901.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+	970.1.1 = {
+		death = yes
+	}
+}
+
+targ_gen4 = {
+	name = "Baelon"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = targ_gen3
+	924.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = aggressive_dragon
+		}
+	}
+	968.1.1 = {
+		death = yes
+	}
+}

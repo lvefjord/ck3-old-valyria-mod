@@ -126,3 +126,15 @@ house_greyjoy = {
 	culture = "ironborn"
 	dynasty = 91114881981
 }
+
+house_hightower = {
+	name = "dynn_Hightower"
+	culture = "reachman"
+	dynasty = 91114881979
+}
+
+house_strong = {
+	name = "dynn_Strong"
+	culture = "riverlander"
+	dynasty = 91114881978
+}
