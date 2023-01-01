@@ -5,7 +5,7 @@ special = holder
 tier = kingdom
 priority = 50
 governments = { feudal_government }
-heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander heritage_firstmen heritage_rhoynar heritage_andal }
 }
 
 lord_valyrian_female = {
@@ -15,7 +15,7 @@ special = holder
 tier = kingdom
 priority = 50
 governments = { feudal_government }
-heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander heritage_firstmen heritage_rhoynar heritage_andal }
 }
 
 lord_valyrian_male_e = {
@@ -25,7 +25,7 @@ special = holder
 tier = empire
 priority = 900
 governments = { feudal_government }
-heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander heritage_firstmen heritage_rhoynar heritage_andal }
 }
 
 lord_valyrian_female_e = {
@@ -35,7 +35,7 @@ special = holder
 tier = empire
 priority = 900
 governments = { feudal_government }
-heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander heritage_firstmen heritage_rhoynar heritage_andal }
 }
 
 lord_valyrian_male_c = {
@@ -45,7 +45,7 @@ special = holder
 tier = county
 priority = 39
 governments = { feudal_government }
-heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander heritage_firstmen heritage_rhoynar heritage_andal }
 }
 
 lord_valyrian_female_c = {
@@ -55,7 +55,7 @@ special = holder
 tier = county
 priority = 39
 governments = { feudal_government }
-heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander heritage_firstmen heritage_rhoynar heritage_andal }
 }
 
 d_lord_valyrian_male = {
@@ -65,7 +65,7 @@ special = holder
 tier = duchy
 priority = 39
 governments = { feudal_government }
-heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander heritage_firstmen heritage_rhoynar heritage_andal }
 }
 
 d_lord_valyrian_female = {
@@ -75,7 +75,7 @@ special = holder
 tier = duchy
 priority = 39
 governments = { feudal_government }
-heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander }
+heritages = { heritage_valyrian heritage_ironborn heritage_dornish heritage_northmen heritage_stormlander heritage_reachman heritage_westerman heritage_valeman heritage_crownlander heritage_firstmen heritage_rhoynar heritage_andal }
 }
 
 position_male = {
