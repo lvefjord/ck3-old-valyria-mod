@@ -48,11 +48,6 @@
 			}
 			modifier = artifact_monthly_prestige_add_4_modifier
 			decaying = no
-			save_scope_as = my_egg
-		}
-		scope:my_egg = {
-			equip_artifact_to_owner = yes
-			
 		}
 	}
 }
@@ -105,6 +100,9 @@ egg_child = {
 							NOT = { 
 								has_character_flag = egg_hatched
 								has_trait = dragon_rider
+								any_character_artifact = {
+									artifact_type = dragon_egg
+								}
 							 } 
 						}
 					}
