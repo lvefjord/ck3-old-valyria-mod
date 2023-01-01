@@ -71,6 +71,8 @@ egg_child = {
         base = 100
 	}
 
+	ai_check_interval = 1
+
 	is_shown = {
 		root = {
 			any_child = {

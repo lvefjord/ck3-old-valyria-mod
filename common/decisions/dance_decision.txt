@@ -42,10 +42,10 @@
 		
 
 		spawn_army = { 
-			levies = 3000
+			levies = 4400
 			men_at_arms = { 
 				type = dragonkeepers
-				men = 500
+				men = 300
 			} 
 
 		location = province:9661
