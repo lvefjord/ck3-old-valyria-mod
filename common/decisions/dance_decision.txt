@@ -1,0 +1,86 @@
+﻿start_dance_decision = {
+	title = "Dance of the Dragons"
+	desc = "Start the war of the succession."
+	confirm_text = "Begin the Dance"
+	selection_tooltip = "Fire and Blood"
+	picture = "gfx/interface/illustrations/decisions/decision_dance.dds"
+	
+	major = yes
+	
+	ai_goal = yes
+	
+	ai_potential = {
+        always = yes
+	}
+	
+	ai_will_do = {
+        base = 100
+	}
+
+	is_shown = {
+		current_date > 1065.1.1
+		NOT = {
+			has_character_flag = dance_started
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = dance_has_been_started
+				target = flag:dance_has_been_started
+			}
+		}
+	}
+
+	is_valid = {
+		character:9988773 = {
+			has_claim_on = title:e_the_iron_throne
+		}
+		has_title = title:d_dragonstone
+	}
+
+
+	effect = {
+		
+
+		spawn_army = { 
+			levies = 3000
+			men_at_arms = { 
+				type = dragonkeepers
+				men = 500
+			} 
+
+		location = province:9661
+		origin = province:9661
+		war_keep_on_attacker_victory = yes
+		name = "The Black Host"
+		}
+
+
+		
+		
+
+
+
+
+
+		start_war = { 
+			casus_belli = claim_cb 
+			target = character:9988779
+			claimant = character:9988773
+			target_title = title:e_the_iron_throne
+		}
+
+		add_character_flag = {
+			flag = dance_started
+		}
+
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = dance_has_been_started
+				target = flag:dance_has_been_started
+			}
+
+			refund_all_perks = yes
+		}
+	}
+
+}

@@ -5,6 +5,7 @@ hatch.0001 = {
 	title = "Hatching"
 	desc = "Your dragon has hatched."
 	theme = hunting
+	override_background = { event_background = egg_hatch }
 
 	right_portrait = {
 		character = ROOT
@@ -19,10 +20,9 @@ hatch.0001 = {
 			flag = has_dragon
 		}
 		add_character_modifier = agile_dragon
-		random_artifact = {
-			limit = { artifact_type = dragon_egg 
-			OWNER = ROOT
-		}
+		
+		random_character_artifact = {
+			limit = { artifact_type = dragon_egg }
 			destroy_artifact = this
 		}
 	}
@@ -54,6 +54,7 @@ hatch.0002 = {
 	title = "Hatching"
 	desc = "Your dragon has hatched."
 	theme = hunting
+	override_background = { event_background = egg_hatch }
 
 	right_portrait = {
 		character = ROOT
@@ -68,10 +69,9 @@ hatch.0002 = {
 			flag = has_dragon
 		}
 		add_character_modifier = battle_dragon
-		random_artifact = {
-			limit = { artifact_type = dragon_egg 
-			OWNER = ROOT
-		}
+		
+		random_character_artifact = {
+			limit = { artifact_type = dragon_egg }
 			destroy_artifact = this
 		}
 	}
@@ -103,6 +103,7 @@ hatch.0003 = {
 	title = "Hatching"
 	desc = "Your dragon has hatched."
 	theme = hunting
+	override_background = { event_background = egg_hatch }
 
 	right_portrait = {
 		character = ROOT
@@ -117,10 +118,9 @@ hatch.0003 = {
 			flag = has_dragon
 		}
 		add_character_modifier = aggressive_dragon
-		random_artifact = {
-			limit = { artifact_type = dragon_egg 
-			OWNER = ROOT
-		}
+		
+		random_character_artifact = {
+			limit = { artifact_type = dragon_egg }
 			destroy_artifact = this
 		}
 	}
@@ -152,6 +152,7 @@ hatch.0099 = {
 	title = "Time for my first flight"
 	desc = "I have long waited for this day. When I become a dragon rider like my ancestors from Old Valyria"
 	theme = hunting
+	override_background = { event_background = egg_hatch }
 
 	right_portrait = {
 		character = ROOT

@@ -20,6 +20,24 @@ easteros.0001 = {
 			add_building = barracks_02
 			add_building = military_camps_02
 		}
+		province:1586 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		province:1584 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		province:1588 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
 
 		#Loren Lannister
 		exists = character:9988791

@@ -22,6 +22,12 @@ aconquest_1 = {
 			has_character_flag = started_conquest
 			has_character_flag = finished_conquest
 		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = conquest_started
+				target = flag:conquest_started
+			}
+		}
 		current_date < 1065.1.1
 	}
 
@@ -80,6 +86,10 @@ aconquest_1 = {
 
 		
 		hidden_effect = {
+			add_to_global_variable_list = {
+				name = conquest_started
+				target = flag:conquest_started
+			}
 			culture:valyrian = {
 				add_innovation = innovation_primogeniture
 				}

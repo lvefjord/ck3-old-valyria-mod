@@ -1,6 +1,6 @@
 ﻿dance_jace = {
 	name = "Jacaerys"
-	dynasty = 91114881996
+	dynasty = 91114881997
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = dragon_rider
@@ -18,7 +18,7 @@
 
 dance_luce = {
 	name = "Lucerys"
-	dynasty = 91114881996
+	dynasty = 91114881997
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = dragon_rider
@@ -36,7 +36,7 @@ dance_luce = {
 
 dance_joff = {
 	name = "Joffrey"
-	dynasty = 91114881996
+	dynasty = 91114881997
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = dragon_rider
@@ -76,16 +76,32 @@ dance_helaena = {
 dance_aemond = {
 	name = "Aemond"
 	dynasty = 91114881997
+	dna = 1_aemond
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_clothes=male_clothes_secular_indian_war_nobility_01_low
+			custom_hair=male_hair_fp2_iberian_muslim_03
+			custom_beards=male_empty
+			custom_headgear=male_empty
+			custom_special=male_headgear_special_eye_patch_01
+		}
+	}
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
+	trait = education_martial_4
+	martial = 15
+	trait = ambitious
+	trait = arrogant
+	trait = aggressive_attacker
+	give_nickname = nick_one_eye
 	father = 9988771
 	mother = dance_alicent
 	1047.1.1 = {
 		birth = yes
 		effect = {
-			add_character_modifier = agile_dragon
+			add_character_modifier = aggressive_dragon
 		}
 	}
 }
@@ -115,7 +131,6 @@ dance_aegon3 = {
 	trait = dragon_rider
 	trait = valyrian_blood
 	mother = 9988773
-	father = 9988774
 	1057.3.3 = {
 		birth = yes
 		effect = {
@@ -132,7 +147,6 @@ dance_viserys2 = {
 	trait = dragon_rider
 	trait = valyrian_blood
 	mother = 9988773
-	father = 9988774
 	1059.1.1 = {
 		birth = yes
 		effect = {

@@ -115,11 +115,10 @@
 #Daemon rogue prince
 9988774 = {
 	name = "Daemon"
-	dna = 1997123456_aegonconq
+	dna = 1_daemon
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_clothes=male_clothes_secular_indian_war_nobility_01_low
-			custom_hair=male_hair_western_07
+			custom_hair=male_hair_fp1_09
 			custom_beards=male_empty
 			custom_headgear=male_empty
 		}
@@ -255,9 +254,14 @@
 	trait = diligent
 	trait = brave
 	trait = arrogant
+	trait = valyrian_blood
+	trait = dragon_rider
 	trait = education_martial_4
 	1011.1.1 = {
 		birth = yes
+		effect = {
+			add_character_modifier = agile_dragon
+		}
 	}
 	1027.1.1 = {
 		add_spouse = 9988775
@@ -266,7 +270,7 @@
 
 9988779 = {
 	name = "Aegon"
-	dynasty = 91114881980
+	dynasty = 91114881997
 	portrait_override={
 		portrait_modifier_overrides={
 			custom_headgear=male_headgear_secular_western_high_nobility_01

@@ -10,3 +10,4 @@ nick_dragonlord = {}
 nick_stormking = {}
 nick_theblack = {}
 nick_who_knelt = {}
+nick_one_eye = {}

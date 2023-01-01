@@ -3,9 +3,19 @@
 	desc = "You will claim a dragon egg which may hatch into a dragon"
 	confirm_text = "Claim"
 	selection_tooltip = "Claim an Egg"
-	picture = "gfx/interface/illustrations/decisions/decision_activity.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_egg.dds"
 
 	major = yes
+
+	ai_goal = yes
+	
+	ai_potential = {
+        always = yes
+	}
+	
+	ai_will_do = {
+        base = 100
+	}
 	
 	is_shown = {
 		NOT = {
@@ -40,6 +50,10 @@
 			decaying = no
 			save_scope_as = my_egg
 		}
+		scope:my_egg = {
+			equip_artifact_to_owner = yes
+			
+		}
 	}
 }
 
@@ -48,9 +62,19 @@ egg_child = {
 	desc = "Without eggs my children will have a hard time becoming dragon riders on their own."
 	confirm_text = "Choose"
 	selection_tooltip = "Pick"
-	picture = "gfx/interface/illustrations/decisions/decision_activity.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_egg.dds"
 
 	major = yes
+
+	ai_goal = yes
+	
+	ai_potential = {
+        always = yes
+	}
+	
+	ai_will_do = {
+        base = 100
+	}
 
 	is_shown = {
 		root = {
@@ -72,16 +96,42 @@ egg_child = {
 	}
 
 	effect = {
-		create_artifact = {
-			name = "Dragon Egg"
-			description = "A Dragon Egg from a fresh clutch."
-			type = dragon_egg
-			visuals = dragonegg
-			history = {
-				type = created_before_history
+
+		every_close_family_member = { 
+			limit = {
+					AND = { 
+						is_child_of = root
+						OR = { 
+							NOT = { 
+								has_character_flag = egg_hatched
+								has_trait = dragon_rider
+							 } 
+						}
+					}
 			}
-			modifier = artifact_monthly_prestige_add_4_modifier
-			decaying = no
+			
+			create_artifact = {
+				name = "Dragon Egg"
+				description = "A Dragon Egg from a fresh clutch."
+				type = dragon_egg
+				visuals = dragonegg
+				history = {
+					type = created_before_history
+				}
+				modifier = artifact_monthly_prestige_add_4_modifier
+				decaying = no
+				save_scope_as = an_egg
+			}
+	
+			scope:an_egg = {
+				equip_artifact_to_owner = yes
+				
+			}
 		}
+
+
+
+		
 	}
 }
+

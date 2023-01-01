@@ -8,22 +8,25 @@
 	major = yes
 	
 	is_shown = {
-		always = yes
+		always = no
 	}
 
 	is_valid = {
-		any_character_artifact = {
-			artifact_type = dragon_egg
-		}
+		#any_character_artifact = {
+		#	artifact_type = dragon_egg
+		#}
 	}
 
 	ai_check_interval = 1
 
 	effect = {
-		random_artifact = {
-			limit = { artifact_type = dragon_egg }
-			destroy_artifact = this
-		}
+		#random_character_artifact = {
+		#	limit = { artifact_type = dragon_egg }
+		#	destroy_artifact = this
+		#}
+		
+		historical_succession_access_single_heir_succession_law_trigger = yes
+		
 	}
 
 }

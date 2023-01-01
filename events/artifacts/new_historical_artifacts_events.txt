@@ -33,3 +33,35 @@ historical_artifacts.9999 = {
 		
 	}
 }
+
+historical_artifacts.9998 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		# Historical Artifacts
+		## We do these per-artefact rather than per-title so that they can be easily reshuffled if desired.
+		## Blackfyre
+		if = {
+			limit = {
+				current_date > 1065.1.1
+				exists = character:9988779
+				character:9988779 = { is_alive = yes }
+			}
+			
+				create_artifact_blackfyre_effect = { OWNER = character:9988779 }
+			
+		}
+		## Dark Sister
+		if = {
+			limit = {
+				current_date > 1065.1.1
+				exists = character:9988774
+				character:9988774 = { is_alive = yes }
+			}
+			
+				create_artifact_dark_sister = { OWNER = character:9988774 }
+		}
+	}
+		
+}

@@ -365,6 +365,7 @@ on_game_start_after_lobby = {
 				current_date = 1066.9.15
 				has_game_rule = val_alt_world_enabled
 			}
+			trigger_event = historical_artifacts.9998
 			trigger_event = westeros.0001
 		}
 		
