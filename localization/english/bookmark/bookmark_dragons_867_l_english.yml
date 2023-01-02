@@ -1,31 +1,26 @@
 ﻿l_english:
- bm_867_dragons:0 "Here there be Dragons"
- bm_867_dragons_desc:1 "Dragons breathe fire.\n\n#bold Can you breathe fire?#!"
+ #Conquest
+ bm_867_dragons:0 "All Men Must Die"
+ bm_867_dragons_desc:1 "Hen siñot dāez. Hēnkirī īlvi biarvī manaerili. Jaehossas sȳris sātās. Jaehossi Uēpossi Arlȳssī. Jaehot avy iderēbās jorepās. Kepo Tubis Biare. Kesīr drējī jiōrilaks. Laehossa yne ōdris. Laodiaposo jomīsagon avy sytilīptas. Merbun. Mittys iksā. Morghot nēdyssy sesīr zūgusy."
 
- #Aegon Targaryen
+ #Aegon
  bookmark_dragons_aegon_targaryen:0 "Aegon Targaryen"
- bookmark_dragons_aegon_targaryen_desc:0 "He conquer and stuff also"
-
- bookmark_dragons_aegon_targaryen_alt_visenya:0 "$Visenya$ $nick_the_dragon$"
+ bookmark_dragons_aegon_targaryen_desc:0 "Ao ynoma dīnilūks. Aōhon iksan se ñuhon iksā. Averille sylutetā. Avy jorrāelan. Avy raqan. Biare Arlie Jēdari. Biarver aōt. Dōrior dārion udrirzi mijessis. Gēlȳri aōt tepagon jaelas. Geros ilas. Gevī ȳdrā azantys. Hae hunē kirine."
+ #Sisters
+ bookmark_dragons_aegon_targaryen_alt_visenya:0 "Visenya Targaryen"
  bookmark_dragons_aegon_targaryen_alt_rhaenys:0 "Rhaenys Targaryen"
+ #Vickon Greyjoy
+ bookmark_dragons_vickon_greyjoy:0 "Vickon Greyjoy"
+ bookmark_dragons_vickon_greyjoy_desc:0 "What is dead may never die - But rises again harder and stronger"
 
- bm_1066_dragons:0 "Here there be Dragons"
- bm_1066_dragons_desc:1 "Dragons breathe fire.\n\n#bold Can you breathe fire?#!"
+ ##########
+ #Dance
+ bm_1066_dragons:0 "All Men Must Serve"
+ bm_1066_dragons_desc:1 "Skoros otāpā. Skoros ynot epilū. Skoroso jemēle brōzāt. Sȳrī glaesan. Toli jorrāelan. Tubī hae kesīr sittāks sesīr kirine iksan. Udrirzi Valyrio ȳdrā. Valar dohaeris. Valar morghūlis. Zaldrīzes buzdari iksos daor."
 
- #Rhaenyra Targaryen
+ #Rhaenyra
  bookmark_dragons_rhaenyra_targaryen:0 "Rhaenyra Targaryen"
- bookmark_dragons_rhaenyra_targaryen_desc:0 "Long May She Reign"
-
-
- ##EVENTS##
- dbookmark.0002.t:0 "The Great"
- dbookmark.0002.desc:0 "The first time a vassal hailed me with a "long live [ROOT.Char.GetFirstNameNoTooltip] the Great!", I was deeply honored. I thought nothing more of it, but since that day, the epithet has grown in popularity.\n\nWherever I go, from [capital.GetNameNoTooltip] to [province.GetNameNoTooltip], my subjects now call me [ROOT.Char.GetFirstNameNoTooltip] the Great."
- dbookmark.0002.a:0 "I pray I will never let them down."
-
- dbookmark.0004.t:1 "Vengeance"
- dbookmark.0004.desc_unknown:1 "As [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] is brought before me [prisoner.GetSheHe] immediately prostrates [prisoner.GetHerselfHimself] and begs my forgiveness for #EMP killing my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))]#!?!\n\n"I... I thought you knew! Forget I said anything," [prisoner.GetSheHe] laughs nervously. "Obviously I must have hit my head when I was captured. Or something. I don't know what I'm talking about!"\n\nWhen I heard of my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetNamePossessive] death I swore I would have my vengeance. And I am a [ROOT.Char.GetWomanMan] of my word."
- dbookmark.0004.desc:1 "Finally, after all this time, I have the [prisoner.Custom('InsultAdjective')] [prisoner.GetName] at my mercy! When I heard of my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetNamePossessive] death at [prisoner.GetHerHis] hands, I swore I would have my vengeance. And I am a [ROOT.Char.GetWomanMan] of my word."
- dbookmark.0004.a.custom:0 "Every [close_family_member|E] of [dead.GetShortUIName]"
- dbookmark.0004.a:0 "I will tear his ribs into blood wings!"
- dbookmark.0004.b:0 "This [prisoner.GetWomanMan] is yours, great [ROOT.Char.GetFaith.HighGodName]!"
- dbookmark.0004.c:0 "I have other plans for [prisoner.GetHerHim]..."
+ bookmark_dragons_rhaenyra_targaryen_desc:0 "Ñuha muña bōsi azanti jorrāelza. Ñuho kisalbrot umāzīt. Ñuho prūmiā iksā. Nuiōrkī sōnari raqō daor. Olvī ziry jorrāelan. Qubroti jās. Quptenkos Ēngoso ȳdrassis. Rīglose avy rhaenan. Rijes aōt. Sīrgō parklon iprattā. Skorion massitas. Skorkydoso glaesā. Skoros gaomā."
+ #Dalton Greyjoy
+ bookmark_dragons_dalton_greyjoy:0 "Dalton Greyjoy"
+ bookmark_dragons_dalton_greyjoy_desc:0 "What is dead may never die - But rises again harder and stronger"

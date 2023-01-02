@@ -52,6 +52,24 @@
 		
 	}
 
+	# Vickon Greyjoy
+	character = {
+		name = "bookmark_dragons_vickon_greyjoy"
+		dynasty = 91114881981
+		dynasty_splendor_level = 1
+		type = male
+		birth = 842.1.1
+		title = k_iron_islands
+		government = feudal_government
+		culture = "ironborn"
+		religion = "drowned_god"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = ac1
+		position = { 200 400 }
+
+		animation = aggressive_sword
+	}
+
 }
 
 bm_1066_dragons = {
@@ -74,11 +92,29 @@ bm_1066_dragons = {
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 9988773
 		position = { 800 750 }
 
 		animation = personality_bold
+	}
+
+	# Dalton Greyjoy
+	character = {
+		name = "bookmark_dragons_dalton_greyjoy"
+		dynasty = 91114881981
+		dynasty_splendor_level = 10
+		type = male
+		birth = 1048.1.1
+		title = k_iron_islands
+		government = feudal_government
+		culture = "ironborn"
+		religion = "drowned_god"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = dod1
+		position = { 200 400 }
+
+		animation = aggressive_sword
 	}
 
 }

@@ -97,7 +97,7 @@ bookmark_dragons_rhaenyra_targaryen={
  		complexion={ "complexion_beauty_1" 255 "complexion_2" 182 }
  		gene_height={ "normal_height" 123 "normal_height" 126 }
  		gene_bs_body_type={ "body_fat_head_fat_medium" 125 "body_fat_head_fat_low" 138 }
- 		gene_bs_body_shape={ "body_shape_pear_half" 194 "body_shape_average" 56 }
+ 		gene_bs_body_shape={ "body_shape_pear_half" 225 "body_shape_average" 56 }
  		gene_bs_bust={ "bust_clothes" 173 "bust_shape_3_full" 44 }
  		gene_age={ "old_3" 155 "old_4" 60 }
  		gene_eyebrows_shape={ "avg_spacing_high_thickness" 196 "avg_spacing_low_thickness" 173 }
@@ -110,19 +110,17 @@ bookmark_dragons_rhaenyra_targaryen={
  		eyelashes_accessory={ "normal_eyelashes" 67 "normal_eyelashes" 67 }
  		pose={ "" 255 "" 0 }
  		beards={ "no_beard" 199 "no_beard" 0 }
- 		clothes={ "fp2_christian_war_nobility_clothes" 255 "most_clothes" 0 }
+ 		clothes={ "dde_abbasid_war_nobility_clothes" 255 "most_clothes" 0 }
  		hairstyles={ "fp2_hairstyles_iberian_muslim_straight" 127 "all_hairstyles" 0 }
  		headgear={ "fp1_royalty" 255 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 181 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
- 		cloaks={ "fp1_cloak" 84 "no_cloak" 0 }
  }
 	override={
 		portrait_modifier_overrides={
-			custom_hair=female_hair_fp2_iberian_muslim_01_common
-			custom_clothes=female_clothes_secular_fp2_iberian_christian_war_nobility_01
 			custom_headgear=female_headgear_secular_fp1_royalty_01
-			custom_cloaks=female_cloaks_secular_fp1_nobility_02
+			custom_clothes=female_clothes_secular_dde_abbasid_war_nobility_01_low
+			custom_hair=female_hair_fp2_iberian_muslim_01_common
 		}
 	}
 
