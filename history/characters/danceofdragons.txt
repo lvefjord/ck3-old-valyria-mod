@@ -344,3 +344,67 @@ dance_lorent_maa = {
 	}
 }
 
+dance_laena = {
+	name = "Laena"
+	female = yes
+	dynasty = 91114881996
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	father = 9988775
+	mother = 9988778
+	1029.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+	1050.1.1 = {
+		add_spouse = 9988774 
+	}
+	1057.1.1 = {
+		death = yes
+		remove_spouse = 9988774
+	}
+}
+
+dance_baela = {
+	name = "Baela"
+	female = yes
+	dynasty = 91114881996
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	trait = twin
+	father = 9988774
+	mother = dance_laena
+	1053.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+}
+
+dance_rhaena = {
+	name = "Rhaena"
+	female = yes
+	dynasty = 91114881996
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = valyrian_blood
+	trait = twin
+	father = 9988774
+	mother = dance_laena
+	1053.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+
+}
+

@@ -148,6 +148,12 @@
 			add_character_modifier = aggressive_dragon
 		}
 	}
+	1050.1.1 = {
+		add_spouse = dance_laena
+	}
+	1057.1.1 = {
+		remove_spouse = dance_laena
+	}
 	1057.1.2 = {
 		add_matrilineal_spouse = 9988773
 	}
