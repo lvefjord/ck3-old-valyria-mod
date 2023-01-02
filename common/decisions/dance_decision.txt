@@ -42,19 +42,19 @@
 		
 
 		spawn_army = { 
-			levies = 4400
+			levies = 4300
 			men_at_arms = { 
 				type = dragonkeepers
-				men = 300
+				men = 600
 			} 
 
 		location = province:9661
 		origin = province:9661
-		war_keep_on_attacker_victory = yes
-		name = "The Black Host"
+		war_keep_on_attacker_victory = no
+		name = "The Blacks' Host"
 		}
 
-
+		trigger_event = dod.0001
 		
 		
 

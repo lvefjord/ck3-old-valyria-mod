@@ -147,54 +147,54 @@ hatch.0003 = {
 	}
 }
 
-hatch.0004 = {
-	type = character_event
-	title = "Hatching"
-	desc = "Your dragon has hatched."
-	theme = hunting
-	override_background = { event_background = egg_hatch }
-
-	right_portrait = {
-		character = ROOT
-		animation = frontend_left_idle
-	}
-
-	immediate = {
-		add_character_flag = {
-			flag = egg_hatched
-		}
-		add_character_flag = {
-			flag = has_dragon
-		}
-		
-		random_character_artifact = {
-			limit = { artifact_type = dragon_egg }
-			destroy_artifact = this
-		}
-	}
-
-	trigger = {
-		any_character_artifact = {
-			artifact_type = dragon_egg
-		}
-		NOT = {
-			has_character_flag = egg_hatched
-			has_character_flag = has_dragon
-		}
-		has_trait = valyrian_blood
-		NOT = {
-			has_trait = dragon_rider
-		}
-	}
-
-	option = {
-		name = "I knew it would happen one day"
-		start_dragon_story_cycle_effect = yes
-	}
-	after = {
-		#trigger_event = hatch.0099
-	}
-}
+#hatch.0004 = {
+#	type = character_event
+#	title = "Hatching"
+#	desc = "Your dragon has hatched."
+#	theme = hunting
+#	override_background = { event_background = egg_hatch }
+#
+#	right_portrait = {
+#		character = ROOT
+#		animation = frontend_left_idle
+#	}
+#
+#	immediate = {
+#		add_character_flag = {
+#			flag = egg_hatched
+#		}
+#		add_character_flag = {#
+#			flag = has_dragon
+#		}
+#		
+#		random_character_artifact = {#
+#			limit = { artifact_type = dragon_egg }
+#			destroy_artifact = this
+#		}
+#	}
+#
+#	trigger = {#
+#		any_character_artifact = {
+#			artifact_type = dragon_egg
+#		}
+#		NOT = {
+#			has_character_flag = egg_hatched
+#			has_character_flag = has_dragon
+#		}
+#		has_trait = valyrian_blood
+#		NOT = {
+#			has_trait = dragon_rider
+#		}
+#	}
+#
+#	option = {#
+#		name = "I knew it would happen one day"
+#		start_dragon_story_cycle_effect = yes
+#	}
+#	after = {#
+#		#trigger_event = hatch.0099
+#	}
+#}
 
 hatch.0099 = {
 	type = character_event

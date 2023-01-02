@@ -2,23 +2,23 @@
 
 dod.0001 = {
 	type = duel_event
-	title = "Dancing 'til the Storm Ends"
+	title = "Clash at Storm's End"
 	desc = ""
 	theme = hunting
 	override_background = { event_background = storms_end }
 
 	right_portrait = {
-		character = character:dance_aemond
-		animation = frontend_left_idle
+		character = character:dance_luce
+		animation = loss_1
 	}
 
 	left_portrait = {
-		character = character:dance_luce
-		animation = frontend_left_idle
+		character = character:dance_aemond
+		animation = fear
 	}
 
 	option = {
-		name = "Dohaeris"
+		name = "Dohaeris Vhagar"
 	}
 
 }
