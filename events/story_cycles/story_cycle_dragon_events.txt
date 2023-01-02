@@ -108,9 +108,9 @@ pet_dragon.1101 = {
 	theme = pet
 	override_background = { event_background = egg_hatch }
 
-	left_portrait = {
+	right_portrait = {
 		character = root
-		animation = happiness
+		animation = frontend_left_idle
 	}
 	
 	trigger = {
@@ -143,7 +143,7 @@ pet_dragon.1199 = {
 
 	left_portrait = {
 		character = root
-		animation = sadness
+		animation = frontend_left_idle
 	}
 
 	immediate = {

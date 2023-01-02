@@ -24,14 +24,14 @@ dragon_story_modifier = {
 }
 
 dragon_story_flying_modifier = {
-	icon = dragon_story_modifier
+	icon = dragon_story_modifier_positive
 	health = 0.5
 }
 dragon_story_fur_carpet_modifier = {
-	icon = dragon_story_modifier
+	icon = dragon_story_modifier_positive
 	monthly_prestige = 0.5
 }
 rat_hunting_dragon_modifier = {
-	icon = dragon_story_modifier
+	icon = dragon_story_modifier_positive
 	health = 0.5
 }

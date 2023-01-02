@@ -1,8 +1,7 @@
 ﻿l_english:
  dragon_story_modifier:0 "Pet Dragon"
  dragon_story_modifier_desc:0 "A loyal dragon follows this character wherever they go"
- dragon_story_flying_modifier:0 "Flying on Dragon"
- dragon_story_flying_modifier_desc:0 "This character enjoys frequent walks with their dragon"
+ dragon_story_flying_modifier:0 "Flew with his Dragon"
+ dragon_story_flying_modifier_desc:0 "This character loves racing through the skies atop their mighty Dragon"
  dragon_story_fur_carpet_modifier:0 "Fur Carpet"
  dragon_story_fur_carpet_modifier_desc:0 "This character has a beautiful fur carpet"
- pet_dragon.1101.a:0 "Yay"

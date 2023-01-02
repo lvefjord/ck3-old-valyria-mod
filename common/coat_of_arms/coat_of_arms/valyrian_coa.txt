@@ -31,3 +31,76 @@ targon = {
 	}
 
 }
+
+suckme = {
+	pattern="pattern__solid_designer.dds"
+	color1=purple
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=rgb { 17 255 0 }
+		texture="ce_letter_k.dds"
+		instance={
+			position={ 0.790000 0.260000 }
+			scale={ 0.340000 0.340000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 0 255 7 }
+		texture="ce_letter_e.dds"
+		instance={
+			position={ 0.670000 0.610000 }
+			scale={ 0.480000 0.480000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 11 255 0 }
+		texture="ce_letter_u.dds"
+		instance={
+			position={ 0.430000 0.260000 }
+			scale={ 0.340000 0.340000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 24 255 0 }
+		texture="ce_letter_m.dds"
+		instance={
+			position={ 0.380000 0.610000 }
+			scale={ 0.380000 0.470000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 52 255 23 }
+		texture="ce_letter_c.dds"
+		instance={
+			position={ 0.610000 0.260000 }
+			scale={ 0.350000 0.350000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 31 255 0 }
+		texture="ce_letter_s.dds"
+		instance={
+			position={ 0.230000 0.260000 }
+			scale={ 0.360000 0.360000 }
+		}
+
+	}
+
+}
+

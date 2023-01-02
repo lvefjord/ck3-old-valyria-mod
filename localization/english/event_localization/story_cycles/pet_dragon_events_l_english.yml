@@ -97,9 +97,9 @@
  pet_dragon.1001.t:0 "The Dragon"
  pet_dragon.1001.desc:0 "As I pet the dragon on the head [ROOT.Char.Custom('DragonStorySheHe')] happily wags [ROOT.Char.Custom('DragonStoryHerHis')] tail. What name would suit [ROOT.Char.Custom('DragonStoryHerHim')]? Something historical? Something alluding to [ROOT.Char.Custom('DragonStoryHerHis')] [ROOT.Char.Custom('DragonFurColor')] fur? It is an important decision, and as the dragon rolls over to let me pet [ROOT.Char.Custom('DragonStoryHerHis')] stomach I find myself distracted for a while.\n\nBut wait, I know! I will name [ROOT.Char.Custom('DragonStoryHerHim')]..."
 
- pet_dragon.1101.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Feet and Paw"
- pet_dragon.1101.desc:0 "It has become a habit to walk [ROOT.Char.Custom('DragonStoryName')] daily, and I am not sure which of us enjoy the fresh air and sun the most!\n\n[ROOT.Char.Custom('DragonStoryName')] bounds ahead and looks back at me and barks, as if to say #EMP dragonch up!#!"
- pet_dragon.1101.a:0 "And on we walk!"
+ pet_dragon.1101.t:0 "[ROOT.Char.Custom('DragonStoryName')]"
+ pet_dragon.1101.desc:0 "It has become a habit to fly with [ROOT.Char.Custom('DragonStoryName')] daily, I am not sure which one of us enjoys it more.\n\nTuhī zasēdi zhai liu vēsi zasēdi vēzalat."
+ pet_dragon.1101.a:0 "Zaldrīzes buzdari iksos daor"
 
  pet_dragon.1102.t:0 "[ROOT.Char.Custom('DragonStoryName')]: Runaway"
  pet_dragon.1102.desc:0 "I am out riding, my dragon [ROOT.Char.Custom('DragonStoryName')] beside me, when [ROOT.Char.Custom('DragonStorySheHe')] suddenly runs off into the [ROOT.Char.Custom('TerrainType')].\n\nMy retinue assures me [ROOT.Char.Custom('DragonStorySheHe')] will come back, but what if [ROOT.Char.Custom('DragonStorySheHe')] doesn't?!"

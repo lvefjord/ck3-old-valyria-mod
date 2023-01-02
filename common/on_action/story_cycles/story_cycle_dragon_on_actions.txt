@@ -1,6 +1,6 @@
 ﻿#On actions handling the Dog Story Cycle
 
-ongoing_dog_events = {
+ongoing_dragon_events = {
 	trigger = {
 		is_landed = yes
 		is_imprisoned = no

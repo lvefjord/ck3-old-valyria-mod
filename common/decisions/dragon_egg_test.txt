@@ -12,13 +12,14 @@
 	}
 
 	is_valid = {
-		character:9988776= {
-			dynasty = {
-				any_dynasty_member = {
-				has_trait = honest
-				}
-			}
-		}
+		#character:9988776= {
+			#dynasty = {
+			#	any_dynasty_member = {
+			#	has_trait = honest
+			#	}
+			#}
+		#}
+		is_ai = no
 	}
 
 	ai_check_interval = 1
@@ -29,7 +30,6 @@
 		#	destroy_artifact = this
 		#}
 		start_dragon_story_cycle_effect = yes
-		start_dog_story_cycle_effect = yes
 		
 	}
 

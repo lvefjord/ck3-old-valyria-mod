@@ -40,3 +40,40 @@
 		}
 	}
 }
+
+
+pet_dragoncheck_name_decision = { #by Linnéa Thimrén
+	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+
+	desc = dragon_name
+	selection_tooltip = pet_dragon_decision_tooltip
+
+	ai_check_interval = 120
+
+	cooldown = { days = 1825 }
+
+	is_shown = {
+		always = yes
+	}
+
+	is_valid = {
+		is_ai = no
+	}
+
+	effect = {
+		custom_tooltip = "[ROOT.Char.Custom('DragonStoryName')|U]"
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+
+		modifier = {
+			add = 100
+			stress > 10
+		}
+	}
+}
