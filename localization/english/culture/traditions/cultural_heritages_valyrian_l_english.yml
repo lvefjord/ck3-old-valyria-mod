@@ -1,5 +1,4 @@
 ﻿l_english:
- heritage_generic_label_desc:0 "Each [heritage|E] defines a common origin for related [cultures|E]' customs and mannerisms, either as something they descend from or have wholesale adopted."
  heritage_valyrian_name:0 "Valyrian"
  heritage_valyrian_collective_noun:0 "Valyrians"
  
@@ -27,8 +26,8 @@
  heritage_crownlander_name:0 "Crownlander"
  heritage_crownlander_collective_noun:0 "Crownlanders"
 
- heritage_crownlander_name:0 "Riverlander"
- heritage_crownlander_collective_noun:0 "Riverlanders"
+ heritage_riverlander_name:0 "Riverlander"
+ heritage_riverlander_collective_noun:0 "Riverlanders"
 
  heritage_andal_name:0 "Andal"
  heritage_andal_collective_noun:0 "Andal"

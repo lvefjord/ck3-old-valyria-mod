@@ -936,6 +936,28 @@ westeros.0001 = {
 			}
 		}
 
+		character:dod1 = {
+			create_artifact = {
+				name = "Nightfall"
+				description = "A longsword made of Valyrian steel, claimed by Dalton 'the Red Kraken' Greyjoy."
+				type = sword
+				visuals = sword
+				history = {
+					type = created_before_history
+				}
+				modifier = blackfyre_modifier
+				decaying = no
+				rarity = illustrious
+				save_scope_as = nightfall
+			}
+		
+			scope:nightfall = {
+				equip_artifact_to_owner = yes
+				
+				save_scope_as = epic
+			}
+		}
+
 
 		
 	}

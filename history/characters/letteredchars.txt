@@ -25,15 +25,19 @@ dod1 = {
 	dynasty = 91114881981
 	culture = "ironborn"
 	religion = "drowned_god"
+	dna = dalton_greyjoy1
 	trait = education_martial_4
-	trait = brave
 	trait = wrathful
 	trait = reaver
+	trait = shrewd
+	trait = viking
+	trait = berserker
+	give_nickname = nick_red_kraken
 	stewardship = 10
 	martial = 14
 	diplomacy = 12
 	sexuality = heterosexual
-	1049.1.1 = {
+	1050.1.1 = {
 		birth = yes
 	}
 }

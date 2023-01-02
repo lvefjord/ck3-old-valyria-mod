@@ -134,9 +134,10 @@
 	dna = 1_daemon
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_hair=male_hair_western_07
+			custom_hair=male_hair_northern_02
 			custom_beards=male_empty
 			custom_headgear=male_empty
+			custom_clothes=male_clothes_secular_steppe_war_nobility_01_low
 		}
 	}
 	dynasty = 91114881997

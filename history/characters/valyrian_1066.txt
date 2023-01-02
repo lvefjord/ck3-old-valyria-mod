@@ -71,8 +71,9 @@
 	dna = 1997123456_visenya
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_headgear=female_headgear_religious_northern_high_01
-			custom_clothes=female_clothes_secular_indian_war_nobility_01_low
+			custom_headgear=female_headgear_secular_fp1_royalty_01
+			custom_clothes=female_clothes_secular_dde_abbasid_war_nobility_01_low
+			custom_hair=female_hair_fp2_iberian_muslim_01_common
 		}
 	}
 	dynasty = 91114881997

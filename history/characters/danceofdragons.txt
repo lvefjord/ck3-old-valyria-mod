@@ -84,6 +84,7 @@ dance_aemond = {
 			custom_beards=male_empty
 			custom_headgear=male_empty
 			custom_special=male_headgear_special_eye_patch_01
+			custom_cloak=male_cloaks_secular_western_royalty_01
 		}
 	}
 	religion = "valyrian"

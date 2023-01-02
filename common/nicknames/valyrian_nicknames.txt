@@ -11,3 +11,4 @@ nick_stormking = {}
 nick_theblack = {}
 nick_who_knelt = {}
 nick_one_eye = {}
+nick_red_kraken = {}

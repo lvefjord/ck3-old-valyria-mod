@@ -1,0 +1,224 @@
+﻿k_iron_islands = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+d_iron_islands = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+c_great_wyk = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_sealskin_point = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_hammerhorn = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_pebbleton = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+c_saltcliffe = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_saltcastle = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_salt_hall = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+c_pyke = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_pyke = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_iron_holt = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+c_harlaw = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_ten_towers = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_harlaw_hall = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_grey_garden = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+c_orkmont = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_orkfort = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+c_blacktyde = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_blacktyde_castle = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+c_isle_of_man = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+cultural_names = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_castletown = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+cultural_names = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
+
+b_ramsey = {
+	866.1.1 = { 
+		holder = ac1
+	}
+	1066.1.1 = {
+		holder = dod1
+	}
+}
