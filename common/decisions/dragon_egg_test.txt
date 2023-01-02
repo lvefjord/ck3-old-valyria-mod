@@ -5,7 +5,7 @@
 	selection_tooltip = "Claim an Egg"
 	picture = "gfx/interface/illustrations/decisions/decision_activity.dds"
 
-	major = no
+	major = yes
 	
 	is_shown = {
 		always = yes
@@ -25,12 +25,43 @@
 	ai_check_interval = 1
 
 	effect = {
+		start_dragon_story_cycle_effect
+		random_owned_story = { 
+			limit = { 
+				story_type = story_cycle_dragon 
+			} 
+			save_scope_as = the_story 
+		}
+
+		if = {
+			limit = {
+				scope:the_story = {
+				var:dragon_age_variable > 1
+				}
+			}
+			add_trait = dragon_rider
+		}
+
+
+
+
+	}
+}
+
+
+
+
+
+
+
 		#random_character_artifact = {
 		#	limit = { artifact_type = dragon_egg }
 		#	destroy_artifact = this
 		#}
-		start_dragon_story_cycle_effect = yes
+		#start_dragon_story_cycle_effect = yes
+		#custom_tooltip = {
+		#	text = "The beast is ready."
+		#	trigger_event = dragon.0001
+		#	trigger_event = sb.0001
+		#}
 		
-	}
-
-}

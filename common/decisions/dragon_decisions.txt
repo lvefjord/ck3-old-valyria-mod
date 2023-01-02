@@ -40,28 +40,39 @@
 		}
 	}
 }
+#any_owned_story = {
+#	story_type = story_cycle_pet_dragon
+#	exists = story_owner.var:story_cycle_dragon_name
+#}
 
-
-pet_dragoncheck_name_decision = { #by Linnéa Thimrén
+dragon_train_decision_1 = { #by Linnéa Thimrén
 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
-
-	desc = dragon_name
-	selection_tooltip = pet_dragon_decision_tooltip
-
+	title = "Train your Hatchling"
+	desc = "You must teach it to obey you"
+	selection_tooltip = "Train"
+	major = yes
 	ai_check_interval = 120
-
-	cooldown = { days = 1825 }
+	confirm_text = "Dohaeris [ROOT.Char.Custom('DragonStoryName')|U]!"
+	
 
 	is_shown = {
-		always = yes
+		has_trait = valyrian_blood
+		is_ai = no
+		NOT = {
+			has_character_flag = trained_dragon_1
+		}
 	}
 
-	is_valid = {
-		is_ai = no
+	is_valid_showing_failures_only = {
+		any_owned_story = {
+			story_type = story_cycle_dragon
+			save_temporary_scope_as = the_temp_story
+			scope:the_temp_story = {var:dragon_age_variable < 1}
+		}
 	}
 
 	effect = {
-		custom_tooltip = "[ROOT.Char.Custom('DragonStoryName')|U]"
+		trigger_event = dragon.0002
 	}
 	
 	ai_potential = {
@@ -71,9 +82,6 @@ pet_dragoncheck_name_decision = { #by Linnéa Thimrén
 	ai_will_do = {
 		base = 0
 
-		modifier = {
-			add = 100
-			stress > 10
-		}
 	}
 }
+

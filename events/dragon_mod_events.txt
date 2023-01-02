@@ -8,71 +8,62 @@ dragon.0001 = {
 	override_background = { event_background = egg_hatch }
 	left_portrait = root
 
+	immediate = {
+		
+	}
+
 	trigger = {
-		any_owned_story = {
-			story_type = story_cycle_dragon
-		}
+		has_trait = valyrian_blood
 	}
 	
-	immediate = {
-		random_owned_story = {
-			limit = {
-				story_type = story_cycle_dragon
-			}
-			save_scope_as = story
-		}
-	}
 
 	option = {
 		
-		name = "May i?"
-		random_list = {
-			95 = {
-				desc = "whats"
-				modifier = {
-					add = 20
-					scope:story = {
-						var:dragon_age_variable < 10
-					}
-				}
-				
-				add_trait = dragon_rider
-				
-			}
-			5 = { 
-				desc = "sss"
-				modifier = { 
-					add = 20
-					scope:story = {
-						var:dog_age_variable > 10
-					}
-				}
-				show_as_tooltip = {
-					remove_dragon_story_modifiers_effect = yes
-				}
-				scope:story = {
-					hidden_effect = { end_story = yes }
-				}
-			}
-		}
-
+		name = "Dohaeris [ROOT.Char.Custom('DragonStoryName')]"
+		add_trait = dragon_rider
+		
 		ai_chance = {
 			base = 50
 			ai_value_modifier = {
-				ai_energy = 0.5
-			}
-		}
-	}
-
-	option = { #Nah
-		name = "ssnah"
-
-		ai_chance = {
-			base = 50
-			ai_value_modifier = {
-				ai_boldness = 0.75
 				ai_energy = 0.5
 			}
 		}
 	}
 }
+
+dragon.0002 = {
+	type = character_event
+	title = "How to Train your Dragon"
+	desc = "to defeat the huns"
+	theme = pet
+	override_background = { event_background = egg_hatch }
+	left_portrait = root
+
+	immediate = {
+		add_character_flag = trained_dragon_1
+	}
+
+	trigger = {
+		has_trait = valyrian_blood
+	}
+	
+
+	option = {
+		name = "Dohaeris [ROOT.Char.Custom('DragonStoryName')]"
+		random_list = {
+		 75 = {
+			custom_tooltip = {
+				text = "That was scary"
+				add_trait = brave
+			}
+		}
+		25 = {
+			custom_tooltip = {
+				text = "Ouch"
+				add_trait = wounded
+			}
+		}
+		}
+	}
+}
+
