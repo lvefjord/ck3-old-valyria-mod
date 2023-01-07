@@ -1,6 +1,0 @@
-﻿old_crown_modifier = {
-	monthly_dynasty_prestige_mult = 0.16
-	vassal_limit = 25
-	monthly_prestige_gain_per_happy_powerful_vassal_mult = 0.02
-	courtier_and_guest_opinion = 10
-}

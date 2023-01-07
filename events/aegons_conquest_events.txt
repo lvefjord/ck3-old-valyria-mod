@@ -1,4 +1,4 @@
-namespace = ac #aegons conquest
+﻿namespace = ac #aegons conquest
 
 #dorne
 ac.0001 = {
@@ -605,25 +605,15 @@ ac.0009 = {
 		
 
 		
-		create_artifact = {
-			name = "Conqueror's Crown"
-			description = "A crown of valyrian steel worn by Aegon the Conqueror."
-			type = helmet
-			visuals = blackfyrecrown
-			history = {
-				type = created_before_history
+		if = {
+			limit = {
+				current_date < 1065.1.1
+				exists = character:999999999999
+				character:999999999999 = { is_alive = yes }
 			}
-			modifier = artifact_monthly_prestige_add_4_modifier
-			modifier = artifact_monthly_minor_prestige_4_modifier
-			decaying = no
-			rarity = illustrious
-			save_scope_as = a_crown
-		}
-	
-		scope:a_crown = {
-			equip_artifact_to_owner = yes
 			
-			save_scope_as = epic
+				create_artifact_old_crown_effect = { OWNER = character:999999999999 }
+			
 		}
 
 			hidden_effect = {

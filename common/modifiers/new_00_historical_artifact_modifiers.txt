@@ -19,3 +19,10 @@ dragonegg_modifier = {
 	dynasty_opinion = 10
 	same_faith_opinion = 5
 }
+
+old_crown_modifier = {
+	monthly_dynasty_prestige_mult = 0.1
+	monthly_dynasty_prestige = 0.10
+	short_reign_duration_mult = 0.14
+	dynasty_house_opinion = 10
+}
