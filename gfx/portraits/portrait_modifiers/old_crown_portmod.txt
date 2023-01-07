@@ -1,0 +1,43 @@
+﻿#example = {
+#	cool_kids = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = replace
+#				
+#				gene = headgear
+#				template = cool_people
+#				value = 0.75
+#			}
+#		}	
+#		weight = {
+#			base = 1
+#			modifier = {
+#				factor = 0
+#				is_adult = yes
+#			}
+#		}
+#	}
+#}
+
+valyrian_stuff = {
+	aegons_crown = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = headgear
+					template = the_old_crown
+					range = { 0 1 } # For the randomness to work correctly
+				}
+			}	
+			weight = {
+				base = 0
+				modifier = {
+					add = 140
+					exists = this
+					any_equipped_character_artifact = {
+						has_variable = conq_crown
+					}
+				}
+			}
+		}
+	}

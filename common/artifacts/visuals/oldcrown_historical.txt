@@ -1,0 +1,5 @@
+﻿old_crown = {
+	icon = "artifact_blackfyrecrown.dds"
+	asset = male_headgear_secular_northern_oldcrown_entity
+	pedestal = "tall_pillow"
+}
