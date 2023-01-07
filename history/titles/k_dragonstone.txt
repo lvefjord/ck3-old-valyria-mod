@@ -2,20 +2,20 @@ d_dragonstone = {
 	867.1.1 = { 
 		government = feudal_government
 		change_development_level = 6 
-		holder = 999999999999
+		holder = aegon1
 	}
 	1066.1.1 = {
-		holder = 9988773
+		holder = rhaenyra1
 	}
  }
  
  c_dragonstone = {
 	867.1.1 = {
-		holder = 999999999999
+		holder = aegon1
 		change_development_level = 25
 	}
 	1066.1.1 = {
-		holder = 9988773
+		holder = rhaenyra1
 	}
 }
 
@@ -27,7 +27,7 @@ c_driftmark = {
 		liege = "d_dragonstone"
 	}
 	1066.1.1 = {
-		holder = 9988775
+		holder = corlys1
 	}
  }
  

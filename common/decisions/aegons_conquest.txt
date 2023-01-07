@@ -58,7 +58,7 @@ aconquest_1 = {
 		
 		title:c_middlesex = {
 			change_title_holder = {
-				holder = character:999999999999
+				holder = character:aegon1
 				change = scope:change
 			}
 		}

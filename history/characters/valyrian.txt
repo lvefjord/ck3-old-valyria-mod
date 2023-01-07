@@ -1,5 +1,5 @@
  #Papa Targ
-999999999996 = {
+aerion1 = {
 	name = "Aerion"
 	dynasty = 91114881997
 	religion = "valyrian"
@@ -13,7 +13,7 @@
 		}
 	}
 	826.1.1 = {
-		add_spouse = 999999999995
+		add_spouse = valaena1
 	}
 	860.1.1 = {
 		death = yes
@@ -21,7 +21,7 @@
 }
 
 #Mama Targ
-999999999995 = {
+valaena1 = {
 	name = "Valaena" 
 	female = yes
 	dynasty = 91114881996
@@ -32,7 +32,7 @@
 		birth = yes
 	}
 	826.1.1 = {
-		add_spouse = 999999999996
+		add_spouse = aerion1
 	}
 	860.1.1 = {
 		death = yes
@@ -40,7 +40,7 @@
 }
 
 #visenya
-999999999998 = {
+visenya1 = {
 	name = "Visenya" #Fictitious
 	dna = 1997123456_visenya
 	portrait_override={
@@ -67,8 +67,8 @@
 	trait = valyrian_blood
 	sexuality = heterosexual
 	disallow_random_traits = yes
-	father = 999999999996
-	mother = 999999999995
+	father = aerion1
+	mother = valaena1
 		837.1.1 = {
 		birth = yes
 		effect = {
@@ -76,7 +76,7 @@
 		}
 	}
 	853.1.1 = {
-		add_spouse = 999999999999
+		add_spouse = aegon1
 	}
 	880.1.1 = {
 		death = yes
@@ -84,7 +84,7 @@
 }
 
 #Rhaenys
-999999999997 = {
+rheanys1 = {
 	name = "Rhaenys" 
 	dna = 1997123456_visenya
 	portrait_override={
@@ -111,8 +111,8 @@
 	trait = valyrian_blood
 	sexuality = heterosexual
 	disallow_random_traits = yes
-	father = 999999999996
-	mother = 999999999995
+	father = aerion1
+	mother = valaena1
 		841.1.1 = {
 		birth = yes
 		effect = {
@@ -120,7 +120,7 @@
 		}
 	}
 	857.1.1 = {
-		add_spouse = 999999999999
+		add_spouse = aegon1
 	}
 	881.1.1 = {
 		death = yes
@@ -129,17 +129,9 @@
 
 
 #Aegon
-999999999999 = {
+aegon1 = {
 	name = "Aegon" 
 	dna = 1_daemon
-	portrait_override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_northern_02
-			custom_beards=male_empty
-			custom_headgear=male_empty
-			custom_clothes=male_clothes_secular_steppe_war_nobility_01_low
-		}
-	}
 	dynasty = 91114881997
 	religion = "valyrian"
 	culture = "valyrian"
@@ -157,17 +149,17 @@
 	trait = valyrian_blood
 	sexuality = heterosexual
 	disallow_random_traits = yes
-	father = 999999999996
-	mother = 999999999995
+	father = aerion1
+	mother = valaena1
 	839.1.1 = {
 		birth = yes
 	}
 	853.1.1 = {
-		add_spouse = 999999999998
+		add_spouse = visenya1
 	}
 	
 	857.1.1 = {
-		add_spouse = 999999999997
+		add_spouse = rheanys1
 	}
 	859.1.1 = {
 		effect = {
@@ -196,7 +188,7 @@
 		birth = yes
 	}
 	867.1.1 = {
-		employer  = 999999999999
+		employer  = aegon1
 		give_council_position = councillor_steward
 	}
 	883.1.1 = {
@@ -298,7 +290,7 @@
 }
 
 #Orys B
-999999999988 = {
+orysb = {
 	name = "Orys" 
 	dynasty = 91114881994
 	dna = baratheon_hair
@@ -319,7 +311,7 @@
 	trait = wrathful
 	trait = dragonseed
 	disallow_random_traits = yes
-	father = 999999999996
+	father = aerion1
 	sexuality = heterosexual
 	martial = 18
 	diplomacy = 17
@@ -327,7 +319,7 @@
 		birth = yes
 	}
 		867.1.1 = {
-		employer  = 999999999999
+		employer  = aegon1
 		give_council_position = councillor_chancellor
 		}
 		880.1.1 = {
@@ -349,7 +341,7 @@
 		birth = yes
 	}
 	867.1.1 = {
-		employer  = 999999999999
+		employer  = aegon1
 		give_council_position = councillor_marshal
 	}
 	880.1.1 = {
@@ -370,7 +362,7 @@
 		birth = yes
 	}
 	867.1.1 = {
-		employer  = 999999999999
+		employer  = aegon1
 		}
 	880.1.1 = {
 		death = yes
@@ -390,7 +382,7 @@
 		birth = yes
 	}
 	867.1.1 = {
-		employer  = 999999999999
+		employer  = aegon1
 		give_council_position = councillor_spymaster
 		}
 	880.1.1 = {

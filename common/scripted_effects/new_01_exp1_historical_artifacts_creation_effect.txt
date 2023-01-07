@@ -16,7 +16,7 @@
 			history = {
 				type = created
 				date = 800.1.1
-				recipient = character:999999999996 #Aegons dad
+				recipient = character:aerion1 #Aegons dad
 				location = province:9661 #Dragonstone
 			}
 			modifier = blackfyre_modifier
@@ -61,7 +61,7 @@ create_artifact_dark_sister = {
 		history = {
 			type = created
 			date = 846.1.1
-			recipient = character:999999999996 #Aegons dad
+			recipient = character:aerion1 #Aegons dad
 			location = province:9661 #Dragonstone
 		}
 		modifier = dark_sister_modifier
@@ -94,10 +94,10 @@ create_artifact_old_crown_effect = {
 
 	set_artifact_rarity_illustrious = yes
 
-	# Create the artifact
+	scope:owner = {
 	create_artifact = {	
 		name = "Conqueror's Crown"
-		description = "The Crown of the Conqueror, lending legitimacy to the wearer."
+		description = "The Crown of the Conqueror, lending great legitimacy to the wearer."
 		type = helmet
 		visuals = old_crown
 		wealth = scope:wealth
@@ -106,14 +106,14 @@ create_artifact_old_crown_effect = {
 		history = {
 			type = created
 			date = 869.1.1
-			recipient = character:999999999999 #Aegon I
+			recipient = character:aegon1 #Aegon I
 			location = province:1527 #King's Landing
 		}
 		modifier = old_crown_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
-
+}
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = {

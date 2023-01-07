@@ -13,21 +13,21 @@ historical_artifacts.9999 = {
 		if = {
 			limit = {
 				current_date < 1065.1.1
-				exists = character:999999999999
-				character:999999999999 = { is_alive = yes }
+				exists = character:aegon1
+				character:aegon1 = { is_alive = yes }
 			}
 			
-				create_artifact_blackfyre_effect = { OWNER = character:999999999999 }
+				create_artifact_blackfyre_effect = { OWNER = character:aegon1 }
 			
 		}
 		## Dark Sister
 		if = {
 			limit = {
 				current_date < 1065.1.1
-				exists = character:999999999998
-				character:999999999998 = { is_alive = yes }
+				exists = character:visenya1
+				character:visenya1 = { is_alive = yes }
 			}
-				create_artifact_dark_sister = { OWNER = character:999999999998 }
+				create_artifact_dark_sister = { OWNER = character:visenya1 }
 		}
 
 		
@@ -45,32 +45,32 @@ historical_artifacts.9998 = {
 		if = {
 			limit = {
 				current_date > 1065.1.1
-				exists = character:9988779
-				character:9988779 = { is_alive = yes }
+				exists = character:aegon2
+				character:aegon2 = { is_alive = yes }
 			}
 			
-				create_artifact_blackfyre_effect = { OWNER = character:9988779 }
+				create_artifact_blackfyre_effect = { OWNER = character:aegon2 }
 			
 		}
 		## Dark Sister
 		if = {
 			limit = {
 				current_date > 1065.1.1
-				exists = character:9988774
-				character:9988774 = { is_alive = yes }
+				exists = character:daemon1
+				character:daemon1 = { is_alive = yes }
 			}
 			
-				create_artifact_dark_sister = { OWNER = character:9988774 }
+				create_artifact_dark_sister = { OWNER = character:daemon1 }
 		}
 		##ConqCrown
 		if = {
 			limit = {
 				current_date > 1065.1.1
-				exists = character:9988779
-				character:9988779 = { is_alive = yes }
+				exists = character:aegon2
+				character:aegon2 = { is_alive = yes }
 			}
 			
-				create_artifact_old_crown_effect = { OWNER = character:9988779 }
+			create_artifact_old_crown_effect = { OWNER = character:aegon2 }
 			
 		}
 	}

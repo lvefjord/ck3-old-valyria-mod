@@ -31,7 +31,7 @@
 	}
 
 	is_valid = {
-		character:9988773 = {
+		character:rhaenyra1 = {
 			has_claim_on = title:e_the_iron_throne
 		}
 		has_title = title:d_dragonstone
@@ -64,8 +64,8 @@
 
 		start_war = { 
 			casus_belli = claim_cb 
-			target = character:9988779
-			claimant = character:9988773
+			target = character:aegon2
+			claimant = character:rhaenyra1
 			target_title = title:e_the_iron_throne
 		}
 

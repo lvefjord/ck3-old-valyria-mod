@@ -19,7 +19,7 @@
 		culture = valyrian
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = 999999999999
+		history_id = aegon1
 		position = { 800 750 }
 
 		animation = personality_bold
@@ -33,7 +33,7 @@
 			birth = 837.1.1
 			culture = valyrian
 			religion = valyrian
-			history_id = 999999999998
+			history_id = visenya1
 			animation = personality_greedy
 		}
 
@@ -46,7 +46,7 @@
 			birth = 841.1.1
 			culture = valyrian
 			religion = valyrian
-			history_id = 999999999997
+			history_id = rheanys1
 			animation = worry
 		}
 		
@@ -93,7 +93,7 @@ bm_1066_dragons = {
 		culture = valyrian
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = 9988773
+		history_id = rhaenyra1
 		position = { 800 750 }
 
 		animation = personality_bold

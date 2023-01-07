@@ -1,7 +1,7 @@
 #129 AC = 1066
 
 #Viserys I / Dad
-9988771 = {
+viserys1 = {
 	name = "Viserys"
 	dynasty = 91114881997
 	religion = "valyrian"
@@ -21,10 +21,10 @@
 		}
 	}
 	1030.1.1 = {
-		add_spouse = 9988772
+		add_spouse = aemma1
 	}
 	1042.1.1 = {
-		remove_spouse = 9988772
+		remove_spouse = aemma1
 	}
 	1052.1.1 = {
 		add_spouse = dance_alicent
@@ -37,7 +37,7 @@
 
 
 #Aemma / Mom
-9988772 = {
+aemma1 = {
 	name = "Aemma"
 	female = yes
 	dynasty = 91114881990 
@@ -51,7 +51,7 @@
 		birth = yes
 	}
 	1030.1.1 = {
-		add_spouse = 9988771
+		add_spouse = viserys1
 	}
 	1042.1.1 = {
 		death = yes
@@ -63,7 +63,7 @@
 
 
 #Rhaenyra / Whore
-9988773 = {
+rhaenyra1 = {
 	name = "Rhaenyra"
 	religion = "valyrian"
 	culture = "valyrian"
@@ -71,7 +71,6 @@
 	dna = 1997123456_visenya
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_headgear=female_headgear_secular_fp1_royalty_01
 			custom_clothes=female_clothes_secular_dde_abbasid_war_nobility_01_low
 			custom_hair=female_hair_fp2_iberian_muslim_01_common
 		}
@@ -92,8 +91,8 @@
 	intrigue = 10
 	martial = 11
 	stewardship = 13
-	mother = 9988772
-	father = 9988771
+	mother = aemma1
+	father = viserys1
 	1034.1.1 = {
 		birth = yes
 		effect = {
@@ -107,21 +106,20 @@
 		remove_spouse = dance_laenor
 	}
 	1057.1.2 = {
-		add_matrilineal_spouse = 9988774
+		add_matrilineal_spouse = daemon1
 	}
 }
 
 
 
 #Daemon rogue prince
-9988774 = {
+daemon1 = {
 	name = "Daemon"
 	dna = 1_daemon
 	portrait_override={
 		portrait_modifier_overrides={
 			custom_hair=male_hair_fp1_09
 			custom_beards=male_empty
-			custom_headgear=male_empty
 		}
 	}
 	dynasty = 91114881997
@@ -155,7 +153,7 @@
 		remove_spouse = dance_laena
 	}
 	1057.1.2 = {
-		add_matrilineal_spouse = 9988773
+		add_matrilineal_spouse = rhaenyra1
 	}
 }
 
@@ -163,7 +161,7 @@
 
 
 #Corlys / Driftmark
-9988775 = {
+corlys1 = {
 	name = "Corlys"
 	dna = 1997123456_velaryon
 	portrait_override={
@@ -190,7 +188,7 @@
 		birth = yes
 	}
 	1027.1.1 = {
-		add_spouse = 9988778
+		add_spouse = dance_rhaenys
 	}
 	1066.1.1 = {
 		give_council_position = councillor_chancellor
@@ -219,7 +217,7 @@
 		birth = yes
 	}
 	1066.1.1 = {
-		employer = 9988773
+		employer = rhaenyra1
 		give_council_position = councillor_steward
 	}
 }
@@ -245,13 +243,13 @@
 		birth = yes
 	}
 	1066.1.1 = {
-		employer = 9988773
+		employer = rhaenyra1
 		give_council_position = councillor_spymaster
 	}
 }
 
 #Rhaenys
-9988778 = {
+dance_rhaenys = {
 	name = "Rhaenys"
 	dynasty = 91114881997
 	female = yes
@@ -271,16 +269,15 @@
 		}
 	}
 	1027.1.1 = {
-		add_spouse = 9988775
+		add_spouse = corlys1
 	}
 }
 
-9988779 = {
+aegon2 = {
 	name = "Aegon"
 	dynasty = 91114881997
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_headgear=male_headgear_secular_western_high_nobility_01
 			custom_beards=male_empty
 		}
 	}
@@ -298,7 +295,7 @@
 	trait = impatient
 	trait = valyrian_blood
 	mother = dance_alicent
-	father = 9988771
+	father = viserys1
 	sexuality = heterosexual
 	disallow_random_traits = yes
 	1044.1.1 = {
@@ -392,7 +389,7 @@
 	}
 }
 #Borros Baratheon
-9988785 = {
+borrosb = {
 	name = "Borros"
 	portrait_override={
 		portrait_modifier_overrides={

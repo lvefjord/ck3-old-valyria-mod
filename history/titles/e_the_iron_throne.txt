@@ -1,8 +1,8 @@
 e_the_iron_throne = {
 	869.1.1 = { 
-		holder = 999999999999
+		holder = aegon1
 	}
 	1066.1.1 = {
-		holder = 9988779
+		holder = aegon2
 	}
 }

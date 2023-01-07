@@ -60,7 +60,7 @@ ac.0002 = {
 	}
 
 	left_portrait = {
-		character = character:999999999988
+		character = character:orysb
 		animation = aggressive_sword
 	}
 	
@@ -72,8 +72,8 @@ ac.0002 = {
 		exists = character:9988793
 		character:9988793 = { is_alive = yes }
 		#orys scope
-		exists = character:999999999988
-		character:999999999988 = { is_alive = yes }
+		exists = character:orysb
+		character:orysb = { is_alive = yes }
 		##########
 	}
 
@@ -98,21 +98,21 @@ ac.0002 = {
 		
 		title:k_the_stormlands = {
 			change_title_holder_include_vassals = {
-				holder = character:999999999988
+				holder = character:orysb
 				change = scope:change
 			}
 		}
 
 		resolve_title_and_vassal_change = scope:change
 
-		character:999999999988 = {
+		character:orysb = {
 			marry = character:9988798
 		}
 		
 		character:9988793 = {
 			death = {
 				death_reason = death_duel
-				killer = character:999999999988
+				killer = character:orysb
 			}
 		}
 		dynasty = {add_dynasty_prestige = 500}
@@ -452,42 +452,42 @@ ac.0008 = {
 	
 		title:b_woxbrigge = {
 			change_title_holder = {
-				holder = character:999999999999
+				holder = character:aegon1
 				change = scope:change
 			}
 		}
 	
 		title:b_gore = {
 			change_title_holder = {
-				holder = character:999999999999
+				holder = character:aegon1
 				change = scope:change
 			}
 		}
 	
 		title:b_southwark = {
 			change_title_holder = {
-				holder = character:999999999999
+				holder = character:aegon1
 				change = scope:change
 			}
 		}
 	
 		title:b_london = {
 			change_title_holder = {
-				holder = character:999999999999
+				holder = character:aegon1
 				change = scope:change
 			}
 		}
 	
 		title:c_middlesex = {
 			change_title_holder = {
-				holder = character:999999999999
+				holder = character:aegon1
 				change = scope:change
 			}
 		}
 	
 		title:b_brentford = {
 			change_title_holder = {
-				holder = character:999999999999
+				holder = character:aegon1
 				change = scope:change
 			}
 		}
@@ -595,7 +595,7 @@ ac.0009 = {
 	}
 	override_background = { event_background = throne_room_west }
 	right_portrait = {
-		character = character:999999999998
+		character = character:visenya1
 		animation = frontend_left_idle
 		hide_info = yes
 	}
@@ -608,11 +608,11 @@ ac.0009 = {
 		if = {
 			limit = {
 				current_date < 1065.1.1
-				exists = character:999999999999
-				character:999999999999 = { is_alive = yes }
+				exists = character:aegon1
+				character:aegon1 = { is_alive = yes }
 			}
 			
-				create_artifact_old_crown_effect = { OWNER = character:999999999999 }
+				create_artifact_old_crown_effect = { OWNER = character:aegon1 }
 			
 		}
 

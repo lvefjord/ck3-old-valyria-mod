@@ -15,8 +15,8 @@ westeros.0001 = {
 		character:9988781 = { is_alive = yes }
 		############################
 		#Aegon II
-		exists = character:9988779
-		character:9988779 = { is_alive = yes }
+		exists = character:aegon2
+		character:aegon2 = { is_alive = yes }
 		##############################
 		#Qoren Martell
 		exists = character:9988782
@@ -31,8 +31,8 @@ westeros.0001 = {
 		character:9988784 = { is_alive = yes }
 		#############################
 		#Borros Baratheon
-		exists = character:9988785
-		character:9988785 = { is_alive = yes }
+		exists = character:borrosb
+		character:borrosb = { is_alive = yes }
 		#############################
 		#Jeyne Arryn
 		exists = character:9988786
@@ -46,13 +46,13 @@ westeros.0001 = {
 		
 		title:e_the_iron_throne = {
 			change_title_holder = {
-				holder = character:9988779
+				holder = character:aegon2
 				change = scope:change
 			}
 		}
 		title:c_middlesex = {
 			change_title_holder = {
-				holder = character:9988779
+				holder = character:aegon2
 				change = scope:change
 			}
 		}
@@ -218,7 +218,7 @@ westeros.0001 = {
 		}
 		title:k_the_stormlands = {
 			change_title_holder = {
-				holder = character:9988785
+				holder = character:borrosb
 				change = scope:change
 			}
 		}
@@ -254,43 +254,43 @@ westeros.0001 = {
 		}
 		title:c_hertfordshire = {
 			change_title_holder = {
-				holder = character:9988785
+				holder = character:borrosb
 				change = scope:change
 			}
 		}
 		title:c_essex = {
 			change_title_holder = {
-				holder = character:9988785
+				holder = character:borrosb
 				change = scope:change
 			}
 		}
 		title:c_bedford = {
 			change_title_holder = {
-				holder = character:9988785
+				holder = character:borrosb
 				change = scope:change
 			}
 		}
 		title:c_suffolk = {
 			change_title_holder = {
-				holder = character:9988785
+				holder = character:borrosb
 				change = scope:change
 			}
 		}
 		title:c_norfolk = {
 			change_title_holder = {
-				holder = character:9988785
+				holder = character:borrosb
 				change = scope:change
 			}
 		}
 		title:c_cambridgeshire = {
 			change_title_holder = {
-				holder = character:9988785
+				holder = character:borrosb
 				change = scope:change
 			}
 		}
 		title:c_huntingdonshire = {
 			change_title_holder = {
-				holder = character:9988785
+				holder = character:borrosb
 				change = scope:change
 			}
 		}
@@ -612,13 +612,13 @@ westeros.0001 = {
 		
 		title:k_the_vale = {
 			change_title_holder_include_vassals = {
-				holder = character:9988779
+				holder = character:aegon2
 				change = scope:change
 			}
 		}
 		title:k_the_north = {
 			change_title_holder_include_vassals = {
-				holder = character:9988779
+				holder = character:aegon2
 				change = scope:change
 			}
 		}
@@ -636,51 +636,51 @@ westeros.0001 = {
 			add_claim_on_loss = no
 		}
 
-		character:9988785 = {
+		character:borrosb = {
 			change_liege = {
-				LIEGE = character:9988779
+				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
 		character:9988782 = {
 			change_liege = {
-				LIEGE = character:9988779
+				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
 		character:9988784 = {
 			change_liege = {
-				LIEGE = character:9988779
+				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
 		character:9988786 = {
 			change_liege = {
-				LIEGE = character:9988779
+				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
 		character:9988781 = {
 			change_liege = {
-				LIEGE = character:9988779
+				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
 		character:9988783 = {
 			change_liege = {
-				LIEGE = character:9988779
+				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
 		character:9988780 = {
 			change_liege = {
-				LIEGE = character:9988779
+				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
@@ -688,7 +688,7 @@ westeros.0001 = {
 		}
 		character:dod1 = {
 			change_liege = {
-				LIEGE = character:9988779
+				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
@@ -909,7 +909,7 @@ westeros.0001 = {
 			update_dynamic_coa = yes
 		}
 
-		character:9988773 = {
+		character:rhaenyra1 = {
 			add_pressed_claim =	title:e_the_iron_throne
 		}
 

@@ -5,7 +5,7 @@
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	mother = 9988773
+	mother = rhaenyra1
 	father = dance_laenor
 	real_father = dance_harwin
 	1051.1.1 = {
@@ -23,7 +23,7 @@ dance_luce = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	mother = 9988773
+	mother = rhaenyra1
 	father = dance_laenor
 	real_father = dance_harwin
 	1052.1.1 = {
@@ -41,7 +41,7 @@ dance_joff = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	mother = 9988773
+	mother = rhaenyra1
 	father = dance_laenor
 	real_father = dance_harwin
 	1054.1.1 = {
@@ -60,7 +60,7 @@ dance_helaena = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	father = 9988771
+	father = viserys1
 	mother = dance_alicent
 	1046.1.1 = {
 		birth = yes
@@ -69,7 +69,7 @@ dance_helaena = {
 		}
 	}
 	1065.1.1 = {
-		add_spouse = 9988779
+		add_spouse = aegon2
 	}
 }
 
@@ -82,7 +82,6 @@ dance_aemond = {
 			custom_clothes=male_clothes_secular_indian_war_nobility_01_low
 			custom_hair=male_hair_fp2_iberian_muslim_03
 			custom_beards=male_empty
-			custom_headgear=male_empty
 			custom_special=male_headgear_special_eye_patch_01
 			custom_cloaks=male_cloaks_secular_western_royalty_01
 		}
@@ -97,7 +96,7 @@ dance_aemond = {
 	trait = arrogant
 	trait = aggressive_attacker
 	give_nickname = nick_one_eye
-	father = 9988771
+	father = viserys1
 	mother = dance_alicent
 	1047.1.1 = {
 		birth = yes
@@ -114,7 +113,7 @@ dance_daeron = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	father = 9988771
+	father = viserys1
 	mother = dance_alicent
 	1051.1.1 = {
 		birth = yes
@@ -131,8 +130,8 @@ dance_aegon3 = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	mother = 9988773
-	father = 9988775
+	mother = rhaenyra1
+	father = corlys1
 	1057.3.3 = {
 		birth = yes
 		effect = {
@@ -148,8 +147,8 @@ dance_viserys2 = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	mother = 9988773
-	father = 9988775
+	mother = rhaenyra1
+	father = corlys1
 	1059.1.1 = {
 		birth = yes
 		effect = {
@@ -171,10 +170,10 @@ dance_alicent = {
 		birth = yes
 	}
 	1052.1.1 = {
-		add_spouse = 9988771
+		add_spouse = viserys1
 	}
 	1066.1.1 = {
-		employer = 9988779
+		employer = aegon2
 		give_council_position = steward
 	}
 }
@@ -186,8 +185,8 @@ dance_laenor = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	father = 9988775
-	mother = 9988778
+	father = corlys1
+	mother = dance_rhaenys
 	1031.1.1 = {
 		birth = yes
 		effect = {
@@ -195,10 +194,10 @@ dance_laenor = {
 		}
 	}
 	1050.1.1 = {
-		add_matrilineal_spouse = 9988773 
+		add_matrilineal_spouse = rhaenyra1 
 	}
 	1057.1.1 = {
-		remove_spouse = 9988773
+		remove_spouse = rhaenyra1
 	}
 }
 
@@ -217,7 +216,7 @@ dance_otto = {
 		birth = yes
 	}
 	1066.1.1 = {
-		employer = 9988779
+		employer = aegon2
 		give_council_position = councillor_chancellor
 	}
 }
@@ -229,7 +228,7 @@ dance_jaehaerys  = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	father = 9988779
+	father = aegon2
 	mother = dance_helaena
 	1060.1.1 = {
 		birth = yes
@@ -246,7 +245,7 @@ dance_maelor  = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	father = 9988779
+	father = aegon2
 	mother = dance_helaena
 	1064.1.1 = {
 		birth = yes
@@ -261,7 +260,7 @@ dance_jaehaera = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	father = 9988779
+	father = aegon2
 	mother = dance_helaena
 	1060.1.1 = {
 		birth = yes
@@ -306,7 +305,7 @@ dance_larys = {
 		birth = yes
 	}
 	1066.1.1 = {
-		employer = 9988779
+		employer = aegon2
 		give_council_position = councillor_spymaster
 	}
 }
@@ -341,7 +340,7 @@ dance_lorent_maa = {
 		birth = yes
 	}
 	1066.1.1 = {
-		employer = 9988773
+		employer = rhaenyra1
 		give_council_position = councillor_marshal
 	}
 }
@@ -354,8 +353,8 @@ dance_laena = {
 	culture = "valyrian"
 	trait = dragon_rider
 	trait = valyrian_blood
-	father = 9988775
-	mother = 9988778
+	father = corlys1
+	mother = dance_rhaenys
 	1029.1.1 = {
 		birth = yes
 		effect = {
@@ -363,11 +362,11 @@ dance_laena = {
 		}
 	}
 	1050.1.1 = {
-		add_spouse = 9988774 
+		add_spouse = daemon1 
 	}
 	1057.1.1 = {
 		death = yes
-		remove_spouse = 9988774
+		remove_spouse = daemon1
 	}
 }
 
@@ -380,7 +379,7 @@ dance_baela = {
 	trait = dragon_rider
 	trait = valyrian_blood
 	trait = twin
-	father = 9988774
+	father = daemon1
 	mother = dance_laena
 	1053.1.1 = {
 		birth = yes
@@ -399,7 +398,7 @@ dance_rhaena = {
 	trait = dragon_rider
 	trait = valyrian_blood
 	trait = twin
-	father = 9988774
+	father = daemon1
 	mother = dance_laena
 	1053.1.1 = {
 		birth = yes

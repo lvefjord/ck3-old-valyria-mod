@@ -47,7 +47,7 @@ testeros_decision = {
 #	}
 #}
 
-#character:999999999988 = {
+#character:orysb = {
 #	marry = character:9988798
 #}
 
