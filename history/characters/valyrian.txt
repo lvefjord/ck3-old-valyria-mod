@@ -1,4 +1,4 @@
- #Papa Targ
+﻿ #Papa Targ
 aerion1 = {
 	name = "Aerion"
 	dynasty = 91114881997
@@ -45,7 +45,6 @@ visenya1 = {
 	dna = 1997123456_visenya
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_headgear=female_headgear_religious_northern_high_01
 			custom_hair=female_hair_fp2_iberian_muslim_03_common
 			custom_clothes=female_clothes_secular_indian_war_nobility_01_low
 		}
@@ -92,7 +91,6 @@ rheanys1 = {
 			custom_clothes=female_clothes_secular_western_nobility_02_high
 			custom_hair=female_hair_fp2_iberian_christian_02
 			custom_cloaks=female_empty
-			custom_headgear=female_empty
 		}
 	}
 	female = yes
@@ -132,6 +130,12 @@ rheanys1 = {
 aegon1 = {
 	name = "Aegon" 
 	dna = 1_daemon
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_fp1_09
+			custom_beards=male_empty
+		}
+	}
 	dynasty = 91114881997
 	religion = "valyrian"
 	culture = "valyrian"
@@ -298,7 +302,6 @@ orysb = {
 		portrait_modifier_overrides={
 			custom_hair=male_hair_northern_01
 			custom_beards=male_beard_western_01
-			custom_headgear=male_empty
 		}
 	}
 	religion = "valyrian"

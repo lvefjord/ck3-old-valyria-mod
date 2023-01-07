@@ -12,3 +12,4 @@ nick_theblack = {}
 nick_who_knelt = {}
 nick_one_eye = {}
 nick_red_kraken = {}
+nick_the_kinslayer = { is_bad = yes }

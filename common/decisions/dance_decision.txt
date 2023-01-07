@@ -1,6 +1,6 @@
 ﻿start_dance_decision = {
 	title = "Dance of the Dragons"
-	desc = "Start the war of the succession."
+	desc = "Start the War of the Succession."
 	confirm_text = "Begin the Dance"
 	selection_tooltip = "Fire and Blood"
 	picture = "gfx/interface/illustrations/decisions/decision_dance.dds"
@@ -18,6 +18,7 @@
 	}
 
 	is_shown = {
+		
 		current_date > 1065.1.1
 		NOT = {
 			has_character_flag = dance_started
@@ -31,28 +32,24 @@
 	}
 
 	is_valid = {
+		
 		character:rhaenyra1 = {
 			has_claim_on = title:e_the_iron_throne
 		}
 		has_title = title:d_dragonstone
 	}
 
+	is_valid_showing_failures_only = {
+		is_ai = no
+	}
+
 
 	effect = {
 		
-
-		spawn_army = { 
-			levies = 4300
-			men_at_arms = { 
-				type = dragonkeepers
-				men = 600
-			} 
-
-		location = province:9661
-		origin = province:9661
-		war_keep_on_attacker_victory = no
-		name = "The Blacks' Host"
-		}
+		
+		
+		custom_tooltip = "Viserys spoke often of the Valyrian histories. When dragons flew to war, everything burned."
+	
 
 		trigger_event = dod.0001
 		
@@ -62,12 +59,7 @@
 
 
 
-		start_war = { 
-			casus_belli = claim_cb 
-			target = character:aegon2
-			claimant = character:rhaenyra1
-			target_title = title:e_the_iron_throne
-		}
+		
 
 		add_character_flag = {
 			flag = dance_started

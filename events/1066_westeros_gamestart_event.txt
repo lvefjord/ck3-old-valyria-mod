@@ -3,40 +3,45 @@ namespace = westeros
 westeros.0001 = {
 	type = empty
 	hidden = yes
+	
+
+	after = {
+		trigger_event = dod.0001
+	}
 
 	immediate = {
 	
 		#Jason Lannister Warden West
-		exists = character:9988780
-		character:9988780 = { is_alive = yes }
+		exists = character:dance_lannister
+		character:dance_lannister = { is_alive = yes }
 		###########################
 		#Cregan Stark 
-		exists = character:9988781
-		character:9988781 = { is_alive = yes }
+		exists = character:dance_cregan
+		character:dance_cregan = { is_alive = yes }
 		############################
 		#Aegon II
 		exists = character:aegon2
 		character:aegon2 = { is_alive = yes }
 		##############################
 		#Qoren Martell
-		exists = character:9988782
-		character:9988782 = { is_alive = yes }
+		exists = character:dance_qoren
+		character:dance_qoren = { is_alive = yes }
 		##############################
 		#Lyonel Tyrell
-		exists = character:9988783
-		character:9988783 = { is_alive = yes }
+		exists = character:dance_tyrell
+		character:dance_tyrell = { is_alive = yes }
 		#############################
 		#Grover Tully
-		exists = character:9988784
-		character:9988784 = { is_alive = yes }
+		exists = character:dance_tully
+		character:dance_tully = { is_alive = yes }
 		#############################
 		#Borros Baratheon
 		exists = character:borrosb
 		character:borrosb = { is_alive = yes }
 		#############################
 		#Jeyne Arryn
-		exists = character:9988786
-		character:9988786 = { is_alive = yes }
+		exists = character:dance_jeynearryn
+		character:dance_jeynearryn = { is_alive = yes }
 		#############################
 		create_title_and_vassal_change = {
 			type = granted
@@ -59,14 +64,14 @@ westeros.0001 = {
 
 		title:k_the_westerlands = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		
 		title:c_carmarthenshire = {
 			change_title_holder = {
-				holder = character:9988780 
+				holder = character:dance_lannister 
 				change = scope:change
 			}
 		}
@@ -74,145 +79,145 @@ westeros.0001 = {
 
 		title:c_glamorgan = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:c_monmouthshire = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:d_gwynedd = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:d_powys = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:c_hereford = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:c_shropshire = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:c_worcestershire = {
 			change_title_holder = {
-				holder = character:9988783
+				holder = character:dance_tyrell
 				change = scope:change
 			}
 		}
 		title:c_merioneth = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:c_caernarfonshire = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:c_anglesey = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:c_pembrokeshire = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:c_cardiganshire = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:c_brecknockshire = {
 			change_title_holder = {
-				holder = character:9988780
+				holder = character:dance_lannister
 				change = scope:change
 			}
 		}
 		title:k_the_reach = {
 			change_title_holder = {
-				holder = character:9988783
+				holder = character:dance_tyrell
 				change = scope:change
 			}
 		}
 		title:c_cornwall = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
 		title:c_devon = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
 		title:c_somerset = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
 		title:c_dorset = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
 		title:k_dorne = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
 		title:c_sussex = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
 		title:c_gloucestershire = {
 			change_title_holder = {
-				holder = character:9988783
+				holder = character:dance_tyrell
 				change = scope:change
 			}
 		}
 		title:c_isle_of_wight = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
 		title:c_hampton = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
 		title:c_wiltshire = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
@@ -224,31 +229,31 @@ westeros.0001 = {
 		}
 		title:c_kent = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
 		title:c_surrey = {
 			change_title_holder = {
-				holder = character:9988782
+				holder = character:dance_qoren
 				change = scope:change
 			}
 		}
 		title:c_berkshire = {
 			change_title_holder = {
-				holder = character:9988783
+				holder = character:dance_tyrell
 				change = scope:change
 			}
 		}
 		title:c_oxfordshire = {
 			change_title_holder = {
-				holder = character:9988783
+				holder = character:dance_tyrell
 				change = scope:change
 			}
 		}
 		title:c_buckinghamshire = {
 			change_title_holder = {
-				holder = character:9988783
+				holder = character:dance_tyrell
 				change = scope:change
 			}
 		}
@@ -296,25 +301,25 @@ westeros.0001 = {
 		}
 		title:c_northamptonshire = {
 			change_title_holder = {
-				holder = character:9988783
+				holder = character:dance_tyrell
 				change = scope:change
 			}
 		}
 		title:k_the_north = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:d_western_isles = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:d_moray = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
@@ -374,234 +379,240 @@ westeros.0001 = {
 		}
 		title:c_northumberland = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_inner_hebrides = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_lennox = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_linlithgowshire = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_strathearn = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_fire = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_gowrie = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_atholl = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_angus = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_mearns = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_buchan = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_sutherland = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_caithness = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_moray = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_inverness = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_ross = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_fife = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_lanarkshire = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_lothian = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_dunbar = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_teviotdale = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:c_annandale = {
 			change_title_holder = {
-				holder = character:9988781
+				holder = character:dance_cregan
 				change = scope:change
 			}
 		}
 		title:k_the_riverlands = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		title:c_cumberland = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		title:c_warwickshire = {
 			change_title_holder = {
-				holder = character:9988783
+				holder = character:dance_tyrell
 				change = scope:change
 			}
 		}
 		title:c_staffordshire = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		title:c_cheshire = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		title:c_lancashire = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		title:c_derby = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		title:c_leicestershire = {
 			change_title_holder = {
-				holder = character:9988783
+				holder = character:dance_tyrell
 				change = scope:change
 			}
 		}
 		title:c_westmorland = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		title:c_west_riding = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		title:c_nottinghamshire = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		title:k_the_vale = {
 			change_title_holder = {
-				holder = character:9988786
+				holder = character:dance_jeynearryn
 				change = scope:change
 			}
 		}
 		title:c_durham = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		
 		title:c_north_riding = {
 			change_title_holder = {
-				holder = character:9988784
+				holder = character:dance_tully
 				change = scope:change
 			}
 		}
 		title:c_east_riding = {
 			change_title_holder = {
-				holder = character:9988786
+				holder = character:dance_jeynearryn
 				change = scope:change
 			}
 		}
 		title:c_lincolnshire = {
 			change_title_holder = {
-				holder = character:9988786
+				holder = character:dance_jeynearryn
 				change = scope:change
 			}
 		}
 		
+		title:e_new_valyria = {
+			change_title_holder = {
+				holder = character:rhaenyra1
+				change = scope:change
+			}
+		}
 		
 		
 
@@ -643,42 +654,42 @@ westeros.0001 = {
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
-		character:9988782 = {
+		character:dance_qoren = {
 			change_liege = {
 				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
-		character:9988784 = {
+		character:dance_tully = {
 			change_liege = {
 				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
-		character:9988786 = {
+		character:dance_jeynearryn = {
 			change_liege = {
 				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
-		character:9988781 = {
+		character:dance_cregan = {
 			change_liege = {
 				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
-		character:9988783 = {
+		character:dance_tyrell = {
 			change_liege = {
 				LIEGE = character:aegon2
 				CHANGE = scope:change
 			}
 			set_de_jure_liege_title = title:e_the_iron_throne
 		}
-		character:9988780 = {
+		character:dance_lannister = {
 			change_liege = {
 				LIEGE = character:aegon2
 				CHANGE = scope:change
@@ -844,6 +855,62 @@ westeros.0001 = {
 			add_building = barracks_02
 			add_building = military_camps_02
 		}
+		province:1698 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		province:1586 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		province:1584 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		province:1588 = {
+			set_holding_type = castle_holding
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		province:9671 = {
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+		province:9670 = {
+			add_building = castle_02
+			add_building = barracks_02
+			add_building = military_camps_02
+		}
+
+		character:dod1 = {
+			create_artifact = {
+				name = "Nightfall"
+				description = "A longsword made of Valyrian steel, claimed by Dalton 'the Red Kraken' Greyjoy."
+				type = sword
+				visuals = sword
+				history = {
+					type = created_before_history
+				}
+				modifier = blackfyre_modifier
+				decaying = no
+				rarity = illustrious
+				save_scope_as = nightfall
+			}
+		
+			scope:nightfall = {
+				equip_artifact_to_owner = yes
+				
+				save_scope_as = epic
+			}
+		}
 		#Making the kingdoms the correct faith/culture
 		title:k_dorne.holder = {
 			every_sub_realm_county = { 
@@ -914,28 +981,8 @@ westeros.0001 = {
 		}
 
 
-		character:dod1 = {
-			create_artifact = {
-				name = "Nightfall"
-				description = "A longsword made of Valyrian steel, claimed by Dalton 'the Red Kraken' Greyjoy."
-				type = sword
-				visuals = sword
-				history = {
-					type = created_before_history
-				}
-				modifier = blackfyre_modifier
-				decaying = no
-				rarity = illustrious
-				save_scope_as = nightfall
-			}
 		
-			scope:nightfall = {
-				equip_artifact_to_owner = yes
-				
-				save_scope_as = epic
-			}
-		}
-
+		
 
 		
 	}

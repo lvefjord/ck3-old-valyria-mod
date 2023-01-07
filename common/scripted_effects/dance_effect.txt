@@ -1,0 +1,92 @@
+﻿dance_of_dragons_effect = {
+	character:rhaenyra1 = {
+		save_scope_value_as = {
+			name = dance_of_dragons
+			value = yes
+		}
+		start_war = {
+			casus_belli = claim_cb
+			target = character:aegon2
+			claimant = character:rhaenyra1
+			target_title = title:e_the_iron_throne
+		}
+		
+		}
+	character:aegon2 = {
+			every_vassal = {
+				limit = {
+					OR = {
+						is_close_or_extended_family_of = character:dance_cregan
+						is_close_or_extended_family_of = character:dance_jeynearryn	
+						is_close_or_extended_family_of = character:dod1	
+						is_close_or_extended_family_of = character:dance_tully
+					}
+				}
+				save_scope_as = joining_vassal
+				custom_tooltip = tooltip_fellow_vassal_joins_war #The war has not started when viewing the interaction screen.
+				hidden_effect = {
+					character:rhaenyra1 = {
+						every_character_war = {
+							limit = {
+								using_cb = claim_cb
+								casus_belli = {
+									primary_attacker = character:rhaenyra1
+									primary_defender = character:aegon2
+								}
+							}
+							add_to_list = war_to_join
+						}
+					}
+					every_in_list = {
+						list = war_to_join
+						limit = {
+							NOT = { is_defender = prev }
+						}
+						hidden_effect = {
+							set_called_to = prev
+						}
+						add_attacker = prev
+					}
+				}
+			}
+			every_vassal = { #Vassals joining the rebel.
+				limit = {
+					NOR = {
+						is_close_or_extended_family_of = character:dance_cregan
+						is_close_or_extended_family_of = character:dance_jeynearryn	
+						is_close_or_extended_family_of = character:dod1
+						#is_close_or_extended_family_of = character:dance_qoren
+						is_close_or_extended_family_of = character:dance_tully
+						#is_close_or_extended_family_of = character:dance_tyrell
+						highest_held_title_tier < tier_duchy
+					}
+				}
+				save_scope_as = joining_vassal
+				custom_tooltip = tooltip_fellow_vassal_joins_war #The war has not started when viewing the interaction screen.
+				hidden_effect = {
+					character:rhaenyra1 = {
+						every_character_war = {
+							limit = {
+								using_cb = claim_cb
+								casus_belli = {
+									primary_attacker = character:rhaenyra1
+									primary_defender = character:aegon2
+								}
+							}
+							add_to_list = war_to_join
+						}
+					}
+					every_in_list = {
+						list = war_to_join
+						limit = {
+							NOT = { is_attacker = prev }
+						}
+						hidden_effect = {
+							set_called_to = prev
+						}
+						add_defender = prev
+					}
+				}
+			}
+		}
+	}

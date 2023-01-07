@@ -1,16 +1,16 @@
 ﻿random_yearly_everyone_pulse = {
 	
-	random_events = {
-		
-		
-		
+	events = {
+		#dod.0001
+	}
 
+
+
+	random_events = {
 		100 = hatch.0001
 		100 = hatch.0002
 		100 = hatch.0003
 		#100 = hatch.0004
 		10 = 0
 	}
-
-
 }

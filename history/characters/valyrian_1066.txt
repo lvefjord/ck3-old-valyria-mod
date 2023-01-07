@@ -1,4 +1,4 @@
-#129 AC = 1066
+﻿#129 AC = 1066
 
 #Viserys I / Dad
 viserys1 = {
@@ -217,7 +217,6 @@ corlys1 = {
 		birth = yes
 	}
 	1066.1.1 = {
-		employer = rhaenyra1
 		give_council_position = councillor_steward
 	}
 }
@@ -279,6 +278,7 @@ aegon2 = {
 	portrait_override={
 		portrait_modifier_overrides={
 			custom_beards=male_empty
+			custom_hair=male_hair_western_02
 		}
 	}
 	religion = "valyrian"
@@ -310,7 +310,7 @@ aegon2 = {
 }
 
 #Cregan Stark
-9988781 = {
+dance_cregan = {
 	name = "Cregan"
 	dynasty = 91114881988
 	religion = "old_god"
@@ -330,7 +330,7 @@ aegon2 = {
 	}
 }
 #Qoren Martell
-9988782 = {
+dance_qoren = {
 	name = "Qoren"
 	dynasty = 91114881987
 	religion = "the_seven"
@@ -349,7 +349,7 @@ aegon2 = {
 	}
 }
 #Lyonel Tyrell
-9988783 = {
+dance_tyrell = {
 	name = "Lyonel"
 	dynasty = 91114881986
 	religion = "the_seven"
@@ -369,7 +369,7 @@ aegon2 = {
 	}
 }
 #Grover Tully
-9988784 = {
+dance_tully = {
 	name = "Grover"
 	dynasty = 91114881985
 	religion = "the_seven"
@@ -415,7 +415,7 @@ borrosb = {
 	}
 }
 #Jeyne Arryn
-9988786 = {
+dance_jeynearryn = {
 	name = "Jeyne"
 	dynasty = 91114881990
 	female = yes
@@ -437,7 +437,7 @@ borrosb = {
 }
 
 #Jason Lannister
-9988780 = {
+dance_lannister = {
 	name = "Jason"
 	dynasty = 91114881989
 	religion = "the_seven"

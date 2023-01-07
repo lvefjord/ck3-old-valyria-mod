@@ -25,7 +25,7 @@
 	ai_check_interval = 1
 
 	effect = {
-		start_dragon_story_cycle_effect
+		start_dragon_story_cycle_effect = yes
 		random_owned_story = { 
 			limit = { 
 				story_type = story_cycle_dragon 

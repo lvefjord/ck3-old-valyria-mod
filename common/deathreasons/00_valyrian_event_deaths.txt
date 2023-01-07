@@ -14,3 +14,11 @@ death_fired_killer = {
 	icon = "death_fired.dds"
 }
 
+death_dragon = {
+	icon = "death_dragon.dds"
+}
+
+death_dragon_killer = {
+	icon = "death_dragon.dds"
+}
+

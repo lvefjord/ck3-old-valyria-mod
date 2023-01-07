@@ -1,3 +1,12 @@
+k_dragonstone = {
+	government = feudal_government
+	change_development_level = 6 
+	1066.1.1 = {
+		holder = rhaenyra1
+		liege = "e_new_valyria"
+	}
+ }
+
 d_dragonstone = {
 	867.1.1 = { 
 		government = feudal_government
@@ -6,6 +15,7 @@ d_dragonstone = {
 	}
 	1066.1.1 = {
 		holder = rhaenyra1
+		liege = "k_dragonstone"
 	}
  }
  

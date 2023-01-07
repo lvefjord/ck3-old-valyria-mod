@@ -310,7 +310,7 @@
 	religion = "the_seven"
 	sexuality = heterosexual
 	trait = education_intrigue_4
-	trait = intellet_good_3
+	trait = intellect_good_3 
 	trait = dwarf
 	intrigue = 14
 	stewardship = 10
@@ -334,7 +334,7 @@
 	culture = "westerman"
 	religion = "the_seven"
 	trait = rowdy
-	trait = intellet_good_2
+	trait = intellect_good_2
 	father = 9988802
 	mother = 9988801
 	865.12.1 = {

@@ -1,6 +1,6 @@
 ﻿dance_jace = {
 	name = "Jacaerys"
-	dynasty = 91114881997
+	dynasty = 91114881996
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = dragon_rider
@@ -18,7 +18,7 @@
 
 dance_luce = {
 	name = "Lucerys"
-	dynasty = 91114881997
+	dynasty = 91114881996
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = dragon_rider
@@ -36,7 +36,7 @@ dance_luce = {
 
 dance_joff = {
 	name = "Joffrey"
-	dynasty = 91114881997
+	dynasty = 91114881996
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = dragon_rider
@@ -79,7 +79,6 @@ dance_aemond = {
 	dna = 1_aemond
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_clothes=male_clothes_secular_indian_war_nobility_01_low
 			custom_hair=male_hair_fp2_iberian_muslim_03
 			custom_beards=male_empty
 			custom_special=male_headgear_special_eye_patch_01
@@ -365,8 +364,8 @@ dance_laena = {
 		add_spouse = daemon1 
 	}
 	1057.1.1 = {
-		death = yes
 		remove_spouse = daemon1
+		death = yes
 	}
 }
 

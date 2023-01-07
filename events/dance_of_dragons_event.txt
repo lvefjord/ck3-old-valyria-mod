@@ -3,7 +3,7 @@
 dod.0001 = {
 	type = duel_event
 	title = "Clash at Storm's End"
-	desc = ""
+	desc = "Above Storm's End, Aemond and Lucerys engaged their final flight. Aemond rode Vhagar, a massive and powerful dragon, while Lucerys rode Caraxes. The death of Lucerys meant that the time for diplomacy was over."
 	theme = hunting
 	override_background = { event_background = storms_end }
 
@@ -11,14 +11,129 @@ dod.0001 = {
 		character = character:dance_luce
 		animation = loss_1
 	}
-
 	left_portrait = {
 		character = character:dance_aemond
-		animation = fear
+		animation = shock
 	}
+
+	
+		immediate = {
+			add_character_flag = {
+				flag = dance_started
+			}
+		}
+	
+
+	
+		trigger = {
+			NOT = {
+				has_character_flag = dance_started
+			}
+		}
+	
+
 
 	option = {
-		name = "Dohaeris Vhagar"
+		name = "Alert the watchtowers, sight the skies"
+
+		
+
+		character:dance_luce = {
+			death = {
+				death_reason = death_dragon_killer
+				killer = character:dance_aemond
+			}
+		}
+		character:dance_aemond = {
+			give_nickname = nick_the_kinslayer
+			add_trait = kinslayer_2
+		}
+		
+	}
+	after = {
+		trigger_event = dod.0002
+	}
+}
+
+dod.0002 = {
+	type = character_event
+	title = "Call allies"
+	desc = "House Arryn and House Stark will stand by their princess."
+	theme = dynasty
+
+	left_portrait = {
+		character = character:dance_cregan
+		animation = marshal
 	}
 
+	right_portrait = {
+		character = character:dance_jeynearryn
+		animation = worry
+	}
+
+	
+
+	option = {
+
+		name = "Fire and Blood"
+
+
+		custom_tooltip = "Starts the Dance of the Dragons"
+
+		hidden_effect = {
+			dance_of_dragons_effect = yes
+		}
+		spawn_army = {
+			levies = 3000
+			men_at_arms = { 
+				type = dragonkeepers
+				men = 1500
+			} 
+
+		location = province:9661
+		origin = province:9661
+		war_keep_on_attacker_victory = no
+		name = "Legio XIII Gemina"
+		}
+
+		#idden_effect = {
+		#	character:rhaenyra1 = {
+		#		create_alliance = {
+		#			target = character:dance_cregan
+		#			allied_through_owner = character:rhaenyra1
+		#			allied_through_target = character:rhaenyra1
+		#		}
+		#	}
+		#	
+		#	
+		#	character:rhaenyra1 = {
+		#		create_alliance = {
+		#			target = character:dance_jeynearryn
+		#			allied_through_owner = character:rhaenyra1
+		#			allied_through_target = character:rhaenyra1
+		#		}
+		#	}
+		#
+
+		###VASSALS###
+		
+		############
+
+	}
+}
+
+
+
+dod.0099 = {
+	type = empty
+	hidden = yes
+
+	trigger = {
+			has_title = title:e_the_iron_throne
+	}
+
+	after = {
+
+		destroy_title = title:e_new_valyria
+	}
 }

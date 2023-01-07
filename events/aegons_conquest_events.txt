@@ -347,6 +347,11 @@ ac.0006 = {
 		dynasty = {add_dynasty_prestige = 500}
 	}
 
+	option = {
+		name = "I will allow Harren the Black to bend the knee"
+		dynasty = {add_dynasty_prestige = 500}
+	}
+
 }
 
 #north

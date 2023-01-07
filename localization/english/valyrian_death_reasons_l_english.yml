@@ -1,5 +1,7 @@
 ﻿l_english:
  death_bloodmagic:0 "was sacrificed in a shadowbinding ritual"
  death_bloodmagic_killer:0 "was sacrificed by [TARGET_CHARACTER.GetUIName] in a shadowbinding ritual"
- death_fired:0 "was burned burned to death by a dragon"
- death_fired_killer:0 "was burned to death by [TARGET_CHARACTER.GetUIName]"
+ death_fired:0 "was consumed by dragonfire"
+ death_fired_killer:0 "was consumed by [TARGET_CHARACTER.GetUIName]s dragonfire"
+ death_dragon:0 "was killed by a dragon"
+ death_dragon_killer:0 "was killed by [CHARACTER.GetUIName] and [CHARACTER.GetHerHis] dragon"

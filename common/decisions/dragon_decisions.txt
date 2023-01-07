@@ -1,4 +1,4 @@
-﻿pet_dragon_decision = { #by Linnéa Thimrén
+﻿pet_dragon_decision = { 
 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
 
 	desc = pet_dragon_decision_desc
@@ -39,11 +39,12 @@
 			stress > 10
 		}
 	}
-}
-#any_owned_story = {
+	#any_owned_story = {
 #	story_type = story_cycle_pet_dragon
 #	exists = story_owner.var:story_cycle_dragon_name
 #}
+}
+
 
 dragon_train_decision_1 = { #by Linnéa Thimrén
 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"

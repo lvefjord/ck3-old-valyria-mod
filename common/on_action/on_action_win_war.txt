@@ -1,0 +1,10 @@
+﻿on_war_won_attacker = {
+
+
+	events = {
+		#dod.0099
+	}
+
+
+
+}
