@@ -31,7 +31,7 @@
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
 	traits = {
-		virtues = { brave dragon_rider ambitious arrogant valyrian_blood shadowbinder }
+		virtues = { brave dragon_rider ambitious arrogant val_blood shadowbinder }
 		sins = { craven arbitrary humble }
 	}
 

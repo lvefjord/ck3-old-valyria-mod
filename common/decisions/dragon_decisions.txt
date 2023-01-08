@@ -57,7 +57,7 @@ dragon_train_decision_1 = { #by Linnéa Thimrén
 	
 
 	is_shown = {
-		has_trait = valyrian_blood
+		has_trait = val_blood_2
 		is_ai = no
 		NOT = {
 			has_character_flag = trained_dragon_1

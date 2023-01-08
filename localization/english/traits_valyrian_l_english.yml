@@ -4,9 +4,27 @@
  trait_dragon_rider_desc:0 "This person rides a mighty dragon into battle."
  trait_dragon_rider_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] will destroy entire armies that rise up against [ROOT.GetCharacter.GetHerHim]."
  
- trait_valyrian_blood:0 "Valyrian Blood"
- trait_valyrian_blood_desc:0 "The Blood of Old Valyria flows through [ROOT.GetCharacter.GetFirstNameNoTooltip], turning [ROOT.GetCharacter.GetHerHis] hair silver and [ROOT.GetCharacter.GetHerHis] eyes violet."
- trait_valyrian_blood_character_desc:0 "The Blood of Old Valyria flows through [ROOT.GetCharacter.GetFirstNameNoTooltip], turning [ROOT.GetCharacter.GetHerHis] hair silver and [ROOT.GetCharacter.GetHerHis] eyes violet."
+ trait_val_blood_1:0 "Valyrian Blood"
+
+ trait_val_blood_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is proud to have Valyrian Blood coursing through their veins."
+
+ trait_val_blood_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries a great legacy."
+
+ trait_val_blood_2:0 "Blood of Old Valyria"
+
+ trait_val_blood_2_desc:0 "The Blood of Old Valyria flows through [ROOT.GetCharacter.GetFirstNameNoTooltip], turning [ROOT.GetCharacter.GetHerHis] hair silver and [ROOT.GetCharacter.GetHerHis] eyes violet."
+
+ trait_val_blood_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries a great legacy, empowering him."
+
+ trait_val_blood_3:0 "Zaldrīzo Ānogar"
+ 
+ trait_val_blood_3_desc:0 "The Blood of the Dragon flows through their veins, they are a Dragonlord reborn."
+
+ trait_val_blood_3_character_desc:0 "Nyke [ROOT.GetCharacter.GetFirstNameNoTooltip] hen Valyrio Uēpo ānogār iksan."
+
+ 
+
+
  
  trait_shadowbinder:0 "Shadowbinder"
  trait_shadowbinder_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] practices dark magic, and can bind shadows to do [ROOT.GetCharacter.GetHerHis] will."

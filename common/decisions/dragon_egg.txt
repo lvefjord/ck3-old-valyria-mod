@@ -32,7 +32,7 @@
 	}
 
 	is_valid = {
-		has_trait = valyrian_blood
+		has_trait = val_blood_2
 	}
 
 	ai_check_interval = 1
@@ -89,7 +89,7 @@ egg_child = {
 	}
 
 	is_valid = {
-		has_trait = valyrian_blood
+		has_trait = val_blood_2
 	}
 
 	effect = {

@@ -1,6 +1,57 @@
 ﻿notes 
+dragon dreamer trait potentially?
+???
 
 
+val_blood_1 - Valyrian Blood
+inbreeding_chance = -0.25
+health = 0.25
+same_opinion = 5
+attraction_opinion = 5
+monthly_prestige = 0.05
+
+white hair
+
+val_blood_2 - Zaldrīzo Ānogar
+inbreeding_chance = -0.5
+health = 0.5
+same_opinion = 10
+attraction_opinion = 10
+monthly_prestige = 0.10
+
+dragon eggs hatch
+
+white hair+pale skin
+
+val_blood_3 - Blood of Old Valyria 
+inbreeding_chance = -1.0
+health = 1
+same_opinion = 15
+attraction_opinion = 15
+monthly_prestige = 0.20
+
+
+white hair+pale skin+purple eyes
+beautiful port mod(?)
+
+
+
+dragon eggs only hatching at 3?
+varying traits i guess
+inbreeding chance goes down every level?
+
+
+
+???
+
+
+The event was held at the Great Hall of the Eyrie, the seat of House Arryn. The atmosphere was tense, as the loyalty of House Arryn and House Stark was of utmost importance. Representatives from both houses were present, along with members of the court and various other nobles.
+
+At the front of the hall, Lady Lysa Arryn and Lord Eddard Stark stood facing each other, their respective banners hanging behind them. Lady Lysa began by addressing the assembled crowd, speaking of the long history of friendship and alliance between the two houses. She emphasized the importance of loyalty and the need to stand together in these troubled times.
+
+Lord Eddard, in turn, spoke of the honor and duty that came with being a member of House Stark. He praised the Arryns for their steadfastness and vowed that his house would always stand with them.
+
+As the two leaders spoke, it was clear that the loyalty of House Arryn and House Stark was of paramount importance. The fate of the realm may well have hung in the balance, as the two houses stood united against their enemies.
 ###
 
 I dunno why the on_war onaction doesn't trigger the last event, ignore for now.

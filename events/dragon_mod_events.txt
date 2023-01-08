@@ -13,7 +13,7 @@ dragon.0001 = {
 	}
 
 	trigger = {
-		has_trait = valyrian_blood
+		has_trait = val_blood_2
 	}
 	
 
@@ -44,7 +44,7 @@ dragon.0002 = {
 	}
 
 	trigger = {
-		has_trait = valyrian_blood
+		has_trait = val_blood_2
 	}
 	
 

@@ -33,7 +33,7 @@ aconquest_1 = {
 
 	is_valid = {
 		has_trait = dragon_rider
-		has_trait = valyrian_blood
+		has_trait = val_blood_2
 	}
 
 	

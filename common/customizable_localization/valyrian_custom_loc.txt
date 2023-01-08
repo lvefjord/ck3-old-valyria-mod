@@ -184,6 +184,14 @@ lord_valyrian_male_e = {
             localization_key = val_king
     }
     text = {
+        trigger = {
+            any_spouse = {
+                highest_held_title_tier >= tier_kingdom
+            }
+        }
+        localization_key = val_king_consort
+    }
+    text = {
 		fallback = yes 
         localization_key = val_king
     }
@@ -196,6 +204,14 @@ lord_valyrian_female_e = {
             has_title = title:e_the_iron_throne
         }
             localization_key = val_queen 
+    }
+    text = {
+        trigger = {
+            any_spouse = {
+                highest_held_title_tier >= tier_kingdom
+            }
+        }
+        localization_key = val_queen_consort
     }
     text = {
 		fallback = yes 
