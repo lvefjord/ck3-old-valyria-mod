@@ -111,7 +111,7 @@ c_harlaw = {
 		holder = ac1
 	}
 	1066.1.1 = {
-		holder = dod1
+		holder = aegon2
 	}
 }
 
