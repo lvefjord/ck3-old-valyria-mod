@@ -58,7 +58,8 @@ dod.0001 = {
 dod.0002 = {
 	type = character_event
 	title = "Call allies"
-	desc = "House Arryn and House Stark will stand by their princess."
+	desc = "There has never been a Stark who forgot an oath )))) and me mums n Arryn. Use chatgpt for this at some point
+	"
 	theme = dynasty
 
 	left_portrait = {
@@ -132,7 +133,7 @@ dod.0099 = {
 			has_title = title:e_the_iron_throne
 	}
 
-	after = {
+	immediate = {
 
 		destroy_title = title:e_new_valyria
 	}

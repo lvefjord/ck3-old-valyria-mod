@@ -86,7 +86,7 @@ bm_1066_dragons = {
 		name = "bookmark_dragons_rhaenyra_targaryen"
 		dynasty = 91114881997
 		dynasty_splendor_level = 1
-		type = male
+		type = female
 		birth = 1034.1.1
 		title = d_dragonstone
 		government = feudal_government
@@ -99,22 +99,56 @@ bm_1066_dragons = {
 		animation = personality_bold
 	}
 
-	# Dalton Greyjoy
+	# Aegon II
 	character = {
-		name = "bookmark_dragons_dalton_greyjoy"
-		dynasty = 91114881981
+		name = "bookmark_dragons_aegon_targaryenii"
+		dynasty = 91114881997
 		dynasty_splendor_level = 1
 		type = male
-		birth = 1048.1.1
-		title = k_iron_islands
+		birth = 1044.1.1
+		title = e_the_iron_throne
 		government = feudal_government
-		culture = "ironborn"
-		religion = "drowned_god"
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = dod1
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = aegon2
 		position = { 200 400 }
 
-		animation = aggressive_sword
+		animation = marshal
+
+
+		# Aemond One-Eye loser discount Daemon lmao
+		character = {
+			name = "bookmark_dragons_aegon_targaryenii_alt_aemond"
+			relation = "BOOKMARK_RELATION_BROTHER"
+			dynasty = 91114881997
+			type = male
+			birth = 1047.1.1
+			culture = valyrian
+			religion = valyrian
+			history_id = dance_aemond
+			animation = chess_certain_win
+		}
 	}
 
 }
+
+
+
+	# Dalton Greyjoy
+	#character = {
+	#	name = "bookmark_dragons_dalton_greyjoy"
+	#	dynasty = 91114881981
+	#	dynasty_splendor_level = 1
+	#	type = male
+	#	birth = 1048.1.1
+	#	title = k_iron_islands
+	#	government = feudal_government
+	#	culture = "ironborn"
+	#	religion = "drowned_god"
+	#	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+	#	history_id = dod1
+	#	position = { 200 400 }
+	#
+	#	animation = aggressive_sword
+	#}
