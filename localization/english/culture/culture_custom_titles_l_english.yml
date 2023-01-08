@@ -39,6 +39,8 @@
  val_queen:0 "Queen"
  lord_reaper:0 "Lord Reaper"
  lady_reaper:0 "Lady Reaper"
+ val_king_consort:0 "King Consort"
+ val_queen_consort:0 "Queen Consort"
 
  male_position_culture:0 "Master of whisperers"
  

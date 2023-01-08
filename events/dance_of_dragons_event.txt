@@ -58,8 +58,7 @@ dod.0001 = {
 dod.0002 = {
 	type = character_event
 	title = "Call allies"
-	desc = "There has never been a Stark who forgot an oath )))) and me mums n Arryn. Use chatgpt for this at some point
-	"
+	desc = "There has never been a Stark who forgot an oath )))) and me mums n Arryn. Use chatgpt for this at some point"
 	theme = dynasty
 
 	left_portrait = {

@@ -1,0 +1,123 @@
+﻿notes 
+
+
+###
+
+I dunno why the on_war onaction doesn't trigger the last event, ignore for now.
+
+
+867:
+1. Check inventory for Blackfyre/Dark Sister
+2. Use Decision
+3. Check Succesion 
+4. Give land to sister and swap character - make sure decisions is locked
+5. Check council
+6. Check Living Chars for naked boys
+7. Yesmen > vassalize kingdoms > make sure events work
+8. Check conq crown worked / check succession
+9. event ac.0008 > try new valyria option
+10. Check succession
+11. Give sister land and swap > check decisions
+
+1066:
+1. Check Daemon for Dark Sister/Aegon for Blackfyre and Crown
+2. Swap to Aegon check Decision (fix decision)
+3. Swap back - Use Decision
+4. Swap Aegon make sure decision is spent
+5. Imprison Aegon > Enforce > Make sure CoA changes to targon.
+6. Swap Aegon make sure nothings usable.
+7. (Fix succession)
+8. Test shadowbinder thing
+9. Try murder plot with shadowbinding 
+
+Custom char:
+1. Get wife - triplets 
+2. give 1 egg to first kid > wait for proc > give 1 to 2nd kid > use give children > make sure both conditionals work
+3. Check if AI is doing the eggs
+
+###
+
+[x] trigger for age of dragon
+
+aegons making cadet branches (potentially make a splinter targ dynasty for just him) 
+
+Decision to train your dragon while it's younger than 3 yo 
+Maybe lose stress gain stats for a year etc
+Make it a decision chain - maybe 3 decisions and add flags > you can only get dragonrider after training it 3 times and its above 3 yo
+
+random events firing for dragons birthday maybe
+
+try to figure out if there's a way to change icon without changing dragon
+
+make a kings landing decision  for both start dates(?) 
+
+Potentially do some crownlands shit(?) 
+
+#Conq Crown (reichskrone template)
+
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\formap\gfx\models\portraits\attachments\male_headgears\secular\western\imperial_01\male_headgear_secular_western_imperial_01.asset
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\formap\gfx\portraits\portrait_modifiers\01_headgear.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\formap\common\scripted_effects\01_exp1_historical_artifacts_creation_effect.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\formap\common\modifiers\00_historical_artifact_modifiers.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\formap\common\artifacts\visuals\00_historical.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\formap\common\artifacts\templates\00_historical_artifacts_templates.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\formap\common\artifacts\blueprints\00_reforge.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\formap\common\artifacts\visuals\00_personal_misc.txt
+
+pdxmesh = {
+	name = "male_headgear_secular_western_imperial_01_artifact_mesh"
+	file = "male_headgear_secular_western_imperial_01_artifact.mesh"
+
+	meshsettings = {
+		name = "male_headgear_secular_western_imperial_01_artifactShape"
+		index = 0
+		texture_diffuse = "male_headgear_secular_western_imperial_01_diffuse.dds"
+		texture_normal = "male_headgear_secular_western_imperial_01_normal.dds"
+		texture_specular = "male_headgear_secular_western_imperial_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_secular_western_imperial_01_artifact_entity"
+	pdxmesh = "male_headgear_secular_western_imperial_01_artifact_mesh"
+}
+
+#Dynasty
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\dynasties\dynasty_names_valyrian_l_english.yml
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\dynasties\00_valyrian_dynasties.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\mottos_valyrian_l_english.yml
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\dynasty_houses\00_valyrian_dynasty_houses.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\coat_of_arms\coat_of_arms\90_valyrian_dynasties.txt
+
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\history\characters\valyrian.txt
+
+#Flavourization
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\flavorization\00_valyrian_flavour.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\customizable_localization\valyrian_custom_loc.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\culture\culture_custom_titles_l_english.yml
+
+#Councillor
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\culture\culture_custom_titles_l_english.yml
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\flavorization\00_valyrian_flavour.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\council_positions\00_valyrian_council_positions.txt
+
+#Shadowbinder decision/event
+
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\common\decisions\bloodmagic_decisions.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\events\shadowbinder_event.txt
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\event_localization\shadowbinder_decision_events_l_english.yml
+C:\Users\Ive\Documents\Paradox Interactive\Crusader Kings III\mod\private old valyria\localization\english\valyrian_decisions_l_english.yml
+
+
+Winterfell 1741
+Casterly Rock 1652
+Highgarden 1580
+Riverrun 1627
+Eyrie 1583
+Storms End 1518
+Sunspear 1502
+Dragonstone 9661
+King's Landing 1527
+
