@@ -35,7 +35,11 @@ hatch.0001 = {
 			has_character_flag = egg_hatched
 			has_character_flag = has_dragon
 		}
-		has_trait = val_blood_2
+		OR = {
+				has_trait = val_blood_2
+				has_trait = val_blood_3
+			}
+		
 		NOT = {
 			has_trait = dragon_rider
 		}
@@ -84,7 +88,11 @@ hatch.0002 = {
 			has_character_flag = egg_hatched
 			has_character_flag = has_dragon
 		}
-		has_trait = val_blood_2
+		OR = {
+				has_trait = val_blood_2
+				has_trait = val_blood_3
+			}
+		
 		NOT = {
 			has_trait = dragon_rider
 		}
@@ -133,7 +141,11 @@ hatch.0003 = {
 			has_character_flag = egg_hatched
 			has_character_flag = has_dragon
 		}
-		has_trait = val_blood_2
+		OR = {
+				has_trait = val_blood_2
+				has_trait = val_blood_3
+			}
+		
 		NOT = {
 			has_trait = dragon_rider
 		}

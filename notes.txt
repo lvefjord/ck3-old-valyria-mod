@@ -3,42 +3,7 @@ dragon dreamer trait potentially?
 ???
 
 
-val_blood_1 - Valyrian Blood
-inbreeding_chance = -0.25
-health = 0.25
-same_opinion = 5
-attraction_opinion = 5
-monthly_prestige = 0.05
-
-white hair
-
-val_blood_2 - Zaldrīzo Ānogar
-inbreeding_chance = -0.5
-health = 0.5
-same_opinion = 10
-attraction_opinion = 10
-monthly_prestige = 0.10
-
-dragon eggs hatch
-
-white hair+pale skin
-
-val_blood_3 - Blood of Old Valyria 
-inbreeding_chance = -1.0
-health = 1
-same_opinion = 15
-attraction_opinion = 15
-monthly_prestige = 0.20
-
-
-white hair+pale skin+purple eyes
-beautiful port mod(?)
-
-
-
-dragon eggs only hatching at 3?
-varying traits i guess
-inbreeding chance goes down every level?
+remove XXXheritages | change e_new_valyria > k_dragonstoneXXX | fix 3 unique icons for the new blood traits(xx?) | val_blood_2 loc has wrong pronounXXXX | 
 
 
 
@@ -90,7 +55,7 @@ Custom char:
 
 [x] trigger for age of dragon
 
-aegons making cadet branches (potentially make a splinter targ dynasty for just him) 
+aegons making cadet branches (potentmake a splinter targ ially dynasty for just him) 
 
 Decision to train your dragon while it's younger than 3 yo 
 Maybe lose stress gain stats for a year etc

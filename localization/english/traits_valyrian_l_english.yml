@@ -14,13 +14,15 @@
 
  trait_val_blood_2_desc:0 "The Blood of Old Valyria flows through [ROOT.GetCharacter.GetFirstNameNoTooltip], turning [ROOT.GetCharacter.GetHerHis] hair silver and [ROOT.GetCharacter.GetHerHis] eyes violet."
 
- trait_val_blood_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries a great legacy, empowering him."
+ trait_val_blood_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries a great legacy, empowering [ROOT.GetCharacter.GetHerHim]."
 
  trait_val_blood_3:0 "Zaldrīzo Ānogar"
  
  trait_val_blood_3_desc:0 "The Blood of the Dragon flows through their veins, they are a Dragonlord reborn."
 
  trait_val_blood_3_character_desc:0 "Nyke [ROOT.GetCharacter.GetFirstNameNoTooltip] hen Valyrio Uēpo ānogār iksan."
+
+ trait_val_blood:0 "Legacy of Old Valyria"
 
  
 

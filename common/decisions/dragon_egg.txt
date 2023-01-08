@@ -32,7 +32,11 @@
 	}
 
 	is_valid = {
-		has_trait = val_blood_2
+		OR = {
+				has_trait = val_blood_2
+				has_trait = val_blood_3
+			}
+		
 	}
 
 	ai_check_interval = 1
@@ -89,7 +93,11 @@ egg_child = {
 	}
 
 	is_valid = {
-		has_trait = val_blood_2
+		OR = {
+				has_trait = val_blood_2
+				has_trait = val_blood_3
+			}
+		
 	}
 
 	effect = {

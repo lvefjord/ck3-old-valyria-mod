@@ -13,7 +13,11 @@ dragon.0001 = {
 	}
 
 	trigger = {
-		has_trait = val_blood_2
+		OR = {
+				has_trait = val_blood_2
+				has_trait = val_blood_3
+			}
+		
 	}
 	
 
@@ -44,7 +48,11 @@ dragon.0002 = {
 	}
 
 	trigger = {
-		has_trait = val_blood_2
+		OR = {
+				has_trait = val_blood_2
+				has_trait = val_blood_3
+			}
+		
 	}
 	
 

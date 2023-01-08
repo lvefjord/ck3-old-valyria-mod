@@ -607,7 +607,7 @@ westeros.0001 = {
 			}
 		}
 		
-		title:e_new_valyria = {
+		title:k_dragonstone = {
 			change_title_holder = {
 				holder = character:rhaenyra1
 				change = scope:change
@@ -979,6 +979,7 @@ westeros.0001 = {
 		character:rhaenyra1 = {
 			add_pressed_claim =	title:e_the_iron_throne
 		}
+		
 
 
 		

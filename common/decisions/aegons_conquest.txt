@@ -32,8 +32,14 @@ aconquest_1 = {
 	}
 
 	is_valid = {
-		has_trait = dragon_rider
-		has_trait = val_blood_2
+		AND = { 
+			has_trait = dragon_rider
+			
+			OR = {
+				has_trait = val_blood_2
+				has_trait = val_blood_3
+			}
+		}
 	}
 
 	

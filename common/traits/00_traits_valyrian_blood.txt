@@ -44,7 +44,7 @@ val_blood_1 = {
 
 	ruler_designer_cost = 80
 
-	icon = valblood.dds
+	icon = val_blood_1.dds
 
 	desc = {
 		first_valid = {
@@ -94,7 +94,7 @@ val_blood_2 = {
 
 	ruler_designer_cost = 160
 
-	icon = valblood.dds
+	icon = val_blood_2.dds
 
 	desc = {
 		first_valid = {
@@ -146,7 +146,7 @@ val_blood_3 = {
 
 	forced_portrait_age_index = 1
 
-	icon = valblood.dds
+	icon = val_blood_3.dds
 
 	desc = {
 		first_valid = {

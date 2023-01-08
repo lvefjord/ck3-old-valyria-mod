@@ -70,14 +70,7 @@ lord_valyrian_male = {
             localization_key = lord_reaper
     }
 
-    text = {
-        trigger = {
-            any_spouse = {
-                highest_held_title_tier >= tier_kingdom
-            }
-        }
-        localization_key = val_king_consort
-    }
+    
 
 
 
@@ -154,14 +147,7 @@ lord_valyrian_female = {
         
             localization_key = lady_reaper
     }
-    text = {
-        trigger = {
-            any_spouse = {
-                highest_held_title_tier >= tier_kingdom
-            }
-        }
-        localization_key = val_queen_consort
-    }
+    
 
     
 
@@ -186,7 +172,7 @@ lord_valyrian_male_e = {
     text = {
         trigger = {
             any_spouse = {
-                highest_held_title_tier >= tier_kingdom
+                highest_held_title_tier > tier_kingdom
             }
         }
         localization_key = val_king_consort
@@ -208,7 +194,7 @@ lord_valyrian_female_e = {
     text = {
         trigger = {
             any_spouse = {
-                highest_held_title_tier >= tier_kingdom
+                highest_held_title_tier > tier_kingdom
             }
         }
         localization_key = val_queen_consort

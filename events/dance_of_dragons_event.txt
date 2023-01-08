@@ -1,17 +1,17 @@
 ﻿namespace = dod
 
 dod.0001 = {
-	type = duel_event
+	type = character_event
 	title = "Clash at Storm's End"
-	desc = "Above Storm's End, Aemond and Lucerys engaged their final flight. Aemond rode Vhagar, a massive and powerful dragon, while Lucerys rode Caraxes. The death of Lucerys meant that the time for diplomacy was over."
+	desc = "Above Storm's End, Aemond and Lucerys engaged in their final flight. Aemond rode Vhagar, a massive dragon, while Lucerys rode Caraxes. The death of Lucerys meant the time for diplomacy was past."
 	theme = hunting
 	override_background = { event_background = storms_end }
 
-	right_portrait = {
+	lower_right_portrait = {
 		character = character:dance_luce
 		animation = loss_1
 	}
-	left_portrait = {
+	lower_center_portrait = {
 		character = character:dance_aemond
 		animation = shock
 	}
@@ -57,8 +57,11 @@ dod.0001 = {
 
 dod.0002 = {
 	type = character_event
-	title = "Call allies"
-	desc = "There has never been a Stark who forgot an oath )))) and me mums n Arryn. Use chatgpt for this at some point"
+	title = "Hope is the fool's ally"
+	desc = "The journey of Jacaerys, first-born son of Rhaenyra, is a perilous one, but one that is necessary for the Blacks to stand a chance in the upcoming war. Jacaerys must travel north alone, to seek the aid of Jeyne Arryn and Cregan Stark. He sets off on the mission north, not knowing that it would be the last time he spoke to his brother."
+	
+
+	
 	theme = dynasty
 
 	left_portrait = {
@@ -121,23 +124,21 @@ dod.0002 = {
 
 	}
 	
-	option = {
-		name = "I am not quite ready"
-	}
+	
 }
 
 
 
-dod.0099 = {
-	type = empty
-	hidden = yes
-
-	trigger = {
-			has_title = title:e_the_iron_throne
-	}
-
-	immediate = {
-
-		destroy_title = title:e_new_valyria
-	}
-}
+#dod.0099 = {
+#	type = empty
+#	hidden = yes
+#
+#	trigger = {
+#			has_title = title:e_the_iron_throne
+#	}
+#
+#	immediate = {
+#
+#		destroy_title = title:e_new_valyria
+#	}
+#}

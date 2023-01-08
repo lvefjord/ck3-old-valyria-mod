@@ -605,11 +605,7 @@ ac.0009 = {
 		hide_info = yes
 	}
 
-	option = {
-		name = "Valar Dohaeris"
-		
-
-		
+	immediate = {
 		if = {
 			limit = {
 				current_date < 1065.1.1
@@ -620,6 +616,14 @@ ac.0009 = {
 				create_artifact_old_crown_effect = { OWNER = character:aegon1 }
 			
 		}
+	}
+
+	option = {
+		name = "Valar Dohaeris"
+		
+
+		
+		
 
 			hidden_effect = {
 				add_to_global_variable_list = {
