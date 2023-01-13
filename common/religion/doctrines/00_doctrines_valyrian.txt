@@ -52,7 +52,7 @@ doctrine_marriage_type = {
 		}
 		parameters = {
 			number_of_spouses = 2
-			spouse_piety_loss = yes
+			spouse_piety_loss = no
 		}
 	}
 	
