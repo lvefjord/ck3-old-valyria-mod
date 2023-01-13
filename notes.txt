@@ -2,29 +2,14 @@
 
 revert defines
 
-fix aegon 2 wives
-
-
-
 
 dragon dreamer trait potentially?
 ???
 
 
-remove XXXheritages | change e_new_valyria > k_dragonstoneXXX | fix 3 unique icons for the new blood traits(xx?) | val_blood_2 loc has wrong pronounXXXX | 
-
-Separate baratheon trait | look into polyamory effect or modifier or something | 
-
 ???
 
 
-The event was held at the Great Hall of the Eyrie, the seat of House Arryn. The atmosphere was tense, as the loyalty of House Arryn and House Stark was of utmost importance. Representatives from both houses were present, along with members of the court and various other nobles.
-
-At the front of the hall, Lady Lysa Arryn and Lord Eddard Stark stood facing each other, their respective banners hanging behind them. Lady Lysa began by addressing the assembled crowd, speaking of the long history of friendship and alliance between the two houses. She emphasized the importance of loyalty and the need to stand together in these troubled times.
-
-Lord Eddard, in turn, spoke of the honor and duty that came with being a member of House Stark. He praised the Arryns for their steadfastness and vowed that his house would always stand with them.
-
-As the two leaders spoke, it was clear that the loyalty of House Arryn and House Stark was of paramount importance. The fate of the realm may well have hung in the balance, as the two houses stood united against their enemies.
 ###
 
 I dunno why the on_war onaction doesn't trigger the last event, ignore for now.
