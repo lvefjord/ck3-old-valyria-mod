@@ -1,11 +1,11 @@
 ﻿l_english:
  #Conquest
- bm_867_dragons:0 "All Men Must Die"
- bm_867_dragons_desc:1 "Hen siñot dāez. Hēnkirī īlvi biarvī manaerili. Jaehossas sȳris sātās. Jaehossi Uēpossi Arlȳssī. Jaehot avy iderēbās jorepās. Kepo Tubis Biare. Kesīr drējī jiōrilaks. Laehossa yne ōdris. Laodiaposo jomīsagon avy sytilīptas. Merbun. Mittys iksā. Morghot nēdyssy sesīr zūgusy."
+ bm_867_dragons:0 "Aegon's Conquest"
+ bm_867_dragons_desc:1 "Aegon's Conquest was a series of military campaigns led by Aegon I Targaryen, also known as Aegon the Conqueror, and Aegon the Dragon. He and his sisters, Visenya and Rhaenys, rode the dragons Balerion, Vhagar, and Meraxes, and conquered the Seven Kingdoms of Westeros, unifying them under one rule for the first time."
 
  #Aegon
  bookmark_dragons_aegon_targaryen:0 "Aegon Targaryen"
- bookmark_dragons_aegon_targaryen_desc:0 "Ao ynoma dīnilūks. Aōhon iksan se ñuhon iksā. Averille sylutetā. Avy jorrāelan. Avy raqan. Biare Arlie Jēdari. Biarver aōt. Dōrior dārion udrirzi mijessis. Gēlȳri aōt tepagon jaelas. Geros ilas. Gevī ȳdrā azantys. Hae hunē kirine."
+ bookmark_dragons_aegon_targaryen_desc:0 "Aegon I Targaryen, was the first King of the Iron Throne. He was a member of House Targaryen, one of the minor dragonlord families from Old Valyria. He and his sister-wives, Visenya and Rhaenys, conquered the Seven Kingdoms with the help of their dragons"
  #Sisters
  bookmark_dragons_aegon_targaryen_alt_visenya:0 "Visenya Targaryen"
  bookmark_dragons_aegon_targaryen_alt_rhaenys:0 "Rhaenys Targaryen"
@@ -16,7 +16,7 @@
  ##########
  #Dance
  bm_1066_dragons:0 "the Dance of the Dragons"
- bm_1066_dragons_desc:1 "Skoros otāpā. Skoros ynot epilū. Skoroso jemēle brōzāt. Sȳrī glaesan. Toli jorrāelan. Tubī hae kesīr sittāks sesīr kirine iksan. Udrirzi Valyrio ȳdrā. Valar dohaeris. Valar morghūlis. Zaldrīzes buzdari iksos daor."
+ bm_1066_dragons_desc:1 "The Dance of the Dragons was a particularly tumultuous period in the history of Westeros, fought between two branches of House Targaryen for control of the Iron Throne. The war began when King Viserys I passed away without a clear heir, leading his daughter Rhaenyra and his son Aegon II to both claim the throne."
 
  #Rhaenyra
  bookmark_dragons_rhaenyra_targaryen:0 "Rhaenyra Targaryen"
