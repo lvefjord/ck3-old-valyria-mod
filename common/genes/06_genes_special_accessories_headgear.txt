@@ -1635,6 +1635,19 @@ accessory_genes = {
 			girl = female
 			}
 
+		the_new_crown = {
+			index = 105
+			male = {
+				1 = male_headgear_secular_northern_newcrown
+
+			}
+			female = {
+				1 = female_headgear_secular_northern_newcrown
+			}
+			boy = male
+			girl = female
+			}
+
 			
 		}
 	}

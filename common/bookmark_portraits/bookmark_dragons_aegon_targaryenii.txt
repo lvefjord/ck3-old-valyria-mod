@@ -113,7 +113,7 @@ bookmark_dragons_aegon_targaryenii={
  		cloaks={ "western_royalty" 87 "no_cloak" 0 }
  		clothes={ "indian_high_nobility_clothes" 127 "most_clothes" 0 }
  		hairstyles={ "western_hairstyles_wavy" 33 "all_hairstyles" 0 }
- 		headgear={ "the_old_crown" 120 "no_headgear" 0 }
+ 		headgear={ "the_new_crown" 120 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 193 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }

@@ -1,0 +1,21 @@
+pdxmesh = {
+	name = "female_headgear_secular_northern_newcrown_mesh"
+	file = "male_headgear_secular_northern_newcrown.mesh"
+
+
+	meshsettings = {
+		name = "male_headgear_secular_northern_newcrownShape"
+		index = 0
+		texture_diffuse = "newcrown1_diffuse.dds"
+		texture_normal = "newcrown1_normal.dds"
+		texture_specular = "newcrown1_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_secular_northern_newcrown_entity"
+	pdxmesh = "female_headgear_secular_northern_newcrown_mesh"
+	
+}

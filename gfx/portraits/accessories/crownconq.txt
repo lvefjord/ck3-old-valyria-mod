@@ -17,3 +17,13 @@ female_headgear_secular_northern_oldcrown = {
 	set_tags = "crown"	
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_oldcrown_entity 	 }		
 }
+
+male_headgear_secular_northern_newcrown = {
+	set_tags = "crown"	
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_newcrown_entity 	 }		
+}
+
+female_headgear_secular_northern_newcrown = {
+	set_tags = "crown"	
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_newcrown_entity 	 }		
+}

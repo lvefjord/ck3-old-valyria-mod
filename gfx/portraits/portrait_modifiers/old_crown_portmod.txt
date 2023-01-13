@@ -25,7 +25,7 @@ valyrian_stuff = {
 				accessory = {
 					mode = add
 					gene = headgear
-					template = the_old_crown
+					template = the_new_crown
 					range = { 0 1 } # For the randomness to work correctly
 				}
 			}	
