@@ -40,7 +40,7 @@
 	}
 
 	is_valid_showing_failures_only = {
-		is_ai = no
+		
 	}
 
 
