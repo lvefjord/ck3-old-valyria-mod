@@ -407,6 +407,7 @@ borrosb = {
 	trait = wrathful
 	trait = impatient
 	trait = vengeful
+	trait = b_blood
 	sexuality = heterosexual
 	disallow_random_traits = yes
 	1035.1.1 = {
