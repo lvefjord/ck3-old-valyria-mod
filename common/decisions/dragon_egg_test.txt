@@ -12,37 +12,18 @@
 	}
 
 	is_valid = {
-		#character:9988776= {
-			#dynasty = {
-			#	any_dynasty_member = {
-			#	has_trait = honest
-			#	}
-			#}
-		#}
+		
 		is_ai = no
 	}
 
 	ai_check_interval = 1
 
 	effect = {
-		start_dragon_story_cycle_effect = yes
-		random_owned_story = { 
-			limit = { 
-				story_type = story_cycle_dragon 
-			} 
-			save_scope_as = the_story 
-		}
+	
 
-		if = {
-			limit = {
-				scope:the_story = {
-				var:dragon_age_variable > 1
-				}
-			}
-			add_trait = dragon_rider
-		}
-
-
+		
+			create_artifact_targaryen_armor_effect = { OWNER = ROOT }
+		
 
 
 	}

@@ -606,16 +606,8 @@ ac.0009 = {
 	}
 
 	immediate = {
-		if = {
-			limit = {
-				current_date < 1065.1.1
-				exists = character:aegon1
-				character:aegon1 = { is_alive = yes }
-			}
-			
-				create_artifact_old_crown_effect = { OWNER = character:aegon1 }
-			
-		}
+				create_artifact_old_crown_effect = { OWNER = ROOT }
+	
 	}
 
 	option = {

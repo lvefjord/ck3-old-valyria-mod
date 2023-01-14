@@ -26,3 +26,9 @@ old_crown_modifier = {
 	short_reign_duration_mult = -0.20
 	dynasty_house_opinion = 10
 }
+
+targ_armor_modifier = {
+	prowess_no_portrait = 14
+	dynasty_house_opinion = 10
+	monthly_dynasty_prestige = 0.10
+}

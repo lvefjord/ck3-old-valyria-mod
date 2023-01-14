@@ -46,7 +46,6 @@ visenya1 = {
 	portrait_override={
 		portrait_modifier_overrides={
 			custom_hair=female_hair_fp2_iberian_muslim_03_common
-			custom_clothes=female_clothes_secular_indian_war_nobility_01_low
 		}
 	}
 	female = yes
@@ -88,7 +87,6 @@ rheanys1 = {
 	dna = 1997123456_visenya
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_clothes=female_clothes_secular_western_nobility_02_high
 			custom_hair=female_hair_fp2_iberian_christian_02
 			custom_cloaks=female_empty
 		}
@@ -134,6 +132,7 @@ aegon1 = {
 		portrait_modifier_overrides={
 			custom_hair=male_hair_fp1_09
 			custom_beards=male_empty
+			custom_cloaks=male_empty
 		}
 	}
 	dynasty = 91114881997

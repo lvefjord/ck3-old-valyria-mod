@@ -41,3 +41,26 @@ valyrian_stuff = {
 			}
 		}
 	}
+
+valyrian_stuff_1 = {
+	targaryen_armor = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = targaryen_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				exists = this
+				any_equipped_character_artifact = {
+					has_variable = targ_armor
+				}
+			}
+		}
+	}
+}

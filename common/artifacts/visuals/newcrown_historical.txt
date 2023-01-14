@@ -3,3 +3,9 @@
 	asset = male_headgear_secular_northern_newcrown_entity
 	pedestal = "tall_pillow"
 }
+
+targ_armor = {
+	icon = "artifact_targ_armor.dds"
+	asset = male_clothes_secular_northern_war_nobility_02_common_entity
+	pedestal = "tall_pillow"
+}

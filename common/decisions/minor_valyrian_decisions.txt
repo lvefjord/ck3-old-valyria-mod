@@ -1,0 +1,78 @@
+bind_shadow_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_bind_shadow.dds"
+	desc = bind_shadow_decision_desc
+	selection_tooltip = bind_shadow_decision_tooltip
+	sort_order = 190
+	major = yes
+
+	is_shown = {
+		faith = {
+			has_doctrine_parameter = bloodmagic_mechanics_active
+		}
+	}
+
+	is_valid = {
+		has_trait = shadowbinder
+		custom_tooltip = {
+			text = "You Must Have an Active Murder Scheme."
+			any_scheme = {
+				scheme_type = murder
+			}
+		}
+	}
+	
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = bind_shadow_decision_tooltip
+		trigger_event = sb.0001
+	}
+
+	cooldown = { months = 96 }
+}
+
+search_for_armor = {
+	title = "Look for the Lost Targaryen Armor"
+	picture = "gfx/interface/illustrations/decisions/decision_bind_shadow.dds"
+	desc = "Investigate Targaryen Rumours"
+	confirm_text = "Search"
+	selection_tooltip = "Where is it?"
+	sort_order = 210
+
+	is_shown = {
+		NOT = { 
+			is_target_in_global_variable_list = {
+				name = found_armor
+				target = flag:found_armor
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		OR = { 
+			is_close_or_extended_family_of = character:aegon1
+			is_close_or_extended_family_of = character:aegon2
+		}
+	}
+
+	cost = {
+		gold = 800
+		prestige = 400
+	}
+
+	effect = {
+		
+			add_to_global_variable_list = {
+				name = found_armor
+				target = flag:found_armor
+			}
+		
+
+		create_artifact_targaryen_armor_effect = { OWNER = ROOT }
+
+		
+	}
+}

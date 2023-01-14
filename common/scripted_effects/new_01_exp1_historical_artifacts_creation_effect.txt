@@ -132,3 +132,48 @@ create_artifact_old_crown_effect = {
 		save_scope_as = epic
 	}
 }
+
+create_artifact_targaryen_armor_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+
+	set_artifact_rarity_illustrious = yes
+
+	scope:owner = {
+	create_artifact = {	
+		name = "Targaryen Armor"
+		description = "A priceless suit of armor, forged of Valyrian Steel by the pyromancers' of Old Valyria in their ancient and forgotten ways."
+		type = armor_plate
+		visuals = targ_armor
+		wealth = scope:wealth
+		quality = scope:quality
+		template = targ_armor_template
+		history = {
+			type = created
+			date = 820.1.1
+			recipient = character:aerion1 #Aegon I
+			location = province:1527 #King's Landing
+		}
+		modifier = targ_armor_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+}
+	scope:newly_created_artifact = {
+		equip_artifact_to_owner = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = {
+			name = artifact_succession_title
+			value = title:e_the_iron_throne
+		}
+		add_artifact_title_history = {
+			target = title:e_the_iron_throne
+			date = 866.1.1
+		}
+		set_variable = {
+			name = targ_armor
+			value = yes
+		}
+		save_scope_as = epic
+	}
+}

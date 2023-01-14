@@ -31,7 +31,6 @@ dod1 = {
 	dna = dod1dna
 	portrait_override={
 		portrait_modifier_overrides={
-			custom_clothes=male_clothes_secular_western_war_nobility_01_low
 			custom_headgear=male_empty
 			custom_cloaks=male_furs_secular_fp1_nobility_03
 			custom_hair=male_hair_fp1_09

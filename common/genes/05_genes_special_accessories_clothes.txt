@@ -898,13 +898,11 @@ special_genes = {
 
 				male = {
 					1 = male_clothes_secular_northern_war_nobility_01_common
-					1 = male_clothes_secular_northern_war_nobility_02_common
 
 				}
 
 				female = {
 					1 = female_clothes_secular_northern_war_nobility_01
-					1 = female_clothes_secular_northern_war_nobility_02
 				}
 				boy = male
 				girl = female
@@ -1667,7 +1665,22 @@ special_genes = {
 				girl = female
 
 				}
+			
+			targaryen_clothes = {
+				index = 81
+
+				male = {
+					1 = male_clothes_secular_northern_war_nobility_02_common
+
+				}
+
+				female = {
+					1 = female_clothes_secular_northern_war_nobility_02
+				}
+				boy = male
+				girl = female
+			}
 				
-		}	
+		}
 	}
 }
