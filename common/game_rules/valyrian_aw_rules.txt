@@ -5,3 +5,11 @@
 	val_alt_world_enabled = {
 	}
 }
+
+val_alt_ireland = { 
+	default = val_alt_ireland_enabled
+	val_alt_ireland_disabled = { 
+	}
+	val_alt_ireland_enabled = {
+	}
+}

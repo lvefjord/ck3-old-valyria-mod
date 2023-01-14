@@ -32,13 +32,63 @@
 		"Valynos"
 		"Elarion"
 		"Naerys"
-		
+		"Anogaryen"
+		"Daomiorys"
+		"Embaryen"
+		"Gelionar"
+		"Jelmazeon"
+		"Jentys"
+		"Kastaryen"
+		"Ondoryen"
+		"Perzys"
+		"Syzeon"
+		"Tresys"
+		"Zaldrizyen"
+		"Manaereon"
+		"Sonaryen"
+		"Varezys"
+		"Laeseon"
+		"Jenqeleon"
+		"Tistaleon"
+		"Nuqiryen"
+		"Quvyar"
+		"Valzyren"
+		"Ilontheon"
+		"Boniryen"
+		"Jorraezys"
+		"Jomozar"
+		"Ruakys"
+		"Celereon"
+		"Jaeganyon"
+		"Vezenkar"
+		"Laergyr"
+		"Merntys"
+		"Qryzyrys"
+		"Maznareon"
+		"Henaeris"
+		"Daergaryen"
+		"Gevgarys"
+		"Maenzenka"
+		"Daekrys"
+		"Raellarys"
+		"Skorros"
+		"Naelaros"
+		"Tyvozi"
+		"Arastys"
+		"Valmon"
+		"Radaerys"
+		"Ezuepa"
+		"Nylaeron"
+		"Jaedar"
+		"Geronys"
+		"Agaeris"
+
 	}
 	
 	male_names = {
 		Aegon Aemond Maegor Daeron Aerys Baelon Rhaegar Jaehaerys Valerion Baeryn Jaenar
 		Daemon Viserys Baelor Maekar Aemon Aerion Aenys Maekar Aelys Aenerys Corlys Daenar
-		Daegon Gaemon Jacaerys Laenor Maelor Vaemond Vaegon Maegon Valerion Aeryn Aelyx Aurion 
+		Daegon Gaemon Jacaerys Laenor Maelor Vaemond Vaegon Maegon Valerion Aeryn Aelyx Aurion Vaeron 
 	}
 	female_names = {
 		Aelora Aemma Aerea Alysanne Baela Daella Daena Daenaera Daenerys Daenora 
@@ -47,6 +97,9 @@
 	}
 	
 	dynasty_of_location_prefix = "dynnp_of"
+
+	founder_named_dynasties = yes
+	dynasty_title_names = yes
 	
 	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 	pat_grf_name_chance = 80

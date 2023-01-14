@@ -1,0 +1,233 @@
+﻿lord1 = {
+	name = "Aelyx"
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_martial_4
+	trait = dragon_rider
+	trait = val_blood_3
+	sexuality = heterosexual
+	828.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+lord2 = {
+	name = "Aeryn" 
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_martial_3
+	trait = dragon_rider
+	trait = val_blood_3
+	sexuality = heterosexual
+	829.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+lord3 = {
+	name = "Vaegon" 
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_martial_2
+	trait = dragon_rider
+	trait = val_blood_3
+	sexuality = heterosexual
+	830.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+lord4 = {
+	name = "Daenar"
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_martial_1
+	trait = dragon_rider
+	trait = val_blood_3
+	sexuality = heterosexual
+	831.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = aggressive_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+lord5 = {
+	name = "Aenys" 
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_stewardship_4
+	trait = dragon_rider
+	trait = val_blood_3
+	trait = intellect_good_3
+	sexuality = heterosexual
+	832.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = aggressive_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+lord6 = {
+	name = "Aerion" 
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_stewardship_3
+	trait = dragon_rider
+	trait = val_blood_3
+	sexuality = heterosexual
+	833.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = aggressive_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+lord7 = {
+	name = "Jaenar" 
+	dynasty_house = house_aeonos
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_stewardship_2
+	trait = dragon_rider
+	trait = val_blood_3
+	sexuality = heterosexual
+	834.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+lord8 = {
+	name = "Baelon" 
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_intrigue_4
+	trait = dragon_rider
+	trait = val_blood_3
+	trait = intellect_good_3
+	sexuality = heterosexual
+	835.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+lord9 = {
+	name = "Aerys" 
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_intrigue_3
+	trait = dragon_rider
+	trait = val_blood_3
+	sexuality = heterosexual
+	836.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+lord10 = {
+	name = "Daegon" 
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_diplomacy_4
+	trait = dragon_rider
+	trait = val_blood_3
+	sexuality = heterosexual
+	837.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+lord11 = {
+	name = "Gaemon" 
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = education_diplomacy_3
+	trait = dragon_rider
+	trait = val_blood_3
+	sexuality = heterosexual
+	838.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		effect = {
+			add_character_modifier = agile_dragon
+		}
+	}
+	890.1.1 = {
+		death = yes
+	}
+}

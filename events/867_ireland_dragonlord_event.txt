@@ -1,0 +1,218 @@
+﻿namespace = dragon_ireland
+
+dragon_ireland.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+
+		title:c_desmond = {
+			change_title_holder = {
+				holder = character:lord1
+				change = scope:change
+			}
+		}
+
+		title:c_thomond = {
+			change_title_holder = {
+				holder = character:lord2
+				change = scope:change
+			}
+		}
+
+		title:c_ormond = {
+			change_title_holder = {
+				holder = character:lord2
+				change = scope:change
+			}
+		}
+
+		title:c_ennis = {
+			change_title_holder = {
+				holder = character:lord2
+				change = scope:change
+			}
+		}
+
+		title:d_munster = {
+			change_title_holder = {
+				holder = character:lord2
+				change = scope:change
+			}
+		}
+
+		title:c_leinster = {
+			change_title_holder = {
+				holder = character:lord3
+				change = scope:change
+			}
+		}
+
+		title:c_ossory = {
+			change_title_holder = {
+				holder = character:lord4
+				change = scope:change
+			}
+		}
+
+		title:c_athlone = {
+			change_title_holder = {
+				holder = character:lord5
+				change = scope:change
+			}
+		}
+
+		title:c_dublin = {
+			change_title_holder = {
+				holder = character:lord6
+				change = scope:change
+			}
+		}
+
+		title:c_connacht = {
+			change_title_holder = {
+				holder = character:lord7
+				change = scope:change
+			}
+		}
+
+		title:c_mayo = {
+			change_title_holder = {
+				holder = character:lord7
+				change = scope:change
+			}
+		}
+
+		title:d_connacht = {
+			change_title_holder = {
+				holder = character:lord7
+				change = scope:change
+			}
+		}
+
+		title:c_breifne = {
+			change_title_holder = {
+				holder = character:lord8
+				change = scope:change
+			}
+		}
+
+		title:c_oriel = {
+			change_title_holder = {
+				holder = character:lord9
+				change = scope:change
+			}
+		}
+
+		title:c_ulster = {
+			change_title_holder = {
+				holder = character:lord10
+				change = scope:change
+			}
+		}
+
+		title:c_ailech = {
+			change_title_holder = {
+				holder = character:lord11
+				change = scope:change
+			}
+		}
+
+		title:d_meath = {
+			change_title_holder = {
+				holder = character:lord11
+				change = scope:change
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:change
+
+
+		title:d_meath.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+		title:c_ulster.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+		title:c_oriel.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+		title:c_breifne.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+		title:d_connacht.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+		title:c_dublin.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+		title:c_athlone.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+		title:c_ossory.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+		title:c_leinster.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+		title:d_munster.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+		title:c_desmond.holder = {
+			every_sub_realm_county = { 
+				set_county_culture = culture:valyrian
+				set_county_faith = faith:valyrian
+			}
+		}
+
+
+
+	}
+}

@@ -27,3 +27,13 @@ female_headgear_secular_northern_newcrown = {
 	set_tags = "crown"	
 	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_newcrown_entity 	 }		
 }
+
+male_clothes_secular_northern_war_nobility_02_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = male_clothes_secular_northern_war_nobility_02_common_entity }
+}
+
+female_clothes_secular_northern_war_nobility_02 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_northern_war_nobility_02_entity}
+}
