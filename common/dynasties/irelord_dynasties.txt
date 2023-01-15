@@ -52,4 +52,3 @@ lord11d = {
 	name = "dynn_Jaedar"
 	culture = "valyrian"
 }
-

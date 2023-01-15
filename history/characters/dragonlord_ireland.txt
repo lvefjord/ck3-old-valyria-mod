@@ -134,7 +134,6 @@ lord6 = {
 lord7 = {
 	name = "Jaenar"
 	dynasty = lord7d 
-	dynasty_house = house_aeonos
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_stewardship_2
