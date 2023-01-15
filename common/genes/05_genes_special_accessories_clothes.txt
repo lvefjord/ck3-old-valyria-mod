@@ -1675,7 +1675,7 @@ special_genes = {
 				}
 
 				female = {
-					1 = female_clothes_secular_northern_war_nobility_02
+					1 = female_clothes_secular_fp2_iberian_christian_nobility_03
 				}
 				boy = male
 				girl = female

@@ -1,5 +1,5 @@
-pdxmesh = {
-	name = "female_clothes_secular_northern_war_nobility_02_mesh"
+﻿pdxmesh = {
+	name = "female_clothes_secular_fp2_iberian_christian_nobility_03_mesh"
 	file = "female_clothes_secular_fp2_iberian_christian_nobility_01.mesh"
 
 
@@ -26,17 +26,17 @@ pdxmesh = {
 		name = "female_clothes_secular_fp2_iberian_christian_nobility_01Shape"
 
 		index = 0
-		texture_diffuse = "female_clothes_secular_northern_war_nobility_02_diffuse.dds"
-		texture_normal = "female_clothes_secular_northern_war_nobility_02_normal.dds"
-		texture_specular = "female_clothes_secular_northern_war_nobility_02_properties.dds"
+		texture_diffuse = "female_clothes_secular_fp2_iberian_christian_nobility_03_diffuse.dds"
+		texture_normal = "female_clothes_secular_fp2_iberian_christian_nobility_03_normal.dds"
+		texture_specular = "female_clothes_secular_fp2_iberian_christian_nobility_03_properties.dds"
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 }
 
 entity = {
-	name = "female_clothes_secular_northern_war_nobility_02_entity"
-	pdxmesh = "female_clothes_secular_northern_war_nobility_02_mesh"
+	name = "female_clothes_secular_fp2_iberian_christian_nobility_03_entity"
+	pdxmesh = "female_clothes_secular_fp2_iberian_christian_nobility_03_mesh"
 
 
 	attribute = { name = "bs_body_infant_1"					blend_shape = "female_clothes_secular_fp2_iberian_christian_nobility_03_bs_infant" }				
