@@ -1,14 +1,4 @@
-﻿#male_headgear_secular_northern_crownconq_01 = {
-#	set_tags = "crown"	
-#	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_crownconq_01_entity 	 }		
-#}
-
-#female_headgear_secular_northern_crownconq_01 = {
-#	set_tags = "crown"	
-#	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_northern_crownconq_01_entity 	 }		
-#}
-
-male_headgear_secular_northern_oldcrown = {
+﻿male_headgear_secular_northern_oldcrown = {
 	set_tags = "crown"	
 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_northern_oldcrown_entity 	 }		
 }
@@ -36,4 +26,10 @@ male_clothes_secular_northern_war_nobility_02_common = {
 female_clothes_secular_fp2_iberian_christian_nobility_03 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_secular_fp2_iberian_christian_nobility_03_entity}
+}
+
+valyrian_sword = {
+
+	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "portrait_prop_valyrian_sword_entity" }
+	
 }

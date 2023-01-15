@@ -1,5 +1,6 @@
 ﻿lord1 = {
 	name = "Aelyx"
+	dynasty = lord1d
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_martial_4
@@ -20,7 +21,8 @@
 }
 
 lord2 = {
-	name = "Aeryn" 
+	name = "Aeryn"
+	dynasty = lord2d
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_martial_3
@@ -41,7 +43,8 @@ lord2 = {
 }
 
 lord3 = {
-	name = "Vaegon" 
+	name = "Vaegon"
+	dynasty = lord3d 
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_martial_2
@@ -63,6 +66,7 @@ lord3 = {
 
 lord4 = {
 	name = "Daenar"
+	dynasty = lord4d
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_martial_1
@@ -83,7 +87,8 @@ lord4 = {
 }
 
 lord5 = {
-	name = "Aenys" 
+	name = "Aenys"
+	dynasty = lord5d 
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_stewardship_4
@@ -105,7 +110,8 @@ lord5 = {
 }
 
 lord6 = {
-	name = "Aerion" 
+	name = "Aerion"
+	dynasty = lord6d 
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_stewardship_3
@@ -128,7 +134,6 @@ lord6 = {
 lord7 = {
 	name = "Jaenar"
 	dynasty = lord7d 
-	dynasty_house = house_aeonos
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_stewardship_2
@@ -149,7 +154,8 @@ lord7 = {
 }
 
 lord8 = {
-	name = "Baelon" 
+	name = "Baelon"
+	dynasty = lord8d 
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_intrigue_4
@@ -171,7 +177,8 @@ lord8 = {
 }
 
 lord9 = {
-	name = "Aerys" 
+	name = "Aerys"
+	dynasty = lord9d 
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_intrigue_3
@@ -192,7 +199,8 @@ lord9 = {
 }
 
 lord10 = {
-	name = "Daegon" 
+	name = "Daegon"
+	dynasty = lord10d 
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_diplomacy_4
@@ -213,7 +221,8 @@ lord10 = {
 }
 
 lord11 = {
-	name = "Gaemon" 
+	name = "Gaemon"
+	dynasty = lord11d 
 	religion = "valyrian"
 	culture = "valyrian"
 	trait = education_diplomacy_3

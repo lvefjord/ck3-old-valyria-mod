@@ -23,11 +23,16 @@
 
 		
 			create_artifact_targaryen_armor_effect = { OWNER = ROOT }
+
+			
+		
+			
+		}
 		
 
 
 	}
-}
+
 
 
 
