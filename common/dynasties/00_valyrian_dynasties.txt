@@ -1,4 +1,4 @@
-﻿#Targaryen
+#Targaryen
 91114881997 = {
 	name = "dynn_Targaryen"
 	culture = "valyrian"
