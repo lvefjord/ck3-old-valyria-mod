@@ -10,7 +10,7 @@
 		buildings = {
 			military_camps_01
 			barracks_01
-			curtain_walls_02
+			curtain_walls_08
 		}
 	}
 }
