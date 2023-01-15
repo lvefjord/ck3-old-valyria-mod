@@ -1,10 +1,4 @@
 ﻿l_english: 
- rule_val_alt_ireland:0 "#high (876 start only) Dragonlord Ireland"
- setting_val_alt_ireland_disabled:0 "#high #R Disabled"
- setting_val_alt_ireland_disabled_desc:0 "Default Ireland situation."
- setting_val_alt_ireland_enabled:0 "#high #G Enabled"
- setting_val_alt_ireland_enabled_desc:0 "Puts a bunch of dragonlords in Ireland instead of the normal people."
-
  rule_val_alt_world:0 "#high England is Westeros mode"
  setting_val_alt_world_disabled:0 "#high #R Disabled"
  setting_val_alt_world_disabled_desc:0 "The British Isles will behave normally, drinking tea and such."

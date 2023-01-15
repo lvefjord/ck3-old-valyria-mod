@@ -6,15 +6,15 @@
 	trait = dragon_rider
 	trait = val_blood_3
 	sexuality = heterosexual
-	828.1.1 = {
+	960.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = battle_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }
@@ -27,15 +27,15 @@ lord2 = {
 	trait = dragon_rider
 	trait = val_blood_3
 	sexuality = heterosexual
-	829.1.1 = {
+	961.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = battle_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }
@@ -48,15 +48,15 @@ lord3 = {
 	trait = dragon_rider
 	trait = val_blood_3
 	sexuality = heterosexual
-	830.1.1 = {
+	962.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = battle_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }
@@ -69,15 +69,15 @@ lord4 = {
 	trait = dragon_rider
 	trait = val_blood_3
 	sexuality = heterosexual
-	831.1.1 = {
+	963.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = aggressive_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }
@@ -91,15 +91,15 @@ lord5 = {
 	trait = val_blood_3
 	trait = intellect_good_3
 	sexuality = heterosexual
-	832.1.1 = {
+	964.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = aggressive_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }
@@ -112,15 +112,15 @@ lord6 = {
 	trait = dragon_rider
 	trait = val_blood_3
 	sexuality = heterosexual
-	833.1.1 = {
+	965.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = aggressive_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }
@@ -134,15 +134,15 @@ lord7 = {
 	trait = dragon_rider
 	trait = val_blood_3
 	sexuality = heterosexual
-	834.1.1 = {
+	966.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = agile_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }
@@ -156,15 +156,15 @@ lord8 = {
 	trait = val_blood_3
 	trait = intellect_good_3
 	sexuality = heterosexual
-	835.1.1 = {
+	967.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = agile_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }
@@ -177,15 +177,15 @@ lord9 = {
 	trait = dragon_rider
 	trait = val_blood_3
 	sexuality = heterosexual
-	836.1.1 = {
+	968.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = agile_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }
@@ -198,15 +198,15 @@ lord10 = {
 	trait = dragon_rider
 	trait = val_blood_3
 	sexuality = heterosexual
-	837.1.1 = {
+	969.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = agile_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }
@@ -219,15 +219,15 @@ lord11 = {
 	trait = dragon_rider
 	trait = val_blood_3
 	sexuality = heterosexual
-	838.1.1 = {
+	970.1.1 = {
 		birth = yes
 	}
-	859.1.1 = {
+	999.1.1 = {
 		effect = {
 			add_character_modifier = agile_dragon
 		}
 	}
-	890.1.1 = {
+	1040.1.1 = {
 		death = yes
 	}
 }

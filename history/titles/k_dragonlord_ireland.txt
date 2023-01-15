@@ -1,0 +1,108 @@
+﻿k_ireland = {
+    999.3.23 = {
+		holder = 0 
+	}
+}
+
+c_desmond = {
+	999.3.23 = {
+		holder = lord1
+	}
+}
+
+c_thomond = {
+	999.3.23 = {
+		holder = lord2
+	}
+}
+
+c_ormond = {
+	999.3.23 = {
+		holder = lord2
+	}
+}
+
+c_ennis = {
+	999.3.23 = {
+		holder = lord2
+	}
+}
+
+d_munster = {
+	999.3.23 = {
+		holder = lord2
+	}
+}
+
+c_leinster = {
+	999.3.23 = {
+		holder = lord3
+	}
+}
+
+c_ossory = {
+	999.3.23 = {
+		holder = lord4
+	}
+}
+
+c_athlone = {
+	999.3.23 = {
+		holder = lord5
+	}
+}
+
+c_dublin = {
+	999.3.23 = {
+		holder = lord6
+	}
+}
+
+c_connacht = {
+	999.3.23 = {
+		holder = lord7
+	}
+}
+
+c_mayo = {
+	999.3.23 = {
+		holder = lord7
+	}
+}
+
+d_connacht = {
+	999.3.23 = {
+		holder = lord7
+	}
+}
+
+c_breifne = {
+	999.3.23 = {
+		holder = lord8
+	}
+}
+
+c_oriel = {
+	999.3.23 = {
+		holder = lord9
+	}
+}
+	
+c_ulster = {
+	999.3.23 = {
+		holder = lord10
+	}
+}
+
+c_ailech = {
+	999.3.23 = {
+		holder = lord11
+	}
+}
+
+d_meath = {
+	999.3.23 = {
+		holder = lord11
+	}
+}
+

@@ -368,6 +368,13 @@ on_game_start_after_lobby = {
 			trigger_event = historical_artifacts.9998
 			trigger_event = westeros.0001
 		}
+
+		if = {
+			limit = {	
+				current_date = 999.4.20
+			}
+			trigger_event = dragon_ireland.0001
+		}
 		
 		if = {
 			limit = {	
@@ -378,13 +385,9 @@ on_game_start_after_lobby = {
 			trigger_event = easteros.0001
 		}
 
-		if = {
-			limit = {	
-				current_date = 867.1.1
-				has_game_rule = val_alt_ireland_enabled
-			}
-			trigger_event = dragon_ireland.0001
-		}
+
+
+		
 		
 		
 			

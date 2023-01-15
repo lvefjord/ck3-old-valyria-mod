@@ -1,7 +1,14 @@
-﻿notes 
+﻿revert defines
 
-revert defines
+\gfx\portraits\accessories\props.txt
+\common\genes\07_genes_special_accessories_misc.txt
+\common\artifacts\visuals\00_court_artifacts.txt
+\common\artifacts\visuals\00_weapon_visuals.txt 
+gfx\models\portraits\props\western_sword_02\portrait_prop_western_sword_02.asset
+\gfx\portraits\portrait_modifiers\01_animation_props.txt
+gfx\portraits\portrait_animations\animations.txt 
 
+portrait_animation = marshal
 
 dragon dreamer trait potentially?
 ???

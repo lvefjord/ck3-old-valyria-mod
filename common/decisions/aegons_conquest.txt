@@ -28,6 +28,7 @@ aconquest_1 = {
 				target = flag:conquest_started
 			}
 		}
+		is_close_or_extended_family_of = character:aegon1
 		current_date < 1065.1.1
 	}
 

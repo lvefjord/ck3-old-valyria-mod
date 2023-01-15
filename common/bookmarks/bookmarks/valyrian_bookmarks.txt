@@ -72,6 +72,174 @@
 
 }
 
+bm_999_dragons = {
+	start_date = 999.4.20
+	is_playable = yes
+	group = bm_dragon_group_999
+
+	weight = {
+		value = 190
+	}
+
+	character = {
+		name = "Aelyx"
+		dynasty_splendor_level = 1
+		birth = 960.1.1
+		title = c_desmond
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord1
+		position = { 700 450 }
+
+		animation = personality_bold
+	}
+
+	character = {
+		name = "Aeryn"
+		dynasty_splendor_level = 1
+		birth = 961.1.1
+		title = d_munster
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord2
+		position = { 450 700 }
+
+		animation = personality_bold
+	}
+
+	character = {
+		name = "Vaegon"
+		dynasty_splendor_level = 1
+		birth = 962.1.1
+		title = c_leinster
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord3
+		position = { 250 300 }
+
+		animation = personality_bold
+	}
+
+	character = {
+		name = "Daenar"
+		dynasty_splendor_level = 1
+		birth = 963.1.1
+		title = c_ossory
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord4
+		position = { 250 300 }
+		animation = personality_bold
+	}
+
+	character = {
+		name = "Aenys"
+		dynasty_splendor_level = 1
+		birth = 964.1.1
+		title = c_athlone
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord5
+		position = { 250 300 }
+		animation = personality_bold
+	}
+
+	character = {
+		name = "Aerion"
+		dynasty_splendor_level = 1
+		birth = 965.1.1
+		title = c_dublin
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord6
+		position = { 250 300 }
+		animation = personality_bold
+	}
+
+	character = {
+		name = "Jaenar"
+		dynasty_splendor_level = 1
+		birth = 966.1.1
+		title = d_connacht
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord7
+		position = { 250 300 }
+		animation = personality_bold
+	}
+
+	character = {
+		name = "Baelon"
+		dynasty_splendor_level = 1
+		birth = 967.1.1
+		title = c_breifne
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord8
+		position = { 250 300 }
+		animation = personality_bold
+	}
+
+	character = {
+		name = "Aerys"
+		dynasty_splendor_level = 1
+		birth = 968.1.1
+		title = c_oriel
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord9
+		position = { 250 300 }
+		animation = personality_bold
+	}
+
+	character = {
+		name = "Daegon"
+		dynasty_splendor_level = 1
+		birth = 969.1.1
+		title = c_ulster
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord10
+		position = { 250 300 }
+		animation = personality_bold
+	}
+
+	character = {
+		name = "Gaemon"
+		dynasty_splendor_level = 1
+		birth = 970.1.1
+		title = d_meath
+		government = feudal_government
+		culture = valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lord11
+		position = { 250 300 }
+		animation = personality_bold
+	}
+
+
+}
 
 bm_1066_dragons = {
 	start_date = 1066.9.15

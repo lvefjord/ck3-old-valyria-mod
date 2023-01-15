@@ -6,3 +6,6 @@ bm_dragon_group_1066 = {
 	default_start_date = 1066.9.15
 }
 
+bm_dragon_group_999 = {
+	default_start_date = 999.4.20
+}
