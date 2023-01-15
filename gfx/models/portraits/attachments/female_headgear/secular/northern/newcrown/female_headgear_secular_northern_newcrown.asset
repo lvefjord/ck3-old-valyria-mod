@@ -6,9 +6,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "male_headgear_secular_northern_newcrownShape"
 		index = 0
-		texture_diffuse = "newcrown1_diffuse.dds"
-		texture_normal = "newcrown1_normal.dds"
-		texture_specular = "newcrown1_properties.dds"
+		texture_diffuse = "newcrown_diffuse.dds"
+		texture_normal = "newcrown_normal.dds"
+		texture_specular = "newcrown_properties.dds"
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}

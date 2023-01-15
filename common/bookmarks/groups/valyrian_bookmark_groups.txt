@@ -5,3 +5,4 @@
 bm_dragon_group_1066 = {
 	default_start_date = 1066.9.15
 }
+
