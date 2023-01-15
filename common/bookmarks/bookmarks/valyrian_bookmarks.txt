@@ -92,14 +92,13 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord1
-		position = { 150 550 }
+		position = { 700 450 }
 
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Aeryn"
-		dynasty = 91114881976
 		dynasty_splendor_level = 1
 		birth = 961.1.1
 		title = d_munster
@@ -108,14 +107,13 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord2
-		position = { 525 450 }
+		position = { 450 700 }
 
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Vaegon"
-		dynasty = 91114881975
 		dynasty_splendor_level = 1
 		birth = 962.1.1
 		title = c_leinster
@@ -124,14 +122,13 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord3
-		position = { 820 845 }
+		position = { 250 300 }
 
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Daenar"
-		dynasty = 91114881974
 		dynasty_splendor_level = 1
 		birth = 963.1.1
 		title = c_ossory
@@ -140,13 +137,12 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord4
-		position = { 710 645 }
+		position = { 250 300 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Aenys"
-		dynasty = 91114881973
 		dynasty_splendor_level = 1
 		birth = 964.1.1
 		title = c_athlone
@@ -155,13 +151,12 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord5
-		position = { 870 500 }
+		position = { 250 300 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Aerion"
-		dynasty = 91114881972
 		dynasty_splendor_level = 1
 		birth = 965.1.1
 		title = c_dublin
@@ -170,13 +165,12 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord6
-		position = { 1050 685 }
+		position = { 250 300 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Jaenar"
-		dynasty = 91114881971
 		dynasty_splendor_level = 1
 		birth = 966.1.1
 		title = d_connacht
@@ -185,13 +179,12 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord7
-		position = { 750 180 }
+		position = { 250 300 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Baelon"
-		dynasty = 91114881970
 		dynasty_splendor_level = 1
 		birth = 967.1.1
 		title = c_breifne
@@ -200,13 +193,12 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord8
-		position = { 1010 345 }
+		position = { 250 300 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Aerys"
-		dynasty = 91114881969
 		dynasty_splendor_level = 1
 		birth = 968.1.1
 		title = c_oriel
@@ -215,13 +207,12 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord9
-		position = { 1220 430 }
+		position = { 250 300 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Daegon"
-		dynasty = 91114881968
 		dynasty_splendor_level = 1
 		birth = 969.1.1
 		title = c_ulster
@@ -230,13 +221,12 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord10
-		position = { 1440 525 }
+		position = { 250 300 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Gaemon"
-		dynasty = 91114881967
 		dynasty_splendor_level = 1
 		birth = 970.1.1
 		title = d_meath
@@ -245,7 +235,7 @@ bm_999_dragons = {
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord11
-		position = { 1210 145 }
+		position = { 250 300 }
 		animation = personality_bold
 	}
 

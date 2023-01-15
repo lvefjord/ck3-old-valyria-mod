@@ -1,0 +1,48 @@
+﻿test = {
+	title = "EGG TEST"
+	desc = "EGG TEST"
+	confirm_text = "Claim"
+	selection_tooltip = "Claim an Egg"
+	picture = "gfx/interface/illustrations/decisions/decision_activity.dds"
+
+	major = yes
+	
+	is_shown = {
+		always = yes
+	}
+
+	is_valid = {
+		
+		is_ai = no
+	}
+
+	ai_check_interval = 1
+
+	effect = {
+	
+
+		
+			create_artifact_targaryen_armor_effect = { OWNER = ROOT }
+		
+
+
+	}
+}
+
+
+
+
+
+
+
+		#random_character_artifact = {
+		#	limit = { artifact_type = dragon_egg }
+		#	destroy_artifact = this
+		#}
+		#start_dragon_story_cycle_effect = yes
+		#custom_tooltip = {
+		#	text = "The beast is ready."
+		#	trigger_event = dragon.0001
+		#	trigger_event = sb.0001
+		#}
+		
