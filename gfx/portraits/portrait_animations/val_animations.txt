@@ -1,0 +1,49 @@
+﻿valyrian_animation = {
+	male = {
+		default = { head = "council_marshal" torso = "council_marshal" }
+		
+		weight = {
+			base = 1
+
+			modifier = {
+				add = 500
+				any_equipped_character_artifact = { has_artifact_modifier = blackfyre_modifier }
+			}
+		}
+
+		portrait_modifier = {
+			trigger = {
+				any_equipped_character_artifact = { has_artifact_modifier = blackfyre_modifier }
+			}	
+		}
+
+		blackfyre_showoff = {
+			animation = { head = "council_marshal" torso = "council_marshal" }
+
+			portrait_modifier = {
+				trigger = {
+					any_equipped_character_artifact = { has_artifact_modifier = blackfyre_modifier }
+				}	
+				animations_props = valyrian1_prop
+				animations = council_marshal_decal
+			}
+
+			weight = {
+				base = 1
+
+				modifier = {
+					add = 500
+					any_equipped_character_artifact = { has_artifact_modifier = blackfyre_modifier }
+				}
+			}
+			
+
+			
+			
+		}
+	
+	}
+	boy = male
+    female = male
+    girl = male
+}

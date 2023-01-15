@@ -1,0 +1,16 @@
+﻿val_animations_props = {
+	usage = none
+
+	valyrian_prop = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = props
+				template = valyrian_swords
+				value = 1.0
+			}
+		}
+	}
+
+	
+}

@@ -1,0 +1,55 @@
+﻿lord1d = {
+	name = "dynn_Jaelyros"
+	culture = "valyrian"
+}
+
+lord2d = {
+	name = "dynn_Perzys"
+	culture = "valyrian"
+}
+
+lord3d = {
+	name = "dynn_Jenqeleon"
+	culture = "valyrian"
+}
+
+lord4d = {
+	name = "dynn_Jorraezys"
+	culture = "valyrian"
+}
+
+lord5d = {
+	name = "dynn_Vezenkar"
+	culture = "valyrian"
+}
+
+lord6d = {
+	name = "dynn_Qryzyrys"
+	culture = "valyrian"
+}
+
+lord7d = {
+	name = "dynn_Henaeris"
+	culture = "valyrian"
+}
+
+lord8d = {
+	name = "dynn_Daekrys"
+	culture = "valyrian"
+}
+
+lord9d = {
+	name = "dynn_Tyvozi"
+	culture = "valyrian"
+}
+
+lord10d = {
+	name = "dynn_Valmon"
+	culture = "valyrian"
+}
+
+lord11d = {
+	name = "dynn_Jaedar"
+	culture = "valyrian"
+}
+
