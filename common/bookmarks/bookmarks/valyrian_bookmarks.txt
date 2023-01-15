@@ -70,7 +70,7 @@
 		animation = aggressive_sword
 	}
 
-}91114881977-91114881966
+}
 
 bm_999_dragons = {
 	start_date = 999.4.20
