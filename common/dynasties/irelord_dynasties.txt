@@ -1,54 +1,54 @@
-﻿lord1d = {
+﻿91114881977 = {
 	name = "dynn_Jaelyros"
 	culture = "valyrian"
 }
 
-lord2d = {
+91114881976 = {
 	name = "dynn_Perzys"
 	culture = "valyrian"
 }
 
-lord3d = {
+91114881975 = {
 	name = "dynn_Jenqeleon"
 	culture = "valyrian"
 }
 
-lord4d = {
+91114881974 = {
 	name = "dynn_Jorraezys"
 	culture = "valyrian"
 }
 
-lord5d = {
+91114881973 = {
 	name = "dynn_Vezenkar"
 	culture = "valyrian"
 }
 
-lord6d = {
+91114881972 = {
 	name = "dynn_Qryzyrys"
 	culture = "valyrian"
 }
 
-lord7d = {
+91114881971 = {
 	name = "dynn_Henaeris"
 	culture = "valyrian"
 }
 
-lord8d = {
+91114881970 = {
 	name = "dynn_Daekrys"
 	culture = "valyrian"
 }
 
-lord9d = {
+91114881969 = {
 	name = "dynn_Tyvozi"
 	culture = "valyrian"
 }
 
-lord10d = {
+91114881968 = {
 	name = "dynn_Valmon"
 	culture = "valyrian"
 }
 
-lord11d = {
+91114881967 = {
 	name = "dynn_Jaedar"
 	culture = "valyrian"
 }

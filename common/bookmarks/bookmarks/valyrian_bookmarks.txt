@@ -70,7 +70,7 @@
 		animation = aggressive_sword
 	}
 
-}
+}91114881977-91114881966
 
 bm_999_dragons = {
 	start_date = 999.4.20
@@ -83,7 +83,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Aelyx"
-		dynasty = lord1d
+		dynasty = 91114881977
 		dynasty_splendor_level = 1
 		birth = 960.1.1
 		title = c_desmond
@@ -99,7 +99,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Aeryn"
-		dynasty = lord2d
+		dynasty = 91114881976
 		dynasty_splendor_level = 1
 		birth = 961.1.1
 		title = d_munster
@@ -115,7 +115,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Vaegon"
-		dynasty = lord3d
+		dynasty = 91114881975
 		dynasty_splendor_level = 1
 		birth = 962.1.1
 		title = c_leinster
@@ -131,7 +131,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Daenar"
-		dynasty = lord4d
+		dynasty = 91114881974
 		dynasty_splendor_level = 1
 		birth = 963.1.1
 		title = c_ossory
@@ -146,7 +146,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Aenys"
-		dynasty = lord5d
+		dynasty = 91114881973
 		dynasty_splendor_level = 1
 		birth = 964.1.1
 		title = c_athlone
@@ -161,7 +161,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Aerion"
-		dynasty = lord6d
+		dynasty = 91114881972
 		dynasty_splendor_level = 1
 		birth = 965.1.1
 		title = c_dublin
@@ -176,7 +176,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Jaenar"
-		dynasty = lord7d
+		dynasty = 91114881971
 		dynasty_splendor_level = 1
 		birth = 966.1.1
 		title = d_connacht
@@ -191,7 +191,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Baelon"
-		dynasty = lord8d
+		dynasty = 91114881970
 		dynasty_splendor_level = 1
 		birth = 967.1.1
 		title = c_breifne
@@ -206,7 +206,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Aerys"
-		dynasty = lord9d
+		dynasty = 91114881969
 		dynasty_splendor_level = 1
 		birth = 968.1.1
 		title = c_oriel
@@ -221,7 +221,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Daegon"
-		dynasty = lord10d
+		dynasty = 91114881968
 		dynasty_splendor_level = 1
 		birth = 969.1.1
 		title = c_ulster
@@ -236,7 +236,7 @@ bm_999_dragons = {
 
 	character = {
 		name = "Gaemon"
-		dynasty = lord11d
+		dynasty = 91114881967
 		dynasty_splendor_level = 1
 		birth = 970.1.1
 		title = d_meath
