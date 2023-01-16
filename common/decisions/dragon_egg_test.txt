@@ -8,7 +8,7 @@
 	major = yes
 	
 	is_shown = {
-		always = yes
+		always = no
 	}
 
 	is_valid = {

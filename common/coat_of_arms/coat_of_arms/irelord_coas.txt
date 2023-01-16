@@ -1,0 +1,373 @@
+﻿91114881977 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord1.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+91114881976 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord2.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+91114881975 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord3.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+91114881974 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord4.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+91114881973 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord5.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+91114881972 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord6.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+91114881971 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord7.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+91114881970 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord8.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+91114881969 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord9.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+91114881968 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord10.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+91114881967 = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord11.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_jaelyros = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord1.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_perzys = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord2.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_jenqeleon = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord3.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_jorraezys = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord4.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_vezenkar = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord5.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_qryzyrys = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord6.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_henaeris = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord7.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_daekrys = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord8.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_tyvozi = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord9.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_valmon = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord10.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}
+
+k_jaedar = {
+	custom=yes
+	pattern="pattern_solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	textured_emblem={
+		texture="lord11.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 1 1 }
+		}
+
+	}
+
+}

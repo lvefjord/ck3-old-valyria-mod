@@ -69,6 +69,24 @@ lord_valyrian_male = {
         
             localization_key = lord_reaper
     }
+    text = {
+        trigger = {
+            OR = {
+                has_title = title:k_jaelyros
+                has_title = title:k_perzys
+                has_title = title:k_jenqeleon
+                has_title = title:k_jorraezys
+                has_title = title:k_vezenkar
+                has_title = title:k_qryzyrys
+                has_title = title:k_henaeris
+                has_title = title:k_daekrys
+                has_title = title:k_tyvozi
+                has_title = title:k_valmon
+                has_title = title:k_jaedar
+            }
+        }
+        localization_key = dragon_lord
+    }
 
     
 
@@ -146,6 +164,24 @@ lord_valyrian_female = {
         }
         
             localization_key = lady_reaper
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_title = title:k_jaelyros
+                has_title = title:k_perzys
+                has_title = title:k_jenqeleon
+                has_title = title:k_jorraezys
+                has_title = title:k_vezenkar
+                has_title = title:k_qryzyrys
+                has_title = title:k_henaeris
+                has_title = title:k_daekrys
+                has_title = title:k_tyvozi
+                has_title = title:k_valmon
+                has_title = title:k_jaedar
+            }
+        }
+        localization_key = dragon_lord
     }
     
 

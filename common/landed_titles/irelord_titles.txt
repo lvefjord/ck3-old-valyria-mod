@@ -1,0 +1,153 @@
+﻿k_jaelyros = {
+	color = { 185 0 31 }
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}
+
+k_perzys = {
+	color = { 185 198 10 }
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}
+
+k_jenqeleon = {
+	color = { 180 178 175 }
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}
+
+k_jorraezys = {
+	color = { 198 2 199}
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}
+
+k_vezenkar = {
+	color = { 2 15 199 }
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}
+
+k_qryzyrys = {
+	color = { 109 191 42 }
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}
+
+k_henaeris = {
+	color = { 104 0 200 }
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}
+
+k_daekrys = {
+	color = { 200 85 0 }
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}
+
+k_tyvozi = {
+	color = { 8 7 6 }
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}
+
+k_valmon = {
+	color = { 80 80 80 }
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}
+
+k_jaedar = {
+	color = { 15 195 190 }
+
+	always_follows_primary_heir = yes
+
+	ruler_uses_title_name = no
+
+	can_be_named_after_dynasty = yes
+
+	de_jure_drift_disabled = no
+
+
+}

@@ -1,5 +1,20 @@
 ﻿revert defines
+small host for 867 lannister-gardener alliance 
+aegons making cadet branches (potentmake a splinter targ ially dynasty for just him) 
 
+Decision to train your dragon while it's younger than 3 yo 
+Maybe lose stress gain stats for a year etc
+Make it a decision chain - maybe 3 decisions and add flags > you can only get dragonrider after training it 3 times and its above 3 yo
+
+random events firing for dragons birthday maybe
+
+try to figure out if there's a way to change icon without changing dragon
+
+make a kings landing decision  for both start dates(?) 
+
+Potentially do some crownlands shit(?) 	
+
+###
 \gfx\portraits\accessories\props.txt
 \common\genes\07_genes_special_accessories_misc.txt
 \common\artifacts\visuals\00_court_artifacts.txt
@@ -7,15 +22,15 @@
 gfx\models\portraits\props\western_sword_02\portrait_prop_western_sword_02.asset
 \gfx\portraits\portrait_modifiers\01_animation_props.txt
 gfx\portraits\portrait_animations\animations.txt 
-
 portrait_animation = marshal
+##
 
 dragon dreamer trait potentially?
 ???
 
-turn ireland into crazy dragonlord battle royale
 
-11 counties
+
+
 
 ???
 
@@ -58,19 +73,9 @@ Custom char:
 
 [x] trigger for age of dragon
 
-aegons making cadet branches (potentmake a splinter targ ially dynasty for just him) 
 
-Decision to train your dragon while it's younger than 3 yo 
-Maybe lose stress gain stats for a year etc
-Make it a decision chain - maybe 3 decisions and add flags > you can only get dragonrider after training it 3 times and its above 3 yo
 
-random events firing for dragons birthday maybe
 
-try to figure out if there's a way to change icon without changing dragon
-
-make a kings landing decision  for both start dates(?) 
-
-Potentially do some crownlands shit(?) 
 
 #Conq Crown (reichskrone template)
 

@@ -86,156 +86,166 @@ bm_999_dragons = {
 		dynasty = 91114881977
 		dynasty_splendor_level = 1
 		birth = 960.1.1
-		title = c_desmond
+		title = k_jaelyros
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord1
-		position = { 700 450 }
+		position = { 150 550 }
 
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Aeryn"
+		dynasty = 91114881976
 		dynasty_splendor_level = 1
 		birth = 961.1.1
-		title = d_munster
+		title = k_perzys
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lord2
-		position = { 450 700 }
+		position = { 525 450 }
 
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Vaegon"
+		dynasty = 91114881975
 		dynasty_splendor_level = 1
 		birth = 962.1.1
-		title = c_leinster
+		title = k_jenqeleon
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord3
-		position = { 250 300 }
+		position = { 820 845 }
 
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Daenar"
+		dynasty = 91114881974
 		dynasty_splendor_level = 1
 		birth = 963.1.1
-		title = c_ossory
+		title = k_jorraezys
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord4
-		position = { 250 300 }
+		position = { 710 645 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Aenys"
+		dynasty = 91114881973
 		dynasty_splendor_level = 1
 		birth = 964.1.1
-		title = c_athlone
+		title = k_vezenkar
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord5
-		position = { 250 300 }
+		position = { 870 500 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Aerion"
+		dynasty = 91114881972
 		dynasty_splendor_level = 1
 		birth = 965.1.1
-		title = c_dublin
+		title = k_qryzyrys
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = lord6
-		position = { 250 300 }
+		position = { 1050 685 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Jaenar"
+		dynasty = 91114881971
 		dynasty_splendor_level = 1
 		birth = 966.1.1
-		title = d_connacht
+		title = k_henaeris
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lord7
-		position = { 250 300 }
+		position = { 750 180 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Baelon"
+		dynasty = 91114881970
 		dynasty_splendor_level = 1
 		birth = 967.1.1
-		title = c_breifne
+		title = k_daekrys
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord8
-		position = { 250 300 }
+		position = { 1010 345 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Aerys"
+		dynasty = 91114881969
 		dynasty_splendor_level = 1
 		birth = 968.1.1
-		title = c_oriel
+		title = k_tyvozi
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord9
-		position = { 250 300 }
+		position = { 1220 430 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Daegon"
+		dynasty = 91114881968
 		dynasty_splendor_level = 1
 		birth = 969.1.1
-		title = c_ulster
+		title = k_valmon
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lord10
-		position = { 250 300 }
+		position = { 1440 525 }
 		animation = personality_bold
 	}
 
 	character = {
 		name = "Gaemon"
+		dynasty = 91114881967
 		dynasty_splendor_level = 1
 		birth = 970.1.1
-		title = d_meath
+		title = k_jaedar
 		government = feudal_government
 		culture = valyrian
 		religion = valyrian
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = lord11
-		position = { 250 300 }
+		position = { 1210 145 }
 		animation = personality_bold
 	}
 

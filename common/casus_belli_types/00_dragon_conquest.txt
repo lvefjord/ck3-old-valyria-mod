@@ -20,7 +20,6 @@ dragon_conquest_cb = {
 	}
 	
 	cost = {
-		gold = 100
 		prestige = 100
 		piety = 100
 	}

@@ -1,3 +1,0 @@
-﻿NArmy = {
-    REGIMENT_MAA_STARTING_COUNT = 1
-}

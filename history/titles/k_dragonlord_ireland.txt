@@ -10,7 +10,19 @@ c_desmond = {
 	}
 }
 
+k_jaelyros = {
+	999.3.23 = {
+		holder = lord1
+	}
+}
+
 c_thomond = {
+	999.3.23 = {
+		holder = lord2
+	}
+}
+
+k_perzys = {
 	999.3.23 = {
 		holder = lord2
 	}
@@ -40,24 +52,42 @@ c_leinster = {
 	}
 }
 
+k_jenqeleon = {
+	999.3.23 = {
+		holder = lord3
+	}
+}
+
 c_ossory = {
 	999.3.23 = {
 		holder = lord4
 	}
 }
-
+k_jorraezys = {
+	999.3.23 = {
+		holder = lord4
+	}
+}
 c_athlone = {
 	999.3.23 = {
 		holder = lord5
 	}
 }
-
+k_vezenkar = {
+	999.3.23 = {
+		holder = lord5
+	}
+}
 c_dublin = {
 	999.3.23 = {
 		holder = lord6
 	}
 }
-
+k_qryzyrys = {
+	999.3.23 = {
+		holder = lord6
+	}
+}
 c_connacht = {
 	999.3.23 = {
 		holder = lord7
@@ -75,25 +105,41 @@ d_connacht = {
 		holder = lord7
 	}
 }
-
+k_henaeris = {
+	999.3.23 = {
+		holder = lord7
+	}
+}
 c_breifne = {
 	999.3.23 = {
 		holder = lord8
 	}
 }
-
+k_daekrys = {
+	999.3.23 = {
+		holder = lord8
+	}
+}
 c_oriel = {
 	999.3.23 = {
 		holder = lord9
 	}
 }
-	
+k_tyvozi = {
+	999.3.23 = {
+		holder = lord9
+	}
+}
 c_ulster = {
 	999.3.23 = {
 		holder = lord10
 	}
 }
-
+k_valmon = {
+	999.3.23 = {
+		holder = lord10
+	}
+}
 c_ailech = {
 	999.3.23 = {
 		holder = lord11
@@ -105,4 +151,8 @@ d_meath = {
 		holder = lord11
 	}
 }
-
+k_jaedar = {
+	999.3.23 = {
+		holder = lord11
+	}
+}
