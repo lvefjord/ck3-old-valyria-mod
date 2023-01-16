@@ -1,5 +1,4 @@
-﻿revert defines
-small host for 867 lannister-gardener alliance 
+﻿small host for 867 lannister-gardener alliance 
 aegons making cadet branches (potentmake a splinter targ ially dynasty for just him) 
 
 Decision to train your dragon while it's younger than 3 yo 
@@ -7,7 +6,7 @@ Maybe lose stress gain stats for a year etc
 Make it a decision chain - maybe 3 decisions and add flags > you can only get dragonrider after training it 3 times and its above 3 yo
 
 random events firing for dragons birthday maybe
-
+dragon dreamer trait potentially?
 try to figure out if there's a way to change icon without changing dragon
 
 make a kings landing decision  for both start dates(?) 
@@ -25,7 +24,7 @@ gfx\portraits\portrait_animations\animations.txt
 portrait_animation = marshal
 ##
 
-dragon dreamer trait potentially?
+
 ???
 
 
