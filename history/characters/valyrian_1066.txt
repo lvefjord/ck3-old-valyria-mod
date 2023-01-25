@@ -278,6 +278,7 @@ aegon2 = {
 		portrait_modifier_overrides={
 			custom_beards=male_empty
 			custom_hair=male_hair_western_02
+			custom_cloaks=male_empty
 		}
 	}
 	religion = "valyrian"

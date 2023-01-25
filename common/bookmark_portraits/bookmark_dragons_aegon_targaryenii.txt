@@ -110,8 +110,8 @@ bookmark_dragons_aegon_targaryenii={
  		eyelashes_accessory={ "normal_eyelashes" 88 "normal_eyelashes" 88 }
  		pose={ "" 255 "" 0 }
  		beards={ "no_beard" 255 "no_beard" 0 }
- 		cloaks={ "western_royalty" 87 "no_cloak" 0 }
- 		clothes={ "indian_high_nobility_clothes" 127 "most_clothes" 0 }
+ 		cloaks={ "no_cloak" 255 "no_cloak" 0 }
+ 		clothes={ "targaryen_clothes" 75 "most_clothes" 0 }
  		hairstyles={ "western_hairstyles_wavy" 33 "all_hairstyles" 0 }
  		headgear={ "the_new_crown" 120 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 193 "all_legwear" 0 }
@@ -121,7 +121,6 @@ bookmark_dragons_aegon_targaryenii={
 		portrait_modifier_overrides={
 			custom_hair=male_hair_western_02
 			custom_beards=male_empty
-			custom_clothes=male_clothes_secular_indian_nobility_01_high
 		}
 	}
 
