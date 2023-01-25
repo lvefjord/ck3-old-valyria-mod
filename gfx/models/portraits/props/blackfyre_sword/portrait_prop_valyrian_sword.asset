@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "portrait_prop_valyrian_sword_mesh"
+	file = "portrait_prop_valyrian_sword.mesh"
+
+	meshsettings = {
+		name = "Valyrian_Sword_exporterShape"
+		index = 0
+		texture_diffuse = "valyrian_sword_diffuse.dds"
+		texture_normal = "valyrian_sword_normal.dds"
+		texture_specular = "valyrian_sword_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "portrait_prop_valyrian_sword_entity"
+	pdxmesh = "portrait_prop_valyrian_sword_mesh"
+}

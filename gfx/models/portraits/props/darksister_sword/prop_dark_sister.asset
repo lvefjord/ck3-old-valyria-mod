@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "prop_dark_sister_mesh"
+	file = "prop_dark_sister.mesh"
+
+	meshsettings = {
+		name = "Dark_Sister_exporterShape"
+		index = 0
+		texture_diffuse = "dark_sister_diffuse.dds"
+		texture_normal = "dark_sister_normal.dds"
+		texture_specular = "dark_sister_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "prop_dark_sister_entity"
+	pdxmesh = "prop_dark_sister_mesh"
+}
