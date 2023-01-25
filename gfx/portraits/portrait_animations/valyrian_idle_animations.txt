@@ -69,7 +69,50 @@
 				}
 			}
 		}
+##########################################
+		valyrian_commander_blackfyre = {
+			animation = { head = "emotion_oneHandedAggressive1_entry" torso = "emotion_oneHandedAggressive2_entry" }
 
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 300
+					AND = { 
+						any_equipped_character_artifact = { has_artifact_modifier = blackfyre_modifier }
+						is_in_army = yes
+					}
+				}
+			}
+
+			portrait_modifier = {
+				animations_props = valyrian1_prop
+				animations = AI_vengeful_decal
+			}
+
+		}
+		valyrian_commander_dark_sister = {
+			animation = { head = "emotion_oneHandedAggressive1_entry" torso = "emotion_oneHandedAggressive2_entry" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 300
+					AND = { 
+						any_equipped_character_artifact = { has_artifact_modifier = dark_sister_modifier }
+						is_in_army = yes
+					}
+				}
+			}
+
+			portrait_modifier = {
+				animations_props = prop_dark_sister
+				animations = AI_vengeful_decal
+			}
+
+		}
+##########################################
 		valyrian_marshal_blackfyre = {
 			animation = { head = "council_marshal" torso = "council_marshal" }
 	
@@ -107,6 +150,7 @@
 			}
 	
 		}
+
 
 
 ##########################################################################################################################################################################################

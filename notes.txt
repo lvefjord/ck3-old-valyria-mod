@@ -1,5 +1,6 @@
-﻿add chinese loc
+﻿add chinese loc (x)
 
+accessory_genes = can make custom file for this remember
 
 small host for 867 lannister-gardener alliance 
 aegons making cadet branches (potentmake a splinter targ ially dynasty for just him) 

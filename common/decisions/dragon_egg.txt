@@ -18,26 +18,26 @@
 	}
 	
 	is_shown = {
-		NOT = {
-			any_character_artifact = {
-				artifact_type = dragon_egg
+		
+			NOT = {
+				any_character_artifact = {
+					artifact_type = dragon_egg
+				}
 			}
-		}
-		NOT = {
-			has_character_flag = egg_hatched
-		}
-		NOT = {
-			has_trait = dragon_rider
-		}
-	}
-
-	is_valid = {
-		OR = {
+			NOT = {
+				has_character_flag = egg_hatched
+			}
+			NOT = {
+				has_trait = dragon_rider
+			}
+			OR = {
 				has_trait = val_blood_2
 				has_trait = val_blood_3
 			}
 		
 	}
+
+
 
 	ai_check_interval = 1
 
@@ -90,15 +90,12 @@ egg_child = {
 				}
 			}
 		}
+		OR = {
+			has_trait = val_blood_2
+			has_trait = val_blood_3
+		}
 	}
 
-	is_valid = {
-		OR = {
-				has_trait = val_blood_2
-				has_trait = val_blood_3
-			}
-		
-	}
 
 	effect = {
 

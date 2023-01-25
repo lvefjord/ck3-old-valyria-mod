@@ -44,19 +44,21 @@ search_for_armor = {
 
 	is_shown = {
 		NOT = { 
-			is_target_in_global_variable_list = {
+			OR = { 
+				is_target_in_global_variable_list = {
 				name = found_armor
 				target = flag:found_armor
+				}
+				any_artifact = { has_artifact_modifier = targ_armor_modifier }
 			}
 		}
+		root.dynasty = dynasty:91114881997
 	}
+	
 
-	is_valid_showing_failures_only = {
-		OR = { 
-			is_close_or_extended_family_of = character:aegon1
-			is_close_or_extended_family_of = character:aegon2
-		}
-	}
+	
+
+
 
 	cost = {
 		gold = 800

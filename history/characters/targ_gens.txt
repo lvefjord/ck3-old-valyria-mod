@@ -56,3 +56,44 @@ targ_gen4 = {
 		death = yes
 	}
 }
+
+targ_dragonlord = {
+	name = "Jaehaerys"
+	dynasty = 91114881997
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = dragon_rider
+	trait = val_blood_3
+	984.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = battle_dragon
+		}
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+
+corlys2 = {
+	name = "Corlys"
+	dynasty = 91114881996
+	religion = "valyrian"
+	culture = "valyrian"
+	trait = val_blood_2
+	trait = ambitious
+	trait = intellect_good_3
+	trait = stubborn
+	trait = education_diplomacy_4
+	trait = adventurer
+	stewardship = 11
+	diplomacy = 13
+	martial = 12
+	intrigue = 8
+	984.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}

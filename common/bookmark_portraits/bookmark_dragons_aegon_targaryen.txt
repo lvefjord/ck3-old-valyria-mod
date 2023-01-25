@@ -110,7 +110,7 @@ bookmark_dragons_aegon_targaryen={
  		eyelashes_accessory={ "normal_eyelashes" 231 "normal_eyelashes" 231 }
  		pose={ "" 255 "" 0 }
  		beards={ "no_beard" 255 "no_beard" 0 }
- 		clothes={ "steppe_war_nobility_clothes" 255 "most_clothes" 0 }
+ 		clothes={ "targaryen_clothes" 75 "most_clothes" 0 }
  		hairstyles={ "northern_hairstyles_straight" 95 "all_hairstyles" 0 }
  		headgear={ "no_headgear" 255 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 102 "all_legwear" 0 }
@@ -121,7 +121,6 @@ bookmark_dragons_aegon_targaryen={
 			custom_beards=male_empty
 			custom_headgear=male_empty
 			custom_hair=male_hair_northern_02
-			custom_clothes=male_clothes_secular_steppe_war_nobility_01_low
 		}
 	}
 

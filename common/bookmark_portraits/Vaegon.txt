@@ -97,7 +97,7 @@ Vaegon={
  		complexion={ "complexion_beauty_1" 255 "complexion_6" 194 }
  		gene_height={ "normal_height" 100 "normal_height" 100 }
  		gene_bs_body_type={ "body_fat_head_fat_medium" 156 "body_fat_head_fat_medium" 136 }
- 		gene_bs_body_shape={ "body_shape_rectangle_half" 190 "body_shape_rectangle_half" 37 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_half" 139 "body_shape_rectangle_half" 37 }
  		gene_bs_bust={ "bust_clothes" 55 "bust_shape_4_full" 69 }
  		gene_age={ "old_1" 117 "old_1" 117 }
  		gene_eyebrows_shape={ "far_spacing_lower_thickness" 210 "far_spacing_lower_thickness" 210 }
@@ -110,7 +110,10 @@ Vaegon={
  		eyelashes_accessory={ "normal_eyelashes" 28 "normal_eyelashes" 28 }
  		pose={ "" 255 "" 0 }
  		beards={ "no_beard" 79 "no_beard" 0 }
-		 clothes={ "targaryen_clothes" 75 "most_clothes" 0 } 		hairstyles={ "western_hairstyles_straight" 246 "all_hairstyles" 0 }
+ 		cloaks={ "western_royalty" 243 "no_cloak" 0 }
+ 		clothes={ "western_royalty_clothes" 94 "most_clothes" 0 }
+ 		hairstyles={ "western_hairstyles_straight" 246 "all_hairstyles" 0 }
+ 		headgear={ "western_royalty" 117 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 246 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }

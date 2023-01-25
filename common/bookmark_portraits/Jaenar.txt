@@ -91,13 +91,13 @@ Jaenar={
  		face_detail_nose_tip_def={ "nose_tip_def" 12 "nose_tip_def" 12 }
  		face_detail_temple_def={ "temple_def" 208 "temple_def" 208 }
  		expression_brow_wrinkles={ "brow_wrinkles_02" 151 "brow_wrinkles_02" 151 }
- 		expression_eye_wrinkles={ "eye_wrinkles_03" 183 "eye_wrinkles_03" 183 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_03" 249 "eye_wrinkles_03" 183 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_02" 137 "forehead_wrinkles_02" 137 }
- 		expression_other={ "cheek_wrinkles_both_01" 51 "cheek_wrinkles_both_01" 0 }
+ 		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_beauty_1" 255 "complexion_7" 82 }
  		gene_height={ "normal_height" 147 "normal_height" 147 }
  		gene_bs_body_type={ "body_fat_head_fat_medium" 186 "body_fat_head_fat_medium" 150 }
- 		gene_bs_body_shape={ "body_shape_apple_half" 154 "body_shape_apple_half" 63 }
+ 		gene_bs_body_shape={ "body_shape_apple_half" 236 "body_shape_apple_half" 63 }
  		gene_bs_bust={ "bust_clothes" 115 "bust_shape_4_half" 144 }
  		gene_age={ "old_1" 194 "old_1" 194 }
  		gene_eyebrows_shape={ "far_spacing_avg_thickness" 250 "far_spacing_avg_thickness" 250 }
@@ -110,11 +110,13 @@ Jaenar={
  		eyelashes_accessory={ "normal_eyelashes" 182 "normal_eyelashes" 182 }
  		pose={ "" 255 "" 0 }
  		beards={ "no_beard" 225 "no_beard" 0 }
-		 clothes={ "targaryen_clothes" 75 "most_clothes" 0 } 		hairstyles={ "western_hairstyles_straight" 242 "all_hairstyles" 0 }
- 		headgear={ "western_high_nobility" 102 "no_headgear" 0 }
+ 		cloaks={ "western_royalty" 226 "no_cloak" 0 }
+ 		clothes={ "western_royalty_clothes" 26 "most_clothes" 0 }
+ 		hairstyles={ "western_hairstyles_straight" 242 "all_hairstyles" 0 }
+ 		headgear={ "western_royalty" 56 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 242 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }
-	entity={ 1663114784 1663114784 }
+	entity={ 2697330347 2697330347 }
 }
 

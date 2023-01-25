@@ -2,7 +2,10 @@ lord_valyrian_male = {
     type = character
     text = {
         trigger = {
-            has_title = title:c_driftmark 
+            AND = {
+            has_title = title:c_driftmark
+            primary_title.tier < tier_kingdom
+            }
         }
             localization_key = lord_of_the_tides 
     }
@@ -105,7 +108,10 @@ lord_valyrian_female = {
     type = character
     text = {
         trigger = {
-            has_title = title:c_driftmark 
+            AND = {
+            has_title = title:c_driftmark
+            primary_title.tier < tier_kingdom
+            }
         }
             localization_key = lord_of_the_tides 
     }

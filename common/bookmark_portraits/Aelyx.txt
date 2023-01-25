@@ -97,7 +97,7 @@ Aelyx={
  		complexion={ "complexion_beauty_1" 255 "complexion_3" 132 }
  		gene_height={ "normal_height" 129 "normal_height" 129 }
  		gene_bs_body_type={ "body_fat_head_fat_full" 105 "body_fat_head_fat_full" 134 }
- 		gene_bs_body_shape={ "body_shape_average" 126 "body_shape_average" 35 }
+ 		gene_bs_body_shape={ "body_shape_average" 198 "body_shape_average" 35 }
  		gene_bs_bust={ "bust_clothes" 107 "bust_shape_4_full" 134 }
  		gene_age={ "old_2" 91 "old_2" 91 }
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 240 "avg_spacing_avg_thickness" 240 }
@@ -110,7 +110,10 @@ Aelyx={
  		eyelashes_accessory={ "normal_eyelashes" 110 "normal_eyelashes" 110 }
  		pose={ "" 255 "" 0 }
  		beards={ "western_beards_straight" 108 "no_beard" 0 }
-		 clothes={ "targaryen_clothes" 75 "most_clothes" 0 } 		hairstyles={ "western_hairstyles_wavy" 110 "all_hairstyles" 0 }
+ 		cloaks={ "western_royalty" 62 "no_cloak" 0 }
+ 		clothes={ "western_royalty_clothes" 69 "most_clothes" 0 }
+ 		hairstyles={ "western_hairstyles_wavy" 110 "all_hairstyles" 0 }
+ 		headgear={ "western_royalty" 223 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 108 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }

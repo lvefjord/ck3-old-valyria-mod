@@ -2,6 +2,9 @@
 	866.1.1 = { 
 		holder = ac1
 	}
+	999.4.20 = {
+		holder = ab1
+	}
 	1066.1.1 = {
 		holder = dod1
 	}
@@ -11,6 +14,9 @@ d_iron_islands = {
 	866.1.1 = { 
 		holder = ac1
 	}
+	999.4.20 = {
+		holder = ab1
+	}
 	1066.1.1 = {
 		holder = dod1
 	}
@@ -19,6 +25,9 @@ d_iron_islands = {
 c_great_wyk = {
 	866.1.1 = { 
 		holder = ac1
+	}
+	999.4.20 = {
+		liege = "k_iron_islands"
 	}
 	1066.1.1 = {
 		holder = dod1
@@ -56,6 +65,9 @@ c_saltcliffe = {
 	866.1.1 = { 
 		holder = ac1
 	}
+	999.4.20 = {
+		liege = "k_iron_islands"
+	}
 	1066.1.1 = {
 		holder = dod1
 	}
@@ -83,6 +95,10 @@ c_pyke = {
 	866.1.1 = { 
 		holder = ac1
 	}
+	999.4.20 = {
+		liege = "k_iron_islands"
+		holder = ab1
+	}
 	1066.1.1 = {
 		holder = dod1
 	}
@@ -109,6 +125,9 @@ b_iron_holt = {
 c_harlaw = {
 	866.1.1 = { 
 		holder = ac1
+	}
+	999.4.20 = {
+		liege = "k_iron_islands"
 	}
 	1066.1.1 = {
 		holder = aegon2
@@ -146,6 +165,9 @@ c_orkmont = {
 	866.1.1 = { 
 		holder = ac1
 	}
+	999.4.20 = {
+		liege = "k_iron_islands"
+	}
 	1066.1.1 = {
 		holder = dod1
 	}
@@ -164,6 +186,9 @@ c_blacktyde = {
 	866.1.1 = { 
 		holder = ac1
 	}
+	999.4.20 = {
+		liege = "k_iron_islands"
+	}
 	1066.1.1 = {
 		holder = dod1
 	}
@@ -181,6 +206,9 @@ b_blacktyde_castle = {
 c_isle_of_man = {
 	866.1.1 = { 
 		holder = ac1
+	}
+	999.4.20 = {
+		liege = "k_iron_islands"
 	}
 	1066.1.1 = {
 		holder = dod1

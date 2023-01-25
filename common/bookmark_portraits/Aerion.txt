@@ -91,13 +91,13 @@ Aerion={
  		face_detail_nose_tip_def={ "nose_tip_def" 17 "nose_tip_def" 17 }
  		face_detail_temple_def={ "temple_def" 202 "temple_def" 202 }
  		expression_brow_wrinkles={ "brow_wrinkles_04" 163 "brow_wrinkles_04" 163 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 138 "eye_wrinkles_01" 37 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 37 "eye_wrinkles_01" 37 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_03" 209 "forehead_wrinkles_03" 209 }
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_beauty_1" 255 "complexion_5" 146 }
  		gene_height={ "normal_height" 116 "normal_height" 116 }
  		gene_bs_body_type={ "body_fat_head_fat_full" 190 "body_fat_head_fat_full" 147 }
- 		gene_bs_body_shape={ "body_shape_rectangle_full" 61 "body_shape_rectangle_full" 0 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_full" 112 "body_shape_rectangle_full" 0 }
  		gene_bs_bust={ "bust_clothes" 45 "bust_shape_3_full" 57 }
  		gene_age={ "old_3" 3 "old_3" 3 }
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 230 "avg_spacing_avg_thickness" 230 }
@@ -110,10 +110,13 @@ Aerion={
  		eyelashes_accessory={ "normal_eyelashes" 210 "normal_eyelashes" 210 }
  		pose={ "" 255 "" 0 }
  		beards={ "western_beards_straight" 16 "no_beard" 0 }
-		 clothes={ "targaryen_clothes" 75 "most_clothes" 0 } 		hairstyles={ "western_hairstyles_wavy" 146 "all_hairstyles" 0 }
+ 		cloaks={ "western_royalty" 219 "no_cloak" 0 }
+ 		clothes={ "western_royalty_clothes" 167 "most_clothes" 0 }
+ 		hairstyles={ "western_hairstyles_wavy" 146 "all_hairstyles" 0 }
+ 		headgear={ "western_royalty" 241 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 16 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }
-	entity={ 2697330347 2697330347 }
+	entity={ 3942081117 3942081117 }
 }
 

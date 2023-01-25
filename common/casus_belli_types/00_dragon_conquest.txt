@@ -3,7 +3,6 @@ dragon_conquest_cb = {
 	icon = dragon_cb
 
 	
-	ai_only_against_neighbors = yes
 	allowed_for_character = {
 		has_trait = dragon_rider
 	}
@@ -42,7 +41,8 @@ dragon_conquest_cb = {
 				limit = {
 					is_alive = yes
 				}
-				add_gold = 300
+				prestige = 100
+				piety = 100
 			}
 		}
 	}

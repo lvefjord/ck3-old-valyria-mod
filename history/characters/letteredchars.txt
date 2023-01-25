@@ -54,3 +54,26 @@ dod1 = {
 		birth = yes
 	}
 }
+
+ab1 = {
+	name = "Euron"
+	dynasty = 91114881981
+	culture = "ironborn"
+	religion = "drowned_god"
+	trait = education_martial_4
+	trait = viking
+	trait = berserker
+	trait = lustful
+	stewardship = 14
+	martial = 14
+	diplomacy = 12
+	trait = wrathful
+	trait = reaver
+	sexuality = heterosexual
+	977.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}

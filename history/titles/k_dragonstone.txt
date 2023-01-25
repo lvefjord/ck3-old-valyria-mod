@@ -1,6 +1,9 @@
 k_dragonstone = {
 	government = feudal_government
 	change_development_level = 6 
+	999.4.20 = {
+		holder = targ_dragonlord
+	}
 	1066.1.1 = {
 		holder = rhaenyra1
 		liege = "e_new_valyria"
@@ -13,6 +16,9 @@ d_dragonstone = {
 		change_development_level = 6 
 		holder = aegon1
 	}
+	999.4.20 = {
+		holder = targ_dragonlord
+	}
 	1066.1.1 = {
 		holder = rhaenyra1
 		liege = "k_dragonstone"
@@ -23,6 +29,9 @@ d_dragonstone = {
 	867.1.1 = {
 		holder = aegon1
 		change_development_level = 25
+	}
+	999.4.20 = {
+		holder = targ_dragonlord
 	}
 	1066.1.1 = {
 		holder = rhaenyra1
@@ -36,6 +45,10 @@ c_driftmark = {
 		holder = 999999999994
 		liege = "d_dragonstone"
 	}
+	999.4.20 = {
+		liege = "d_dragonstone"
+		holder = corlys2
+	}
 	1066.1.1 = {
 		holder = corlys1
 	}
@@ -46,6 +59,9 @@ c_driftmark = {
 		government = feudal_government	
 		change_development_level = 6 
 		holder = 999999999989
+		liege = "d_dragonstone"
+	}
+	999.4.20 = {
 		liege = "d_dragonstone"
 	}
 	1066.1.1 = {
