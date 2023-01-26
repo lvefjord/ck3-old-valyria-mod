@@ -8,6 +8,7 @@
 dragon_pulse = {
 
 	effect = {
+
 		if = {
 			limit = {
 				any_living_character = {
@@ -17,9 +18,7 @@ dragon_pulse = {
 					}
 				}
 			}
-			death = {
-				death_reason = death_vanished
-			}
+			death = natural
 		}
 	}
 		

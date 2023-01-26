@@ -8,7 +8,7 @@
 	major = yes
 	
 	is_shown = {
-		always = no
+		always = yes
 	}
 
 	is_valid = {
@@ -21,9 +21,24 @@
 	effect = {
 	
 
+		create_character = {
+			employer  = root
+			age = 0
+			trait = dragon
+			random_traits = no
+			religion = faith:valyrian
+			culture = culture:dragon
+			save_scope_as = a_dragon
+			gender_female_chance = 50
+			dynasty = none
+		}
+			#create_artifact_targaryen_armor_effect = { OWNER = ROOT }
 		
-			create_artifact_targaryen_armor_effect = { OWNER = ROOT }
-		
+			#scope:a_dragon 
+
+
+
+			set_relation_best_friend = { reason = blood_of_the_dragon_gang copy_reason = lover target = scope:a_dragon }
 
 
 	}

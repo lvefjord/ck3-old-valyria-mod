@@ -6,10 +6,7 @@
 	language = language_dragon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_horse_breeder
-		tradition_pastoralists
-		tradition_vegetarianism
-		tradition_gardening
+		
 	}
 	
 	name_list = name_list_dragon

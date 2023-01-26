@@ -127,7 +127,7 @@
 	
 			portrait_modifier = {
 				animations_props = valyrian1_prop
-				animations = council_marshal_decal
+				animations = AI_bold_decal
 			}
 	
 		}
@@ -146,7 +146,7 @@
 	
 			portrait_modifier = {
 				animations_props = prop_dark_sister
-				animations = council_marshal_decal
+				animations = AI_bold_decal
 			}
 	
 		}

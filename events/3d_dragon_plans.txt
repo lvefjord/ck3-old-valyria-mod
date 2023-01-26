@@ -1,0 +1,104 @@
+﻿namespace = blendersux
+
+blendersux.0001 = {
+	type = character_event
+	title = "Hatching 3D VERSION"
+	desc = "Your dragon has hatched."
+	theme = hunting
+	override_background = { event_background = egg_hatch }
+
+	right_portrait = {
+		character = ROOT
+		animation = frontend_left_idle
+	}
+
+	left_portrait = {
+		character = scope:a_dragon
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = egg_hatched
+		}
+		add_character_flag = {
+			flag = has_dragon
+		}
+		
+		create_character = {
+			employer  = root
+			age = 0
+			trait = dragon
+			random_traits = no
+			religion = faith:valyrian
+			culture = culture:dragon
+			save_scope_as = a_dragon
+			gender_female_chance = 50
+			dynasty = none
+		}
+		
+		random_character_artifact = {
+			limit = { artifact_type = dragon_egg }
+			destroy_artifact = this
+		}
+	}
+
+	trigger = {
+		any_character_artifact = {
+			artifact_type = dragon_egg
+		}
+		NOT = {
+			has_character_flag = egg_hatched
+			has_character_flag = has_dragon
+		}
+		OR = {
+				has_trait = val_blood_2
+				has_trait = val_blood_3
+			}
+		
+		NOT = {
+			has_trait = dragon_rider
+		}
+	}
+
+	option = {
+		name = "At last"
+	}
+	after = {
+		trigger_event = blendersux.0002
+
+		
+
+	}
+}
+
+blendersux.0002 = {
+	type = character_event
+	title = "The Blood of the Dragon"
+	desc = "The bond we share is powerful"
+	theme = hunting
+	override_background = { event_background = egg_hatch }
+
+	right_portrait = {
+		character = ROOT
+		animation = frontend_left_idle
+	}
+	left_portrait = {
+		character = scope:a_dragon
+	}
+
+	option = {
+		name = "We will do great things"
+
+
+		
+
+		root = { 
+			set_relation_best_friend = { 
+				reason = "blood of the dragon gang"
+				target = scope:a_dragon
+			}
+		}
+		
+
+	}
+}
