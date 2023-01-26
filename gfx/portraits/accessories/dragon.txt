@@ -1,0 +1,6 @@
+﻿dragon = {
+	set_tags = "dragon"
+	set_tags = "no_hair"
+	set_tags = "no_beard"
+	entity = {	    node = "dragon_origin"	entity = "dragon_entity" }
+}

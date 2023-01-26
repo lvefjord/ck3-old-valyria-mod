@@ -1,0 +1,92 @@
+﻿dragon_Vaelax = {
+	name = "dynn_Vaelax"
+	culture = "dragon"
+}
+dragon_Vaedar = {
+	name = "dynn_Vaedar"
+	culture = "dragon"
+}
+dragon_Vaegelion = {
+	name = "dynn_Vaegelion"
+	culture = "dragon"
+}
+dragon_Serporoth = {
+	name = "dynn_Serporoth"
+	culture = "dragon"
+}
+dragon_Peldion = {
+	name = "dynn_Peldion"
+	culture = "dragon"
+}
+dragon_Provorpion = {
+	name = "dynn_Provorpion"
+	culture = "dragon"
+}
+dragon_Nektogon = {
+	name = "dynn_Nektogon"
+	culture = "dragon"
+}
+dragon_Korzion = {
+	name = "dynn_Korzion"
+	culture = "dragon"
+}
+dragon_Krythax = {
+	name = "dynn_Krythax"
+	culture = "dragon"
+}
+dragon_Illithinos = {
+	name = "dynn_Illithinos"
+	culture = "dragon"
+}
+dragon_Highagon = {
+	name = "dynn_Highagon"
+	culture = "dragon"
+}
+dragon_Henkirix = {
+	name = "dynn_Henkirix"
+	culture = "dragon"
+}
+dragon_Taeral = {
+	name = "dynn_Taeral"
+	culture = "dragon"
+}
+dragon_Orzadrize = {
+	name = "dynn_Orzadrize"
+	culture = "dragon"
+}
+dragon_Lilagon = {
+	name = "dynn_Lilagon"
+	culture = "dragon"
+}
+dragon_Likaxes = {
+	name = "dynn_Likaxes"
+	culture = "dragon"
+}
+dragon_Jentyx = {
+	name = "dynn_Jentyx"
+	culture = "dragon"
+}
+dragon_Jaesax = {
+	name = "dynn_Jaesax"
+	culture = "dragon"
+}
+dragon_Greyfyre = {
+	name = "dynn_Greyfyre"
+	culture = "dragon"
+}
+dragon_Ghiscar = {
+	name = "dynn_Ghiscar"
+	culture = "dragon"
+}
+dragon_Elyrion = {
+	name = "dynn_Elyrion"
+	culture = "dragon"
+}
+dragon_Essoval = {
+	name = "dynn_Essoval"
+	culture = "dragon"
+}
+dragon_Essoval = {
+	name = "dynn_Essoval"
+	culture = "dragon"
+}

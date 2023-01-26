@@ -1,0 +1,67 @@
+﻿name_list_dragon = {
+
+	cadet_dynasty_names = {
+		{ "dynn_Braedax" }
+		{ "dynn_Banzolkal" }
+		{ "dynn_Blackfyre" }
+		{ "dynn_Baeliphax" }
+		{ "dynn_Darkwing" }
+		{ "dynn_Eberron" }
+		{ "dynn_Essoval" }
+		{ "dynn_Elyrion" }
+		{ "dynn_Firecatcher" }
+		{ "dynn_Goldscale" }
+		{ "dynn_Ghiscar" }
+		{ "dynn_Greyfyre" }
+		{ "dynn_Greencomet" }
+		{ "dynn_Jaesax" }
+		{ "dynn_Jentyx" }
+		{ "dynn_Likaxes" }
+		{ "dynn_Lifefyre" }
+		{ "dynn_Laehurlion" }
+		{ "dynn_Lilagon" }
+		{ "dynn_Myr" }
+		{ "dynn_Orzadrize" }
+		{ "dynn_Predatorion" }
+		{ "dynn_Taeral" }
+	}
+
+	dynasty_names = {
+		{ "dynn_Henkirix" }
+		{ "dynn_Highagon" }
+		{ "dynn_Illithinos" }
+		{ "dynn_Jedrien" }
+		{ "dynn_Jehikagon" }
+		{ "dynn_Krythax" }
+		{ "dynn_Kaerinax" }
+		{ "dynn_Korzion" }
+		{ "dynn_Lifefyre" }
+		{ "dynn_Laenion" }
+		{ "dynn_Maelstral" }
+		{ "dynn_Nektogon" }
+		{ "dynn_Odikagon" }
+		{ "dynn_Osygon" }
+		{ "dynn_Orzadrize" }
+		{ "dynn_Provorpion" }
+		{ "dynn_Parklon" }
+		{ "dynn_Peldion" }
+		{ "dynn_Soulblaze" }
+		{ "dynn_Serporoth" }
+		{ "dynn_Starwing" }
+		{ "dynn_Vaegelion" }
+		{ "dynn_Vaedar" }
+		{ "dynn_Vaelax" }
+	}
+
+	male_names = {
+		Balerion Viserion Rhaegal Cannibal Arrax Ceraxes Sunfyre Stormcloud Morghul Shrykos Terrax Vermithor
+		Tyraxes Vermax Aderex Archon Aquos Adereon Aeksion Atsiox Anogaros Anaxigon Aenion Aegal Aeriax Aetrox Braedax Chroyax Dynax Elenixes Fyrax Fornaxes Goldfyre Ilthax Laengar Malrax Malys Melexes Whitewing Zaldrizarys Aegax Baelax Tresyx Verathion Vermithrax
+	}
+	female_names = {
+		Seasmoke Quicksilver Urrax Shrykos Terrax Dreamfyre Meleys Meraxes Moondancer Morning Silverwing Syrax Tessarion Vhagar Fyrax Firkrax Fafnar Falkael Forgesong Orion Oros Obaraxes Ondorion Razys Rehitys Raqagon Tiamaxes Toothle Telarion Trogdax Timerion Elaenal Jaeherion Jaehio Naerion Rhaellax Rinax Saphirax Sundancer Talaxes Zaldrizaria
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	founder_named_dynasties = yes
+
+	
+}

@@ -1,0 +1,17 @@
+﻿language_dragon = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_dragon
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_dragon }
+			multiply = 10
+		}
+	}
+	
+	color = lithuanian
+}

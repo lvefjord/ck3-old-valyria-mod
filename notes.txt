@@ -1,4 +1,15 @@
-﻿add chinese loc (x)
+﻿baron_feudal_male_norse = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_norse }
+	top_liege = no
+}
+
+make dragon #Flavourization
 
 accessory_genes = can make custom file for this remember
 

@@ -1,0 +1,38 @@
+﻿dragon = {
+	diplomacy = -10
+	intrigue = -10
+	stewardship = -10
+	martial = 100
+	learning = -10
+	fertility = -1
+	prowess = 200
+	
+	health_trait = yes
+
+	immortal = yes
+
+	incapacitating = yes
+	birth = 0
+	can_have_children = no
+	disables_combat_leadership = yes
+	shown_in_ruler_designer = yes
+	attraction_opinion = -50
+	random_creation = 0
+	flag = can_not_marry
+	can_inherit = no
+	blocks_from_claim_inheritance = yes
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_dragon_desc
+			}
+			desc = trait_dragon_character_desc
+		}
+	}
+
+	ai_energy = -50
+}

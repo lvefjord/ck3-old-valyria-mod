@@ -1,0 +1,50 @@
+﻿dragon = {
+	dragon = {
+		traits = { dragon }
+
+		dna_modifiers = {
+
+			morph = {
+				mode = add
+				gene = gene_no_portrait
+				value = 1.0
+				template = no_portrait
+			}
+
+			morph = {
+				mode = replace
+				gene = gene_height
+				value = 0.65
+				template = full_height
+			}
+
+			accessory = {
+				mode = modify
+				gene = gene_dragon
+				template = dragon
+				value = 1.0
+			}
+
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = no_eyes
+				value = 0.5
+			}
+
+			accessory = {
+				mode = modify
+				gene = eyelashes_accessory
+				template = no_eyelashes
+				value = 0.5
+			}
+
+			accessory = {
+				mode = modify
+				gene = teeth_accessory
+				template = no_teeth
+				value = 0.5
+			}
+		}
+	}
+}

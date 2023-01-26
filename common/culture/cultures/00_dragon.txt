@@ -1,0 +1,25 @@
+﻿dragon = {
+	color = { 0.5 0.5 0.1 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_dragon
+	language = language_dragon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_breeder
+		tradition_pastoralists
+		tradition_vegetarianism
+		tradition_gardening
+	}
+	
+	name_list = name_list_dragon
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+	ethnicities = {
+		100 = dragon
+	}
+}
